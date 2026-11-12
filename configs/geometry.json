@@ -1,0 +1,31 @@
+{
+  "thresholds": {
+    "min_source_arc_px": 24,
+    "max_source_arc_px": 160,
+    "curvature_split_deg": 50,
+    "resample_spacing_px": 1,
+    "spline_smoothing_rms_px": 0.35,
+    "tube_radius_px": 6,
+    "endpoint_search_px": 4,
+    "anchor_tolerance_px": 4,
+    "orientation_tolerance_deg": 30,
+    "min_curve_coverage": 0.8,
+    "max_symmetric_median_px": 3,
+    "max_symmetric_p90_px": 6,
+    "min_length_ratio": 0.65,
+    "max_length_ratio": 1.5,
+    "discovery_retention_min": 0.8,
+    "discovery_anchor_rate_min": 0.8,
+    "per_discovery_prompt_retention_min": 0.6666666666666666,
+    "source_duplicate_proximity_px": 2,
+    "source_duplicate_overlap": 0.7,
+    "mask_half_width_px": 4,
+    "mask_context_dilate_px": 8
+  },
+  "gate": {
+    "coverage": 0.65,
+    "residual": 0.6,
+    "margin": 0.0,
+    "offset": 1.5
+  }
+}

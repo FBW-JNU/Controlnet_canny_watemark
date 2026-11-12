@@ -1,0 +1,31 @@
+{
+  "complete": true,
+  "arms": {
+    "binary": {
+      "records": 180,
+      "all_input_exteriors_unchanged": true,
+      "same_contents_masks_G0_G4": true,
+      "freeze_verified": true,
+      "gate_passed": false,
+      "RGB": "SKIPPED_INPUT_GATE_FAILED"
+    },
+    "native": {
+      "records": 180,
+      "all_input_exteriors_unchanged": true,
+      "same_contents_masks_G0_G4": true,
+      "freeze_verified": true,
+      "gate_passed": false,
+      "RGB": "SKIPPED_INPUT_GATE_FAILED"
+    },
+    "refined": {
+      "records": 180,
+      "all_input_exteriors_unchanged": true,
+      "same_contents_masks_G0_G4": true,
+      "freeze_verified": true,
+      "gate_passed": false,
+      "RGB": "SKIPPED_INPUT_GATE_FAILED"
+    }
+  },
+  "all_page_links_valid": true,
+  "report_script_sha256": "7e2a97b8353216267150c46af8469f2765de96b2747702b56907a6e039bd26c4"
+}

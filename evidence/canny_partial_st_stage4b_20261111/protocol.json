@@ -1,0 +1,252 @@
+{
+  "created_utc": "2026-11-11T05:50:07Z",
+  "source_sha256": {
+    "${ORIGINAL_WORKSPACE}/curve_partial_st_stage4b.py": "1443298870e35ed19a194009ace911f6072dc1014b3f3b253455e7115c1aaead",
+    "${ORIGINAL_WORKSPACE}/curve_single_2bit_stage4a.py": "02c4397016c605f4c84be529382306490cf8e137454c7cdb65735b23c5028970",
+    "${ORIGINAL_WORKSPACE}/curve_broad_peak_code.py": "17ca878ea4017934f56f75810eb99941de265dfa62bf4b323ee22123c98945d3",
+    "${ORIGINAL_WORKSPACE}/curve_receiver_stage2c.py": "4df8b5f82e45b06a791e682d52e78fc822bd672ee955af535144a0f8f6c5d635",
+    "${ORIGINAL_WORKSPACE}/curve_receiver_stage2b.py": "b556726cafff3be7ee1b1e0b51a009739434e5c533e32b97751f365a88878dd3",
+    "${ORIGINAL_WORKSPACE}/broad_peak_runtime.py": "c37ffcb22eed0202f22dde6143e8d8f9d10f0fc85e67dbb47d885d4d9196b63b"
+  },
+  "parent_manifest_sha256": "dc84e3ce47b4998c47724e1327113b9dd3f6907acaf8876d41f7c01020d33522",
+  "fixed_encoder": {
+    "arms": {
+      "clean": [
+        0,
+        0
+      ],
+      "S0": [
+        -1,
+        0
+      ],
+      "S1": [
+        1,
+        0
+      ],
+      "T0": [
+        0,
+        -1
+      ],
+      "T1": [
+        0,
+        1
+      ],
+      "m00": [
+        -1,
+        -1
+      ],
+      "m01": [
+        -1,
+        1
+      ],
+      "m10": [
+        1,
+        -1
+      ],
+      "m11": [
+        1,
+        1
+      ]
+    },
+    "coefficient_amplitude_px": 0.8988569324380633,
+    "combined_peak_bound_px": 1.5,
+    "normalization": 1.6687861503514176,
+    "rule": "Single normal displacement a1*S+a2*T, then one original binary rasterization; never sequential image warps.",
+    "orientation": "Original lexicographic canonical endpoints and normalized arc length; fixed tube mask, exterior unchanged."
+  },
+  "generation": {
+    "model_config": "models/cldm_v15.yaml",
+    "checkpoint": "models/control_sd15_canny.pth",
+    "checkpoint_sha256": "4de384b16bc2d7a1fb258ca0cbd941d7dd0a721ae996aff89f905299d6923f45",
+    "steps": 20,
+    "eta": 0,
+    "guidance": 5,
+    "control_scale": 1,
+    "negative_prompt": "",
+    "guess_mode": false,
+    "device": "physical GPU1 (CUDA_VISIBLE_DEVICES=1)",
+    "precision": "float32, TF32 disabled",
+    "seeds": [
+      2026110801,
+      2026110802,
+      2026110803,
+      2026111004
+    ],
+    "cpu_threads": 8,
+    "total_pngs": 336,
+    "reused_pngs": 0,
+    "new_pngs": 336
+  },
+  "quality": {
+    "psnr_db_min": 30,
+    "ssim_min": 0.9,
+    "lpips_alex_max": 0.1,
+    "rgb_pair_edge_f1_3x3_min": 0.95,
+    "reference": "same prompt/seed clean output; diagnostic source comparison also reported",
+    "policy": "All marked attempts included; zero-change outputs not accepted as transmission"
+  },
+  "scenarios": [
+    {
+      "name": "none",
+      "kind": "none",
+      "loss": 0.0,
+      "repeat": 0
+    },
+    {
+      "name": "random25_r0",
+      "kind": "random",
+      "loss": 0.25,
+      "repeat": 0
+    },
+    {
+      "name": "random25_r1",
+      "kind": "random",
+      "loss": 0.25,
+      "repeat": 1
+    },
+    {
+      "name": "random25_r2",
+      "kind": "random",
+      "loss": 0.25,
+      "repeat": 2
+    },
+    {
+      "name": "random50_r0",
+      "kind": "random",
+      "loss": 0.5,
+      "repeat": 0
+    },
+    {
+      "name": "random50_r1",
+      "kind": "random",
+      "loss": 0.5,
+      "repeat": 1
+    },
+    {
+      "name": "random50_r2",
+      "kind": "random",
+      "loss": 0.5,
+      "repeat": 2
+    },
+    {
+      "name": "random75_r0",
+      "kind": "random",
+      "loss": 0.75,
+      "repeat": 0
+    },
+    {
+      "name": "random75_r1",
+      "kind": "random",
+      "loss": 0.75,
+      "repeat": 1
+    },
+    {
+      "name": "random75_r2",
+      "kind": "random",
+      "loss": 0.75,
+      "repeat": 2
+    },
+    {
+      "name": "center25",
+      "kind": "center",
+      "loss": 0.25,
+      "repeat": 0
+    },
+    {
+      "name": "center50",
+      "kind": "center",
+      "loss": 0.5,
+      "repeat": 0
+    },
+    {
+      "name": "ends25",
+      "kind": "ends",
+      "loss": 0.25,
+      "repeat": 0
+    },
+    {
+      "name": "ends50",
+      "kind": "ends",
+      "loss": 0.5,
+      "repeat": 0
+    },
+    {
+      "name": "left50",
+      "kind": "left",
+      "loss": 0.5,
+      "repeat": 0
+    },
+    {
+      "name": "blocks50",
+      "kind": "blocks",
+      "loss": 0.5,
+      "repeat": 0
+    }
+  ],
+  "rematch_scenarios": [
+    "blocks50",
+    "center25",
+    "center50",
+    "ends50",
+    "none",
+    "random50_r0"
+  ],
+  "observation_drop": "Freeze accepted Auto correspondences before thinning. Refit only surviving real Canny pixels; baseline-rejected remains erasure. Synchronization-controlled bound, not blind receiving.",
+  "edge_drop": "Delete actual output Canny vertices in source tube<=8px according to source arc masks, rebuild graph retaining original RGB tangents; rerun unchanged R0/A3 proposals. No invented bridge pixels.",
+  "losses": "Common deterministic masks across messages per content/view; random removes exact station fractions, contiguous masks in normalized original arc length. No RGB editing, no image quality change.",
+  "fit": "Existing joint Huber [offset,S,T], same25 iterations. New information gate uses offset-projected 2x2 weighted Gram vs complete fixed station Gram, minimum generalized eigenvalue. Record S/T info separately, design condition and covariance.",
+  "gate_selection": {
+    "grid": {
+      "info_min": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "condition_max": [
+        20.0,
+        50.0,
+        100.0
+      ],
+      "ci95_max": [
+        0.75,
+        1.0,
+        1.5
+      ]
+    },
+    "unchanged_constraints": {
+      "residual": 0.6,
+      "offset": 1.5,
+      "distance": 2.5,
+      "tangent": 0.8,
+      "order": 0.95,
+      "margin": 0.0
+    },
+    "objective": "Cal-only maximize correct-2*wrong across equal scenario/track attempts; reject settings accepting >10% translated Cal-anchor negatives. Ties favor fewer wrong then stricter thresholds.",
+    "note": "Coverage/span/anchor counts cannot alone certify partial two-dimensional identifiability. No gate uses expected bit, class likelihood or codeword residual."
+  },
+  "classifier": "Frozen Stage4A Auto channel A,b,centers and residual covariance, no refitting using independent data. Four-state joint nearest Mahalanobis. Report high confidence at posterior>=.95, not calibrated correctness.",
+  "presence": "Cal-only clean Gaussian vs four-center marked mixture, adding fit covariance. Clean distribution fit on prior Cal plus new32 Cal clean; 95th percentile Cal clean threshold. No new capacity or authentication.",
+  "wrong_key": "XOR11 permutes all four legal labels; unordered four-center residual and mixture likelihood exactly invariant. Wrong-anchor translations are separate correspondence negatives, not clean watermark FPR.",
+  "sampling": {
+    "new_cal_clean_contents": 32,
+    "independent_clean_contents": 128,
+    "new_marked_contents": 12,
+    "new_marked_states": 48,
+    "views_per_content": 1,
+    "total_new_rgb": 208,
+    "rng": 2026111161,
+    "source_admission": "Same nine-state Stage4A source-only admission. No output-driven content replacement; missing carriers count as erasures.",
+    "alternating_prompts": true,
+    "seeds": {
+      "Cal": 2026114600,
+      "Fresh": 2026114700
+    },
+    "exclusions": "All currently observable historical paths and metadata; missing historical directories prevent complete historic-overlap proof."
+  },
+  "evaluation": "Existing Stage4A Eval is diagnostic only. Fresh128 clean and Fresh12 four-state RGB generated after gate/presence freeze. Report unconditional recovery and wrong/erasure counts, clustered intervals; no threshold tuning on fresh.",
+  "limitations": [
+    "Masked residual recovery is real-valued robust regression, not finite-field RS decoding.",
+    "Only two bits; four entirely legal words have no intrinsic authentication redundancy.",
+    "Known source curve/tube and fixed orientation required. No global synchronization claim."
+  ]
+}

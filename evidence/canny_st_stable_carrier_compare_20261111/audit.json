@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "counts": {
+    "protected_files": 254,
+    "RGB_records": 136,
+    "Canny_states_reproduced": 60,
+    "real_edge_pixels": 18307,
+    "decisions_replayed": 120,
+    "unchanged_parent_files": 5811
+  },
+  "probe_eval_prompt_seed_disjoint": true,
+  "choices_frozen_before_eval": true,
+  "attempts_per_policy": 48,
+  "no_receiver_retuning": true,
+  "extra_counts": {
+    "paired_noise_groups": 12,
+    "source_receiver_actual_observed_pixels": 12904
+  },
+  "report_script_sha256": "77d515cdb47c023181dcc7f7470ee78053121f65af46cce7362426877e417cc1"
+}

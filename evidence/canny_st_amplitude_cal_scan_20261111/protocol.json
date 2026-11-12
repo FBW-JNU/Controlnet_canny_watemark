@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-11-11T08:08:18Z",
+  "sources": {
+    "${ORIGINAL_WORKSPACE}/canny_st_amplitude_cal_scan.py": "6c474bfe7071ce35bd89ea946e39dad941f67a2e19b8d1c4957cfda09cd5a0d1",
+    "${ORIGINAL_WORKSPACE}/curve_reference_ablation_stage4c0.py": "fbccc76c723c03a8a48e70124cfb571ea978a171e0f06675b13de92cf0327c3b",
+    "${ORIGINAL_WORKSPACE}/curve_partial_st_stage4b.py": "1443298870e35ed19a194009ace911f6072dc1014b3f3b253455e7115c1aaead",
+    "${ORIGINAL_WORKSPACE}/curve_single_2bit_stage4a.py": "02c4397016c605f4c84be529382306490cf8e137454c7cdb65735b23c5028970",
+    "${ORIGINAL_WORKSPACE}/curve_broad_peak_code.py": "17ca878ea4017934f56f75810eb99941de265dfa62bf4b323ee22123c98945d3",
+    "${ORIGINAL_WORKSPACE}/curve_qim_closed_loop_v2.py": "a8d952e0a577cb94029b247795ac1639c7e94c78c52f14ac8e853e9c6886ff07"
+  },
+  "parents": {
+    "${ORIGINAL_WORKSPACE}/outputs/canny_single_curve_2bit_stage4a_20261111/final_artifacts_sha256.json": "dc84e3ce47b4998c47724e1327113b9dd3f6907acaf8876d41f7c01020d33522",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/final_artifacts_sha256.json": "c77e5c6bd8410a1cd7c11e4730a775168bc6babb52cd1ade64231bd87f1e5a3a",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_reference_ablation_stage4c0_20261111/final_artifacts_sha256.json": "0382c395c46d752fe1637d0a79f890782d1723f487e7d8097d33de6c6204ee5f"
+  },
+  "peaks_px": [
+    1.5,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "encoder": "Same S/T basis, four sign words, original source curve, original normals, one combined warp and one integer rasterization. Coefficient amplitude=peak/old PEAK normalization.",
+  "masks": "Single amplitude-independent edit mask: old tube dilated3px and clipped to original ROI. Needed to avoid4px movements hitting old4px tube boundary. Every1.5px raster must reproduce old PNG exactly. Receiver tube and bbox masks stay original, unchanged at every strength.",
+  "data": "Exactly six original4A Cal contents, two original prompt/seed views.48 marked per peak. Reuse12 clean +48 peak1.5 RGB after hashes/provenance.144 new RGB; no Eval/Fresh marked used.",
+  "calibration": "Additional32 old4B Cal clean are threshold-only. Primary classification: leave one of six marked contents out (both views and all words); fit fixed-rule Gaussian centers/covariance to other5 contents at that peak. Clean density fit to ten clean views of those5. Thresholds use separate32 clean scores, all failures included.",
+  "detection": "Nominal5%/10% FPR thresholds: order statistic k=ceil((n+1)*(1-alpha)), strict score>threshold; k>n=>infinity. Report held-out12 clean realized false accepts and all48 marked TPR, no low-FPR certification.",
+  "matchers": "Freeze4B rematch/gate for SourceRef. Freeze4C0 R2_tube/R2_bbox extraction, degree, residual and CI gates. No amplitude-specific geometry tuning. New public score centers adapt to known strength by identical LOCO rule, not held-out labels.",
+  "quality": {
+    "psnr_db_min": 30,
+    "ssim_min": 0.9,
+    "lpips_alex_max": 0.1,
+    "rgb_pair_edge_f1_3x3_min": 0.95,
+    "reference": "same prompt/seed clean output; diagnostic source comparison also reported",
+    "policy": "All marked attempts included; zero-change outputs not accepted as transmission"
+  },
+  "generation": {
+    "model_config": "models/cldm_v15.yaml",
+    "checkpoint": "models/control_sd15_canny.pth",
+    "checkpoint_sha256": "4de384b16bc2d7a1fb258ca0cbd941d7dd0a721ae996aff89f905299d6923f45",
+    "steps": 20,
+    "eta": 0,
+    "guidance": 5,
+    "control_scale": 1,
+    "negative_prompt": "",
+    "guess_mode": false,
+    "device": "physical GPU1 (CUDA_VISIBLE_DEVICES=1)",
+    "precision": "float32, TF32 disabled",
+    "seeds": [
+      2026110801,
+      2026110802,
+      2026110803,
+      2026111004
+    ],
+    "cpu_threads": 8,
+    "total_pngs": 336,
+    "reused_pngs": 0,
+    "new_pngs": 336
+  },
+  "canary": "Before new144 generation, independently reproduce one clean and one1.5 marked RGB with identical sampler/noise settings; require identical decoded PNG pixels.",
+  "input_closure": "Report source-known moved actual-pixel joint coefficients and standard frozen input receiver separately. All four messages retained even on input or RGB failure; no content reselection.",
+  "scope": "Exploratory Cal strength comparison only, not independent capacity, false-positive, or authentication validation. Same four legal words, no RS/RM, Key relabeling unchanged."
+}

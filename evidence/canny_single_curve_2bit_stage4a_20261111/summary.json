@@ -1,0 +1,258 @@
+{
+  "Cal_Auto": {
+    "attempts": 48,
+    "received": 32,
+    "correct": 29,
+    "wrong": 3,
+    "erasures": 16,
+    "full_word_accuracy": 0.6041666666666666,
+    "receive_rate": 0.6666666666666666,
+    "confusion_matrix": [
+      [
+        8,
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        1,
+        6,
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        0,
+        8,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        1,
+        7,
+        4
+      ]
+    ],
+    "confusion_columns": [
+      "m00",
+      "m01",
+      "m10",
+      "m11",
+      "erasure"
+    ],
+    "clean_attempts": 12,
+    "clean_presence_accepted": 1,
+    "marked_presence_accepted": 31,
+    "presence_auc": 0.703125,
+    "bits": [
+      {
+        "bit_index": 0,
+        "correct": 31,
+        "all_attempt_accuracy": 0.6458333333333334,
+        "auc": 0.9305555555555556
+      },
+      {
+        "bit_index": 1,
+        "correct": 30,
+        "all_attempt_accuracy": 0.625,
+        "auc": 0.90625
+      }
+    ]
+  },
+  "Cal_Oracle": {
+    "attempts": 48,
+    "received": 40,
+    "correct": 33,
+    "wrong": 7,
+    "erasures": 8,
+    "full_word_accuracy": 0.6875,
+    "receive_rate": 0.8333333333333334,
+    "confusion_matrix": [
+      [
+        9,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        7,
+        0,
+        2,
+        2
+      ],
+      [
+        1,
+        0,
+        8,
+        0,
+        3
+      ],
+      [
+        1,
+        0,
+        1,
+        9,
+        1
+      ]
+    ],
+    "confusion_columns": [
+      "m00",
+      "m01",
+      "m10",
+      "m11",
+      "erasure"
+    ],
+    "clean_attempts": 12,
+    "clean_presence_accepted": 1,
+    "marked_presence_accepted": 24,
+    "presence_auc": 0.7604166666666666,
+    "bits": [
+      {
+        "bit_index": 0,
+        "correct": 35,
+        "all_attempt_accuracy": 0.7291666666666666,
+        "auc": 0.9166666666666666
+      },
+      {
+        "bit_index": 1,
+        "correct": 37,
+        "all_attempt_accuracy": 0.7708333333333334,
+        "auc": 0.9522569444444444
+      }
+    ]
+  },
+  "Eval_Auto": {
+    "attempts": 96,
+    "received": 84,
+    "correct": 79,
+    "wrong": 5,
+    "erasures": 12,
+    "full_word_accuracy": 0.8229166666666666,
+    "receive_rate": 0.875,
+    "confusion_matrix": [
+      [
+        18,
+        2,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        22,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        18,
+        0,
+        4
+      ],
+      [
+        0,
+        1,
+        0,
+        21,
+        2
+      ]
+    ],
+    "confusion_columns": [
+      "m00",
+      "m01",
+      "m10",
+      "m11",
+      "erasure"
+    ],
+    "clean_attempts": 24,
+    "clean_presence_accepted": 5,
+    "marked_presence_accepted": 71,
+    "presence_auc": 0.7699652777777778,
+    "bits": [
+      {
+        "bit_index": 0,
+        "correct": 81,
+        "all_attempt_accuracy": 0.84375,
+        "auc": 0.9670138888888888
+      },
+      {
+        "bit_index": 1,
+        "correct": 82,
+        "all_attempt_accuracy": 0.8541666666666666,
+        "auc": 0.9861111111111112
+      }
+    ]
+  },
+  "Eval_Oracle": {
+    "attempts": 96,
+    "received": 89,
+    "correct": 80,
+    "wrong": 9,
+    "erasures": 7,
+    "full_word_accuracy": 0.8333333333333334,
+    "receive_rate": 0.9270833333333334,
+    "confusion_matrix": [
+      [
+        19,
+        3,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        22,
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        19,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        1,
+        20,
+        1
+      ]
+    ],
+    "confusion_columns": [
+      "m00",
+      "m01",
+      "m10",
+      "m11",
+      "erasure"
+    ],
+    "clean_attempts": 24,
+    "clean_presence_accepted": 3,
+    "marked_presence_accepted": 62,
+    "presence_auc": 0.8396267361111112,
+    "bits": [
+      {
+        "bit_index": 0,
+        "correct": 84,
+        "all_attempt_accuracy": 0.875,
+        "auc": 0.9574652777777778
+      },
+      {
+        "bit_index": 1,
+        "correct": 84,
+        "all_attempt_accuracy": 0.875,
+        "auc": 0.9500868055555556
+      }
+    ]
+  }
+}

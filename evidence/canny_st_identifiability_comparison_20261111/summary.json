@@ -1,0 +1,114 @@
+{
+  "A4": {
+    "native": {
+      "attempts": 48,
+      "received": 28,
+      "correct": 25,
+      "wrong": 3,
+      "erasures": 20,
+      "full_accuracy": 0.5208333333333334
+    },
+    "common_A4": {
+      "attempts": 48,
+      "received": 28,
+      "correct": 25,
+      "wrong": 3,
+      "erasures": 20,
+      "full_accuracy": 0.5208333333333334
+    },
+    "common_B4": {
+      "attempts": 48,
+      "received": 28,
+      "correct": 25,
+      "wrong": 3,
+      "erasures": 20,
+      "full_accuracy": 0.5208333333333334
+    }
+  },
+  "B4": {
+    "native": {
+      "attempts": 48,
+      "received": 28,
+      "correct": 25,
+      "wrong": 3,
+      "erasures": 20,
+      "full_accuracy": 0.5208333333333334
+    },
+    "common_A4": {
+      "attempts": 48,
+      "received": 28,
+      "correct": 25,
+      "wrong": 3,
+      "erasures": 20,
+      "full_accuracy": 0.5208333333333334
+    },
+    "common_B4": {
+      "attempts": 48,
+      "received": 28,
+      "correct": 25,
+      "wrong": 3,
+      "erasures": 20,
+      "full_accuracy": 0.5208333333333334
+    }
+  },
+  "B4_PreviousObsDrop": {
+    "native": {
+      "attempts": 48,
+      "received": 28,
+      "correct": 25,
+      "wrong": 3,
+      "erasures": 20,
+      "full_accuracy": 0.5208333333333334
+    },
+    "common_A4": {
+      "attempts": 48,
+      "received": 28,
+      "correct": 25,
+      "wrong": 3,
+      "erasures": 20,
+      "full_accuracy": 0.5208333333333334
+    },
+    "common_B4": {
+      "attempts": 48,
+      "received": 28,
+      "correct": 25,
+      "wrong": 3,
+      "erasures": 20,
+      "full_accuracy": 0.5208333333333334
+    }
+  },
+  "OracleMask_proxy": {
+    "native": {
+      "attempts": 48,
+      "received": 28,
+      "correct": 26,
+      "wrong": 2,
+      "erasures": 20,
+      "full_accuracy": 0.5416666666666666
+    },
+    "common_A4": {
+      "attempts": 48,
+      "received": 28,
+      "correct": 26,
+      "wrong": 2,
+      "erasures": 20,
+      "full_accuracy": 0.5416666666666666
+    },
+    "common_B4": {
+      "attempts": 48,
+      "received": 28,
+      "correct": 26,
+      "wrong": 2,
+      "erasures": 20,
+      "full_accuracy": 0.5416666666666666
+    }
+  },
+  "TrueOracle": {
+    "status": "not_available_without_verified_correspondences",
+    "attempts": 48,
+    "correct": null,
+    "wrong": null,
+    "erasures": null,
+    "not_replaced_by_proxy": true
+  }
+}

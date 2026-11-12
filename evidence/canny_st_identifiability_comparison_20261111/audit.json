@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "counts": {
+    "unchanged_rgb_hashes": 48,
+    "exact_original_fit_reproductions": 48,
+    "actual_observed_pixels_checked": 4959,
+    "direct_codeword_distance_checks": 1854,
+    "schur_complement_checks": 103,
+    "parent_manifest_entries_verified": 4481
+  },
+  "all48_same_png": true,
+  "all48_denominator": true,
+  "same_A4_B4_decisions": true,
+  "original_4a_channel_model_equal": true,
+  "unannotated_oracle_template_rejected": true,
+  "true_oracle_status": "requires_verified_annotations",
+  "limitations": "Pixel membership and numeric consistency do not establish curve identity."
+}

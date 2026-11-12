@@ -1,0 +1,66 @@
+{
+  "created_utc": "2026-11-11T07:41:29Z",
+  "sources": {
+    "${ORIGINAL_WORKSPACE}/curve_reference_ablation_stage4c0.py": "fbccc76c723c03a8a48e70124cfb571ea978a171e0f06675b13de92cf0327c3b",
+    "${ORIGINAL_WORKSPACE}/curve_partial_st_stage4b.py": "1443298870e35ed19a194009ace911f6072dc1014b3f3b253455e7115c1aaead",
+    "${ORIGINAL_WORKSPACE}/curve_single_2bit_stage4a.py": "02c4397016c605f4c84be529382306490cf8e137454c7cdb65735b23c5028970",
+    "${ORIGINAL_WORKSPACE}/curve_broad_peak_code.py": "17ca878ea4017934f56f75810eb99941de265dfa62bf4b323ee22123c98945d3",
+    "${ORIGINAL_WORKSPACE}/analyze_canny_curve_stage1_32.py": "6bfbef83d95d3e970df4b9a954eab9e479d40306fcff5bb003543df76ef96392"
+  },
+  "parents": {
+    "${ORIGINAL_WORKSPACE}/outputs/canny_single_curve_2bit_stage4a_20261111/final_artifacts_sha256.json": "dc84e3ce47b4998c47724e1327113b9dd3f6907acaf8876d41f7c01020d33522",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/final_artifacts_sha256.json": "c77e5c6bd8410a1cd7c11e4730a775168bc6babb52cd1ade64231bd87f1e5a3a"
+  },
+  "options": {
+    "min_arc_px": 24.0,
+    "max_arc_px": 300.0,
+    "min_chord_px": 12.0,
+    "station_spacing_px": 2.0,
+    "robust_iterations": 25,
+    "rank_relative_tolerance": 1e-08,
+    "max_condition": 100.0,
+    "residual_grid": [
+      0.75,
+      1.5,
+      3.0
+    ],
+    "ci95_grid": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "mask_dilation_px": 0,
+    "extraction": "8-neighbor Canny skeleton primitive traces; no gap repair, curve smoothing or source-guided joins. Longest eligible trace, tie lexical endpoints. No message likelihood in trace selection.",
+    "orientation": "Observed endpoints lexicographic; observed normalized arc length; lateral position relative to observed endpoint chord.",
+    "caveat": "A deliberately simple first self-reference receiver, not an optimal blind receiver."
+  },
+  "codebook": {
+    "words": [
+      "m00",
+      "m01",
+      "m10",
+      "m11"
+    ],
+    "amplitude": 0.8988569324380633,
+    "basis": "unchanged S cubic / T quartic",
+    "key": "4c0-public-mapping-0xx",
+    "key_role": "Only relabels the four legal states; provides no authentication. Wrong-key presence is mathematically invariant."
+  },
+  "data": {
+    "Cal": "Six4A Cal contents x2 views x(clean+4words), plus32 Stage4B Cal clean contents. No old4A Eval.",
+    "Eval": "Exact existing Stage4B48 marked RGB +128 clean RGB. Twelve marked contents; paired12 clean included in128. Reused held-out diagnostic evaluation, not a newly generated independent validation."
+  },
+  "methods": {
+    "R0": "Frozen4B reference-assisted receiver, source geometry+clean coefficient+all4 actual source codewords+original channel/presence.",
+    "R0_public": "Same geometry and clean coefficient, replace actual-input source book by nominal public book with original Cal channel.",
+    "R1_zero_clean": "R0_public without clean subtraction, no recalibration; isolates the direct subtraction removal.",
+    "R1_public": "Same source-assisted geometric synchronization; no clean coefficient, actual-input book or admission flag passed to classifier. Public absolute-coefficient centers fitted on Cal.",
+    "R2_tube": "RGB + fixed source tube Mask + public Cal decoder + Key; source-shaped Mask is auxiliary side information.",
+    "R2_bbox": "RGB + rectangular Mask bounds + public Cal decoder + Key; retains location/extent, removes detailed tube shape.",
+    "R3": "RGB + public rules + Key; no Mask or per-image source fields. Longest geometric trace selected before coefficient decoding."
+  },
+  "tuning": "Natural baseline degree0/1/2 and geometric fit residual/CI limits selected on Cal by leave-one-content-out full-message correct-2*wrong. Degrees3/4 recorded but rank-deficient => erasure. No Eval tuning.",
+  "presence": "Cal public clean Gaussian vs4 marked centers; Cal clean95% threshold, all receive failures score -1e6. Empirical small-Cal diagnostic, not1%FPR certification.",
+  "identifiability": "Project S/T out of natural polynomial baseline B=[1,x,...,x^r]; report residual energy, Gram eig/condition/rank and six public codeword residual distances. Robust real-valued estimation, not RS.",
+  "no_regeneration": true
+}

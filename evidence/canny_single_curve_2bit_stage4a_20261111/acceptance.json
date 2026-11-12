@@ -1,0 +1,11 @@
+{
+  "input99": true,
+  "eval_full_word70": true,
+  "eval_full_word_accuracy": 0.8229166666666666,
+  "eval_received": 84,
+  "eval_attempts": 96,
+  "quality_joint_passes": 92,
+  "quality_attempts": 96,
+  "all_quality_pass": false,
+  "no_real_error_correction_implemented": true
+}

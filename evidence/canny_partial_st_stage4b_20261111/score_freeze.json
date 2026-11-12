@@ -1,0 +1,229 @@
+{
+  "created_utc": "2026-11-11T06:00:49Z",
+  "protocol_sha256": "de74dd9ef494feeac0c6a91683106fa4ca8ac8dd96a18456e74e7c871c3b5a48",
+  "gate": {
+    "info_min": 0.4,
+    "condition_max": 10.0,
+    "ci95_max": 0.5
+  },
+  "selected": {
+    "gate": {
+      "info_min": 0.4,
+      "condition_max": 10.0,
+      "ci95_max": 0.5
+    },
+    "correct": 231,
+    "wrong": 23,
+    "attempts": 1056,
+    "negative_accepts": 6,
+    "negative_attempts": 64,
+    "eligible": true,
+    "objective": 185
+  },
+  "calibration_amendment_sha256": "41d739652ebcb5c2cd0a6537e7aaf37801c4b85b14cf25cddfb8c30615f71d7b",
+  "amended_grid_sha256": "64474c660b820adbd69d3b26af8e98f5cb80f0d4de13ffa2ee34ec4ee73dc56d",
+  "presence": {
+    "clean_mean": [
+      -0.01814170584054648,
+      -0.0026901080211464827
+    ],
+    "clean_covariance": [
+      [
+        0.022409120451322657,
+        0.005079241328580939
+      ],
+      [
+        0.005079241328580939,
+        0.041729650458972194
+      ]
+    ],
+    "threshold95": 0.8934153913095505,
+    "fit_received_clean": 37,
+    "fit_attempt_clean": 44,
+    "cal_received_scores": 304
+  },
+  "channel_model": {
+    "A": [
+      [
+        0.8387846990875824,
+        0.056287960950677
+      ],
+      [
+        0.046658410765815034,
+        0.6753016698632839
+      ]
+    ],
+    "intercept": [
+      0.11159604873567905,
+      0.006231793895350946
+    ],
+    "cal_received": 70,
+    "cal_attempts": 108,
+    "residual_covariance": [
+      [
+        0.06060177501536193,
+        0.009942958078498912
+      ],
+      [
+        0.009942958078498914,
+        0.0841866058836403
+      ]
+    ],
+    "marked_covariance": [
+      [
+        0.08649699378943229,
+        0.017256970169495445
+      ],
+      [
+        0.01725697016949545,
+        0.08623293591173
+      ]
+    ],
+    "clean_residual_mean": [
+      -0.10171784846819137,
+      -0.022225783261109584
+    ],
+    "clean_covariance": [
+      [
+        0.039697344065602165,
+        -0.0012387397936670843
+      ],
+      [
+        -0.0012387397936670843,
+        0.06222082636771123
+      ]
+    ],
+    "presence_threshold95": 0.12168601509583521,
+    "condition": 1.2925169458275085
+  },
+  "parent_score_sha256": "f4547e0d80ae2c5d1287a7f97974e2ba89f188823edebd3aaf1473694f05f80f",
+  "cal_data_sha256": {
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000004595_c0000_v0_clean.json": "1dc396a5c1110354a9648fcda4f440367de73fad926376ba1670ce12a9647a9b",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000004595_c0000_v0_m00.json": "b0c004942c89d87eab46ad1c955df68145a27206e9f1fb0269260395dd4352f7",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000004595_c0000_v0_m01.json": "a9f146c00be7d53d08dd02887c07900fbaf5e9c3b85c4268a9179c5aa7b4691c",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000004595_c0000_v0_m10.json": "c0d4098f2e415e41d7bb1382ba7d60477c9aa301fb75e4ca298c6863fa6752c8",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000004595_c0000_v0_m11.json": "c1b085a4f28a9fe309032270ebb034e9499ed1bb31009c40d748975da6eac141",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000004595_c0000_v1_clean.json": "40c7ee872b72cd2c356ff7b359495124264e8a4c320a4cf02ef88c32c2408ea5",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000004595_c0000_v1_m00.json": "4c6bf089820f34a94092124741dbd765e5a04ee89cf9033b2662e2d0e1d21981",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000004595_c0000_v1_m01.json": "086ac327da306888daf1e90dd75b6932b22504e59c9df92ae526ec29441aae21",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000004595_c0000_v1_m10.json": "b1bc0f4ca9e7e0671a357331c9ce7119e2ae7679b2c527be39a68b20226d3bad",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000004595_c0000_v1_m11.json": "85c83fbe93e72413e0761244f3fb99f67080ce956185f61cd958c3610de8e374",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000007961_c0000_v1_clean.json": "dddc95522960b7bfc9c4bde05f32fc56366263021bce7bb3d865992cca9d9133",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000010138_c0002_v1_clean.json": "8490dd1697504ba47553aae8bda583c55e1987eb1c426aa6f199bb9687120fc6",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000025803_c0001_v1_clean.json": "1ee7453ff22b08770a10613e6262bf44ed06a3b651fe5fef7aa3db2dd2dc31ad",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000052626_c0000_v0_clean.json": "7f9b13815ee3f2a2fa56b76d904fa8fa556851ff2f08f2c7e4d6181f7d215fbe",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000069468_c0001_v1_clean.json": "219184b1d704c54f72a21fa3e23d7d041051ae45f2c6000eba5680d930bbcfd3",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000081322_c0000_v1_clean.json": "b0776c03719152ebaa3a56175d5114b1f0037612a2ae5497b94b10bc5f5a3252",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000086409_c0005_v0_clean.json": "7b1b8ec9a5cca0fd75a5960a4bc30465e26b8fc285a3c82ac17c1257a01f2fe0",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000087642_c0000_v0_clean.json": "18d90e0e726f373b8cc5166d5a3451e8ec9caf761c9b5035b8ceb581051bf271",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000098283_c0001_v1_clean.json": "6ecaa047c878ecab7cc924ca90008a0928ceb111ce369efabf897fa41a0e092f",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000099008_c0000_v0_clean.json": "4f962ddbe117586eb9ce64e18e6d7232a54ebc0525a414147372f9c53d2e7b4b",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000102306_c0000_v0_clean.json": "ccdda2cb8fef47f8c5b31514112be91b616d064c760f36e75465edaa73a232b6",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000102306_c0000_v0_m00.json": "12005106488587ef7815b000126617e89a69258ca13f7e0e21f455a62aea8b86",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000102306_c0000_v0_m01.json": "f00bb7bfc95fd9aa49df02c5f5773b4867360c4bd01565020a9c8133da4b80eb",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000102306_c0000_v0_m10.json": "11194d135fda2849e09fb187dc8eae31242e7e96b88d619c96fbc6ccd39730b6",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000102306_c0000_v0_m11.json": "89d91290597216cd18a878e5859dd8e821311dcf5de17b9c86384e1ebc6e63a3",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000102306_c0000_v1_clean.json": "3ccc11ea9465f1911f26a4533737985d167b2848c1c10dc2552ae8d81a4e0cb0",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000102306_c0000_v1_m00.json": "00c1dbc42cc31f3990a5808a166f1f1f45767873a3568476e51060d9d3d949c6",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000102306_c0000_v1_m01.json": "5a1aaca29609e033fc19e8b6f39925978264927bbf65f794d971cc3129fc7133",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000102306_c0000_v1_m10.json": "99ff3b9e5ea494f67da05a077f425fc471ed788808e45d22d8ea17bf0b2907ac",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000102306_c0000_v1_m11.json": "5ecfdb1c782d8a05cc71b5d000d741149d9bf9081e7e641e61f1455ccad316ea",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000108761_c0001_v0_clean.json": "af8d7596cd4dc22808468b490074266e70deaf12ba207d25294f7ff764c09311",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000145570_c0000_v1_clean.json": "cb087c198e668f8b6d35df09eb0ea55b04d975908071258bc048ed048d151c83",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000149157_c0002_v0_clean.json": "f5c205ac2fbc4e9474016c802ccaa070bc9b7a28cc39a210f0c366b83d5982cd",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000149157_c0002_v0_m00.json": "d32ad1993435508ffb8089982aca404b8bffeb02d576dfcda16572e6911e6b2f",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000149157_c0002_v0_m01.json": "f5c989f144c4c1d6309c3d4178ae22565fa15aa9c8af1ed4f9e19d65f3e6560e",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000149157_c0002_v0_m10.json": "c4d265eb6bd2b4eb137d339fc13c7359bc8021ca8fcb11de4ae03f1471deffbd",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000149157_c0002_v0_m11.json": "722a665ba4fc2ee0485065bea2c501d1bfa75f70c9c6be066498994c9e553ef4",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000149157_c0002_v1_clean.json": "c83ac0ec80a4a99267019689141004474ed6a1fb293d6d754705cc1c5d4d729b",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000149157_c0002_v1_m00.json": "f5a9b55a0edd6d22d30b5df28b75ae39f079226a5dedf622169762e1fcd29928",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000149157_c0002_v1_m01.json": "b3e1082a0194074db78c1b642ab24d450d1e192ca9a627effbb4f6e34bee3fdf",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000149157_c0002_v1_m10.json": "38ef682e87f8567b2d118412cbc6fdc60098d25adb42b676e549fb937fc3091e",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000149157_c0002_v1_m11.json": "7efbc65c1dd33a3ac84684a7905c324491882dc70a983fc3e4e6998d742126f4",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000163332_c0000_v1_clean.json": "78dfc6cec52ccefdeb0e8de60b847fd48a1da1aaff76fd66d8a71dde11a344ea",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000176314_c0000_v1_clean.json": "59ca3f567ad0552f03ec86454a3ae935351ab9a95dc9d7ba4da05ef820d0f83b",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000209126_c0000_v0_clean.json": "98300267db74f64571275e67002102bcf2b649ad48fd88bcbf623e17995e7c36",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000234169_c0000_v0_clean.json": "e8dbdd59390ef12235b69f82418df0cc6272fe1a827414c0e46bfbc3ab6e2512",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000235380_c0000_v0_clean.json": "5c3ad3c6009a8a8eff3100a129959d8493f06662aee36ec21776013b0638bf90",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000238623_c0000_v1_clean.json": "f4a6265a724aec6ad0fa4e20099828dedfa2c9dd5ee95082135a3685ecdff126",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000275339_c0000_v0_clean.json": "ee0de98f2fe26dbd3ac74c466fdeec0639f140f5ac7a35634de95f30c9f7f1d3",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000275339_c0000_v0_m00.json": "aadd5e514338e769dddf82c79748b30c8d0298142724baa85acdb156cd8a80e9",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000275339_c0000_v0_m01.json": "a9f72273be89b574db558bf04fc023b58c0fb5e6d7cf8546b55977613e71d238",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000275339_c0000_v0_m10.json": "712ac63f2debe84851a9599f5befda1005bc500c8d014e94f7e6f29ba207fff1",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000275339_c0000_v0_m11.json": "1f8cbc49b287c4c06d22b30d6103925eba6d5dcb60a2285fa9a2223e22587262",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000275339_c0000_v1_clean.json": "4817ff508519ee05e4e2c636485a1d42970472219702210550d24182e4e8000a",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000275339_c0000_v1_m00.json": "09965f0a1be4367e980ed87dd420a8adba43b2801e13dea4a6613e197c9919f3",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000275339_c0000_v1_m01.json": "5bdd0bcd49fb4d5cf87fa4952cecff2abff5ba925f9276dabd2759e6a3e6e991",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000275339_c0000_v1_m10.json": "b17e9e8221f6ff8ebd2785fced50eaa2baa0b84abb18441202ed2d889033d5be",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000275339_c0000_v1_m11.json": "453514b0472e5c1bb1dd8b8657d455db1028744a0ea4c24c7800057f8853e451",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000316353_c0002_v0_clean.json": "a88dc75931e5072579c2a752f11a09a4b3e72f6afe4a2b136dac161ea6ac2b97",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000347790_c0000_v1_clean.json": "93dfbb849c4e66900459cc30cae9d45b3f434343c97d9ba278d85229cb49129c",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000347995_c0000_v0_clean.json": "84b3b717eae30725f3b8e821eb10af43df562339f03d7401dc8216b891f757ca",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000349442_c0000_v1_clean.json": "100123a286c12ae10dda206e1d9aeee348db29f440e88ebfd39c941e97718ff8",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000369793_c0000_v0_clean.json": "2d9d42487f59e98849d659c8d580cff2b9cd75416903ccad16029766abf985a6",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000379022_c0001_v0_clean.json": "6686aeaf7a6edabba00943d0e31a2f175a4534f3aa95ca6c631b6b23dac285f4",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000379022_c0001_v0_m00.json": "1ab53d1a386100069ea59dfc009d66f5427e7f037514a89a98c31d0a5b47056f",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000379022_c0001_v0_m01.json": "9592dcd1a33ddd44fa311acd7838924e2dd594e693324531e2b3d72728f38e7c",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000379022_c0001_v0_m10.json": "a1ebd32e61725d13d150c2800a860af84af871983a91d052e37a5f17dd5985c2",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000379022_c0001_v0_m11.json": "1c677b52118426bdabe006d1f16e3fa3e10736639353854a8e7325c9c12d1c64",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000379022_c0001_v1_clean.json": "498164f35fe217131ed9f7c56a4c5d6f232641e3422c8e909f5a46fdf09c2dd9",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000379022_c0001_v1_m00.json": "88edde0e4e46cf75c5c9717c5ebc0f1ce10142d53eca1977e0e7dc63c6184c09",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000379022_c0001_v1_m01.json": "3b06e2eef187916416cac04abe8528ae60b809863a3b048ada90611a6118fb61",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000379022_c0001_v1_m10.json": "97c67e33f4c65711684d5e6936592d09d9bfc5418b8c770afcca4b5210e4e2fd",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000379022_c0001_v1_m11.json": "3143c1d42cf4562b3e3eb79b6702635b45191f21249de4705180c939252c12dd",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000416311_c0000_v1_clean.json": "d926cd568c8c887c94c0c2d2c0ff5f69dcda2a2a6e0bb2bb95d42b0afc052514",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000424368_c0000_v0_clean.json": "def997392f5921ab49b5da4a9599ae691d1bf1210ee5388932347963f97eb073",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000431376_c0000_v0_clean.json": "243bab97526eff4e9dbe81648723fb48d27086fa03a98288ec7c9185b6bb7c38",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000464018_c0000_v0_clean.json": "bd0ef45ac797d9cb945890a246168e2e94e739e46bbd482a1b8f72c09f692671",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000475142_c0000_v1_clean.json": "a76605df2fddc4e08f48bcc24c9f528333aa33284f8524df98b3608b771df8a9",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000513983_c0000_v1_clean.json": "80d043f706512938817eb4bcf4b09b384034714102e2b465b3d92219c2a52ecd",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000543193_c0001_v1_clean.json": "d254ed868e1f726b2f0a59e4c6c886db333d9fb5eef5d684128b144b24ff15ac",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000543732_c0000_v0_clean.json": "00ceef8c54dc4394d9d25293c86fb561e676d5ce16559163dfbc4a41b90eae29",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000564796_c0000_v0_clean.json": "dce6c152af14a1a2bc959778d40f84eb46b925c4f5ad1ceca9e18aea0ce1356b",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000564879_c0001_v0_clean.json": "d57c8120c84b98bd8727060deee8b7659cc2246b0eb19451dd9c37ebe8710f50",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000564879_c0001_v0_m00.json": "9cc8d322bb6437ad5b6cbbf9b787838453462e861d12066533fecafe9574f3d4",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000564879_c0001_v0_m01.json": "c14e28c64de3417a6f7d3d049285913dac62605cbe48e401d81ef82dd2c8b823",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000564879_c0001_v0_m10.json": "11f01614efd985619289d5337fca81b63641cc7c0868830023472b396fee85f8",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000564879_c0001_v0_m11.json": "de59094dffd40119c6c07b7fd0cbf02a6f06beacc2dcd87bc90d77621ab69f9a",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000564879_c0001_v1_clean.json": "72f0e4152e57c7fe6037fea41bc3ce03a67f782dbbd91d4e6f3e32e987bd2f94",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000564879_c0001_v1_m00.json": "5ef2401f729c43eca884cc024f06e49bc7dd9548a4acaecabf70d92a308532af",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000564879_c0001_v1_m01.json": "8d63bfbe449717f61a859dfed28f0f80444afce1a12cef628aac4b3e79cd8645",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000564879_c0001_v1_m10.json": "32942ef30c17b22450660760d8c564106bbf7631381fd6e90fbb20f5de75c949",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/loss/000000564879_c0001_v1_m11.json": "e1a48033ada6f749bf23fd82bbdfaf2e2922083fbdb35703bb06334029229ceb"
+  },
+  "cal_controls_sha256": {
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000209126_c0000_v0_clean.json": "79ca714a4685f65717b9a36c9a9156180b14407da09555ed8c3469765ba8a023",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000475142_c0000_v1_clean.json": "13848519900976b5db0f98cd489d28c927343eb45bcd3b0f4c618a57a36f7113",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000069468_c0001_v1_clean.json": "1ed4faf92bcf175ee98258db7c2e12fc8aff13ec0ced5b58ba7399be46e6743d",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000347790_c0000_v1_clean.json": "c56cb10f31aea7b20228756ba324d268afc9319e0133f31e5fe6d31a01e766ff",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000238623_c0000_v1_clean.json": "422f039c287d525d0fde98fb13282d0821ded2ff3e4f6d7dc6a80a545a360ab7",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000025803_c0001_v1_clean.json": "50deb42c827ef84e3d3e56a6bf46781ce323d31355da4825f7247b76807b86dc",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000052626_c0000_v0_clean.json": "111e6c441da24e808c67d141124ee49d446860f3c1567368e51b9522a59f2f68",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000349442_c0000_v1_clean.json": "f742d004a4a389c5a8f976eafb54fcd11b9b06327730c5716a99ad07de604735",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000145570_c0000_v1_clean.json": "af885d0e0cb4163c007990c874df971220f665102188f2bb887cabf0d87efcb8",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000431376_c0000_v0_clean.json": "362766007d3f954195e37c9580ea352f422de4a295957997e5bd0cc5bc6663d2",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000099008_c0000_v0_clean.json": "2f99b443076008673e78f77300a1e854894dde81eb23655d5967e8c0eb715b2b",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000564796_c0000_v0_clean.json": "d0092e9814f4f17839b71cf2bca9d0acecbb5f7c276a6d0b5c65d514d5423e2e",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000007961_c0000_v1_clean.json": "d1637da32eda12c1fc97b9fee4bbd93caf599ead42dc0e5fa68d96218e556b43",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000424368_c0000_v0_clean.json": "339b1e6f4f1e6ae3dd00ebbffb4e224f8f1a36518cd5340bfc84f1a3e0b02777",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000081322_c0000_v1_clean.json": "b1d086c1051f75e8b2b6b57091735301135b9e4d9accffa3bfa8d255974ee750",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000010138_c0002_v1_clean.json": "e8b9bcf63a719c4e7f5e8308e6d1ab8476c7197ec3fc68214a5c39603bcc8875",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000347995_c0000_v0_clean.json": "2c75cd3ed9d1c0bf697f125822fdece4be5e32b31405ff2d69a2425a95b8765b",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000235380_c0000_v0_clean.json": "405225ab9d63fb6a017eae3e9adbab33616a6132bb1762318fd854aaed7ee2af",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000176314_c0000_v1_clean.json": "f6ce65dff9fa2bb5b3b6a3230f4e4eb7d079242a82642a95cb0452bb6811715f",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000234169_c0000_v0_clean.json": "b831b1b26cdada32c177269d0abe8c4cc14211c46e2c06df913c2a4e45ec3209",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000543193_c0001_v1_clean.json": "01234419a9c186b7b4e578fabca78dfafc58e207fac4adbb7f905d24df3f0283",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000098283_c0001_v1_clean.json": "aa448f6a262e62b7fd32720827046ac722202e8ae81dedebaaf043d0ecdc79e6",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000369793_c0000_v0_clean.json": "bb105001c40c142bf410919f0022fb1219ec0a2c62eeb5bb219a9f5dd7c04922",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000416311_c0000_v1_clean.json": "8e81685108871fbd966cb4707647911b8a615a7d1cd50bdf843c067208dd2e12",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000163332_c0000_v1_clean.json": "472f0dbb4bf17a8195e39b1be7a8bae9c315ce1705451c4eb668a540796de891",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000086409_c0005_v0_clean.json": "1cefbebf6359e9bb82ebee3e304c6c020273c1ceceff0e56cc385f310b4512b6",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000464018_c0000_v0_clean.json": "63de0800c196ee8173d7e6b03389c2a939662cc23fad74c3b793b1df1f78ff43",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000513983_c0000_v1_clean.json": "3e9a17d1889a46a5bbd055974bb4f85d0dffe1f4afe9bb52ca7999bd5ed81d33",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000087642_c0000_v0_clean.json": "8c3d9c0fef23fd4643d36ececd5611a73e8f0e31d68ab7a48581be4fdad21038",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000108761_c0001_v0_clean.json": "0a399f573fa8785d7571182cdd446eb0dd17c22b8ddbb41618be0449f781b542",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000543732_c0000_v0_clean.json": "67069a06a4b6faa2e347fd64b4ff840e60356cbdfe906021a398c107028d20e0",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/controls/000000316353_c0002_v0_clean.json": "e79cd0220a91b976b005e3f510d087876e3d48a86f338ef6fabc198c027866d3"
+  },
+  "no_fresh_rgb_before_freeze": true
+}

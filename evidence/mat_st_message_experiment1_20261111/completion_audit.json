@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "input_records": {
+    "32": 180,
+    "48": 180
+  },
+  "rgb_complete": false,
+  "rgb_skipped_by_gate": true,
+  "input_gate_status": {
+    "complete": true,
+    "gate_passed_lengths": []
+  },
+  "all_condition_exteriors_unchanged": true,
+  "input_and_source_hashes_unchanged": true,
+  "all_page_links_valid": true,
+  "report_script_sha256": "e375c75230563295881eb4fda926feb109a47bde09da19a0df02de97ac89555e"
+}

@@ -1,0 +1,85 @@
+{
+  "created_utc": "2026-11-11T07:01:20Z",
+  "source_sha256": {
+    "${ORIGINAL_WORKSPACE}/compare_st_identifiability_4b.py": "0d232ba1db51907720acaef31fb90a4e433f28208c9b38f6874baf7f57641da0"
+  },
+  "parents": {
+    "${ORIGINAL_WORKSPACE}/outputs/canny_partial_st_stage4b_20261111/final_artifacts_sha256.json": "c77e5c6bd8410a1cd7c11e4730a775168bc6babb52cd1ade64231bd87f1e5a3a",
+    "${ORIGINAL_WORKSPACE}/outputs/canny_single_curve_2bit_stage4a_20261111/final_artifacts_sha256.json": "dc84e3ce47b4998c47724e1327113b9dd3f6907acaf8876d41f7c01020d33522"
+  },
+  "dataset": "Exactly48 Fresh marked PNG from Stage4B, no generation or image changes. Same source, canonical orientation and four actual-input codewords. All48 denominator including erasure.",
+  "methods": {
+    "A4": "Exact original receive Auto + exact original a4.infer and original4A Auto Cal model.",
+    "B4": "Exact current4B EdgeDrop:none pool/gate/decode; also report prior ObsDrop:none reproduction and common-decoder ablations.",
+    "OracleMask_proxy": "Existing4A Oracle primary ordered observations, refit and same4B gates/decoder; known tube only, NOT known-correct correspondence.",
+    "TrueOracle": "Requires externally verified original-station -> real output-edge correspondence. No such annotation in existing4A/4B artifacts; never substitute message-guided curve selection."
+  },
+  "identity_control": "Common4A decoder and common4B decoder for every geometry head in addition to native frozen pipelines; this distinguishes receiver change from score change.",
+  "information": "Raw Phi^T W Phi and offset-projected Schur complement; eigenvalues, condition, generalized full-station eigenvalues, S/T energy coverage. No size normalization ambiguity: also average weighted Gram.",
+  "distances": "All6 codeword pairs on observed t: nominal input, actual-input coefficients, and frozen channel output centers; raw weighted squared and RMS; also subtract weighted mean for unknown offset. No interpolation used.",
+  "hypotheses": "Retain all R0/A3/A3_alternative fits, full candidate coords, signed best/runner-up distinct-geometry gap. No second candidate means unknown ambiguity, not proven uniqueness.",
+  "exploratory_set_receiver": "Frozen4B gate plus Cal-selected minimum output-codeword offset-projected RMS distance. Retain distinct eligible geometry hypotheses within0.10 cost of bit-blind minimum. If decoded words disagree, return set/erasure; never pick a hypothesis because it matches the known word.",
+  "cal": "Old4A six Cal contents + original4B32 Cal wrong-anchor controls. Fresh48 is reused diagnostic data, no new independent performance claim. New distance threshold freezes before extracting Fresh in this run.",
+  "scenarios": [
+    {
+      "name": "none",
+      "kind": "none",
+      "loss": 0.0,
+      "repeat": 0
+    },
+    {
+      "name": "random25_r0",
+      "kind": "random",
+      "loss": 0.25,
+      "repeat": 0
+    },
+    {
+      "name": "random50_r0",
+      "kind": "random",
+      "loss": 0.5,
+      "repeat": 0
+    },
+    {
+      "name": "center25",
+      "kind": "center",
+      "loss": 0.25,
+      "repeat": 0
+    },
+    {
+      "name": "center50",
+      "kind": "center",
+      "loss": 0.5,
+      "repeat": 0
+    },
+    {
+      "name": "ends25",
+      "kind": "ends",
+      "loss": 0.25,
+      "repeat": 0
+    },
+    {
+      "name": "ends50",
+      "kind": "ends",
+      "loss": 0.5,
+      "repeat": 0
+    },
+    {
+      "name": "left50",
+      "kind": "left",
+      "loss": 0.5,
+      "repeat": 0
+    },
+    {
+      "name": "blocks50",
+      "kind": "blocks",
+      "loss": 0.5,
+      "repeat": 0
+    }
+  ],
+  "quality": "Same RGB files; previous quality measurements remain valid, no new quality generation.",
+  "limitations": [
+    "Diffusion has no stored point-identity ground truth. OracleMask cannot prove true correspondence.",
+    "Nominal/Cal-channel distance predicts separability, not true edge identity.",
+    "Four legal words give no authentication redundancy."
+  ]
+}
