@@ -1,0 +1,5 @@
+# Install torch/torchvision for your CUDA separately, as in docs/REPRODUCIBILITY.md.
+# Ordinary MAT repair uses reference PyTorch ops; no compiler/ninja is needed.
+-r requirements-cpu.txt
+timm==0.6.12
+requests>=2.25,<3

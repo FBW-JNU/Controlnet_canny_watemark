@@ -1,0 +1,5 @@
+# CPU geometry/replay environment; Python 3.9 recommended.
+numpy==1.24.4
+scipy==1.13.1
+opencv-python==4.11.0.86
+Pillow==11.3.0
