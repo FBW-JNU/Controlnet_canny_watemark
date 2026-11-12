@@ -1,0 +1,10 @@
+# Optional MAT architecture/development dependencies; no bundled domain weights.
+-r requirements-generation.txt
+easydict>=1.9,<2
+future
+click
+requests
+tqdm
+ninja
+psutil
+scikit-learn

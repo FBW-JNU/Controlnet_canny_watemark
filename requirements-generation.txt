@@ -1,0 +1,15 @@
+# Install torch==2.0.1 / torchvision==0.15.2 for the appropriate CUDA separately.
+-r requirements-cpu.txt
+pytorch-lightning==1.5.0
+transformers==4.19.2
+open_clip_torch==2.0.2
+omegaconf==2.3.1
+einops==0.8.2
+torchmetrics==0.6.0
+timm==0.6.12
+safetensors==0.7.0
+kornia==0.6.0
+# Optional original experiment quality/report dependencies:
+lpips==0.1.4
+scikit-image==0.24.0
+matplotlib==3.9.4
