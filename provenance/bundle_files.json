@@ -2,7 +2,7 @@
   ".gitattributes": "737fdabe5e00d2afcc59776ccb39038ff75fd9a43fb2e4b62ff62c832237712c",
   ".gitignore": "93bc0cd308043b58f8d39e463bb722a7a17d0ee4bb6df6150b96397a04b207fe",
   "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-  "README.md": "e4c34c12f1b5bd4cda5663359ef471fce46ebe9c6284fc30701cbc51a616b7a9",
+  "README.md": "4d01df8fd37d06fddfeb324060df4a842710446a93afdb49b857cb03c34eae29",
   "THIRD_PARTY_NOTICES.md": "4a4480db561e6766212b4c5978199aa48fffb457590921c768768ec22e2833da",
   "canny_geometry/__init__.py": "447b429b827561ce907da67a70cde9175034b0747f6cfb0eda0dca7d6da7c228",
   "canny_geometry/__main__.py": "02ef7657d9f6eb90c3c356934b42b93650d5b6d87386741c709fc1c8834fb16f",
