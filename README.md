@@ -1,7 +1,5 @@
 # Canny Geometry Watermark：冻结 ControlNet 的几何消息传输研究
 
-这是截至 **2026-11-12** 的代码整理与审阅包，包含当前 ControlNet 后端、实际实验脚本、轻量几何入口、报告摘录和少量可重放示例。中文说明以审查“是否符合我们的研究目标”为优先。
-
 **当前主目标：把消息写进原始 Canny 的曲线几何，经冻结 ControlNet、不同 prompt/seed 生成 RGB，再从单张 RGB 恢复消息。当前优先评价消息正确率；clean/marked 存在性检测暂不作为主要验收条件。**
 
 当前已验证的是参考辅助下的单曲线 1–2 bit 原型。接收器需要原曲线有序坐标及码本；真正的多曲线消息串、RM/RS 实图纠错和仅凭 Mask 的可靠恢复仍待完成。MAT 是可选的消息约束补线分支。
@@ -117,23 +115,8 @@ python -m canny_geometry decode --reference examples/reference_1bit.json \
 | **MAT 实际使用的 Places512 转换权重**（约 251 MB，可选） | [Places_512_FullData_G.pth](https://github.com/Sanster/models/releases/download/add_mat/Places_512_FullData_G.pth) | `fuxian_papers/checkpoints/mat/Places_512_FullData_G.pth`；IOPaint 发布版本，匹配当前 `use_noise=False` 架构 |
 | MAT 原作者模型（可选） | [原作者下载入口及说明](https://github.com/fenglinglwb/MAT#quick-test) | 原生 `.pkl`；与上行 `.pth` 格式不同，不能直接改名替代 |
 
-**本地训练的 MAT 领域权重没有已确认的公开下载地址。** 本次另附 `canny-geometry-mat-domain-weights_20261112.zip`，包含消息实验用到的四个 checkpoint、原始协议、阈值与校验清单；它是独立资产包，不在代码 ZIP 内。可作为 GitHub Release 附件分发，发布后再补实际 URL，不虚构已发布地址。
+**本地训练的 MAT 领域权重没有已确认的公开下载地址。** 本次另附 `canny-geometry-mat-domain-weights.zip`，包含消息实验用到的四个 checkpoint、原始协议、阈值与校验清单；它是独立资产包，为 GitHub Release 附件分发。
 
 为避免重新筛选导致内容变化，代码包新增 `data/coco/normal_manifest.csv.gz`：保留原 **94,625** 条 normal 内容的顺序、prompt 和统计，仅将机器绝对图像路径转为 `train2017/<file_name>`。按下载文档用 `tools/restore_coco_manifest.py` 映射到新机器。下载 COCO 原图本身不会自动得到这份实验筛选清单。
-
-上述地址来自上游仓库和本机保留的来源记录；当前环境 DNS 受限，本次未在线确认可访问性或重新下载大文件。历史实验冻结清单仍有外部产物依赖，不能将代码包误认为全部原实验资产的镜像。
-
-## 上传 GitHub
-
-将本文件夹作为仓库根目录；不要再套原 ControlNet 工作区。
-
-```bash
-git init
-git add .
-git commit -m "Add Canny geometry message research snapshot"
-git branch -M main
-git remote add origin https://github.com/YOUR_ACCOUNT/YOUR_REPOSITORY.git
-git push -u origin main
-```
 
 本次仅整理本地目录与 ZIP，没有创建远程仓库或上传。打包文件清单和 SHA-256 校验记录见 `provenance/`。根目录保留原 ControlNet Apache-2.0 文本；MAT 保留其独立的 CC BY-NC 4.0 许可，详见 [第三方说明](THIRD_PARTY_NOTICES.md)。
