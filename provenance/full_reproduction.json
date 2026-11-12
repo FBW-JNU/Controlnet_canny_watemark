@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-12",
+  "status": "passed",
+  "meaning": "Portable frozen historical evaluation reproduced; complete new region-first pilot independently repeated. This is not a claim of completed long-message/MAT research.",
+  "historical": {
+    "unique_generated_RGB": 748,
+    "all_expected_PNG_identical": true,
+    "logical_decode_rows": 732,
+    "expected_decision_mismatches": 0,
+    "expected_metric_mismatches": 0,
+    "summary": {
+      "s1/Fresh24": {
+        "attempts": 192,
+        "correct": 162,
+        "wrong": 8,
+        "erasures": 22,
+        "full_message_accuracy": 0.84375,
+        "bit_correct": 162,
+        "bit_wrong": 8,
+        "bit_erased": 22,
+        "all_attempt_bit_accuracy": 0.84375,
+        "received_bit_error_rate": 0.047058823529411764
+      },
+      "st2/Cal6": {
+        "attempts": 48,
+        "correct": 29,
+        "wrong": 3,
+        "erasures": 16,
+        "full_message_accuracy": 0.6041666666666666,
+        "bit_correct": 61,
+        "bit_wrong": 3,
+        "bit_erased": 32,
+        "all_attempt_bit_accuracy": 0.6354166666666666,
+        "received_bit_error_rate": 0.046875
+      },
+      "st2/Eval12": {
+        "attempts": 96,
+        "correct": 79,
+        "wrong": 5,
+        "erasures": 12,
+        "full_message_accuracy": 0.8229166666666666,
+        "bit_correct": 163,
+        "bit_wrong": 5,
+        "bit_erased": 24,
+        "all_attempt_bit_accuracy": 0.8489583333333334,
+        "received_bit_error_rate": 0.02976190476190476
+      },
+      "stable/clean_stable": {
+        "attempts": 48,
+        "correct": 36,
+        "wrong": 8,
+        "erasures": 4,
+        "full_message_accuracy": 0.75,
+        "bit_correct": 78,
+        "bit_wrong": 10,
+        "bit_erased": 8,
+        "all_attempt_bit_accuracy": 0.8125,
+        "received_bit_error_rate": 0.11363636363636363
+      },
+      "stable/source_only": {
+        "attempts": 48,
+        "correct": 25,
+        "wrong": 9,
+        "erasures": 14,
+        "full_message_accuracy": 0.5208333333333334,
+        "bit_correct": 57,
+        "bit_wrong": 11,
+        "bit_erased": 28,
+        "all_attempt_bit_accuracy": 0.59375,
+        "received_bit_error_rate": 0.16176470588235295
+      }
+    },
+    "quality_rows": 576,
+    "quality_expected_mismatches": 0,
+    "message_quality": {
+      "s1/Fresh24": {
+        "attempts": 192,
+        "passed": 185,
+        "correct_and_passed": 155
+      },
+      "st2/Cal6": {
+        "attempts": 48,
+        "passed": 44,
+        "correct_and_passed": 29
+      },
+      "st2/Eval12": {
+        "attempts": 96,
+        "passed": 92,
+        "correct_and_passed": 77
+      },
+      "stable/clean_stable": {
+        "attempts": 48,
+        "passed": 44,
+        "correct_and_passed": 33
+      },
+      "stable/source_only": {
+        "attempts": 48,
+        "passed": 43,
+        "correct_and_passed": 23
+      }
+    },
+    "Cal4A_reconstruction": "passed"
+  },
+  "region_first": {
+    "contents": {
+      "Cal": {
+        "contents": 6,
+        "with_carrier": 6
+      },
+      "Eval": {
+        "contents": 12,
+        "with_carrier": 12
+      }
+    },
+    "per_run_RGB": 288,
+    "independent_runs": 2,
+    "RGB_pair_comparisons": 288,
+    "calibration_status": "calibrated",
+    "summary": {
+      "region_first/Eval": {
+        "attempts": 96,
+        "correct": 74,
+        "wrong": 8,
+        "erasures": 14,
+        "full_message_accuracy": 0.7708333333333334,
+        "bit_correct": 155,
+        "bit_wrong": 9,
+        "bit_erased": 28,
+        "all_attempt_bit_accuracy": 0.8072916666666666,
+        "received_bit_error_rate": 0.054878048780487805
+      },
+      "region_first_input/Eval": {
+        "attempts": 96,
+        "correct": 75,
+        "wrong": 7,
+        "erasures": 14,
+        "full_message_accuracy": 0.78125,
+        "bit_correct": 157,
+        "bit_wrong": 7,
+        "bit_erased": 28,
+        "all_attempt_bit_accuracy": 0.8177083333333334,
+        "received_bit_error_rate": 0.042682926829268296
+      }
+    },
+    "bootstrap95": {
+      "region_first/Eval": {
+        "full_message": [
+          0.5520833333333334,
+          0.96875
+        ],
+        "bit": [
+          0.6041666666666666,
+          0.9792968749999993
+        ]
+      },
+      "region_first_input/Eval": {
+        "full_message": [
+          0.5520833333333334,
+          0.96875
+        ],
+        "bit": [
+          0.6041666666666666,
+          0.9791666666666666
+        ]
+      }
+    },
+    "quality": {
+      "groups": {
+        "region_first/Eval": {
+          "attempts": 96,
+          "passed": 96
+        }
+      },
+      "limits": {
+        "psnr_db_min": 30,
+        "ssim_min": 0.9,
+        "lpips_alex_max": 0.1,
+        "edge_f1_3x3_min": 0.95
+      },
+      "joint_correct_and_quality": {
+        "region_first/Eval": {
+          "attempts": 96,
+          "passed": 74
+        },
+        "region_first_input/Eval": {
+          "attempts": 96,
+          "passed": 75
+        }
+      }
+    },
+    "complete_chain_replay": "passed"
+  },
+  "limitations": [
+    "Existing compatible environment and two RTX3090; fresh online environment install and cross-hardware bitwise equality not tested.",
+    "Historical frozen evaluation inputs supplied; original candidate discovery and4B training not reconstructed.",
+    "New pilot has12 Eval contents and no paired source-only selection arm; old75% is a different batch and receiver.",
+    "Receiver uses original curve samples and codebooks; mask-only synchronization, multi-carrier ECC and MAT message gains remain unvalidated."
+  ],
+  "GitHub": {
+    "last_readonly_HEAD": "3e5cff817c147665ed4437a6be6107c9b41ed636",
+    "new_files_pushed": false
+  }
+}

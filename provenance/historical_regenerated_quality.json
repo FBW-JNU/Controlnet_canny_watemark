@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "rows": 576,
+  "groups": {
+    "s1/Fresh24": {
+      "attempts": 192,
+      "passed": 185
+    },
+    "st2/Cal6": {
+      "attempts": 96,
+      "passed": 89
+    },
+    "st2/Eval12": {
+      "attempts": 192,
+      "passed": 187
+    },
+    "stable/clean_stable": {
+      "attempts": 48,
+      "passed": 44
+    },
+    "stable/source_only": {
+      "attempts": 48,
+      "passed": 43
+    }
+  },
+  "message_only_groups": {
+    "s1/Fresh24": {
+      "attempts": 192,
+      "passed": 185,
+      "correct_and_passed": 155
+    },
+    "st2/Cal6": {
+      "attempts": 48,
+      "passed": 44,
+      "correct_and_passed": 29
+    },
+    "st2/Eval12": {
+      "attempts": 96,
+      "passed": 92,
+      "correct_and_passed": 77
+    },
+    "stable/clean_stable": {
+      "attempts": 48,
+      "passed": 44,
+      "correct_and_passed": 33
+    },
+    "stable/source_only": {
+      "attempts": 48,
+      "passed": 43,
+      "correct_and_passed": 23
+    }
+  },
+  "limits": {
+    "psnr_db_min": 30,
+    "ssim_min": 0.9,
+    "lpips_alex_max": 0.1,
+    "edge_f1_3x3_min": 0.95
+  },
+  "expected_mismatches": []
+}

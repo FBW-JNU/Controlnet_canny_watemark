@@ -1,0 +1,18 @@
+[
+  {
+    "row_id": "st2/000000347135_c0000_v0_m00",
+    "rgb": "examples/history_receiver_checks/4A.png",
+    "expected": {
+      "accepted": true,
+      "bits": "00"
+    }
+  },
+  {
+    "row_id": "stable/clean_stable_000000004595_v0_m00",
+    "rgb": "examples/history_receiver_checks/4B.png",
+    "expected": {
+      "accepted": true,
+      "bits": "00"
+    }
+  }
+]

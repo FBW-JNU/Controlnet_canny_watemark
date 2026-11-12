@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "Cal_RGB_attempts": 108,
+  "Cal_received": 70,
+  "unique_binary_input_fits": 40,
+  "absolute_tolerance": 1e-10,
+  "mismatches": {},
+  "reconstructed_model": {
+    "A": [
+      [
+        0.8387846990875824,
+        0.056287960950677
+      ],
+      [
+        0.046658410765815034,
+        0.6753016698632839
+      ]
+    ],
+    "intercept": [
+      0.11159604873567905,
+      0.006231793895350946
+    ],
+    "cal_received": 70,
+    "cal_attempts": 108,
+    "residual_covariance": [
+      [
+        0.06060177501536193,
+        0.009942958078498912
+      ],
+      [
+        0.009942958078498914,
+        0.0841866058836403
+      ]
+    ],
+    "marked_covariance": [
+      [
+        0.08649699378943229,
+        0.017256970169495445
+      ],
+      [
+        0.01725697016949545,
+        0.08623293591173
+      ]
+    ],
+    "clean_residual_mean": [
+      -0.10171784846819137,
+      -0.022225783261109584
+    ],
+    "clean_covariance": [
+      [
+        0.039697344065602165,
+        -0.0012387397936670843
+      ],
+      [
+        -0.0012387397936670843,
+        0.06222082636771123
+      ]
+    ],
+    "condition": 1.2925169458275085,
+    "presence_threshold95": 0.12168601509583521
+  },
+  "scope": "4A Auto channel and presence parameters from Cal-only observations; no Eval fitting, original content discovery or 4B training reconstruction."
+}

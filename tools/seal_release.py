@@ -31,6 +31,7 @@ def main():
     runs=[]
     for command in [[sys.executable,'tools/smoke_check.py'],
                     [sys.executable,'tools/check_stability.py'],
+                    [sys.executable,'tools/check_benchmark.py'],
                     [sys.executable,'tools/check_environment.py','--generation']]:
         r=subprocess.run(command,cwd=ROOT,env=env,capture_output=True,text=True,check=True)
         runs.append(dict(command=' '.join(['python']+command[1:]),
@@ -50,15 +51,16 @@ def main():
     validation=dict(date='2026-11-12',status='passed',python=platform.python_version(),
         checks=runs,python_files_compiled=count,documentation_links='passed',
         exported_source_hashes='passed',
-        GPU_generation=json.loads((ROOT/'provenance/minimal_gpu_validation.json').read_text())['status'],
-        GPU_scope='Three historical PNGs; see minimal_gpu_validation.json; no full batch',training='not run',
+        independent_directory_runtime=json.loads((ROOT/'provenance/portable_snapshot_validation.json').read_text())['status'],
+        GPU_generation=json.loads((ROOT/'provenance/full_reproduction.json').read_text())['status'],
+        GPU_scope='Historical748 PNGs and two independent288-image region-first runs; see full_reproduction.json',training='No neural training; historical4A and new Cal channel models reconstructed',
         fresh_environment_install='not run; local compatible environment used')
     (ROOT/'provenance/validation.json').write_text(json.dumps(validation,ensure_ascii=False,indent=2)+'\n')
     files={str(p.relative_to(ROOT)):sha(p) for p in sorted(ROOT.rglob('*'))
            if included(p) and p!=ROOT/'provenance/bundle_files.json'}
     (ROOT/'provenance/bundle_files.json').write_text(json.dumps(files,indent=2)+'\n')
     subprocess.run([sys.executable,'tools/verify_bundle.py'],cwd=ROOT,env=env,check=True)
-    archive=ROOT.parent/(ROOT.name+'_20261112.zip')
+    archive=ROOT.parent/(ROOT.name+'_repro_20261112.zip')
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for p in sorted(ROOT.rglob('*')):
             if included(p):z.write(p,arcname=ROOT.name+'/'+str(p.relative_to(ROOT)))

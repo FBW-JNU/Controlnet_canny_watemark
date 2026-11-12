@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "RGB_compared": 288,
+  "differences": [],
+  "expected_sha256": "210027b6f2d36b1e3314dc0bc6f05a29aa6b651bcc949b94af04eaa39c890d67",
+  "scope": "Compare raw input hashes, selected reference, Cal-only model, every generated RGB, Eval decisions, metrics and quality gates with published result."
+}

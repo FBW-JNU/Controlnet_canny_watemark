@@ -100,6 +100,25 @@ def make_reference(edge, samples, mode='s1', mask=None, calibration=None):
     return images,mask,ref
 
 
+def choose_stable_carrier(edge, candidates, mode='st2'):
+    """First length-ranked stable candidate with actual raster closure; no RGB labels."""
+    if candidates.get('policy',{}).get('version')!='region_first_v1':
+        raise ValueError('Run region-first stability screening before selection.')
+    rejected=[]
+    for candidate in candidates['candidates']:
+        if not candidate['stable_eligible']:continue
+        mask=mask_for(edge,candidate['samples'])
+        if candidates.get('roi') is not None:
+            x0,y0,x1,y1=candidates['roi'];valid=np.zeros_like(mask)
+            valid[y0:y1,x0:x1]=True;mask&=valid
+        try:images,mask,reference=make_reference(edge,candidate['samples'],mode,mask)
+        except ValueError as exc:
+            rejected.append(dict(curve_index=candidate['curve_index'],reason=str(exc)))
+            continue
+        return dict(candidate=candidate,images=images,mask=mask,reference=reference,rejected=rejected)
+    return dict(candidate=None,images=None,mask=None,reference=None,rejected=rejected)
+
+
 def decode_observation(reference, observation):
     if not observation.get('accepted'):
         return dict(accepted=False,bits=None,reason=observation.get('reason','geometry_rejected'))

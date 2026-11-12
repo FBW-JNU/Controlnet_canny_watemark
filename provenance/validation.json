@@ -29,7 +29,24 @@
           "Reject low survival and inconsistent drift",
           "Keep five-of-six support",
           "Handle empty output edges",
-          "Persist screened edges and support maps"
+          "Persist screened edges and support maps",
+          "Apply ROI before extracting stable curves"
+        ]
+      }
+    },
+    {
+      "command": "python tools/check_benchmark.py",
+      "exit_code": 0,
+      "output": {
+        "status": "passed",
+        "checks": [
+          "Real 4A RGB message equals historical decision",
+          "Real 4B RGB message equals historical decision",
+          "4B empty output is an erasure",
+          "Portable manifest verifies outside research tree",
+          "Tampered binary input rejected",
+          "Unsupported channel settings rejected",
+          "Unfrozen generation inputs rejected"
         ]
       }
     },
@@ -87,11 +104,12 @@
       }
     }
   ],
-  "python_files_compiled": 63,
+  "python_files_compiled": 73,
   "documentation_links": "passed",
   "exported_source_hashes": "passed",
+  "independent_directory_runtime": "passed",
   "GPU_generation": "passed",
-  "GPU_scope": "Three historical PNGs; see minimal_gpu_validation.json; no full batch",
-  "training": "not run",
+  "GPU_scope": "Historical748 PNGs and two independent288-image region-first runs; see full_reproduction.json",
+  "training": "No neural training; historical4A and new Cal channel models reconstructed",
   "fresh_environment_install": "not run; local compatible environment used"
 }

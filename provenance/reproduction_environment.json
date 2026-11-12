@@ -1,0 +1,32 @@
+{
+  "python": "3.9.23",
+  "packages": {
+    "torch": "2.0.1+cu118",
+    "torchvision": "0.15.2+cu118",
+    "pytorch-lightning": "1.5.0",
+    "transformers": "4.19.2",
+    "open-clip-torch": "2.0.2",
+    "numpy": "1.24.4",
+    "scipy": "1.13.1",
+    "opencv-python": "4.11.0.86",
+    "Pillow": "11.3.0",
+    "scikit-image": "0.24.0",
+    "lpips": "0.1.4",
+    "omegaconf": "2.3.1",
+    "einops": "0.8.2",
+    "timm": "0.6.12",
+    "torchmetrics": "0.6.0",
+    "kornia": "0.6.0",
+    "safetensors": "0.7.0"
+  },
+  "scope": "Existing compatible environment used for actual GPU generation and CPU decoding/quality; fresh installation not tested.",
+  "gpu": "2 x NVIDIA GeForce RTX 3090 24GiB",
+  "driver": "545.29.06",
+  "determinism": {
+    "torch_deterministic_algorithms": true,
+    "cublas_workspace_config": ":4096:8",
+    "tf32": false,
+    "cudnn_benchmark": false,
+    "CPU_initial_noise": true
+  }
+}

@@ -12,7 +12,7 @@
       "local_path": "models/control_sd15_canny.pth",
       "bytes": 5710753329,
       "sha256": "4de384b16bc2d7a1fb258ca0cbd941d7dd0a721ae996aff89f905299d6923f45",
-      "hash_source": "frozen experiment protocols; not rehashed in this addendum"
+      "hash_source": "Full checkpoint rehashed by every independent generation worker before model load."
     },
     {
       "id": "clip",
@@ -54,9 +54,10 @@
         "pytorch_model.bin": {
           "bytes": 1710671599,
           "sha256": "f1a17cdbe0f36fec524f5cafb1c261ea3bbbc13e346e0f74fc9eb0460dedd0d3",
-          "hash_source": "Git LFS pointer at local upstream revision; large file not rehashed in this addendum"
+          "hash_source": "Full local file rehashed 2026-11-12; equals upstream Git LFS pointer."
         }
-      }
+      },
+      "verification": "All eight local files SHA-256 verified 2026-11-12, including full pytorch_model.bin."
     },
     {
       "id": "coco_train2017",

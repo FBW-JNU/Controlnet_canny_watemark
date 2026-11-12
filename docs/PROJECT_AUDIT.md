@@ -1,34 +1,22 @@
-# 精简版检查：2026-11-12
+# 本地交付版检查：2026-11-12
 
-这是本地交付版检查，尚未推送到GitHub。上次线上核验为commit `b68e943b409a24eece9652d391f5185364b49783`，262文件；`provenance/github_audit.json`只记录该旧版，不代表线上已有本次更改。
+本次新增冻结批次复现，不改原工作区脚本、历史输出或权重。当前GitHub仓库不会自动获得这些新增文件；本次代码ZIP与线上版本的差异见交付说明。
 
-## 已完成的精简与验证
+## 精简范围
 
-- 删除`research_snapshot`全部56文件、ROBIN四文件、无关ControlNet备用/深度/退化/其他采样器代码、MAT训练/指标入口、冗余历史诊断证据。具体删除列表见 [simplification.json](../provenance/simplification.json)。
-- 当前生成封装仅保留普通ControlNet步骤。真实GPU重新生成随包clean/bit0/bit1，**三张PNG逐字节一致**，解码系数和消息一致，见 [GPU验证](../provenance/minimal_gpu_validation.json)。
-- CPU历史三状态输入/接收/指标汇总回归通过；新稳定模块的顺序、缺失视图、漂移及持久化回归通过。打包最终检查见 [validation.json](../provenance/validation.json)。
-- 可选MAT为独立普通领域修复入口；严格加载领域checkpoint及原协议，验证范围见 [MAT验证](../provenance/minimal_mat_validation.json)。无消息约束优化或RGB收益声明。
-- 权重、数据下载地址保留在 [DOWNLOADS](DOWNLOADS.md)；原MAT Release不变，不重新拆分/上传。
+历史脚本快照、ROBIN四文件、FFT/adapter、无关ControlNet分支和MAT训练入口继续移除。普通ControlNet所需上游网络及可选MAT推理依赖保留。原删除清单见[simplification.json](../provenance/simplification.json)。新增`benchmarks`是重建结果必需的输入与协议，未包含完整COCO、模型权重或整批RGB。
 
-## 新“先筛区域、再提曲线”开发检查
+## 整批复现检查
 
-复用6个既有Cal内容的36张历史clean探测图，先筛原边缘像素，随后才提有序曲线、复核整段并检查实际ST2输入闭环：
+- 历史S1、4A及旧稳定选择评测已迁移到相对路径清单和独立接收器。生成仅使用条件、prompt/seed及固定模型；预期哈希和消息标签只用于评价。
+- 原历史RGB另做独立解码、质量和4A Cal重建，见[历史资产审计](../provenance/historical_original_audit.json)。实际重生成的数量、比对结果及新流程评价见[复现验收](REPRODUCTION_RESULT.md)与[机器可读证据](../provenance/full_reproduction.json)。
+- 新流程固定6 Cal+12 Eval：先原E的clean探测，像素筛选后才提曲线；全部选择先冻结，Cal校准先于Eval生成。无载体计擦除且保留分母。独立重复从同一原始E重新运行。
+- CPU回归覆盖真实4A/4B RGB接收、空观测擦除、输入篡改拒绝、通道配置校验、区域筛选顺序与ROI；最终打包检查见[validation.json](../provenance/validation.json)。
 
-| COCO内容ID | 原边缘像素 | 稳定像素 | 提取曲线 | 整段复核通过 | ST2输入闭环通过 |
-|---|---:|---:|---:|---:|---:|
-| 4595 | 12486 | 10814 | 77 | 47 | 45 |
-| 102306 | 34839 | 28706 | 110 | 54 | 34 |
-| 149157 | 14127 | 7016 | 34 | 25 | 21 |
-| 275339 | 23966 | 16017 | 88 | 36 | 29 |
-| 379022 | 29331 | 19711 | 104 | 48 | 30 |
-| 564879 | 48813 | 13202 | 30 | 9 | 4 |
+## 复现与研究效果的边界
 
-六个内容都找到可写候选；这只是开发可运行性，非全新内容可编码率估计，也非消息恢复率。原36张RGB位于原工作区，不额外打包；随包记录见 [region_first_validation.json](../provenance/region_first_validation.json)。`select`也已在实际筛选结果上执行并通过。
+冻结评测的重建、完整流程的重复和消息恢复准确率分别验收，不能互相替代。历史75%只属于旧“先提曲线再筛”的六Cal内容和4B参考接收器。新流程使用独立内容与重新校准的S/4A接收器，不能把新旧数字差异直接归因于筛选顺序。
 
-## 为什么仍不能称历史整批完整复现
+可选MAT仍是普通修复推理；消息约束优化、多载体长消息、RM/RS实图纠错、仅Mask可靠恢复尚未交付。没有验证空环境在线安装、所有硬件数值一致或MAT从零重训。
 
-旧代码依赖历史outputs中的selection、曲线samples、码本、ROI、Cal模型、生成计划/噪声及父冻结清单。上一版只放报告/汇总及少量输入，甚至旧脚本`--help`也会因为导入时读取缺失协议而失败。下载ControlNet、COCO和MAT推理权重不能补齐这些实验状态。
-
-现在可运行的是独立主线；75%只能从历史判决重算，不能冒充整批重新生成。新筛选顺序还更换了选择分布，且轻量S/4A接收器不等于旧稳定实验的4B SourceRef。下一步需冻结新协议、补独立内容与留出prompt/seed、重新校准并生成RGB评测。空环境安装、完整历史批次重跑、多载体长消息/RM/RS实图纠错、仅Mask可靠恢复均未完成。
-
-更新已有GitHub仓库必须同步删除旧文件，见 [UPDATE_GITHUB](UPDATE_GITHUB.md)。只覆盖上传不会实现线上精简。
+权重和数据地址见[DOWNLOADS](DOWNLOADS.md)。原MAT Release独立权重ZIP保持不变。运行命令见[REPRODUCIBILITY](REPRODUCIBILITY.md)。

@@ -37,6 +37,13 @@ with tempfile.TemporaryDirectory(prefix='canny-screen-test-') as tmp:
     assert len(calls)==1 and result['stable_pixels']==80
     assert np.array_equal(np.asarray(Image.open(d/result['stable_edges'])),stable)
     with np.load(d/result['maps']) as maps:assert np.array_equal(maps['support_count'],support)
+    roi=[25,30,95,60];expected=np.zeros_like(stable);expected[30:60,25:95]=stable[30:60,25:95]
+    def roi_source(value,thresholds):
+        assert np.array_equal(value,expected), 'ROI must restrict stable pixels before extracting curves'
+        return original(value,thresholds)
+    with patch.object(stability.cv2,'Canny',side_effect=outputs),patch.object(stability.matcher,'source_curves',side_effect=roi_source):
+        cropped=stability.probe(d/'E.png',d/'plan.json',d/'roi.json',roi)
+    assert cropped['roi']==roi and np.array_equal(np.asarray(Image.open(d/cropped['stable_edges'])),expected)
 print(json.dumps(dict(status='passed',checks=['Screen pixels before first source curve extraction',
  'Reject low survival and inconsistent drift','Keep five-of-six support','Handle empty output edges',
- 'Persist screened edges and support maps']),indent=2))
+ 'Persist screened edges and support maps','Apply ROI before extracting stable curves']),indent=2))

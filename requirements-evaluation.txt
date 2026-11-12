@@ -1,0 +1,4 @@
+# Optional image-quality verification of fixed experiments; install torch separately.
+-r requirements-cpu.txt
+lpips==0.1.4
+scikit-image==0.24.0

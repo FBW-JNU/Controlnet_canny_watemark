@@ -29,3 +29,11 @@ git push
 ```
 
 若坚持网页分批上传，需在GitHub上手动删除清单中的旧目录/文件；新版文件上传后检查顶层仍有`canny_geometry`、`vendor`、`configs`等代码目录。代码ZIP不应解压进MAT Release；MAT Release继续保留独立权重ZIP。
+
+## 本次整批复现更新
+
+核对时线上HEAD仍为`3e5cff817c147665ed4437a6be6107c9b41ed636`，它没有本次新增的`benchmarks/`、整批运行器和验收报告。新代码ZIP名为`canny-geometry-watermark_repro_20261112.zip`；旧的`_20261112.zip`不是这次复现版。
+
+解压后将文件夹**内部内容**复制到仓库根目录。同步新增`benchmarks/`、`canny_geometry`中的批次模块、`tools/run_reproduction.py`与比较工具，以及全部更新的README/docs/provenance（尤其`bundle_files.json`）。本次没有再引入ROBIN，不需要替换MAT Release或上传本地`runs/`。
+
+本次相对精简119文件版主要是新增/修改；上述历史删除脚本仅适用于仍残留旧文件的仓库。上传完成后运行`python tools/verify_bundle.py`核验完整性。

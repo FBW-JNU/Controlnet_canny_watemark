@@ -61,7 +61,7 @@ def screen_pixels(edge, observed_edges, plan):
     return stable,support,drift
 
 
-def probe(canny_path,plan_path,out_path):
+def probe(canny_path,plan_path,out_path,roi=None):
     canny_path=Path(canny_path);plan_path=Path(plan_path).resolve();out_path=Path(out_path)
     edge=validate_edge(np.asarray(Image.open(canny_path).convert('L')))
     plan=json.loads(plan_path.read_text());groups=validate_plan(plan)
@@ -74,6 +74,12 @@ def probe(canny_path,plan_path,out_path):
         observed.append(cv2.Canny(image,100,200))
         records.append(dict(row,rgb_sha256=hashlib.sha256(path.read_bytes()).hexdigest()))
     stable,support,drift=screen_pixels(edge,observed,plan)
+    if roi is not None:
+        x0,y0,x1,y1=map(int,roi)
+        if not (0<=x0<x1<=edge.shape[1] and 0<=y0<y1<=edge.shape[0]):
+            raise ValueError('ROI must be inside the original Canny.')
+        valid=np.zeros_like(stable,bool);valid[y0:y1,x0:x1]=True
+        stable[~valid]=0
     # This is the FIRST source curve extraction in this workflow.
     curves=matcher.source_curves(stable,THRESHOLDS)[0]
     targets=[matcher.skeleton_graph(e) for e in observed];rows=[]
@@ -96,7 +102,7 @@ def probe(canny_path,plan_path,out_path):
     result=dict(canny_sha256=sha,policy=POLICY,
         order=['original_Canny','clean_prompt_seed_probes','pixel_stability_screen',
                'ordered_curve_extraction','whole_curve_verification','input_writability_check_pending'],
-        stable_edges=mask_path.name,maps=maps_path.name,source_pixels=int((edge>0).sum()),
+        stable_edges=mask_path.name,maps=maps_path.name,roi=roi,source_pixels=int((edge>0).sum()),
         stable_pixels=int((stable>0).sum()),probe_plan=records,
         eligible=sum(r['stable_eligible'] for r in rows),candidates=rows,
         limitation='Proximity proxy plus graph verification; no semantic guarantee or validated RGB message accuracy.')

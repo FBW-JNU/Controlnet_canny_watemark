@@ -1,6 +1,6 @@
 # 权重、COCO 与实验资产下载
 
-以下命令从**本代码包根目录**运行。CPU `demo` 和 `metrics` 无需任何模型或完整数据集；新 RGB 生成需要 ControlNet 和 CLIP；恢复批量内容还需 COCO。MAT 是可选分支。
+以下命令从**本代码包根目录**运行。CPU `demo` 和 `metrics` 无需任何模型或完整数据集；新 RGB 生成需要 ControlNet 和 CLIP；重新选取COCO内容或从照片重建Canny时还需 COCO。MAT 是可选分支。
 
 代码 ZIP 不内置数 GB 的公开权重或完整数据集。下载链接来自官方发布页或本机保留的上游实现。后续检查确认COCO主数据/标注、MAT基础和领域权重地址响应HTTP200；HuggingFace请求连接被重置，未判断其失效，也未重新下载大文件。机器可读的来源、文件大小和已知校验值见 [external_assets.json](../provenance/external_assets.json)。
 
@@ -157,7 +157,7 @@ python -m canny_geometry decode --reference examples/reference_1bit.json \
   --rgb runs/generated/bit1.png --out runs/generated_bit1.json
 ```
 
-这个命令已在独立GitHub源码快照目录、现有环境及本地权重下执行GPU验证：随包1bit的三张PNG及解码与历史示例一致。没有验证全新环境安装或完整批量性能。完全重跑历史冻结脚本仍需恢复其旧输出依赖、目录与ROI；COCO和权重下载齐全不代表所有旧实验能直接一键重放。
+这个命令已在独立源码目录、现有环境及本地权重下执行GPU验证。整批复现另用随包`benchmarks/history`冻结输入和独立接收器，不需要旧outputs或完整COCO；新流程18张原始Canny也已随包。批次命令与实测证据见[复现文档](REPRODUCIBILITY.md)和[验收报告](REPRODUCTION_RESULT.md)。全新环境在线安装仍未验证。
 
 ## 7. 完整质量评价所需 LPIPS / AlexNet
 
@@ -175,8 +175,8 @@ curl -fL --retry 3 -C - \
   -o "$TORCH_HOME/hub/checkpoints/alexnet-owt-7be5be79.pth"
 ```
 
-URL和文件名来自当前torchvision的AlexNet权重定义；本次未重新下载此权重、未重跑全部质量评估。HED/PiDiNet教师权重和完整训练数据仍需额外交付才能从零重训MAT，当前声明的复现范围不包括该层级。
+URL和文件名来自当前torchvision的AlexNet权重定义；本次使用本地缓存完成整批质量核对，未重新下载此权重。HED/PiDiNet教师权重和完整训练数据仍需额外交付才能从零重训MAT，当前声明的复现范围不包括该层级。
 
 ## 精简版说明
 
-本版普通MAT推理入口为`python -m canny_geometry.mat_repair`，直接加载领域checkpoint，无需额外Places初始化权重。Canny native冻结阈值为0.1，PiDiNet soft native/refined为0.45000000000000007；协议与structure严格核对。消息约束W+旧实验未移植。以上原目录布局仅供历史定位，精简CLI可显式指定资产任意解压位置，见[复现文档](REPRODUCIBILITY.md)。历史整批结果仍缺实验状态，公开下载地址齐全不等于整批可复现。
+本版普通MAT推理入口为`python -m canny_geometry.mat_repair`，直接加载领域checkpoint，无需额外Places初始化权重。Canny native冻结阈值为0.1，PiDiNet soft native/refined为0.45000000000000007；协议与structure严格核对。消息约束W+旧实验未移植。以上原目录布局仅供历史定位，精简CLI可显式指定资产任意解压位置，见[复现文档](REPRODUCIBILITY.md)。本次补齐的历史消息评测输入闭包见`benchmarks/history`；MAT从零训练和旧消息约束优化仍不在该闭包范围。

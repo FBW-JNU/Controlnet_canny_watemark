@@ -593,6 +593,44 @@
         "distance_feature"
       ],
       "transformation": "Retain architecture/forward; new checkpoint/protocol loading and repair CLI; no training or message optimizer"
+    },
+    {
+      "source": "curve_partial_st_stage4b.py",
+      "source_sha256": "1443298870e35ed19a194009ace911f6072dc1014b3f3b253455e7115c1aaead",
+      "destination": "canny_geometry/historical_receiver.py",
+      "exported_sha256": "6fc902df4830a0c209fed55db6bb96805ac0655bb6eea21b853b9fcd0ce16bcd",
+      "extracted_symbols": [
+        "information",
+        "gate_one",
+        "select",
+        "features",
+        "gaussian_log",
+        "decode"
+      ],
+      "transformation": "Original numerical functions retained; zero-loss SourceRef target reconstructed without old import dependencies."
+    },
+    {
+      "source": "carrier_screen/common.py",
+      "source_sha256": "b36272337412b4f62c336ace7a2dd06a0d3b4453c1971f4d17d28087b01f3297",
+      "destination": "canny_geometry/quality.py",
+      "exported_sha256": "ecf4e4aca978cc4fff42a0c8a665780399f6aa0c431de5d3f34aa5838d8daf6a",
+      "extracted_symbols": [
+        "edge_f1",
+        "pixel_metrics"
+      ],
+      "transformation": "Metric numerical functions unchanged; portable paired quality evaluator and original frozen gates."
+    },
+    {
+      "source": "curve_single_2bit_stage4a.py",
+      "source_sha256": "02c4397016c605f4c84be529382306490cf8e137454c7cdb65735b23c5028970",
+      "destination": "canny_geometry/historical_calibration.py",
+      "exported_sha256": "d75afbf1e9440093e4f79f539e5dc319a788f908dd205442de759a02601e77d3",
+      "extracted_symbols": [
+        "calibrate",
+        "covariance",
+        "infer"
+      ],
+      "transformation": "Portable Auto-only Cal reconstruction from actual input fits and decoded RGB; validates all frozen parameters."
     }
   ]
 }

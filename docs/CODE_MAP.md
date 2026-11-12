@@ -11,6 +11,12 @@
 | `canny_geometry/geometry.py`、`raster.py` | 规范方向/法向与实际二值像素移动 |
 | `canny_geometry/observations.py`、`receiver.py` | 输出局部对应、联合拟合、S/4A判决与软信息 |
 | `canny_geometry/mat_repair.py` | 独立可选普通领域MAT修复，支持native/refined及PiDiNet转换；无消息优化 |
+| `canny_geometry/channel.py`、`benchmark.py` | 复用普通ControlNet，冻结整批输入、重生成、独立解码与输入核对 |
+| `canny_geometry/historical_receiver.py`、`historical_calibration.py` | 精确历史4B接收器，4A Cal模型重建 |
+| `canny_geometry/research.py`、`quality.py` | 新流程prepare/select/calibrate/report及配对质量四指标 |
+| `tools/compare_reproduction.py`、`diagnose_reproduction.py` | 与公布金标准比对；失败消息与配对clean的路径/门槛诊断 |
+| `tools/run_reproduction.py` | 历史整批或新流程完整运行、独立重复比较 |
+| `benchmarks/` | 相对路径冻结输入、计划、参考及新协议 |
 | `configs/cldm_v15.yaml` | 当前SD1.5 Canny模型结构 |
 | `vendor/controlnet/cldm/`、`ldm/` | 当前生成配置所需网络、VAE、CLIP与DDIM依赖 |
 | `vendor/MAT/` | MAT推理网络和StyleGAN算子依赖；保留原许可证/内核源码 |
@@ -19,6 +25,6 @@
 | `tools/restore_coco_manifest.py` | 将随包normal总体清单映射到新机器 |
 | `tools/seal_release.py`、`verify_bundle.py` | 发布检查、逐文件哈希和代码ZIP |
 
-数值函数来源见 [source_manifest.json](../provenance/source_manifest.json)；移除文件列表见 [simplification.json](../provenance/simplification.json)。原研究工作区未改动。此包不再交付依赖历史outputs的原批量脚本，不宣称其历史整批结果可一键重放。
+数值函数来源见 [source_manifest.json](../provenance/source_manifest.json)；移除文件列表见 [simplification.json](../provenance/simplification.json)。原研究工作区未改动。此包不再交付依赖历史outputs的原批量脚本；冻结评测已移植为独立benchmark入口，范围见复现文档。
 
 普通MAT保留为后续分支的推理基础，不代表旧W+消息约束实验已迁移。主线接收器与旧稳定实验的4B SourceRef也须区分，见 [复现范围](REPRODUCIBILITY.md)。

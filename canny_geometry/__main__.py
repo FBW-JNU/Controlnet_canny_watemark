@@ -42,6 +42,7 @@ def main():
     m.add_argument('--records',default='evidence/stable_carrier_decisions.json');m.add_argument('--out')
     q=sub.add_parser('probe',help='Screen pixel stability first, then extract ordered source curves')
     q.add_argument('--canny',required=True);q.add_argument('--plan',required=True);q.add_argument('--out',required=True)
+    q.add_argument('--roi',nargs=4,type=int,help='Optional x0 y0 x1 y1 valid region; applied before source curve extraction')
     pg=sub.add_parser('probe-generate',help='Generate six clean probes from the original Canny, loading the model once')
     pg.add_argument('--canny',required=True);pg.add_argument('--plan',required=True)
     pg.add_argument('--checkpoint',required=True);pg.add_argument('--clip',required=True)
@@ -88,7 +89,7 @@ def main():
         print(json.dumps(result,indent=2))
     elif a.command=='probe':
         from .stability import probe
-        result=probe(a.canny,a.plan,a.out)
+        result=probe(a.canny,a.plan,a.out,a.roi)
         print(f'{result["stable_pixels"]}/{result["source_pixels"]} stable source pixels; '
               f'{result["eligible"]}/{len(result["candidates"])} verified curve candidates')
     elif a.command=='select':
@@ -99,23 +100,18 @@ def main():
             raise ValueError('Original Canny hash differs from screening input.')
         out=Path(a.out)
         if out.exists():raise FileExistsError('Choose a new output directory.')
-        rejected=[]
-        for c in candidates['candidates']:
-            if not c['stable_eligible']:continue
-            try:images,mask,ref=make_reference(edge,c['samples'],a.mode)
-            except ValueError as exc:
-                rejected.append(dict(curve_index=c['curve_index'],reason=str(exc)));continue
-            out.mkdir(parents=True)
-            for word,img in images.items():Image.fromarray(img).save(out/f'{word}.png')
-            Image.fromarray(mask.astype('uint8')*255).save(out/'mask.png')
-            dump(out/'reference.json',ref)
-            dump(out/'selection.json',dict(policy=candidates['policy'],selected=c,
-                rejected=rejected,canny_sha256=candidates['canny_sha256'],
-                calibration_scope=ref['calibration_scope']))
-            print(f'Selected curve {c["curve_index"]}; input closure passed; RGB calibration unvalidated')
-            break
-        else:
-            raise ValueError(f'No writable verified stable curve; no carrier selected. Rejections: {rejected}')
+        from .api import choose_stable_carrier
+        selected=choose_stable_carrier(edge,candidates,a.mode)
+        if selected['candidate'] is None:
+            raise ValueError(f'No writable verified stable curve; rejections: {selected["rejected"]}')
+        out.mkdir(parents=True)
+        for word,img in selected['images'].items():Image.fromarray(img).save(out/f'{word}.png')
+        Image.fromarray(selected['mask'].astype('uint8')*255).save(out/'mask.png')
+        dump(out/'reference.json',selected['reference'])
+        dump(out/'selection.json',dict(policy=candidates['policy'],selected=selected['candidate'],
+            rejected=selected['rejected'],canny_sha256=candidates['canny_sha256'],
+            calibration_scope=selected['reference']['calibration_scope']))
+        print(f'Selected curve {selected["candidate"]["curve_index"]}; input closure passed; RGB calibration unvalidated')
     elif a.command in ['generate','probe-generate']:
         from .generation import generate
         generate(a)

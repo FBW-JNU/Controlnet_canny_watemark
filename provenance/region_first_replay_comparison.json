@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "RGB_compared": 288,
+  "differences": [],
+  "selection_samples_codebooks_conditions_calibration_decisions_compared": true,
+  "scope": "Independent complete rerun from raw Canny, clean probes and fixed protocol; timestamp and path metadata excluded."
+}

@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "command": "smoke_check",
+      "result": {
+        "status": "passed",
+        "checks": [
+          "Three real condition PNGs reproduced byte-for-byte as image arrays",
+          "Encoder mask exterior unchanged",
+          "Three real RGB observations, messages and frozen affine scores reproduced",
+          "Empty RGB returns an erasure",
+          "All six stable-comparison method/policy aggregates equal archived summary",
+          "Message bit counts 57/96 and 78/96 reproduced"
+        ],
+        "scope": "CPU replay and packaging integration only; no new GPU generation or model training"
+      }
+    },
+    {
+      "command": "check_stability",
+      "result": {
+        "status": "passed",
+        "checks": [
+          "Screen pixels before first source curve extraction",
+          "Reject low survival and inconsistent drift",
+          "Keep five-of-six support",
+          "Handle empty output edges",
+          "Persist screened edges and support maps",
+          "Apply ROI before extracting stable curves"
+        ]
+      }
+    },
+    {
+      "command": "check_benchmark",
+      "result": {
+        "status": "passed",
+        "checks": [
+          "Real 4A RGB message equals historical decision",
+          "Real 4B RGB message equals historical decision",
+          "4B empty output is an erasure",
+          "Portable manifest verifies outside research tree",
+          "Tampered binary input rejected",
+          "Unsupported channel settings rejected",
+          "Unfrozen generation inputs rejected"
+        ]
+      }
+    }
+  ],
+  "GPU": {
+    "PNG_identical": 3,
+    "decoded_rows": 3,
+    "decision_mismatches": 0
+  },
+  "scope": "Independent /tmp copy; PYTHONPATH removed; no old outputs/working-directory source used. Existing compatible environment and local weight paths retained.",
+  "audit_directory": "/tmp/canny-repro-portable-owoix77j"
+}
