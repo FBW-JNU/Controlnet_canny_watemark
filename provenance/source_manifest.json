@@ -1,0 +1,598 @@
+{
+  "date": "2026-11-12",
+  "controlnet_upstream": "https://github.com/lllyasviel/ControlNet",
+  "workspace_git_head": "ed85cd1e25a5ed592f7d8178495b4483de0331bf",
+  "note": "Minimal active implementation. Original research workspace is unchanged; historical scripts are not shipped. See simplification.json.",
+  "records": [
+    {
+      "source": "cldm/cldm.py",
+      "destination": "vendor/controlnet/cldm/cldm.py",
+      "source_sha256": "3162882453337d50c1db97c4e946f75659a1269b91fbc1c1ef3c99ecc8e78381",
+      "exported_sha256": "3162882453337d50c1db97c4e946f75659a1269b91fbc1c1ef3c99ecc8e78381",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "cldm/ddim_hacked.py",
+      "destination": "vendor/controlnet/cldm/ddim_hacked.py",
+      "source_sha256": "d9d9da585d7919d285348ce235c0d4aa28bedf573c9b0c14a09f182b0462242e",
+      "exported_sha256": "d9d9da585d7919d285348ce235c0d4aa28bedf573c9b0c14a09f182b0462242e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "cldm/hack.py",
+      "destination": "vendor/controlnet/cldm/hack.py",
+      "source_sha256": "21984acd5cf3f1d61620f7abf42164ecb4e14025086a15f9801dc6205e07fe63",
+      "exported_sha256": "21984acd5cf3f1d61620f7abf42164ecb4e14025086a15f9801dc6205e07fe63",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "cldm/model.py",
+      "destination": "vendor/controlnet/cldm/model.py",
+      "source_sha256": "d6505ff713cded0b7db34f403d7684df08d07574213ce16e7c89585f6453a0ca",
+      "exported_sha256": "d6505ff713cded0b7db34f403d7684df08d07574213ce16e7c89585f6453a0ca",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/models/autoencoder.py",
+      "destination": "vendor/controlnet/ldm/models/autoencoder.py",
+      "source_sha256": "5bc707f121192bf2dfcb19d8e643a23997819527552f40ca3584c07324cc7e00",
+      "exported_sha256": "5bc707f121192bf2dfcb19d8e643a23997819527552f40ca3584c07324cc7e00",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/models/diffusion/__init__.py",
+      "destination": "vendor/controlnet/ldm/models/diffusion/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/models/diffusion/ddim.py",
+      "destination": "vendor/controlnet/ldm/models/diffusion/ddim.py",
+      "source_sha256": "dcca2fc906fe73986f8708acb20b96313e05057e2843621bdc90bef33a92ee05",
+      "exported_sha256": "dcca2fc906fe73986f8708acb20b96313e05057e2843621bdc90bef33a92ee05",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/models/diffusion/ddpm.py",
+      "destination": "vendor/controlnet/ldm/models/diffusion/ddpm.py",
+      "source_sha256": "986e42d852f0ee035c785cfe2a22594820c41b1e0c03b93d83a8e6512d72e2ca",
+      "exported_sha256": "986e42d852f0ee035c785cfe2a22594820c41b1e0c03b93d83a8e6512d72e2ca",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/modules/attention.py",
+      "destination": "vendor/controlnet/ldm/modules/attention.py",
+      "source_sha256": "1771cc4f4e63f15de02ba4557d7f87e3109a8685cff6505c111d5d5a02486bd5",
+      "exported_sha256": "1771cc4f4e63f15de02ba4557d7f87e3109a8685cff6505c111d5d5a02486bd5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/modules/diffusionmodules/__init__.py",
+      "destination": "vendor/controlnet/ldm/modules/diffusionmodules/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/modules/diffusionmodules/model.py",
+      "destination": "vendor/controlnet/ldm/modules/diffusionmodules/model.py",
+      "source_sha256": "d423172d8e0101bca66e26febb9be8e684e4c48caf3505280fb65df01ba928fc",
+      "exported_sha256": "d423172d8e0101bca66e26febb9be8e684e4c48caf3505280fb65df01ba928fc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/modules/diffusionmodules/openaimodel.py",
+      "destination": "vendor/controlnet/ldm/modules/diffusionmodules/openaimodel.py",
+      "source_sha256": "b745e1bc4e5c0b434c352c0ab2a68187b64c175ab9540cb99052c86378959b96",
+      "exported_sha256": "b745e1bc4e5c0b434c352c0ab2a68187b64c175ab9540cb99052c86378959b96",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/modules/diffusionmodules/util.py",
+      "destination": "vendor/controlnet/ldm/modules/diffusionmodules/util.py",
+      "source_sha256": "0909fcf40fa29ca5ee237eca37d2188e485dfa5c9fbe3cabc888d9ce71d1c008",
+      "exported_sha256": "0909fcf40fa29ca5ee237eca37d2188e485dfa5c9fbe3cabc888d9ce71d1c008",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/modules/distributions/__init__.py",
+      "destination": "vendor/controlnet/ldm/modules/distributions/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/modules/distributions/distributions.py",
+      "destination": "vendor/controlnet/ldm/modules/distributions/distributions.py",
+      "source_sha256": "a304b343529b915c8d7191f696adcb7bbdd539ea9b9eed30ef0bad6d9565ee28",
+      "exported_sha256": "a304b343529b915c8d7191f696adcb7bbdd539ea9b9eed30ef0bad6d9565ee28",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/modules/ema.py",
+      "destination": "vendor/controlnet/ldm/modules/ema.py",
+      "source_sha256": "cc389d4353c8ee790199093bddf70ab2ffb03d8587028940d35974fc6351f2eb",
+      "exported_sha256": "cc389d4353c8ee790199093bddf70ab2ffb03d8587028940d35974fc6351f2eb",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/modules/encoders/__init__.py",
+      "destination": "vendor/controlnet/ldm/modules/encoders/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/util.py",
+      "destination": "vendor/controlnet/ldm/util.py",
+      "source_sha256": "75e998daca98bae37083e6bc8e7e81b8916970321922c3cd846f80c1a01e2cdf",
+      "exported_sha256": "75e998daca98bae37083e6bc8e7e81b8916970321922c3cd846f80c1a01e2cdf",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "models/cldm_v15.yaml",
+      "destination": "configs/cldm_v15.yaml",
+      "source_sha256": "32820a975bc5bfe42ba596798408d2582f1c75da7c3b437a4537935122b16de4",
+      "exported_sha256": "32820a975bc5bfe42ba596798408d2582f1c75da7c3b437a4537935122b16de4",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "LICENSE",
+      "destination": "LICENSE",
+      "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "exported_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "LICENSE",
+      "destination": "vendor/controlnet/LICENSE",
+      "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "exported_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ldm/modules/encoders/modules.py",
+      "destination": "vendor/controlnet/ldm/modules/encoders/modules.py",
+      "source_sha256": "1e31e4c10976545ec2c317b1927195f8133ee230f980faea907cd870227df29d",
+      "exported_sha256": "2d1ec18dbe741a074f6d0f91587edb9aad6e80d18a972a6091a6fc1ff0221e35",
+      "transformation": "Replace two host-specific CLIP paths with CANNY_WM_CLIP_PATH/version; add os import."
+    },
+    {
+      "source": "fuxian_papers/MAT/LICENSE",
+      "destination": "vendor/MAT/LICENSE",
+      "source_sha256": "311b30658399a1ce6d43a19ca159fac64f91631dbde1e2eae3b1a01b9a321810",
+      "exported_sha256": "311b30658399a1ce6d43a19ca159fac64f91631dbde1e2eae3b1a01b9a321810",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/README.md",
+      "destination": "vendor/MAT/README.md",
+      "source_sha256": "6a003677a02b0b7f27c78a79f0e92a96e22ce42464e19d17112cbda20c5b19fc",
+      "exported_sha256": "6a003677a02b0b7f27c78a79f0e92a96e22ce42464e19d17112cbda20c5b19fc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/datasets/dataset_256.py",
+      "destination": "vendor/MAT/datasets/dataset_256.py",
+      "source_sha256": "6d2f41c49c5cd4df857f8de31c4b529737a3390fc4050dfa46555ebf86141250",
+      "exported_sha256": "6d2f41c49c5cd4df857f8de31c4b529737a3390fc4050dfa46555ebf86141250",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/datasets/dataset_256_val.py",
+      "destination": "vendor/MAT/datasets/dataset_256_val.py",
+      "source_sha256": "40458689e7459aad532dd8a81e55aa0279a72b8d0ccd0fcd83ee14bf648e0e8e",
+      "exported_sha256": "40458689e7459aad532dd8a81e55aa0279a72b8d0ccd0fcd83ee14bf648e0e8e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/datasets/dataset_512.py",
+      "destination": "vendor/MAT/datasets/dataset_512.py",
+      "source_sha256": "78f097d742dd51a9a3a886ce767a21bcb95ad903545d40d9f4ec18a851577ccb",
+      "exported_sha256": "78f097d742dd51a9a3a886ce767a21bcb95ad903545d40d9f4ec18a851577ccb",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/datasets/dataset_512_val.py",
+      "destination": "vendor/MAT/datasets/dataset_512_val.py",
+      "source_sha256": "935fd6e2dbfd3fd7a43e60d27e2a9c2e359523b85941e0d3143f7cd3bb47e298",
+      "exported_sha256": "935fd6e2dbfd3fd7a43e60d27e2a9c2e359523b85941e0d3143f7cd3bb47e298",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/datasets/mask_generator_256.py",
+      "destination": "vendor/MAT/datasets/mask_generator_256.py",
+      "source_sha256": "79de48199f88a845028cbd1b9677ade9bad0b9b2e0f72bd26296d46343af65f1",
+      "exported_sha256": "79de48199f88a845028cbd1b9677ade9bad0b9b2e0f72bd26296d46343af65f1",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/datasets/mask_generator_256_small.py",
+      "destination": "vendor/MAT/datasets/mask_generator_256_small.py",
+      "source_sha256": "f71c8671558d9d9019f7e11dc38f43dd43f2582b1c8a0bbb013ec08762faf94e",
+      "exported_sha256": "f71c8671558d9d9019f7e11dc38f43dd43f2582b1c8a0bbb013ec08762faf94e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/datasets/mask_generator_512.py",
+      "destination": "vendor/MAT/datasets/mask_generator_512.py",
+      "source_sha256": "aefec49a74c7d044101129ed08ada7d41a3f40bc5e8d1a0bccb5ec33bd739f44",
+      "exported_sha256": "aefec49a74c7d044101129ed08ada7d41a3f40bc5e8d1a0bccb5ec33bd739f44",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/datasets/mask_generator_512_small.py",
+      "destination": "vendor/MAT/datasets/mask_generator_512_small.py",
+      "source_sha256": "296fdeca517931ac2b7199c3658dfbc6ae319e210254f3b5888967d4180bd4b9",
+      "exported_sha256": "296fdeca517931ac2b7199c3658dfbc6ae319e210254f3b5888967d4180bd4b9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/dnnlib/__init__.py",
+      "destination": "vendor/MAT/dnnlib/__init__.py",
+      "source_sha256": "01ee5300565a54d4a309ae87784f314a0c82db6c63e6735d1e9a124327f4c12d",
+      "exported_sha256": "01ee5300565a54d4a309ae87784f314a0c82db6c63e6735d1e9a124327f4c12d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/dnnlib/util.py",
+      "destination": "vendor/MAT/dnnlib/util.py",
+      "source_sha256": "8f4c1e9e7eac60f9bf541b2fc0e649a022b2ddde8178df7f85f924f63e3db426",
+      "exported_sha256": "8f4c1e9e7eac60f9bf541b2fc0e649a022b2ddde8178df7f85f924f63e3db426",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/networks/basic_module.py",
+      "destination": "vendor/MAT/networks/basic_module.py",
+      "source_sha256": "3ff15fded9118c50f58e09f2c9b364a871b62e34bb65af44964494485792ea34",
+      "exported_sha256": "3ff15fded9118c50f58e09f2c9b364a871b62e34bb65af44964494485792ea34",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/networks/mat.py",
+      "destination": "vendor/MAT/networks/mat.py",
+      "source_sha256": "c8d2877ff966846c945d4af3a6f905f4fc50199e486026e7bbc49db13935699f",
+      "exported_sha256": "c8d2877ff966846c945d4af3a6f905f4fc50199e486026e7bbc49db13935699f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/__init__.py",
+      "destination": "vendor/MAT/torch_utils/__init__.py",
+      "source_sha256": "41573fda6f071467e105e595188c3e9641499ba22462046e9bcf725c4a5616cc",
+      "exported_sha256": "41573fda6f071467e105e595188c3e9641499ba22462046e9bcf725c4a5616cc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/custom_ops.py",
+      "destination": "vendor/MAT/torch_utils/custom_ops.py",
+      "source_sha256": "ee123ae0458fbe463000d5962a5b804d9e91b25d3fda8500eeaa6ddf6b5c932a",
+      "exported_sha256": "ee123ae0458fbe463000d5962a5b804d9e91b25d3fda8500eeaa6ddf6b5c932a",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/misc.py",
+      "destination": "vendor/MAT/torch_utils/misc.py",
+      "source_sha256": "53d5ad0df6135200647b5a40acd01d30965e562bdc737d5b8be655b333e67632",
+      "exported_sha256": "53d5ad0df6135200647b5a40acd01d30965e562bdc737d5b8be655b333e67632",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/__init__.py",
+      "destination": "vendor/MAT/torch_utils/ops/__init__.py",
+      "source_sha256": "41573fda6f071467e105e595188c3e9641499ba22462046e9bcf725c4a5616cc",
+      "exported_sha256": "41573fda6f071467e105e595188c3e9641499ba22462046e9bcf725c4a5616cc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/bias_act.cpp",
+      "destination": "vendor/MAT/torch_utils/ops/bias_act.cpp",
+      "source_sha256": "4a3eb091ce936451ac3a0e9c7c771cc5576cba195332cd777ec275cb806f4f53",
+      "exported_sha256": "4a3eb091ce936451ac3a0e9c7c771cc5576cba195332cd777ec275cb806f4f53",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/bias_act.cu",
+      "destination": "vendor/MAT/torch_utils/ops/bias_act.cu",
+      "source_sha256": "bc6b93e2c347cc00b07dfe0f6dca35011c2291645806239cc86632902694d017",
+      "exported_sha256": "bc6b93e2c347cc00b07dfe0f6dca35011c2291645806239cc86632902694d017",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/bias_act.h",
+      "destination": "vendor/MAT/torch_utils/ops/bias_act.h",
+      "source_sha256": "f0ca2d087bb22b20f6642e4affd7c77e2ff5b601a2f6d1632a79002608d87aa4",
+      "exported_sha256": "f0ca2d087bb22b20f6642e4affd7c77e2ff5b601a2f6d1632a79002608d87aa4",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/bias_act.py",
+      "destination": "vendor/MAT/torch_utils/ops/bias_act.py",
+      "source_sha256": "ae9d4a2efbb61f7d21d2e361a5a145704351cc9733d2bd3e5ba4e64938d8e3e3",
+      "exported_sha256": "ae9d4a2efbb61f7d21d2e361a5a145704351cc9733d2bd3e5ba4e64938d8e3e3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/conv2d_gradfix.py",
+      "destination": "vendor/MAT/torch_utils/ops/conv2d_gradfix.py",
+      "source_sha256": "8d59bb824cd8f730032bffd6f02353bae6df96c4541caad31063e3e5f635ffb3",
+      "exported_sha256": "8d59bb824cd8f730032bffd6f02353bae6df96c4541caad31063e3e5f635ffb3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/conv2d_resample.py",
+      "destination": "vendor/MAT/torch_utils/ops/conv2d_resample.py",
+      "source_sha256": "7de74103801ab85e9f909dfe2386f3fcbc53a08a5b8466da147ab37be866c20d",
+      "exported_sha256": "7de74103801ab85e9f909dfe2386f3fcbc53a08a5b8466da147ab37be866c20d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/fma.py",
+      "destination": "vendor/MAT/torch_utils/ops/fma.py",
+      "source_sha256": "f3fdd6b890e250124557cba35360a1297cac5bdbc4925325403b44bf290956e9",
+      "exported_sha256": "f3fdd6b890e250124557cba35360a1297cac5bdbc4925325403b44bf290956e9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/grid_sample_gradfix.py",
+      "destination": "vendor/MAT/torch_utils/ops/grid_sample_gradfix.py",
+      "source_sha256": "a49a8195b734ecba95c9b63d035f26faa5d794a0b26eb3e9d5f3c521be29c536",
+      "exported_sha256": "a49a8195b734ecba95c9b63d035f26faa5d794a0b26eb3e9d5f3c521be29c536",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/upfirdn2d.cpp",
+      "destination": "vendor/MAT/torch_utils/ops/upfirdn2d.cpp",
+      "source_sha256": "a3930ed91584ab11786f44aca9abad9beab9f4020b564d4c547727da49d70b11",
+      "exported_sha256": "a3930ed91584ab11786f44aca9abad9beab9f4020b564d4c547727da49d70b11",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/upfirdn2d.cu",
+      "destination": "vendor/MAT/torch_utils/ops/upfirdn2d.cu",
+      "source_sha256": "af059a0dd7be4ba24e2b6b2f8fb5bcb0a89c4ac8320d17a59f228580164528ca",
+      "exported_sha256": "af059a0dd7be4ba24e2b6b2f8fb5bcb0a89c4ac8320d17a59f228580164528ca",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/upfirdn2d.h",
+      "destination": "vendor/MAT/torch_utils/ops/upfirdn2d.h",
+      "source_sha256": "9f703976585fd9c07d18cf1c00edd3a495dc641ff1e1e1671e2df2ab24126535",
+      "exported_sha256": "9f703976585fd9c07d18cf1c00edd3a495dc641ff1e1e1671e2df2ab24126535",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/ops/upfirdn2d.py",
+      "destination": "vendor/MAT/torch_utils/ops/upfirdn2d.py",
+      "source_sha256": "7b5865e70ac4156edaefb2a372fee27dc55eb5661568b337cb4168e8936384a8",
+      "exported_sha256": "7b5865e70ac4156edaefb2a372fee27dc55eb5661568b337cb4168e8936384a8",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/torch_utils/persistence.py",
+      "destination": "vendor/MAT/torch_utils/persistence.py",
+      "source_sha256": "1f24073d03fbb2d772babbf7b8a1175bec6c3423314c2649e9a8a13d37757121",
+      "exported_sha256": "1f24073d03fbb2d772babbf7b8a1175bec6c3423314c2649e9a8a13d37757121",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/training/__init__.py",
+      "destination": "vendor/MAT/training/__init__.py",
+      "source_sha256": "5efa02ab9dadcd7c016c7de60161b08288ae64d3375ed6f287c1501b2635f3d9",
+      "exported_sha256": "5efa02ab9dadcd7c016c7de60161b08288ae64d3375ed6f287c1501b2635f3d9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/training/augment.py",
+      "destination": "vendor/MAT/training/augment.py",
+      "source_sha256": "2a431a3834c396c37b27a2bea5a23fa6552ea5dd9c4b00ee4335d1906fc8944a",
+      "exported_sha256": "2a431a3834c396c37b27a2bea5a23fa6552ea5dd9c4b00ee4335d1906fc8944a",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "fuxian_papers/MAT/training/training_loop.py",
+      "destination": "vendor/MAT/training/training_loop.py",
+      "source_sha256": "eae5b7345ee4675667c88303bc98fda681b5f828dbb348fe06d980d673ca1e4f",
+      "exported_sha256": "eae5b7345ee4675667c88303bc98fda681b5f828dbb348fe06d980d673ca1e4f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "outputs/canny_broad_peak_code_20261111/source/frozen_stage1_matcher.py",
+      "source_sha256": "6bfbef83d95d3e970df4b9a954eab9e479d40306fcff5bb003543df76ef96392",
+      "extracted_symbols": [
+        "thinning",
+        "skeleton_graph",
+        "traces",
+        "resample",
+        "tangent",
+        "length",
+        "source_curves",
+        "curve_match"
+      ],
+      "transformation": "function extraction; explicit local imports"
+    },
+    {
+      "source": "canny_curve_stage2_bit.py",
+      "source_sha256": "6444887ea2f5e374459e5b3e1cbfcececb14e72333a6804e908f5a023c796780",
+      "extracted_symbols": [
+        "canonical",
+        "fields"
+      ],
+      "transformation": "function extraction; explicit local imports"
+    },
+    {
+      "source": "curve_receiver_stage2c.py",
+      "source_sha256": "4df8b5f82e45b06a791e682d52e78fc822bd672ee955af535144a0f8f6c5d635",
+      "extracted_symbols": [
+        "geometry"
+      ],
+      "transformation": "function extraction; explicit local imports"
+    },
+    {
+      "source": "curve_receiver_stage2b.py",
+      "source_sha256": "b556726cafff3be7ee1b1e0b51a009739434e5c533e32b97751f365a88878dd3",
+      "extracted_symbols": [
+        "mathmod",
+        "prepare_target",
+        "basis",
+        "path_observations",
+        "ordered_observations"
+      ],
+      "transformation": "function extraction; explicit local imports"
+    },
+    {
+      "source": "curve_receiver_stage2c.py",
+      "source_sha256": "4df8b5f82e45b06a791e682d52e78fc822bd672ee955af535144a0f8f6c5d635",
+      "extracted_symbols": [
+        "binary_target"
+      ],
+      "transformation": "function extraction; explicit local imports"
+    },
+    {
+      "source": "curve_qim_closed_loop_v2.py",
+      "source_sha256": "a8d952e0a577cb94029b247795ac1639c7e94c78c52f14ac8e853e9c6886ff07",
+      "extracted_symbols": [
+        "RasterWarp"
+      ],
+      "transformation": "function extraction; explicit local imports"
+    },
+    {
+      "source": "curve_broad_peak_code.py",
+      "source_sha256": "17ca878ea4017934f56f75810eb99941de265dfa62bf4b323ee22123c98945d3",
+      "extracted_symbols": [
+        "basis"
+      ],
+      "transformation": "function extraction; explicit local imports"
+    },
+    {
+      "source": "curve_broad_peak_code.py",
+      "source_sha256": "17ca878ea4017934f56f75810eb99941de265dfa62bf4b323ee22123c98945d3",
+      "extracted_symbols": [
+        "profile",
+        "fit",
+        "measure",
+        "receive",
+        "code_score"
+      ],
+      "transformation": "function extraction; explicit local imports"
+    },
+    {
+      "source": "outputs/canny_s_frozen_validation_20261111/conditions/000000429806_c0000_clean.png",
+      "destination": "examples/conditions/clean.png",
+      "source_sha256": "37d264400ffa39d9c8d7a9c8f4b90cd363d583db2529b12351c56d6375bf107e",
+      "exported_sha256": "37d264400ffa39d9c8d7a9c8f4b90cd363d583db2529b12351c56d6375bf107e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "outputs/canny_s_frozen_validation_20261111/rgb/000000429806_c0000_p0_s0_clean.png",
+      "destination": "examples/rgb/clean.png",
+      "source_sha256": "6cfe4c492648bb34376fdc2a67c110f4454ccff681890c897b9bfc1fc685a506",
+      "exported_sha256": "6cfe4c492648bb34376fdc2a67c110f4454ccff681890c897b9bfc1fc685a506",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "outputs/canny_s_frozen_validation_20261111/conditions/000000429806_c0000_bit0.png",
+      "destination": "examples/conditions/bit0.png",
+      "source_sha256": "8eeec0dde82245ea4634f5cd989194d01fbdf2633d91788db0cdb3956cb0b56d",
+      "exported_sha256": "8eeec0dde82245ea4634f5cd989194d01fbdf2633d91788db0cdb3956cb0b56d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "outputs/canny_s_frozen_validation_20261111/rgb/000000429806_c0000_p0_s0_bit0.png",
+      "destination": "examples/rgb/bit0.png",
+      "source_sha256": "d4fa54b36145478656a44c956b9b76fa8d8fe370927f0a5d424d1aaa4c57cd03",
+      "exported_sha256": "d4fa54b36145478656a44c956b9b76fa8d8fe370927f0a5d424d1aaa4c57cd03",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "outputs/canny_s_frozen_validation_20261111/conditions/000000429806_c0000_bit1.png",
+      "destination": "examples/conditions/bit1.png",
+      "source_sha256": "9ebc99014cdd4e0e8b0f55593f3458239c356c03c4a7d6256e55224b60315460",
+      "exported_sha256": "9ebc99014cdd4e0e8b0f55593f3458239c356c03c4a7d6256e55224b60315460",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "outputs/canny_s_frozen_validation_20261111/rgb/000000429806_c0000_p0_s0_bit1.png",
+      "destination": "examples/rgb/bit1.png",
+      "source_sha256": "ad728a94fae119d64f626ccddc5638130ec46521967453ae62b9db6ad2383ed9",
+      "exported_sha256": "ad728a94fae119d64f626ccddc5638130ec46521967453ae62b9db6ad2383ed9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "outputs/canny_s_frozen_validation_20261111/panels/000000429806_c0000_v0.jpg",
+      "destination": "examples/panels/s1_reference.jpg",
+      "source_sha256": "cbfc46cee207b983a0c38d831d7ceecfb0f5d33de7b6da6024297cdb65944b0c",
+      "exported_sha256": "cbfc46cee207b983a0c38d831d7ceecfb0f5d33de7b6da6024297cdb65944b0c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "outputs/canny_st_stable_carrier_compare_20261111/panels/000000004595_v0_m00.png",
+      "destination": "examples/panels/stable_compare.png",
+      "source_sha256": "f7201caee8111bf03d19e8339ae07864281edea5b9fa7e8377ef99ad59d7d550",
+      "exported_sha256": "f7201caee8111bf03d19e8339ae07864281edea5b9fa7e8377ef99ad59d7d550",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "outputs/canny_s_frozen_validation_20261111/summary.json",
+      "destination": "evidence/canny_s_frozen_validation_20261111/summary.json",
+      "source_sha256": "787ae543ba7ed50f4aac0ff741f714cd12bd875268a8c5b2377154f01a35cc02",
+      "exported_sha256": "787ae543ba7ed50f4aac0ff741f714cd12bd875268a8c5b2377154f01a35cc02",
+      "transformation": "Relocate original workspace paths; report omitted-artifact links rendered as text."
+    },
+    {
+      "source": "outputs/canny_single_curve_2bit_stage4a_20261111/summary.json",
+      "destination": "evidence/canny_single_curve_2bit_stage4a_20261111/summary.json",
+      "source_sha256": "3e9c5fee28afa94f8a330cf032766bed829da8c70b7e6e9fdcbec0269812c776",
+      "exported_sha256": "3e9c5fee28afa94f8a330cf032766bed829da8c70b7e6e9fdcbec0269812c776",
+      "transformation": "Relocate original workspace paths; report omitted-artifact links rendered as text."
+    },
+    {
+      "source": "outputs/canny_single_curve_2bit_stage4a_20261111/score_freeze.json",
+      "destination": "evidence/canny_single_curve_2bit_stage4a_20261111/score_freeze.json",
+      "source_sha256": "f4547e0d80ae2c5d1287a7f97974e2ba89f188823edebd3aaf1473694f05f80f",
+      "exported_sha256": "47d61eeac13ddb738a74447630f7bdae40e2768e6cfcd5bb179caf5cd9e80911",
+      "transformation": "Relocate original workspace paths; report omitted-artifact links rendered as text."
+    },
+    {
+      "source": "outputs/canny_st_stable_carrier_compare_20261111/summary.json",
+      "destination": "evidence/canny_st_stable_carrier_compare_20261111/summary.json",
+      "source_sha256": "75de7f04df55b30ecd67d4f30857e8df045b05e4c69b5bfd02166e813b96a3c4",
+      "exported_sha256": "75de7f04df55b30ecd67d4f30857e8df045b05e4c69b5bfd02166e813b96a3c4",
+      "transformation": "Relocate original workspace paths; report omitted-artifact links rendered as text."
+    },
+    {
+      "source": "outputs/mat_st_message_experiment1_20261111/constraints_v2/summary.json",
+      "destination": "evidence/mat_st_message_experiment1_20261111/constraints_v2/summary.json",
+      "source_sha256": "f8d36fe15f857e70ca6c03e6f6128de74b422967214306fed65c379642dfbfc0",
+      "exported_sha256": "f8d36fe15f857e70ca6c03e6f6128de74b422967214306fed65c379642dfbfc0",
+      "transformation": "Relocate original workspace paths; report omitted-artifact links rendered as text."
+    },
+    {
+      "source": "controlnet_robin/pipeline.py",
+      "source_sha256": "15498caf8c295105ab8ffe662f26f698581e9d989b528916544a738d7cec67b1",
+      "destination": "canny_geometry/controlnet_pipeline.py",
+      "exported_sha256": "78c556b06fb9d12d0b29e6b8a37e4c1675a42dcd97dbd019958d88a57b0ae363",
+      "extracted_symbols": [
+        "__init__",
+        "make_schedule",
+        "get_conditioning",
+        "_predict_eps",
+        "ddim_step"
+      ],
+      "transformation": "Retain ordinary methods; rename class; remove unused adapter initialization and imports"
+    },
+    {
+      "source": "fuxian_papers/scripts/mat_hed_pidi_repair.py",
+      "source_sha256": "488cbf82e6e1e3a3a467dd76d861f471418af3f8b2c0a853d2fd39f1cd601ee8",
+      "destination": "canny_geometry/mat_repair.py",
+      "exported_sha256": "8ce9c1ee84a6d2787d507ee7bd597df282992979b237577763d4bc60097f888f",
+      "extracted_symbols": [
+        "Block",
+        "Pyramid",
+        "RepairMAT.forward",
+        "distance_feature"
+      ],
+      "transformation": "Retain architecture/forward; new checkpoint/protocol loading and repair CLI; no training or message optimizer"
+    }
+  ]
+}

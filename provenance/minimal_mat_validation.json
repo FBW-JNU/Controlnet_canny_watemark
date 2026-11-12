@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "date": "2026-11-12",
+  "scope": "Strict checkpoint/protocol load and one ordinary GPU repair per branch, including converter; no message optimization or MAT benchmark",
+  "results": [
+    {
+      "checkpoint": "canny_native.pt",
+      "protocol_sha256": "387f50bd22a82013029ba924f0e92cce046ac4d623e062907dc1ba3ed7c0ce59",
+      "threshold": 0.1,
+      "seed": 240,
+      "structure": "native",
+      "converter": false,
+      "mask_white_means": "missing",
+      "known_exterior_preserved": true,
+      "scope": "Ordinary frozen repair diagnostic; no message constraint, no historical MAT benchmark reproduction"
+    },
+    {
+      "checkpoint": "pidi_soft_native.pt",
+      "protocol_sha256": "387f50bd22a82013029ba924f0e92cce046ac4d623e062907dc1ba3ed7c0ce59",
+      "threshold": 0.45000000000000007,
+      "seed": 240,
+      "structure": "native",
+      "converter": true,
+      "mask_white_means": "missing",
+      "known_exterior_preserved": true,
+      "scope": "Ordinary frozen repair diagnostic; no message constraint, no historical MAT benchmark reproduction"
+    },
+    {
+      "checkpoint": "pidi_soft_refined.pt",
+      "protocol_sha256": "387f50bd22a82013029ba924f0e92cce046ac4d623e062907dc1ba3ed7c0ce59",
+      "threshold": 0.45000000000000007,
+      "seed": 240,
+      "structure": "refined",
+      "converter": true,
+      "mask_white_means": "missing",
+      "known_exterior_preserved": true,
+      "scope": "Ordinary frozen repair diagnostic; no message constraint, no historical MAT benchmark reproduction"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "screening_policy": "condition_validity_only",
+  "watermark_metrics_used": false,
+  "condition_type": "canny",
+  "coco_root": "${COCO_ROOT}",
+  "coco_split": "train2017",
+  "captions_annotation": "${COCO_ROOT}/annotations/captions_train2017.json",
+  "resolution": 512,
+  "requested_start": 0,
+  "requested_count": 0,
+  "weak_fraction": 0.1,
+  "complex_fraction": 0.1,
+  "weak_strength_threshold": 0.18135481466963368,
+  "complexity_threshold": 0.47472188738389565,
+  "threshold_mode": "fitted",
+  "threshold_source": null,
+  "classification_priority": [
+    "invalid",
+    "weak",
+    "complex",
+    "normal"
+  ],
+  "invalid_absolute_rules": {
+    "canny": "image read failure or zero edge pixels",
+    "depth": "image read failure, non-finite prediction, or raw depth range <= 1e-6"
+  },
+  "metrics": {
+    "canny_strength_and_complexity": "sqrt(edge_density * edge_spatial_coverage)",
+    "depth_strength": "sqrt(depth_dynamic_range * depth_gradient_coverage)",
+    "depth_complexity": "sqrt(depth_mean_gradient * depth_gradient_spatial_coverage)"
+  },
+  "canny_low": 100,
+  "canny_high": 200,
+  "grid_size": 8,
+  "cell_min_fraction": 0.002,
+  "depth_gradient_threshold": 0.02,
+  "counts": {
+    "all": 118287,
+    "valid": 118284,
+    "invalid": 3,
+    "weak": 11829,
+    "normal": 94625,
+    "complex": 11830,
+    "weak_complex_overlap_assigned_to_weak": 0
+  }
+}

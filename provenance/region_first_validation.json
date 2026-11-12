@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-12",
+  "scope": "New screening on six existing Cal contents and their 36 historical clean probe RGBs; no new evaluation RGBs",
+  "policy": "region_first_v1",
+  "results": [
+    {
+      "content_id": 4595,
+      "source_pixels": 12486,
+      "stable_pixels": 10814,
+      "extracted": 77,
+      "verified": 47,
+      "writable_st2": 45,
+      "rejection_examples": [
+        "Auto: source states fail input correspondence; choose another curve.",
+        "Auto: source states fail input correspondence; choose another curve."
+      ]
+    },
+    {
+      "content_id": 102306,
+      "source_pixels": 34839,
+      "stable_pixels": 28706,
+      "extracted": 110,
+      "verified": 54,
+      "writable_st2": 34,
+      "rejection_examples": [
+        "Auto: source states fail input correspondence; choose another curve.",
+        "Auto: source states fail input correspondence; choose another curve."
+      ]
+    },
+    {
+      "content_id": 149157,
+      "source_pixels": 14127,
+      "stable_pixels": 7016,
+      "extracted": 34,
+      "verified": 25,
+      "writable_st2": 21,
+      "rejection_examples": [
+        "Auto: source states fail input correspondence; choose another curve.",
+        "Auto: source states fail input correspondence; choose another curve."
+      ]
+    },
+    {
+      "content_id": 275339,
+      "source_pixels": 23966,
+      "stable_pixels": 16017,
+      "extracted": 88,
+      "verified": 36,
+      "writable_st2": 29,
+      "rejection_examples": [
+        "Auto: source states fail input correspondence; choose another curve.",
+        "Auto: source states fail input correspondence; choose another curve."
+      ]
+    },
+    {
+      "content_id": 379022,
+      "source_pixels": 29331,
+      "stable_pixels": 19711,
+      "extracted": 104,
+      "verified": 48,
+      "writable_st2": 30,
+      "rejection_examples": [
+        "outside canvas",
+        "Auto: source states fail input correspondence; choose another curve."
+      ]
+    },
+    {
+      "content_id": 564879,
+      "source_pixels": 48813,
+      "stable_pixels": 13202,
+      "extracted": 30,
+      "verified": 9,
+      "writable_st2": 4,
+      "rejection_examples": [
+        "Auto: source states fail input correspondence; choose another curve.",
+        "Auto: source states fail input correspondence; choose another curve."
+      ]
+    }
+  ],
+  "limitation": "Development feasibility only. These files use original workspace probes, which are not bundled. Not a new message accuracy estimate."
+}

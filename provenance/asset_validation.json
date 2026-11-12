@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-12",
+  "coco_population_rows": 94625,
+  "coco_restore_all_rows_and_order_and_prompts": "passed",
+  "coco_restore_to_original_root_byte_identical": "passed",
+  "coco_all_referenced_image_files_exist": "passed",
+  "coco_overwrite_and_missing_images_guards": "passed",
+  "mat_asset_isolated_zip_extraction": "passed",
+  "mat_asset_all_file_sizes_and_sha256": "passed",
+  "mat_asset_original_protocol_byte_preservation": "passed",
+  "public_url_live_verification": "not possible: DNS resolution unavailable",
+  "public_asset_downloads": "not run",
+  "GPU_generation": "not run",
+  "training": "not run"
+}

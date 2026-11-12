@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "date": "2026-11-12",
+  "backend": "plain_ControlNetPipeline, ROBIN package removed",
+  "scope": "Three historical example conditions generated with existing local weights/environment on physical GPU1; not full batch or new-workflow message validation",
+  "results": [
+    {
+      "arm": "clean",
+      "png_byte_identical": true,
+      "rgb_sha256": "6cfe4c492648bb34376fdc2a67c110f4454ccff681890c897b9bfc1fc685a506",
+      "decoded": {
+        "accepted": true,
+        "bits": "0",
+        "score": -0.2483043069922118,
+        "coefficient": [
+          -0.20080945194610605,
+          0.3441006550605586
+        ]
+      }
+    },
+    {
+      "arm": "bit0",
+      "png_byte_identical": true,
+      "rgb_sha256": "d4fa54b36145478656a44c956b9b76fa8d8fe370927f0a5d424d1aaa4c57cd03",
+      "decoded": {
+        "accepted": true,
+        "bits": "0",
+        "score": -1.4966506886757602,
+        "coefficient": [
+          -1.043359672580665,
+          0.45624099592490636
+        ]
+      }
+    },
+    {
+      "arm": "bit1",
+      "png_byte_identical": true,
+      "rgb_sha256": "ad728a94fae119d64f626ccddc5638130ec46521967453ae62b9db6ad2383ed9",
+      "decoded": {
+        "accepted": true,
+        "bits": "1",
+        "score": 1.0982994970281659,
+        "coefficient": [
+          0.714045828120944,
+          0.4328126343061525
+        ]
+      }
+    }
+  ]
+}

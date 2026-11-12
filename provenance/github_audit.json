@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-12",
+  "status": "partially_reproducible",
+  "repository": "https://github.com/FBW-JNU/Controlnet_canny_watemark",
+  "audited_commit": "b68e943b409a24eece9652d391f5185364b49783",
+  "remote_files": 262,
+  "expected_files": 262,
+  "missing_files": [],
+  "extra_files": [],
+  "remote_writes": "none",
+  "python_files_compiled": 165,
+  "checks": {
+    "integrity": {
+      "exit_code": 0,
+      "scope": "isolated GitHub snapshot, existing compatible environment"
+    },
+    "smoke": {
+      "exit_code": 0,
+      "scope": "isolated GitHub snapshot, existing compatible environment"
+    },
+    "demo": {
+      "exit_code": 0,
+      "scope": "isolated GitHub snapshot, existing compatible environment"
+    },
+    "metrics": {
+      "exit_code": 0,
+      "scope": "isolated GitHub snapshot, existing compatible environment"
+    },
+    "embed_st2": {
+      "exit_code": 0,
+      "scope": "isolated GitHub snapshot, existing compatible environment"
+    },
+    "backend_import": {
+      "exit_code": 0,
+      "scope": "isolated GitHub snapshot, existing compatible environment"
+    },
+    "legacy_stable_help": {
+      "exit_code": 1,
+      "scope": "historical script cannot launch without omitted old outputs"
+    },
+    "legacy_mat_help": {
+      "exit_code": 1,
+      "scope": "historical script cannot launch without omitted old outputs"
+    }
+  },
+  "gpu_replay": {
+    "exit_code": 0,
+    "elapsed_seconds": 94.22208827699797,
+    "device": "NVIDIA GeForce RTX3090 / physical GPU1",
+    "new_images": 3,
+    "all_pngs_byte_identical": true,
+    "existing_local_weights": true,
+    "fresh_environment": false,
+    "results": [
+      {
+        "arm": "clean",
+        "png_byte_identical": true,
+        "image_array_identical": true,
+        "mean_absolute_pixel_error": 0.0,
+        "decoded": {
+          "accepted": true,
+          "bits": "0",
+          "score": -0.2483043069922118,
+          "coefficient": [
+            -0.20080945194610605,
+            0.3441006550605586
+          ]
+        },
+        "sha256": "6cfe4c492648bb34376fdc2a67c110f4454ccff681890c897b9bfc1fc685a506"
+      },
+      {
+        "arm": "bit0",
+        "png_byte_identical": true,
+        "image_array_identical": true,
+        "mean_absolute_pixel_error": 0.0,
+        "decoded": {
+          "accepted": true,
+          "bits": "0",
+          "score": -1.4966506886757602,
+          "coefficient": [
+            -1.043359672580665,
+            0.45624099592490636
+          ]
+        },
+        "sha256": "d4fa54b36145478656a44c956b9b76fa8d8fe370927f0a5d424d1aaa4c57cd03"
+      },
+      {
+        "arm": "bit1",
+        "png_byte_identical": true,
+        "image_array_identical": true,
+        "mean_absolute_pixel_error": 0.0,
+        "decoded": {
+          "accepted": true,
+          "bits": "1",
+          "score": 1.0982994970281659,
+          "coefficient": [
+            0.714045828120944,
+            0.4328126343061525
+          ]
+        },
+        "sha256": "ad728a94fae119d64f626ccddc5638130ec46521967453ae62b9db6ad2383ed9"
+      }
+    ]
+  },
+  "mat_release": {
+    "tag": "mat-weights",
+    "name": "canny-geometry-mat-domain-weights.zip",
+    "bytes": 694302888,
+    "url": "https://github.com/FBW-JNU/Controlnet_canny_watemark/releases/download/mat-weights/canny-geometry-mat-domain-weights.zip",
+    "api_digest": "sha256:7f7f3f9a09af9dc0061f89ca7a71d9984d87b5ab34bca9913ede255667374858",
+    "matches_original_asset_archive": true
+  },
+  "download_url_checks": {
+    "controlnet": {
+      "url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_canny.pth",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "clip_config": {
+      "url": "https://huggingface.co/openai/clip-vit-large-patch14/resolve/32bd64288804d66eefd0ccbe215aa642df71cc41/config.json",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "coco_train_http": {
+      "url": "http://images.cocodataset.org/zips/train2017.zip",
+      "status": 200,
+      "content_length": "19336861798",
+      "linked_etag": null
+    },
+    "coco_annotations_http": {
+      "url": "http://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+      "status": 200,
+      "content_length": "252907541",
+      "linked_etag": null
+    },
+    "coco_official": {
+      "url": "https://cocodataset.org/",
+      "status": 200,
+      "content_length": "8594",
+      "linked_etag": null
+    },
+    "mat_base": {
+      "url": "https://github.com/Sanster/models/releases/download/add_mat/Places_512_FullData_G.pth",
+      "status": 200,
+      "content_length": "250619359",
+      "linked_etag": null
+    },
+    "mat_domain_release": {
+      "url": "https://github.com/FBW-JNU/Controlnet_canny_watemark/releases/download/mat-weights/canny-geometry-mat-domain-weights.zip",
+      "status": 200,
+      "content_length": "694302888",
+      "linked_etag": null
+    }
+  },
+  "limitations": [
+    "No fresh environment installation validation.",
+    "No full Fresh24, Eval12, stable-screening or MAT experiment rerun.",
+    "Historical batch scripts still require omitted output protocols, selections, curves, codebooks and parent-freeze dependencies.",
+    "Metrics command aggregates stored decisions, not all original RGB images.",
+    "No claim of mask-only decoding, real multicarrier ECC or MAT-to-RGB success."
+  ],
+  "local_documentation_changes": [
+    "Published MAT Release URL and checksum added.",
+    "AlexNet backbone URL for optional LPIPS quality evaluation added.",
+    "Single-example GPU replay and full-batch limitations stated explicitly."
+  ],
+  "reference_environment": "Existing Python3.9.23 / torch2.0.1+cu118 environment; models loaded from local files in offline mode"
+}

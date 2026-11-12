@@ -1,0 +1,58 @@
+{
+  "Auto_raw": {
+    "marked": 192,
+    "geometry_received": 170,
+    "received": 170,
+    "correct": 161,
+    "wrong": 9,
+    "erasures": 22,
+    "bit_auc": 0.9748263888888888,
+    "all_attempt_accuracy": 0.8385416666666666,
+    "presence_auc": 0.5,
+    "clean": 96,
+    "clean_presence_accepted": 0,
+    "marked_presence_accepted": 0
+  },
+  "Auto_affine": {
+    "marked": 192,
+    "geometry_received": 170,
+    "received": 170,
+    "correct": 162,
+    "wrong": 8,
+    "erasures": 22,
+    "bit_auc": 0.9761284722222222,
+    "all_attempt_accuracy": 0.84375,
+    "presence_auc": 0.84521484375,
+    "clean": 96,
+    "clean_presence_accepted": 6,
+    "marked_presence_accepted": 160
+  },
+  "Oracle_raw": {
+    "marked": 192,
+    "geometry_received": 184,
+    "received": 184,
+    "correct": 171,
+    "wrong": 13,
+    "erasures": 8,
+    "bit_auc": 0.9173177083333334,
+    "all_attempt_accuracy": 0.890625,
+    "presence_auc": 0.5,
+    "clean": 96,
+    "clean_presence_accepted": 0,
+    "marked_presence_accepted": 0
+  },
+  "Oracle_affine": {
+    "marked": 192,
+    "geometry_received": 184,
+    "received": 184,
+    "correct": 170,
+    "wrong": 14,
+    "erasures": 8,
+    "bit_auc": 0.9168836805555556,
+    "all_attempt_accuracy": 0.8854166666666666,
+    "presence_auc": 0.8606228298611112,
+    "clean": 96,
+    "clean_presence_accepted": 9,
+    "marked_presence_accepted": 67
+  }
+}

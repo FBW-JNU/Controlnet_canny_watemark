@@ -1,0 +1,146 @@
+{
+  "source_only": {
+    "SourceRef": {
+      "attempts": 48,
+      "received": 34,
+      "correct": 25,
+      "wrong": 9,
+      "erasures": 14,
+      "full_accuracy": 0.5208333333333334,
+      "conditional_accuracy": 0.7352941176470589,
+      "high_confidence_wrong": 2,
+      "presence_AUC": 0.6649305555555556,
+      "frozen_threshold": 0.8934153913095505,
+      "marked_presence_accepts": 23,
+      "clean_presence_accepts": 2,
+      "clean_attempts": 12
+    },
+    "R2_tube": {
+      "attempts": 48,
+      "received": 42,
+      "correct": 15,
+      "wrong": 27,
+      "erasures": 6,
+      "full_accuracy": 0.3125,
+      "conditional_accuracy": 0.35714285714285715,
+      "high_confidence_wrong": 0,
+      "presence_AUC": 0.6423611111111112,
+      "frozen_threshold": 0.1658663771964501,
+      "marked_presence_accepts": 9,
+      "clean_presence_accepts": 0,
+      "clean_attempts": 12
+    },
+    "R2_bbox": {
+      "attempts": 48,
+      "received": 44,
+      "correct": 16,
+      "wrong": 28,
+      "erasures": 4,
+      "full_accuracy": 0.3333333333333333,
+      "conditional_accuracy": 0.36363636363636365,
+      "high_confidence_wrong": 0,
+      "presence_AUC": 0.3029513888888889,
+      "frozen_threshold": 0.7290126467777194,
+      "marked_presence_accepts": 1,
+      "clean_presence_accepts": 0,
+      "clean_attempts": 12
+    },
+    "quality": {
+      "attempts": 48,
+      "joint_pass": 43,
+      "correct_and_quality_pass": 23,
+      "failures": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 0,
+        "edge_f1": 5
+      },
+      "medians": {
+        "psnr_db": 43.404747368981035,
+        "ssim": 0.9942850600578104,
+        "lpips_alex": 0.002925194217823446,
+        "edge_f1_3x3": 0.9802926359281212
+      }
+    },
+    "strict_clean": {
+      "matched": 4,
+      "attempts": 12
+    },
+    "strict_marked": {
+      "matched": 17,
+      "attempts": 48
+    }
+  },
+  "clean_stable": {
+    "SourceRef": {
+      "attempts": 48,
+      "received": 44,
+      "correct": 36,
+      "wrong": 8,
+      "erasures": 4,
+      "full_accuracy": 0.75,
+      "conditional_accuracy": 0.8181818181818182,
+      "high_confidence_wrong": 1,
+      "presence_AUC": 0.8506944444444444,
+      "frozen_threshold": 0.8934153913095505,
+      "marked_presence_accepts": 30,
+      "clean_presence_accepts": 0,
+      "clean_attempts": 12
+    },
+    "R2_tube": {
+      "attempts": 48,
+      "received": 47,
+      "correct": 22,
+      "wrong": 25,
+      "erasures": 1,
+      "full_accuracy": 0.4583333333333333,
+      "conditional_accuracy": 0.46808510638297873,
+      "high_confidence_wrong": 0,
+      "presence_AUC": 0.7578125,
+      "frozen_threshold": 0.1658663771964501,
+      "marked_presence_accepts": 12,
+      "clean_presence_accepts": 0,
+      "clean_attempts": 12
+    },
+    "R2_bbox": {
+      "attempts": 48,
+      "received": 41,
+      "correct": 18,
+      "wrong": 23,
+      "erasures": 7,
+      "full_accuracy": 0.375,
+      "conditional_accuracy": 0.43902439024390244,
+      "high_confidence_wrong": 0,
+      "presence_AUC": 0.17447916666666666,
+      "frozen_threshold": 0.7290126467777194,
+      "marked_presence_accepts": 0,
+      "clean_presence_accepts": 0,
+      "clean_attempts": 12
+    },
+    "quality": {
+      "attempts": 48,
+      "joint_pass": 44,
+      "correct_and_quality_pass": 33,
+      "failures": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 0,
+        "edge_f1": 4
+      },
+      "medians": {
+        "psnr_db": 43.039924032075035,
+        "ssim": 0.9946413883121799,
+        "lpips_alex": 0.0026359077310189605,
+        "edge_f1_3x3": 0.9775712416344405
+      }
+    },
+    "strict_clean": {
+      "matched": 10,
+      "attempts": 12
+    },
+    "strict_marked": {
+      "matched": 32,
+      "attempts": 48
+    }
+  }
+}

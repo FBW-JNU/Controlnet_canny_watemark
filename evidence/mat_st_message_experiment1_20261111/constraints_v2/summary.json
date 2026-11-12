@@ -1,0 +1,490 @@
+{
+  "input": {
+    "32": {
+      "passed": false,
+      "length": 32,
+      "groups": {
+        "G0": {
+          "attempts": 10,
+          "correct": 0,
+          "accepted": 10,
+          "presence": 0,
+          "distinct_contents": 0
+        },
+        "G1": {
+          "attempts": 10,
+          "correct": 0,
+          "accepted": 6,
+          "presence": 0,
+          "distinct_contents": 0
+        },
+        "G2": {
+          "attempts": 40,
+          "correct": 36,
+          "accepted": 36,
+          "presence": 36,
+          "distinct_contents": 9
+        },
+        "G3": {
+          "attempts": 40,
+          "correct": 35,
+          "accepted": 35,
+          "presence": 35,
+          "distinct_contents": 10
+        },
+        "G4": {
+          "attempts": 40,
+          "correct": 40,
+          "accepted": 40,
+          "presence": 39,
+          "distinct_contents": 10
+        },
+        "G3raw": {
+          "attempts": 40,
+          "correct": 34,
+          "accepted": 34,
+          "presence": 34,
+          "distinct_contents": 10
+        }
+      },
+      "rule": "G3 PNGs: ALL40 attempts have accepted Auto geometry, correct full2bit, active changes, four distinct per content, exterior unchanged. No failure filtering."
+    }
+  },
+  "input_diagnostics": {
+    "32": {
+      "G0": {
+        "erased": 0,
+        "presence_and_correct": 0,
+        "oracle_correct": 0,
+        "word_confusion": {
+          "none": {
+            "m00": 10,
+            "m01": 0,
+            "m10": 0,
+            "m11": 0,
+            "erasure": 0
+          }
+        },
+        "per_content": {
+          "000000018495": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000025148": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000037746": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000049371": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000082894": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000085048": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000097053": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000106635": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000129246": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000133667": {
+            "attempts": 1,
+            "correct": 0
+          }
+        }
+      },
+      "G1": {
+        "erased": 4,
+        "presence_and_correct": 0,
+        "oracle_correct": 0,
+        "word_confusion": {
+          "none": {
+            "m00": 3,
+            "m01": 1,
+            "m10": 0,
+            "m11": 2,
+            "erasure": 4
+          }
+        },
+        "per_content": {
+          "000000018495": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000025148": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000037746": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000049371": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000082894": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000085048": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000097053": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000106635": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000129246": {
+            "attempts": 1,
+            "correct": 0
+          },
+          "000000133667": {
+            "attempts": 1,
+            "correct": 0
+          }
+        }
+      },
+      "G2": {
+        "erased": 4,
+        "presence_and_correct": 36,
+        "oracle_correct": 36,
+        "word_confusion": {
+          "m00": {
+            "m00": 9,
+            "m01": 0,
+            "m10": 0,
+            "m11": 0,
+            "erasure": 1
+          },
+          "m01": {
+            "m00": 0,
+            "m01": 9,
+            "m10": 0,
+            "m11": 0,
+            "erasure": 1
+          },
+          "m10": {
+            "m00": 0,
+            "m01": 0,
+            "m10": 9,
+            "m11": 0,
+            "erasure": 1
+          },
+          "m11": {
+            "m00": 0,
+            "m01": 0,
+            "m10": 0,
+            "m11": 9,
+            "erasure": 1
+          }
+        },
+        "per_content": {
+          "000000018495": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000025148": {
+            "attempts": 4,
+            "correct": 0
+          },
+          "000000037746": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000049371": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000082894": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000085048": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000097053": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000106635": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000129246": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000133667": {
+            "attempts": 4,
+            "correct": 4
+          }
+        }
+      },
+      "G3": {
+        "erased": 5,
+        "presence_and_correct": 35,
+        "oracle_correct": 35,
+        "word_confusion": {
+          "m00": {
+            "m00": 9,
+            "m01": 0,
+            "m10": 0,
+            "m11": 0,
+            "erasure": 1
+          },
+          "m01": {
+            "m00": 0,
+            "m01": 9,
+            "m10": 0,
+            "m11": 0,
+            "erasure": 1
+          },
+          "m10": {
+            "m00": 0,
+            "m01": 0,
+            "m10": 9,
+            "m11": 0,
+            "erasure": 1
+          },
+          "m11": {
+            "m00": 0,
+            "m01": 0,
+            "m10": 0,
+            "m11": 8,
+            "erasure": 2
+          }
+        },
+        "per_content": {
+          "000000018495": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000025148": {
+            "attempts": 4,
+            "correct": 1
+          },
+          "000000037746": {
+            "attempts": 4,
+            "correct": 2
+          },
+          "000000049371": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000082894": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000085048": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000097053": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000106635": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000129246": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000133667": {
+            "attempts": 4,
+            "correct": 4
+          }
+        }
+      },
+      "G4": {
+        "erased": 0,
+        "presence_and_correct": 39,
+        "oracle_correct": 40,
+        "word_confusion": {
+          "m00": {
+            "m00": 10,
+            "m01": 0,
+            "m10": 0,
+            "m11": 0,
+            "erasure": 0
+          },
+          "m01": {
+            "m00": 0,
+            "m01": 10,
+            "m10": 0,
+            "m11": 0,
+            "erasure": 0
+          },
+          "m10": {
+            "m00": 0,
+            "m01": 0,
+            "m10": 10,
+            "m11": 0,
+            "erasure": 0
+          },
+          "m11": {
+            "m00": 0,
+            "m01": 0,
+            "m10": 0,
+            "m11": 10,
+            "erasure": 0
+          }
+        },
+        "per_content": {
+          "000000018495": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000025148": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000037746": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000049371": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000082894": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000085048": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000097053": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000106635": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000129246": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000133667": {
+            "attempts": 4,
+            "correct": 4
+          }
+        }
+      },
+      "G3raw": {
+        "erased": 6,
+        "presence_and_correct": 34,
+        "oracle_correct": 34,
+        "word_confusion": {
+          "m00": {
+            "m00": 9,
+            "m01": 0,
+            "m10": 0,
+            "m11": 0,
+            "erasure": 1
+          },
+          "m01": {
+            "m00": 0,
+            "m01": 9,
+            "m10": 0,
+            "m11": 0,
+            "erasure": 1
+          },
+          "m10": {
+            "m00": 0,
+            "m01": 0,
+            "m10": 8,
+            "m11": 0,
+            "erasure": 2
+          },
+          "m11": {
+            "m00": 0,
+            "m01": 0,
+            "m10": 0,
+            "m11": 8,
+            "erasure": 2
+          }
+        },
+        "per_content": {
+          "000000018495": {
+            "attempts": 4,
+            "correct": 3
+          },
+          "000000025148": {
+            "attempts": 4,
+            "correct": 1
+          },
+          "000000037746": {
+            "attempts": 4,
+            "correct": 2
+          },
+          "000000049371": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000082894": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000085048": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000097053": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000106635": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000129246": {
+            "attempts": 4,
+            "correct": 4
+          },
+          "000000133667": {
+            "attempts": 4,
+            "correct": 4
+          }
+        }
+      }
+    }
+  },
+  "rgb": {},
+  "raw_mat_diagnostics": {
+    "32": {
+      "attempts": 40,
+      "raw_changes_vs_G1_median": 60.0,
+      "raw_soft_change_vs_G1_median": 0.11482218652963638,
+      "latent_rms_median": 0.39854612946510315,
+      "coefficient_loss_step0_mean": 0.9811695946380496,
+      "coefficient_loss_final_mean": 0.016344177960127125,
+      "projection_failures": 5
+    }
+  },
+  "no_independent_test": true
+}

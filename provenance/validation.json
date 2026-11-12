@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-12",
+  "status": "passed",
+  "python": "3.9.23",
+  "checks": [
+    {
+      "command": "python tools/smoke_check.py",
+      "exit_code": 0,
+      "output": {
+        "status": "passed",
+        "checks": [
+          "Three real condition PNGs reproduced byte-for-byte as image arrays",
+          "Encoder mask exterior unchanged",
+          "Three real RGB observations, messages and frozen affine scores reproduced",
+          "Empty RGB returns an erasure",
+          "All six stable-comparison method/policy aggregates equal archived summary",
+          "Message bit counts 57/96 and 78/96 reproduced"
+        ],
+        "scope": "CPU replay and packaging integration only; no new GPU generation or model training"
+      }
+    },
+    {
+      "command": "python tools/check_stability.py",
+      "exit_code": 0,
+      "output": {
+        "status": "passed",
+        "checks": [
+          "Screen pixels before first source curve extraction",
+          "Reject low survival and inconsistent drift",
+          "Keep five-of-six support",
+          "Handle empty output edges",
+          "Persist screened edges and support maps"
+        ]
+      }
+    },
+    {
+      "command": "python tools/check_environment.py --generation",
+      "exit_code": 0,
+      "output": {
+        "python": "3.9.23",
+        "modules": {
+          "numpy": {
+            "status": "ok",
+            "version": "1.24.4"
+          },
+          "scipy": {
+            "status": "ok",
+            "version": "1.13.1"
+          },
+          "cv2": {
+            "status": "ok",
+            "version": "4.11.0"
+          },
+          "PIL": {
+            "status": "ok",
+            "version": "11.3.0"
+          },
+          "torch": {
+            "status": "ok",
+            "version": "2.0.1+cu118"
+          },
+          "torchvision": {
+            "status": "ok",
+            "version": "0.15.2+cu118"
+          },
+          "pytorch_lightning": {
+            "status": "ok",
+            "version": "1.5.0"
+          },
+          "transformers": {
+            "status": "ok",
+            "version": "4.19.2"
+          },
+          "open_clip": {
+            "status": "ok",
+            "version": "unknown"
+          },
+          "omegaconf": {
+            "status": "ok",
+            "version": "2.3.1"
+          },
+          "einops": {
+            "status": "ok",
+            "version": "0.8.2"
+          }
+        }
+      }
+    }
+  ],
+  "python_files_compiled": 63,
+  "documentation_links": "passed",
+  "exported_source_hashes": "passed",
+  "GPU_generation": "passed",
+  "GPU_scope": "Three historical PNGs; see minimal_gpu_validation.json; no full batch",
+  "training": "not run",
+  "fresh_environment_install": "not run; local compatible environment used"
+}
