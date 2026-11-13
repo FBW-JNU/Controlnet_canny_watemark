@@ -87,7 +87,3 @@ provenance/         来源、校验、验证与本次删除清单
 ```
 
 [代码地图](docs/CODE_MAP.md) · [实验解释](docs/EXPERIMENTS.md) · [后续实验](docs/ROADMAP.md) · [许可证与来源](THIRD_PARTY_NOTICES.md)
-
-## 更新已有 GitHub 仓库
-
-本次只改本地交付目录及代码ZIP，没有推送。**网页覆盖上传不会自动删除旧文件**。上传本包新增/修改文件；本次未重新引入research_snapshot或ROBIN。更新方法见 [更新说明](docs/UPDATE_GITHUB.md)。MAT Release独立ZIP保持原样，无需重新上传。
