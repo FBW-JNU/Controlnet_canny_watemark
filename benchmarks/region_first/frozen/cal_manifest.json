@@ -1,0 +1,4066 @@
+{
+  "schema_version": 1,
+  "channel": {
+    "steps": 20,
+    "CFG": 5,
+    "eta": 0,
+    "control": 1,
+    "precision": "float32",
+    "checkpoint_sha256": "4de384b16bc2d7a1fb258ca0cbd941d7dd0a721ae996aff89f905299d6923f45",
+    "config_sha256": "32820a975bc5bfe42ba596798408d2582f1c75da7c3b437a4537935122b16de4"
+  },
+  "assets": {
+    "canny/000000003124.png": "47b60d7c7cbf303964575005c37f187d49734f30c0525e911d3a4cd1cfa9ca25",
+    "canny/000000012231.png": "22fe9272586596ba11c19601358f23e852a3f9fbc52dda73781db836d182ab7f",
+    "canny/000000055580.png": "0b217b3636cf936d6e4c2ccc601d87a6b319ff8d1a6db6a3a19e77574b7962b1",
+    "canny/000000087235.png": "3c4fb18e1b92aff40d9c3f01d678fada1a1536b026859eafb391218ca127d57e",
+    "canny/000000115363.png": "f5d856450f50dbf335f92b0f1337fdc6d93e335e938a4459b2e162b00bf2df6f",
+    "canny/000000124607.png": "5f5df8e5691d97b802bbbb8e2a8a403cecf52e32d36491bac005856f79147bdd",
+    "canny/000000165833.png": "c68aa7aa4980a744652c3c3b821aceb5635cce8b32cffe9a0df61beb455acda1",
+    "canny/000000190656.png": "182e8380d44951c448187a2d8be76fdca6952c6cff0866ff18181d4b370a7939",
+    "canny/000000196672.png": "a761940c381b6663f305273fc15cccd54c969114b04fff148fd06d6f4031a5a7",
+    "canny/000000200103.png": "6993c363cc5545db69a230ffe6bd30d01ed59b3f7737de477237b52132173e07",
+    "canny/000000201184.png": "2612f25eb1f308092d537179417d056878f39b4b9501c38bbb057e4f25041058",
+    "canny/000000264180.png": "b4e952c9c36a6ef71ee0c4bd7ca7a5f2975d1b4a3e3c7712eeecb8605da6138f",
+    "canny/000000302960.png": "59d4a6285173d4c4b2ef9fc609c2f139ac856824077524fb950f6d46cb273643",
+    "canny/000000320659.png": "98b8960c43f13ddc3ccb6ce4477e970d0de01f24f4333fd74a6cb3f017b6e04f",
+    "canny/000000343821.png": "210a36a1b1f0805d8021e7f825c5510c5b6a39e0dc350259544032c01cd154bd",
+    "canny/000000413421.png": "6b0b98659b219dbfd9eee439079dd0ebe0d76d4fb7cfd3413c5be133c125de59",
+    "canny/000000440339.png": "5523440f026b54619718f870b2e061d3a112f6531c71b920d0f1404315bab511",
+    "canny/000000550853.png": "c3164fdb31e9fffc8c20a21f3cb9b854e819e05b3de74e1cbccfc942133f1bf0",
+    "conditions/115363/00.png": "01ab521cbc0e77ba40c81dc09eaf17f330456fbb6713d86bb6660b1d18f3c5da",
+    "conditions/115363/01.png": "a1b7ad77869c1877946ba8d414cbf1fba17f5d20cfb4ca6df7f89cc9f347295e",
+    "conditions/115363/10.png": "2f32f3b33d66fc73a0e759aa9d90d29c96d40d8c91290c6cdd4a2fda7fd66289",
+    "conditions/115363/11.png": "3595a7a936098ff091bc9d17ed237e9c2a8b193f180e0633eeef11ae70794deb",
+    "conditions/115363/clean.png": "f5d856450f50dbf335f92b0f1337fdc6d93e335e938a4459b2e162b00bf2df6f",
+    "conditions/12231/00.png": "ea75d19b2f6663e5e8cd5d44af4ac779d7d6db85e7bce010161d5ec39fdeac0b",
+    "conditions/12231/01.png": "9d2f009e69f50b11a47ea3f1e059e99fce1b6cd6e1185d40069a1c3879e84448",
+    "conditions/12231/10.png": "bec7c6dbac114fd93dde2b67230ee85ab03cb78177852ad655e869c5e512902f",
+    "conditions/12231/11.png": "ee67840ee728635961100bcd283171d6f23f2e5c7e24395b2327f675df8cff37",
+    "conditions/12231/clean.png": "22fe9272586596ba11c19601358f23e852a3f9fbc52dda73781db836d182ab7f",
+    "conditions/124607/00.png": "e6aa763eb44e8066f22933dc2b9484424a48cf56337bdb9ef1886aa1f08b0b58",
+    "conditions/124607/01.png": "8c27c0c48b86f2ce090997d4c78d7a0ceb91e6054ef9921b82a7a29ea24770f6",
+    "conditions/124607/10.png": "c7377964fded4f3b4ee4a95d43275a96e8299efd9e0c9e416d298ceaeb6acc29",
+    "conditions/124607/11.png": "08292f8c794738d9697ca430b91c6cd326a439cb92a0b2443ed7f9498b0e2eca",
+    "conditions/124607/clean.png": "5f5df8e5691d97b802bbbb8e2a8a403cecf52e32d36491bac005856f79147bdd",
+    "conditions/165833/00.png": "b767aa752d7147280708d84b5b3c3e838524fe1c8c513da494bc014bbd969b23",
+    "conditions/165833/01.png": "b0952c5994bc8f4ed3fccf21ff448fb7cd39b7ebb6d7e6401b0846d113d32f9d",
+    "conditions/165833/10.png": "e475b888fe4b59eb1ac01230f041959ba58869516541d7e8f481d2a6fa6157d0",
+    "conditions/165833/11.png": "dc3d792de870b667f166fa1566ad018fcca6c0e9f6c284ea065c6adbc90e4702",
+    "conditions/165833/clean.png": "c68aa7aa4980a744652c3c3b821aceb5635cce8b32cffe9a0df61beb455acda1",
+    "conditions/190656/00.png": "f4729728a67b354244321bf96afc064c7f1baf635b2d9541ad8ab46a61913d7a",
+    "conditions/190656/01.png": "de5a35c8c51f8d07a7c33ee3da3218a5e7df82fa786b6861a7cf072691cc0673",
+    "conditions/190656/10.png": "e150ae83a2eb86d2f9b3b341b39c35a163fda0520c5152294391223426ce6360",
+    "conditions/190656/11.png": "696fab606e00316d4d7a98eedfd04c38a8cde3c33fce4818026a45a379b2ec93",
+    "conditions/190656/clean.png": "182e8380d44951c448187a2d8be76fdca6952c6cff0866ff18181d4b370a7939",
+    "conditions/196672/00.png": "3110411359b0c5362abeb47fff770e5be097bdb51bf405c303516745aae2bd93",
+    "conditions/196672/01.png": "c81e7cb7ef7d655b0a9240d94bc59d133c376e828f504796667b3bbf848d07f5",
+    "conditions/196672/10.png": "cc0ea4a7afe002cf5a0a9d067df4232e4e93c1aaac0bc082dbb61990a473af46",
+    "conditions/196672/11.png": "8b178e9c921bd9e6bc9193f4dbf7702bc74c09a17f7ff0a2a18f8c0985ec0dd3",
+    "conditions/196672/clean.png": "a761940c381b6663f305273fc15cccd54c969114b04fff148fd06d6f4031a5a7",
+    "conditions/200103/00.png": "627bf39edb6987a515166a1547b5568665810add4870286b64d2935f8297c5f2",
+    "conditions/200103/01.png": "166bb92159c091848a9ab4e91bfe222b1505264f5849d7a56ea91a5d36cf2d45",
+    "conditions/200103/10.png": "fcfc604857f28234f84acea9af139d3d1b45b70e8e0e9b802b6209b625aa1082",
+    "conditions/200103/11.png": "e366f59d5723371e685a1a5f2e536bdeb962d8cfe7b7be305b2bbc0b5d35b897",
+    "conditions/200103/clean.png": "6993c363cc5545db69a230ffe6bd30d01ed59b3f7737de477237b52132173e07",
+    "conditions/201184/00.png": "3cf4a19c2edef0de143d76699b7ec1680d74953aae1407528e8a1470fc48c188",
+    "conditions/201184/01.png": "0eae224eb2d71f18ef742792356a92270c06aed95f1ef330f96170a2b25b110e",
+    "conditions/201184/10.png": "2b7da8b7bd6757ff979928438457c957876d85def5f1e04da1e5db6a4a2e0536",
+    "conditions/201184/11.png": "4ea07dbe0af94641ece4092d418613111ae1675f57427baf7635075b7bfc7b4f",
+    "conditions/201184/clean.png": "2612f25eb1f308092d537179417d056878f39b4b9501c38bbb057e4f25041058",
+    "conditions/264180/00.png": "9646afc663c8023a1a8e298c0b0149a9b504a9c50f9d479e934a626dd4f685fd",
+    "conditions/264180/01.png": "97c1be9ce0c0bbd2a51308432270892d3e02bcec02cddd0e373d37d4c7b34aff",
+    "conditions/264180/10.png": "6bc4219397c23013b9be8be52fb7025160fcbf816b28328a7ea64afe42eb5dd0",
+    "conditions/264180/11.png": "93f7fbb92826842d9bd19530f1b9997744fee577dfd22070d35059188ca7e05f",
+    "conditions/264180/clean.png": "b4e952c9c36a6ef71ee0c4bd7ca7a5f2975d1b4a3e3c7712eeecb8605da6138f",
+    "conditions/302960/00.png": "cd9a5cdd8f28b68d2aa5f0fc5bb4c1efde5573b9a31f4fdccaa7e4a4aba9f140",
+    "conditions/302960/01.png": "ecfdd01ee876c0807b48034dbb95591e76068754cc06501731f475787907428f",
+    "conditions/302960/10.png": "e4ab7b01e0e4143fdafefbc26a9f1deec2096124ac3109b89fc02c0ba675f388",
+    "conditions/302960/11.png": "38d9bac2d29de4b250c184ae5f453d58fade73f44df5f27e19f3ccc472e95f45",
+    "conditions/302960/clean.png": "59d4a6285173d4c4b2ef9fc609c2f139ac856824077524fb950f6d46cb273643",
+    "conditions/3124/00.png": "c6a5db8ca8feac0c65149e89531a9311bf3f8ae75b696d7d6291b33fffc5dd5e",
+    "conditions/3124/01.png": "381d70b1ba6b53b29a2c95ced71b0582ed3f58626456c2eca42b8d2517e9d773",
+    "conditions/3124/10.png": "88ce40ad75c65e66c089aa7b407589da5ba99adb524bb451c07a8b7c6194f9b0",
+    "conditions/3124/11.png": "57ddc0e454589cfa44dc9575110ffe3fed1205956ecfd27a83c98c0d4ff9e3bf",
+    "conditions/3124/clean.png": "47b60d7c7cbf303964575005c37f187d49734f30c0525e911d3a4cd1cfa9ca25",
+    "conditions/320659/00.png": "514b7585aaa98c18d820754f328d1d1b9fc18f652505c93c9a803f0cb6ddf7ee",
+    "conditions/320659/01.png": "0af26a1b26a49f34aaecdd8e3a6bfa12674e5aca8426b18fdab506641c846f62",
+    "conditions/320659/10.png": "8cc70394f9e8ee78db232eb883e0de8f243d1618da9509827ed7837b852aaea1",
+    "conditions/320659/11.png": "e61bb300ea579c4a95df301100ddb743a8bd71ce54e8695ea1b66d60735038f9",
+    "conditions/320659/clean.png": "98b8960c43f13ddc3ccb6ce4477e970d0de01f24f4333fd74a6cb3f017b6e04f",
+    "conditions/343821/00.png": "52605700b843e263d0874443c01da7047391dea4c0e328a4241fe88840e8c148",
+    "conditions/343821/01.png": "707d9f93dd1bd9205bc39ab0c69905ad107c4bea5ac028c30c84e8552d399d32",
+    "conditions/343821/10.png": "effc2ffe5cbd9d6bdcbdc871b59e19f2ffdaf4d57567334cf18187c8d3b3ce04",
+    "conditions/343821/11.png": "75c49d3d6765420f68c0a8563867633e45659630844320600f1939f816d7c34a",
+    "conditions/343821/clean.png": "210a36a1b1f0805d8021e7f825c5510c5b6a39e0dc350259544032c01cd154bd",
+    "conditions/413421/00.png": "160014a6f5f3275a00fa89402c6308dd091815b0948054607bcc647eb8278dbf",
+    "conditions/413421/01.png": "2bc4e7d6114f98ca50d9a2388ecd113a262f8e02d3d085a820e4462bcea41009",
+    "conditions/413421/10.png": "4e5c6c5d1cb377549cf014b6260c9b9ac1e33c1649a14ed729320bb3f6248ed8",
+    "conditions/413421/11.png": "2b7ea9052dab36d3a7360225c94e16b8984f73ac85b57e380f69f5f243ba3396",
+    "conditions/413421/clean.png": "6b0b98659b219dbfd9eee439079dd0ebe0d76d4fb7cfd3413c5be133c125de59",
+    "conditions/440339/00.png": "d8b53934e6e08a8e6f99479e29c342c403b9c9effc7966c713f944d9c075ebd9",
+    "conditions/440339/01.png": "4f7ac09c697777a5ba4bc8158195b2e7045c3fdadd4738e9ce4e0797ca29bc3a",
+    "conditions/440339/10.png": "400e58873297ca91f92df1b436b6b9a947425ea96874d156faa77b95a2e422d8",
+    "conditions/440339/11.png": "a0810926a94183baf79cbb0af7b0e7624caaa63cb020d24d68452a165282b25b",
+    "conditions/440339/clean.png": "5523440f026b54619718f870b2e061d3a112f6531c71b920d0f1404315bab511",
+    "conditions/550853/00.png": "1ed5bb7782b5ddedc9ce19c23cd45ad3f7da44a7200b0bc6c9f5f2fb0036022a",
+    "conditions/550853/01.png": "dbeebbb2c7a3b2b6cbc6be56031bb09a0b93e6fcb3b834f1e082b4fcd98b4924",
+    "conditions/550853/10.png": "a54c0b5fb0cbe1a2dda75dd14d922864da4c21b6b6dd8b5925a9fd7cac9268d8",
+    "conditions/550853/11.png": "64c2bd494bb95711c421b5cb9f2ef5c8202f1abc1ffa03f3dff0b1836648f64e",
+    "conditions/550853/clean.png": "c3164fdb31e9fffc8c20a21f3cb9b854e819e05b3de74e1cbccfc942133f1bf0",
+    "conditions/55580/00.png": "e9e2119f807fb640e3bd843732dfdc0e1a931f186bc4be82db2d82511cd91b82",
+    "conditions/55580/01.png": "cd08941eaffeaf8248163c1b92059d4470e3537ba4d57251cbf5b55745e4ddb5",
+    "conditions/55580/10.png": "8b1a947ddca862f14dc1963a82d7e081fc1e767f239716553289deefbe7c8eef",
+    "conditions/55580/11.png": "32a4944cdc1e7b698dd5bf7966cfb9ba4366294792cfac0bc02bdc055d01f2fb",
+    "conditions/55580/clean.png": "0b217b3636cf936d6e4c2ccc601d87a6b319ff8d1a6db6a3a19e77574b7962b1",
+    "conditions/87235/00.png": "596b447e45d79a370891130eb3a84667097d35f5dfc47f48a7cf60c956c81f04",
+    "conditions/87235/01.png": "f3209239aa2f68c25da2fd1b75026ff0d42611fab47fc41e4516cefeb6bf2a72",
+    "conditions/87235/10.png": "baa232f5663584965c4092fdb6ab6bc107db44e3ceacd20d8bff699990a18178",
+    "conditions/87235/11.png": "680b7af954ff5ac621fc542f01c2e37bd96639eeefdcdf83d77357981609ffb0",
+    "conditions/87235/clean.png": "3c4fb18e1b92aff40d9c3f01d678fada1a1536b026859eafb391218ca127d57e",
+    "masks/115363.png": "36ef482f3c98afaade6bdfee01c0de7ce7905053a8f5d56f350bbd8350d0b757",
+    "masks/12231.png": "18ac0fb6a4226ad02f6460d8d7017775bc428400f3f9213b1f547a2ebfc2605c",
+    "masks/124607.png": "5896bfca7db282bd4d763adfa077f89fda198b6a4757e2332e1ee3dc15abdb8a",
+    "masks/165833.png": "344b1ef2ad272075817af94185e67d1a8badbfe01b49763c0d2206d76e52fa96",
+    "masks/190656.png": "73a615ac2fc3c4fdd745eb0fa8b837e375fd3ba601d0c83ab8fbbc3e7da8c551",
+    "masks/196672.png": "1f61f3a34023a7678b4b25ac1e9230b4be68ddee943e600a3a3843ca8c3b58d6",
+    "masks/200103.png": "d3a4ad84e4e943828ccca02628710042eb0c371cb80b5f712ce880f9fdffe6b5",
+    "masks/201184.png": "e002b9d39102464394d3b2a95adf530470798b4ea4cabb06e8ce30913f7eb20a",
+    "masks/264180.png": "a798047c6f176f05e9e414a42c479eacffadae56bab9909144ba588153aea26c",
+    "masks/302960.png": "89078bd0c2936d9e2729032d3b8b0e88d1f0904fd7acabf47d3f7a3559b09363",
+    "masks/3124.png": "83eb7bcb8c412eea7933bf39357cdee62216216f4998708bf5b08ded0e1c443e",
+    "masks/320659.png": "771ac9d9c348696cb3fdf90720ff234ada78f7a9664d689e7882693772476520",
+    "masks/343821.png": "76c2f0fd367fcebf60e974104e3d62a4a6917f83886ecf54cfebd9d899117b7e",
+    "masks/413421.png": "c9016fa642730d8e9c689f9b5b84b35e3b63bb3488dbe063f259ad7939b8e327",
+    "masks/440339.png": "bcdff978050faa404355dc00360629b7e9cb4980ba61600ad57c18664ca641a9",
+    "masks/550853.png": "0fe4f7aeec0d7a15583003a40b3dd8935b4bdd62c8aa18efd7374fd53c5bbfea",
+    "masks/55580.png": "94c9347466778b4d04e7ccf7ed86a90c18ae17e00db41c14839517ce2bcba6b2",
+    "masks/87235.png": "c1f1a0798cd566c0ebb74fd1a941dfebacd6869e90617339c3d8ab4257da17b6",
+    "protocol.json": "857674d0ab54eed0f6ab928120a067feef218d8d8da686b73c8679aaa7ce6417",
+    "selection.json": "5672304c6765ce1a77963d144872323b321aed64ad321ec5b72df9d6a57ca170",
+    "selection_freeze.json": "5448006fd401b6da558673ff0b58eff08ba9519e64acecef26fe8bef1316f8d4"
+  },
+  "generation_jobs": [
+    {
+      "id": "Cal/000000440339_v0_clean",
+      "hint": "conditions/440339/clean.png",
+      "prompt": "A realistic documentary photograph of the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 440339,
+      "expected_rgb_sha256": "d9c356cbe4ec420d6b5e32d91147c3a72a5abadf6bb026c8dc995392a1e1d63d"
+    },
+    {
+      "id": "Cal/000000440339_v0_00",
+      "hint": "conditions/440339/00.png",
+      "prompt": "A realistic documentary photograph of the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 440339,
+      "expected_rgb_sha256": "83dd8be40278a05c471a0e8be095d1dd2329e3eefff0fe8d4f15d296609c1b7e"
+    },
+    {
+      "id": "Cal/000000440339_v0_01",
+      "hint": "conditions/440339/01.png",
+      "prompt": "A realistic documentary photograph of the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 440339,
+      "expected_rgb_sha256": "a08939845d9b1c4c5f69742c550769c2d38506494409c83bb16a8e86c9b13841"
+    },
+    {
+      "id": "Cal/000000440339_v0_10",
+      "hint": "conditions/440339/10.png",
+      "prompt": "A realistic documentary photograph of the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 440339,
+      "expected_rgb_sha256": "f3a3c7462060afe62bd975ffe6e0c073a4f70d721872a957410e781373ce0d54"
+    },
+    {
+      "id": "Cal/000000440339_v0_11",
+      "hint": "conditions/440339/11.png",
+      "prompt": "A realistic documentary photograph of the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 440339,
+      "expected_rgb_sha256": "de0c3c56679e1036a80ab7f379bcc1dcd58e4d3512d7a8d1587dbe1ebf00d2c4"
+    },
+    {
+      "id": "Cal/000000440339_v1_clean",
+      "hint": "conditions/440339/clean.png",
+      "prompt": "An expressive watercolor painting of the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 440339,
+      "expected_rgb_sha256": "797c34971317c017b9fdd0cc304e3f4d9f1528ddfe65e98c637102ac81b526b8"
+    },
+    {
+      "id": "Cal/000000440339_v1_00",
+      "hint": "conditions/440339/00.png",
+      "prompt": "An expressive watercolor painting of the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 440339,
+      "expected_rgb_sha256": "a01d36455f261706febc98d3e3420042c4f02a170ba778e1c3aaebb89c78606f"
+    },
+    {
+      "id": "Cal/000000440339_v1_01",
+      "hint": "conditions/440339/01.png",
+      "prompt": "An expressive watercolor painting of the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 440339,
+      "expected_rgb_sha256": "d7cf49ff0a059d57278e3346f78591e1f9fae7e7d5607b1e7fd230f18241a0bb"
+    },
+    {
+      "id": "Cal/000000440339_v1_10",
+      "hint": "conditions/440339/10.png",
+      "prompt": "An expressive watercolor painting of the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 440339,
+      "expected_rgb_sha256": "72b894c7652578b6a5cde57d19d2bc6523bf75bec85b52ca0583caba35fe3712"
+    },
+    {
+      "id": "Cal/000000440339_v1_11",
+      "hint": "conditions/440339/11.png",
+      "prompt": "An expressive watercolor painting of the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 440339,
+      "expected_rgb_sha256": "3fb4aa1cb3888ff083a24e60d9c105bbe6fe7241b2db2f5d628c0ed13f49d80f"
+    },
+    {
+      "id": "Cal/000000196672_v0_clean",
+      "hint": "conditions/196672/clean.png",
+      "prompt": "A realistic documentary photograph of the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 196672,
+      "expected_rgb_sha256": "ca5333746639e789892f7b82c3ed949cf0781fd446f6bb6bbc25bbca3710b741"
+    },
+    {
+      "id": "Cal/000000196672_v0_00",
+      "hint": "conditions/196672/00.png",
+      "prompt": "A realistic documentary photograph of the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 196672,
+      "expected_rgb_sha256": "3a5964f09b93c8858995a88dcd98a4081e521383321c5c7681899339cbcdbe66"
+    },
+    {
+      "id": "Cal/000000196672_v0_01",
+      "hint": "conditions/196672/01.png",
+      "prompt": "A realistic documentary photograph of the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 196672,
+      "expected_rgb_sha256": "506bfc0338cfe981204613f798ae638f15532553b300bd02eb8647a46d6c70f6"
+    },
+    {
+      "id": "Cal/000000196672_v0_10",
+      "hint": "conditions/196672/10.png",
+      "prompt": "A realistic documentary photograph of the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 196672,
+      "expected_rgb_sha256": "8c97d728d226af51a5aee8d0182e8746680cc32f5eef36cf1f7d8ca98a16fbbc"
+    },
+    {
+      "id": "Cal/000000196672_v0_11",
+      "hint": "conditions/196672/11.png",
+      "prompt": "A realistic documentary photograph of the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 196672,
+      "expected_rgb_sha256": "1a66704cc0aa9aefe3d2c99278214ac2c716b3388487c421f7ef4fad21cbec9f"
+    },
+    {
+      "id": "Cal/000000196672_v1_clean",
+      "hint": "conditions/196672/clean.png",
+      "prompt": "An expressive watercolor painting of the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 196672,
+      "expected_rgb_sha256": "ef816b88a5f19c74f65ea7687371adadfca44c677d724db63bda48b07e0af4b3"
+    },
+    {
+      "id": "Cal/000000196672_v1_00",
+      "hint": "conditions/196672/00.png",
+      "prompt": "An expressive watercolor painting of the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 196672,
+      "expected_rgb_sha256": "f6ebc173e454b80a9af0c9f4d1ed930d135aebd98139186700975e718615fa58"
+    },
+    {
+      "id": "Cal/000000196672_v1_01",
+      "hint": "conditions/196672/01.png",
+      "prompt": "An expressive watercolor painting of the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 196672,
+      "expected_rgb_sha256": "2b136757223919cb4ea55aa2c2d77ba1ab6e98eeb6d6cb66a561a26a6a570beb"
+    },
+    {
+      "id": "Cal/000000196672_v1_10",
+      "hint": "conditions/196672/10.png",
+      "prompt": "An expressive watercolor painting of the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 196672,
+      "expected_rgb_sha256": "9c8e082ce0caa723ff8b6e61ce5884ba2fd7c2e3102d7100b9c91094d59f5253"
+    },
+    {
+      "id": "Cal/000000196672_v1_11",
+      "hint": "conditions/196672/11.png",
+      "prompt": "An expressive watercolor painting of the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 196672,
+      "expected_rgb_sha256": "222eb72b9a992eb5f682e23909327c25ecc2f26338cc305db6ad98cfa952f849"
+    },
+    {
+      "id": "Cal/000000165833_v0_clean",
+      "hint": "conditions/165833/clean.png",
+      "prompt": "A realistic documentary photograph of the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 165833,
+      "expected_rgb_sha256": "a23136709a14fe62b4aa489cc134835cf568096434904135f32f9cff351f7d14"
+    },
+    {
+      "id": "Cal/000000165833_v0_00",
+      "hint": "conditions/165833/00.png",
+      "prompt": "A realistic documentary photograph of the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 165833,
+      "expected_rgb_sha256": "1705b673c19c59b11f497eda03ebea79a336314c2d56ab2cf82acf0ad0dee72b"
+    },
+    {
+      "id": "Cal/000000165833_v0_01",
+      "hint": "conditions/165833/01.png",
+      "prompt": "A realistic documentary photograph of the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 165833,
+      "expected_rgb_sha256": "97c84a6355b52667a18baa06b782780ec6213af18bc3240d7e4e28afc1734c39"
+    },
+    {
+      "id": "Cal/000000165833_v0_10",
+      "hint": "conditions/165833/10.png",
+      "prompt": "A realistic documentary photograph of the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 165833,
+      "expected_rgb_sha256": "ac08eecf8911b78d7fec3479cfb13c873213ce614869ac21e4d98dc8013259ee"
+    },
+    {
+      "id": "Cal/000000165833_v0_11",
+      "hint": "conditions/165833/11.png",
+      "prompt": "A realistic documentary photograph of the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 165833,
+      "expected_rgb_sha256": "a684a19469111cdc58d1ab662c56876765557664a665ec6abbdd0bdabab6e189"
+    },
+    {
+      "id": "Cal/000000165833_v1_clean",
+      "hint": "conditions/165833/clean.png",
+      "prompt": "An expressive watercolor painting of the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 165833,
+      "expected_rgb_sha256": "f40b58427f2c2fcd3a86f66d75693d2b0a8d16a9dcb558d504ad08672b2607ac"
+    },
+    {
+      "id": "Cal/000000165833_v1_00",
+      "hint": "conditions/165833/00.png",
+      "prompt": "An expressive watercolor painting of the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 165833,
+      "expected_rgb_sha256": "60b108a21ec4baa3dd925bcadd0748bfad8e0c5c1825ed913b0c5a66551c2995"
+    },
+    {
+      "id": "Cal/000000165833_v1_01",
+      "hint": "conditions/165833/01.png",
+      "prompt": "An expressive watercolor painting of the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 165833,
+      "expected_rgb_sha256": "93e8d7f4f1239483faaeee21a48a3df81c685e486a5ab3fd17105fc17fb95450"
+    },
+    {
+      "id": "Cal/000000165833_v1_10",
+      "hint": "conditions/165833/10.png",
+      "prompt": "An expressive watercolor painting of the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 165833,
+      "expected_rgb_sha256": "c4c4412ac5219bc83bc49a92a1eaeb9f20307d23732bc5898eeb9e4ef9926a6f"
+    },
+    {
+      "id": "Cal/000000165833_v1_11",
+      "hint": "conditions/165833/11.png",
+      "prompt": "An expressive watercolor painting of the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 165833,
+      "expected_rgb_sha256": "81673ce3c66c7e0ab0c3a384d6614e8b78d2cfec6e6decf9c472bd652da4af04"
+    },
+    {
+      "id": "Cal/000000343821_v0_clean",
+      "hint": "conditions/343821/clean.png",
+      "prompt": "A realistic documentary photograph of the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 343821,
+      "expected_rgb_sha256": "c4d88f8edbbdfd711cc1d3426f942a94abe93af8a7424c013306a4fc0c4c0723"
+    },
+    {
+      "id": "Cal/000000343821_v0_00",
+      "hint": "conditions/343821/00.png",
+      "prompt": "A realistic documentary photograph of the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 343821,
+      "expected_rgb_sha256": "7d587ec88e6e7803ce1142dc491f344d4a8a7e1ea919889cf9774808a8b9ed5e"
+    },
+    {
+      "id": "Cal/000000343821_v0_01",
+      "hint": "conditions/343821/01.png",
+      "prompt": "A realistic documentary photograph of the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 343821,
+      "expected_rgb_sha256": "f84ebdc6e42b3605979559d559ab6c84b77f0602e4167c4ec0f5c9816481b565"
+    },
+    {
+      "id": "Cal/000000343821_v0_10",
+      "hint": "conditions/343821/10.png",
+      "prompt": "A realistic documentary photograph of the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 343821,
+      "expected_rgb_sha256": "d9656e3119198a4642a0ec4b4a070c7e1ffa96283c99d098c90ccaac5719d4ac"
+    },
+    {
+      "id": "Cal/000000343821_v0_11",
+      "hint": "conditions/343821/11.png",
+      "prompt": "A realistic documentary photograph of the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 343821,
+      "expected_rgb_sha256": "a8a008d3b934303f3b53bf4273e0a515e50b2c02ac160d15a8311569d87f7cc4"
+    },
+    {
+      "id": "Cal/000000343821_v1_clean",
+      "hint": "conditions/343821/clean.png",
+      "prompt": "An expressive watercolor painting of the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 343821,
+      "expected_rgb_sha256": "cdea92145be875fd3210fa5368ecccd32cc74458bdc51ddfec97ef14ee28dc6b"
+    },
+    {
+      "id": "Cal/000000343821_v1_00",
+      "hint": "conditions/343821/00.png",
+      "prompt": "An expressive watercolor painting of the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 343821,
+      "expected_rgb_sha256": "867903728130b016659b7b7940283c185505f29eddfa6d9e19f5a4688c4eff6e"
+    },
+    {
+      "id": "Cal/000000343821_v1_01",
+      "hint": "conditions/343821/01.png",
+      "prompt": "An expressive watercolor painting of the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 343821,
+      "expected_rgb_sha256": "ee131803fdaf7a9ead1bc60fc6ace6c32ac85d31180ceb00ae8a1ab34c9aba09"
+    },
+    {
+      "id": "Cal/000000343821_v1_10",
+      "hint": "conditions/343821/10.png",
+      "prompt": "An expressive watercolor painting of the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 343821,
+      "expected_rgb_sha256": "c87c87727e1f3227e2e85e9bfdd224c5f825a4ac05af719d981805da6f4f445b"
+    },
+    {
+      "id": "Cal/000000343821_v1_11",
+      "hint": "conditions/343821/11.png",
+      "prompt": "An expressive watercolor painting of the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 343821,
+      "expected_rgb_sha256": "16d5b36c3dd68c815839526127d83ce95f4627ebff1442fb045cd45936baf522"
+    },
+    {
+      "id": "Cal/000000320659_v0_clean",
+      "hint": "conditions/320659/clean.png",
+      "prompt": "A realistic documentary photograph of the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 320659,
+      "expected_rgb_sha256": "0dce2bd735eb678beed5969d31caa83031fd67a8197571122f8e4e71214573dc"
+    },
+    {
+      "id": "Cal/000000320659_v0_00",
+      "hint": "conditions/320659/00.png",
+      "prompt": "A realistic documentary photograph of the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 320659,
+      "expected_rgb_sha256": "29aaaf61a6c0ce5c3108b9e89dde07ad522f7581b5e53ae728ac3acd9c333d77"
+    },
+    {
+      "id": "Cal/000000320659_v0_01",
+      "hint": "conditions/320659/01.png",
+      "prompt": "A realistic documentary photograph of the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 320659,
+      "expected_rgb_sha256": "c272e1d831c25646d1047ecbd576c675fef266218a05c3d10401e7c40c6f2e67"
+    },
+    {
+      "id": "Cal/000000320659_v0_10",
+      "hint": "conditions/320659/10.png",
+      "prompt": "A realistic documentary photograph of the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 320659,
+      "expected_rgb_sha256": "e0aa77038a2df069e9eb3e15c3033bd2bb230eb809d904bd76fa46dd5822a536"
+    },
+    {
+      "id": "Cal/000000320659_v0_11",
+      "hint": "conditions/320659/11.png",
+      "prompt": "A realistic documentary photograph of the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 320659,
+      "expected_rgb_sha256": "c9b48ee918cb9def6987ae7f4e5c735b885c8b972cc7a7d0602af171d82be050"
+    },
+    {
+      "id": "Cal/000000320659_v1_clean",
+      "hint": "conditions/320659/clean.png",
+      "prompt": "An expressive watercolor painting of the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 320659,
+      "expected_rgb_sha256": "2f888f77f171944049d1b0c2608a4a6e179667f5a7620454da5555caf606d256"
+    },
+    {
+      "id": "Cal/000000320659_v1_00",
+      "hint": "conditions/320659/00.png",
+      "prompt": "An expressive watercolor painting of the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 320659,
+      "expected_rgb_sha256": "a2f63383d471baf511645b5019b3948dd6c27688c1a330fbe5a18aedc48aace6"
+    },
+    {
+      "id": "Cal/000000320659_v1_01",
+      "hint": "conditions/320659/01.png",
+      "prompt": "An expressive watercolor painting of the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 320659,
+      "expected_rgb_sha256": "fbc6fbd3b6390426195c0159c8511ff929f62e366c7d0ca1030daf278ce5e957"
+    },
+    {
+      "id": "Cal/000000320659_v1_10",
+      "hint": "conditions/320659/10.png",
+      "prompt": "An expressive watercolor painting of the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 320659,
+      "expected_rgb_sha256": "e260e545e336d2f32e47467d8c0b0d5fb7be840081c7fe54a546a1402bb99d76"
+    },
+    {
+      "id": "Cal/000000320659_v1_11",
+      "hint": "conditions/320659/11.png",
+      "prompt": "An expressive watercolor painting of the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 320659,
+      "expected_rgb_sha256": "8ce9f74100f82663a10d8ec986b9e7ec37c54d3392a20bba9072fe92fc878b63"
+    },
+    {
+      "id": "Cal/000000190656_v0_clean",
+      "hint": "conditions/190656/clean.png",
+      "prompt": "A realistic documentary photograph of the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 190656,
+      "expected_rgb_sha256": "3b5840caec8b881907abdf320a0e23bdb82b8fa6752017c1cfe687e6f37f1b57"
+    },
+    {
+      "id": "Cal/000000190656_v0_00",
+      "hint": "conditions/190656/00.png",
+      "prompt": "A realistic documentary photograph of the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 190656,
+      "expected_rgb_sha256": "8dc6d61d7589d5ac047f74f998f7c58bb4ebe4a5da40837b984f57d9690f2f15"
+    },
+    {
+      "id": "Cal/000000190656_v0_01",
+      "hint": "conditions/190656/01.png",
+      "prompt": "A realistic documentary photograph of the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 190656,
+      "expected_rgb_sha256": "23bc16bc5e3ec3c1dffdac7893b0ff5f2c2d0ef5f54d491ba52979572febbc6a"
+    },
+    {
+      "id": "Cal/000000190656_v0_10",
+      "hint": "conditions/190656/10.png",
+      "prompt": "A realistic documentary photograph of the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 190656,
+      "expected_rgb_sha256": "7329ca07dc87ae8e351cd48f5b93a1b11fba1238d19ca5957b2ee256509d0006"
+    },
+    {
+      "id": "Cal/000000190656_v0_11",
+      "hint": "conditions/190656/11.png",
+      "prompt": "A realistic documentary photograph of the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116851,
+      "phase": "Cal",
+      "content_id": 190656,
+      "expected_rgb_sha256": "c8dd77d56bd1c22abf027161b9740e4b0d73ddeb22bd879866de71f723c869b4"
+    },
+    {
+      "id": "Cal/000000190656_v1_clean",
+      "hint": "conditions/190656/clean.png",
+      "prompt": "An expressive watercolor painting of the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 190656,
+      "expected_rgb_sha256": "46b3abcec3fc4a3af0aa96fa0976ca5750431742299b2960ca13fb9076b926e4"
+    },
+    {
+      "id": "Cal/000000190656_v1_00",
+      "hint": "conditions/190656/00.png",
+      "prompt": "An expressive watercolor painting of the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 190656,
+      "expected_rgb_sha256": "fd4c947c45cfbb4690b59aaea0e53835ad9d0ea077000b7576ff7f4d014ffbb6"
+    },
+    {
+      "id": "Cal/000000190656_v1_01",
+      "hint": "conditions/190656/01.png",
+      "prompt": "An expressive watercolor painting of the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 190656,
+      "expected_rgb_sha256": "a9b8f5ae69023d380e5b90c818410afd7ddbf70308c357d951f22b0404da2aff"
+    },
+    {
+      "id": "Cal/000000190656_v1_10",
+      "hint": "conditions/190656/10.png",
+      "prompt": "An expressive watercolor painting of the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 190656,
+      "expected_rgb_sha256": "9148a510d514d0adc82e99c5a3151f90bb0d1c91ed1fc791cd477234696c6a6c"
+    },
+    {
+      "id": "Cal/000000190656_v1_11",
+      "hint": "conditions/190656/11.png",
+      "prompt": "An expressive watercolor painting of the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116852,
+      "phase": "Cal",
+      "content_id": 190656,
+      "expected_rgb_sha256": "971cf4c9f66e8871fdd6d26c897a2701635364024f55d9d2767ada86293c494a"
+    }
+  ],
+  "evaluation_rows": [
+    {
+      "id": "Cal/000000440339_v0_clean",
+      "generation_id": "Cal/000000440339_v0_clean",
+      "clean_generation_id": "Cal/000000440339_v0_clean",
+      "reference": "440339",
+      "content_id": 440339,
+      "group": "region_first/Cal",
+      "truth": null,
+      "arm": "clean",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000440339_v0_00",
+      "generation_id": "Cal/000000440339_v0_00",
+      "clean_generation_id": "Cal/000000440339_v0_clean",
+      "reference": "440339",
+      "content_id": 440339,
+      "group": "region_first/Cal",
+      "truth": "00",
+      "arm": "00",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000440339_v0_01",
+      "generation_id": "Cal/000000440339_v0_01",
+      "clean_generation_id": "Cal/000000440339_v0_clean",
+      "reference": "440339",
+      "content_id": 440339,
+      "group": "region_first/Cal",
+      "truth": "01",
+      "arm": "01",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000440339_v0_10",
+      "generation_id": "Cal/000000440339_v0_10",
+      "clean_generation_id": "Cal/000000440339_v0_clean",
+      "reference": "440339",
+      "content_id": 440339,
+      "group": "region_first/Cal",
+      "truth": "10",
+      "arm": "10",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "10"
+      }
+    },
+    {
+      "id": "Cal/000000440339_v0_11",
+      "generation_id": "Cal/000000440339_v0_11",
+      "clean_generation_id": "Cal/000000440339_v0_clean",
+      "reference": "440339",
+      "content_id": 440339,
+      "group": "region_first/Cal",
+      "truth": "11",
+      "arm": "11",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000440339_v1_clean",
+      "generation_id": "Cal/000000440339_v1_clean",
+      "clean_generation_id": "Cal/000000440339_v1_clean",
+      "reference": "440339",
+      "content_id": 440339,
+      "group": "region_first/Cal",
+      "truth": null,
+      "arm": "clean",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000440339_v1_00",
+      "generation_id": "Cal/000000440339_v1_00",
+      "clean_generation_id": "Cal/000000440339_v1_clean",
+      "reference": "440339",
+      "content_id": 440339,
+      "group": "region_first/Cal",
+      "truth": "00",
+      "arm": "00",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000440339_v1_01",
+      "generation_id": "Cal/000000440339_v1_01",
+      "clean_generation_id": "Cal/000000440339_v1_clean",
+      "reference": "440339",
+      "content_id": 440339,
+      "group": "region_first/Cal",
+      "truth": "01",
+      "arm": "01",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "01"
+      }
+    },
+    {
+      "id": "Cal/000000440339_v1_10",
+      "generation_id": "Cal/000000440339_v1_10",
+      "clean_generation_id": "Cal/000000440339_v1_clean",
+      "reference": "440339",
+      "content_id": 440339,
+      "group": "region_first/Cal",
+      "truth": "10",
+      "arm": "10",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "10"
+      }
+    },
+    {
+      "id": "Cal/000000440339_v1_11",
+      "generation_id": "Cal/000000440339_v1_11",
+      "clean_generation_id": "Cal/000000440339_v1_clean",
+      "reference": "440339",
+      "content_id": 440339,
+      "group": "region_first/Cal",
+      "truth": "11",
+      "arm": "11",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "11"
+      }
+    },
+    {
+      "id": "Cal/000000196672_v0_clean",
+      "generation_id": "Cal/000000196672_v0_clean",
+      "clean_generation_id": "Cal/000000196672_v0_clean",
+      "reference": "196672",
+      "content_id": 196672,
+      "group": "region_first/Cal",
+      "truth": null,
+      "arm": "clean",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "01"
+      }
+    },
+    {
+      "id": "Cal/000000196672_v0_00",
+      "generation_id": "Cal/000000196672_v0_00",
+      "clean_generation_id": "Cal/000000196672_v0_clean",
+      "reference": "196672",
+      "content_id": 196672,
+      "group": "region_first/Cal",
+      "truth": "00",
+      "arm": "00",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000196672_v0_01",
+      "generation_id": "Cal/000000196672_v0_01",
+      "clean_generation_id": "Cal/000000196672_v0_clean",
+      "reference": "196672",
+      "content_id": 196672,
+      "group": "region_first/Cal",
+      "truth": "01",
+      "arm": "01",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "01"
+      }
+    },
+    {
+      "id": "Cal/000000196672_v0_10",
+      "generation_id": "Cal/000000196672_v0_10",
+      "clean_generation_id": "Cal/000000196672_v0_clean",
+      "reference": "196672",
+      "content_id": 196672,
+      "group": "region_first/Cal",
+      "truth": "10",
+      "arm": "10",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "11"
+      }
+    },
+    {
+      "id": "Cal/000000196672_v0_11",
+      "generation_id": "Cal/000000196672_v0_11",
+      "clean_generation_id": "Cal/000000196672_v0_clean",
+      "reference": "196672",
+      "content_id": 196672,
+      "group": "region_first/Cal",
+      "truth": "11",
+      "arm": "11",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "11"
+      }
+    },
+    {
+      "id": "Cal/000000196672_v1_clean",
+      "generation_id": "Cal/000000196672_v1_clean",
+      "clean_generation_id": "Cal/000000196672_v1_clean",
+      "reference": "196672",
+      "content_id": 196672,
+      "group": "region_first/Cal",
+      "truth": null,
+      "arm": "clean",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000196672_v1_00",
+      "generation_id": "Cal/000000196672_v1_00",
+      "clean_generation_id": "Cal/000000196672_v1_clean",
+      "reference": "196672",
+      "content_id": 196672,
+      "group": "region_first/Cal",
+      "truth": "00",
+      "arm": "00",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000196672_v1_01",
+      "generation_id": "Cal/000000196672_v1_01",
+      "clean_generation_id": "Cal/000000196672_v1_clean",
+      "reference": "196672",
+      "content_id": 196672,
+      "group": "region_first/Cal",
+      "truth": "01",
+      "arm": "01",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000196672_v1_10",
+      "generation_id": "Cal/000000196672_v1_10",
+      "clean_generation_id": "Cal/000000196672_v1_clean",
+      "reference": "196672",
+      "content_id": 196672,
+      "group": "region_first/Cal",
+      "truth": "10",
+      "arm": "10",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000196672_v1_11",
+      "generation_id": "Cal/000000196672_v1_11",
+      "clean_generation_id": "Cal/000000196672_v1_clean",
+      "reference": "196672",
+      "content_id": 196672,
+      "group": "region_first/Cal",
+      "truth": "11",
+      "arm": "11",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "01"
+      }
+    },
+    {
+      "id": "Cal/000000165833_v0_clean",
+      "generation_id": "Cal/000000165833_v0_clean",
+      "clean_generation_id": "Cal/000000165833_v0_clean",
+      "reference": "165833",
+      "content_id": 165833,
+      "group": "region_first/Cal",
+      "truth": null,
+      "arm": "clean",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000165833_v0_00",
+      "generation_id": "Cal/000000165833_v0_00",
+      "clean_generation_id": "Cal/000000165833_v0_clean",
+      "reference": "165833",
+      "content_id": 165833,
+      "group": "region_first/Cal",
+      "truth": "00",
+      "arm": "00",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000165833_v0_01",
+      "generation_id": "Cal/000000165833_v0_01",
+      "clean_generation_id": "Cal/000000165833_v0_clean",
+      "reference": "165833",
+      "content_id": 165833,
+      "group": "region_first/Cal",
+      "truth": "01",
+      "arm": "01",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "01"
+      }
+    },
+    {
+      "id": "Cal/000000165833_v0_10",
+      "generation_id": "Cal/000000165833_v0_10",
+      "clean_generation_id": "Cal/000000165833_v0_clean",
+      "reference": "165833",
+      "content_id": 165833,
+      "group": "region_first/Cal",
+      "truth": "10",
+      "arm": "10",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "10"
+      }
+    },
+    {
+      "id": "Cal/000000165833_v0_11",
+      "generation_id": "Cal/000000165833_v0_11",
+      "clean_generation_id": "Cal/000000165833_v0_clean",
+      "reference": "165833",
+      "content_id": 165833,
+      "group": "region_first/Cal",
+      "truth": "11",
+      "arm": "11",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "11"
+      }
+    },
+    {
+      "id": "Cal/000000165833_v1_clean",
+      "generation_id": "Cal/000000165833_v1_clean",
+      "clean_generation_id": "Cal/000000165833_v1_clean",
+      "reference": "165833",
+      "content_id": 165833,
+      "group": "region_first/Cal",
+      "truth": null,
+      "arm": "clean",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000165833_v1_00",
+      "generation_id": "Cal/000000165833_v1_00",
+      "clean_generation_id": "Cal/000000165833_v1_clean",
+      "reference": "165833",
+      "content_id": 165833,
+      "group": "region_first/Cal",
+      "truth": "00",
+      "arm": "00",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000165833_v1_01",
+      "generation_id": "Cal/000000165833_v1_01",
+      "clean_generation_id": "Cal/000000165833_v1_clean",
+      "reference": "165833",
+      "content_id": 165833,
+      "group": "region_first/Cal",
+      "truth": "01",
+      "arm": "01",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "01"
+      }
+    },
+    {
+      "id": "Cal/000000165833_v1_10",
+      "generation_id": "Cal/000000165833_v1_10",
+      "clean_generation_id": "Cal/000000165833_v1_clean",
+      "reference": "165833",
+      "content_id": 165833,
+      "group": "region_first/Cal",
+      "truth": "10",
+      "arm": "10",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "10"
+      }
+    },
+    {
+      "id": "Cal/000000165833_v1_11",
+      "generation_id": "Cal/000000165833_v1_11",
+      "clean_generation_id": "Cal/000000165833_v1_clean",
+      "reference": "165833",
+      "content_id": 165833,
+      "group": "region_first/Cal",
+      "truth": "11",
+      "arm": "11",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "11"
+      }
+    },
+    {
+      "id": "Cal/000000343821_v0_clean",
+      "generation_id": "Cal/000000343821_v0_clean",
+      "clean_generation_id": "Cal/000000343821_v0_clean",
+      "reference": "343821",
+      "content_id": 343821,
+      "group": "region_first/Cal",
+      "truth": null,
+      "arm": "clean",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000343821_v0_00",
+      "generation_id": "Cal/000000343821_v0_00",
+      "clean_generation_id": "Cal/000000343821_v0_clean",
+      "reference": "343821",
+      "content_id": 343821,
+      "group": "region_first/Cal",
+      "truth": "00",
+      "arm": "00",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000343821_v0_01",
+      "generation_id": "Cal/000000343821_v0_01",
+      "clean_generation_id": "Cal/000000343821_v0_clean",
+      "reference": "343821",
+      "content_id": 343821,
+      "group": "region_first/Cal",
+      "truth": "01",
+      "arm": "01",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "01"
+      }
+    },
+    {
+      "id": "Cal/000000343821_v0_10",
+      "generation_id": "Cal/000000343821_v0_10",
+      "clean_generation_id": "Cal/000000343821_v0_clean",
+      "reference": "343821",
+      "content_id": 343821,
+      "group": "region_first/Cal",
+      "truth": "10",
+      "arm": "10",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000343821_v0_11",
+      "generation_id": "Cal/000000343821_v0_11",
+      "clean_generation_id": "Cal/000000343821_v0_clean",
+      "reference": "343821",
+      "content_id": 343821,
+      "group": "region_first/Cal",
+      "truth": "11",
+      "arm": "11",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "11"
+      }
+    },
+    {
+      "id": "Cal/000000343821_v1_clean",
+      "generation_id": "Cal/000000343821_v1_clean",
+      "clean_generation_id": "Cal/000000343821_v1_clean",
+      "reference": "343821",
+      "content_id": 343821,
+      "group": "region_first/Cal",
+      "truth": null,
+      "arm": "clean",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000343821_v1_00",
+      "generation_id": "Cal/000000343821_v1_00",
+      "clean_generation_id": "Cal/000000343821_v1_clean",
+      "reference": "343821",
+      "content_id": 343821,
+      "group": "region_first/Cal",
+      "truth": "00",
+      "arm": "00",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000343821_v1_01",
+      "generation_id": "Cal/000000343821_v1_01",
+      "clean_generation_id": "Cal/000000343821_v1_clean",
+      "reference": "343821",
+      "content_id": 343821,
+      "group": "region_first/Cal",
+      "truth": "01",
+      "arm": "01",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "01"
+      }
+    },
+    {
+      "id": "Cal/000000343821_v1_10",
+      "generation_id": "Cal/000000343821_v1_10",
+      "clean_generation_id": "Cal/000000343821_v1_clean",
+      "reference": "343821",
+      "content_id": 343821,
+      "group": "region_first/Cal",
+      "truth": "10",
+      "arm": "10",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "10"
+      }
+    },
+    {
+      "id": "Cal/000000343821_v1_11",
+      "generation_id": "Cal/000000343821_v1_11",
+      "clean_generation_id": "Cal/000000343821_v1_clean",
+      "reference": "343821",
+      "content_id": 343821,
+      "group": "region_first/Cal",
+      "truth": "11",
+      "arm": "11",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "11"
+      }
+    },
+    {
+      "id": "Cal/000000320659_v0_clean",
+      "generation_id": "Cal/000000320659_v0_clean",
+      "clean_generation_id": "Cal/000000320659_v0_clean",
+      "reference": "320659",
+      "content_id": 320659,
+      "group": "region_first/Cal",
+      "truth": null,
+      "arm": "clean",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000320659_v0_00",
+      "generation_id": "Cal/000000320659_v0_00",
+      "clean_generation_id": "Cal/000000320659_v0_clean",
+      "reference": "320659",
+      "content_id": 320659,
+      "group": "region_first/Cal",
+      "truth": "00",
+      "arm": "00",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000320659_v0_01",
+      "generation_id": "Cal/000000320659_v0_01",
+      "clean_generation_id": "Cal/000000320659_v0_clean",
+      "reference": "320659",
+      "content_id": 320659,
+      "group": "region_first/Cal",
+      "truth": "01",
+      "arm": "01",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "01"
+      }
+    },
+    {
+      "id": "Cal/000000320659_v0_10",
+      "generation_id": "Cal/000000320659_v0_10",
+      "clean_generation_id": "Cal/000000320659_v0_clean",
+      "reference": "320659",
+      "content_id": 320659,
+      "group": "region_first/Cal",
+      "truth": "10",
+      "arm": "10",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "10"
+      }
+    },
+    {
+      "id": "Cal/000000320659_v0_11",
+      "generation_id": "Cal/000000320659_v0_11",
+      "clean_generation_id": "Cal/000000320659_v0_clean",
+      "reference": "320659",
+      "content_id": 320659,
+      "group": "region_first/Cal",
+      "truth": "11",
+      "arm": "11",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "11"
+      }
+    },
+    {
+      "id": "Cal/000000320659_v1_clean",
+      "generation_id": "Cal/000000320659_v1_clean",
+      "clean_generation_id": "Cal/000000320659_v1_clean",
+      "reference": "320659",
+      "content_id": 320659,
+      "group": "region_first/Cal",
+      "truth": null,
+      "arm": "clean",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "01"
+      }
+    },
+    {
+      "id": "Cal/000000320659_v1_00",
+      "generation_id": "Cal/000000320659_v1_00",
+      "clean_generation_id": "Cal/000000320659_v1_clean",
+      "reference": "320659",
+      "content_id": 320659,
+      "group": "region_first/Cal",
+      "truth": "00",
+      "arm": "00",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000320659_v1_01",
+      "generation_id": "Cal/000000320659_v1_01",
+      "clean_generation_id": "Cal/000000320659_v1_clean",
+      "reference": "320659",
+      "content_id": 320659,
+      "group": "region_first/Cal",
+      "truth": "01",
+      "arm": "01",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "01"
+      }
+    },
+    {
+      "id": "Cal/000000320659_v1_10",
+      "generation_id": "Cal/000000320659_v1_10",
+      "clean_generation_id": "Cal/000000320659_v1_clean",
+      "reference": "320659",
+      "content_id": 320659,
+      "group": "region_first/Cal",
+      "truth": "10",
+      "arm": "10",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "10"
+      }
+    },
+    {
+      "id": "Cal/000000320659_v1_11",
+      "generation_id": "Cal/000000320659_v1_11",
+      "clean_generation_id": "Cal/000000320659_v1_clean",
+      "reference": "320659",
+      "content_id": 320659,
+      "group": "region_first/Cal",
+      "truth": "11",
+      "arm": "11",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "11"
+      }
+    },
+    {
+      "id": "Cal/000000190656_v0_clean",
+      "generation_id": "Cal/000000190656_v0_clean",
+      "clean_generation_id": "Cal/000000190656_v0_clean",
+      "reference": "190656",
+      "content_id": 190656,
+      "group": "region_first/Cal",
+      "truth": null,
+      "arm": "clean",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000190656_v0_00",
+      "generation_id": "Cal/000000190656_v0_00",
+      "clean_generation_id": "Cal/000000190656_v0_clean",
+      "reference": "190656",
+      "content_id": 190656,
+      "group": "region_first/Cal",
+      "truth": "00",
+      "arm": "00",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000190656_v0_01",
+      "generation_id": "Cal/000000190656_v0_01",
+      "clean_generation_id": "Cal/000000190656_v0_clean",
+      "reference": "190656",
+      "content_id": 190656,
+      "group": "region_first/Cal",
+      "truth": "01",
+      "arm": "01",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000190656_v0_10",
+      "generation_id": "Cal/000000190656_v0_10",
+      "clean_generation_id": "Cal/000000190656_v0_clean",
+      "reference": "190656",
+      "content_id": 190656,
+      "group": "region_first/Cal",
+      "truth": "10",
+      "arm": "10",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000190656_v0_11",
+      "generation_id": "Cal/000000190656_v0_11",
+      "clean_generation_id": "Cal/000000190656_v0_clean",
+      "reference": "190656",
+      "content_id": 190656,
+      "group": "region_first/Cal",
+      "truth": "11",
+      "arm": "11",
+      "view": 0,
+      "expected_decoded": {
+        "accepted": false,
+        "bits": null
+      }
+    },
+    {
+      "id": "Cal/000000190656_v1_clean",
+      "generation_id": "Cal/000000190656_v1_clean",
+      "clean_generation_id": "Cal/000000190656_v1_clean",
+      "reference": "190656",
+      "content_id": 190656,
+      "group": "region_first/Cal",
+      "truth": null,
+      "arm": "clean",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "11"
+      }
+    },
+    {
+      "id": "Cal/000000190656_v1_00",
+      "generation_id": "Cal/000000190656_v1_00",
+      "clean_generation_id": "Cal/000000190656_v1_clean",
+      "reference": "190656",
+      "content_id": 190656,
+      "group": "region_first/Cal",
+      "truth": "00",
+      "arm": "00",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "00"
+      }
+    },
+    {
+      "id": "Cal/000000190656_v1_01",
+      "generation_id": "Cal/000000190656_v1_01",
+      "clean_generation_id": "Cal/000000190656_v1_clean",
+      "reference": "190656",
+      "content_id": 190656,
+      "group": "region_first/Cal",
+      "truth": "01",
+      "arm": "01",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "01"
+      }
+    },
+    {
+      "id": "Cal/000000190656_v1_10",
+      "generation_id": "Cal/000000190656_v1_10",
+      "clean_generation_id": "Cal/000000190656_v1_clean",
+      "reference": "190656",
+      "content_id": 190656,
+      "group": "region_first/Cal",
+      "truth": "10",
+      "arm": "10",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "10"
+      }
+    },
+    {
+      "id": "Cal/000000190656_v1_11",
+      "generation_id": "Cal/000000190656_v1_11",
+      "clean_generation_id": "Cal/000000190656_v1_clean",
+      "reference": "190656",
+      "content_id": 190656,
+      "group": "region_first/Cal",
+      "truth": "11",
+      "arm": "11",
+      "view": 1,
+      "expected_decoded": {
+        "accepted": true,
+        "bits": "11"
+      }
+    }
+  ],
+  "references": {
+    "440339": {
+      "receiver": "4A",
+      "reference": {
+        "schema_version": 1,
+        "mode": "st2",
+        "samples": [
+          [
+            96.59626354792171,
+            156.57986235848185
+          ],
+          [
+            96.72584582085544,
+            157.56778907126449
+          ],
+          [
+            96.84186207161187,
+            158.55738716694523
+          ],
+          [
+            96.94376131004508,
+            159.54852805005814
+          ],
+          [
+            97.03094004796287,
+            160.54106446907915
+          ],
+          [
+            97.10273730823573,
+            161.53482672055333
+          ],
+          [
+            97.15842917388021,
+            162.52961812513695
+          ],
+          [
+            97.19722287349931,
+            163.5252096338343
+          ],
+          [
+            97.21825041668944,
+            164.52133339783623
+          ],
+          [
+            97.22056181824026,
+            165.51767510762969
+          ],
+          [
+            97.20311798584628,
+            166.51386487700051
+          ],
+          [
+            97.16478339600775,
+            167.50946641639774
+          ],
+          [
+            97.10431875099944,
+            168.50396421003867
+          ],
+          [
+            97.02037390120987,
+            169.49674838574424
+          ],
+          [
+            96.9114814374758,
+            170.4870969515094
+          ],
+          [
+            96.77605151328326,
+            171.4741550768416
+          ],
+          [
+            96.61236865251142,
+            172.45691113242347
+          ],
+          [
+            96.41859153863709,
+            173.43416928609594
+          ],
+          [
+            96.19275706584024,
+            174.40451860985888
+          ],
+          [
+            95.93279025352548,
+            175.36629891125665
+          ],
+          [
+            95.63532595282163,
+            176.31716288859698
+          ],
+          [
+            95.29489288167315,
+            177.2534722359951
+          ],
+          [
+            94.9128397912167,
+            178.1735094665128
+          ],
+          [
+            94.48809239512273,
+            179.07461698394326
+          ],
+          [
+            94.02114161770062,
+            179.95465149846902
+          ],
+          [
+            93.50721448025689,
+            180.80810210389046
+          ],
+          [
+            92.95275567316817,
+            181.63576585413506
+          ],
+          [
+            92.36100181100167,
+            182.43720827158646
+          ],
+          [
+            91.73105243949048,
+            183.2089985237366
+          ],
+          [
+            91.0656871867999,
+            183.95050222332316
+          ],
+          [
+            90.37085633476708,
+            184.66447859383175
+          ],
+          [
+            89.64705314543546,
+            185.34908376746404
+          ],
+          [
+            88.8965846276633,
+            186.0043845430053
+          ],
+          [
+            88.124843943897,
+            186.63450326685506
+          ],
+          [
+            87.33285350356797,
+            187.23899439249206
+          ],
+          [
+            86.52237183148932,
+            187.8184880419724
+          ],
+          [
+            85.6975793447784,
+            188.37743076881915
+          ],
+          [
+            84.85975944446987,
+            188.91667238476742
+          ],
+          [
+            84.00976549922349,
+            189.43653396341006
+          ],
+          [
+            83.15080333030562,
+            189.94144059738548
+          ],
+          [
+            82.28409694031407,
+            190.43295290216832
+          ],
+          [
+            81.40963338401696,
+            190.91053701500564
+          ],
+          [
+            80.52967677341208,
+            191.3779217854215
+          ],
+          [
+            79.64512583099648,
+            191.83655901684105
+          ],
+          [
+            78.75645667112722,
+            192.28717003602708
+          ],
+          [
+            77.86477093877716,
+            192.7317857048775
+          ],
+          [
+            76.97105385790398,
+            193.17230600055265
+          ],
+          [
+            76.07599266042745,
+            193.61009076379563
+          ],
+          [
+            75.18037753364156,
+            194.04674199532133
+          ],
+          [
+            74.28506643709191,
+            194.4840158683744
+          ],
+          [
+            73.39077140737574,
+            194.92336331792077
+          ],
+          [
+            72.49869352101074,
+            195.36719210234037
+          ],
+          [
+            71.6094001805827,
+            195.81656948706475
+          ],
+          [
+            70.72370585152562,
+            196.27299773464762
+          ],
+          [
+            69.84342382292941,
+            196.73977009116447
+          ],
+          [
+            68.96906470595306,
+            197.21753515536852
+          ],
+          [
+            68.10148783381341,
+            197.7075091813001
+          ],
+          [
+            67.2427736337148,
+            198.21285257493756
+          ],
+          [
+            66.3917919239001,
+            198.73110595822192
+          ],
+          [
+            65.54907556816552,
+            199.26269317507544
+          ],
+          [
+            64.715710695291,
+            199.80882801861455
+          ],
+          [
+            63.89056142299677,
+            200.3672975880279
+          ],
+          [
+            63.07503955181788,
+            200.9397301701769
+          ],
+          [
+            62.26861206084973,
+            201.52490839215912
+          ],
+          [
+            61.47118088625375,
+            202.12228736331699
+          ],
+          [
+            60.68397600635977,
+            202.73308334721958
+          ],
+          [
+            59.90550258781315,
+            203.35496988108045
+          ],
+          [
+            59.13735190426168,
+            203.98956054735157
+          ],
+          [
+            58.378383468478404,
+            204.63510722886048
+          ],
+          [
+            57.62892886294635,
+            205.29167269247674
+          ],
+          [
+            56.8893536635417,
+            205.9593517572383
+          ],
+          [
+            56.15838302166338,
+            206.63644322265952
+          ]
+        ],
+        "codebooks": {
+          "Auto": {
+            "clean": [
+              -0.01021885476915825,
+              -0.10500043724629131
+            ],
+            "00": [
+              -0.641968410778929,
+              -0.6530960798602811
+            ],
+            "01": [
+              -0.643060728051168,
+              0.6268950232324518
+            ],
+            "10": [
+              0.5907659827749385,
+              -0.929633946035124
+            ],
+            "11": [
+              0.5956187442883569,
+              0.673524189168795
+            ]
+          },
+          "Oracle": {
+            "clean": [
+              0.07911738674688923,
+              -0.1527365998033839
+            ],
+            "00": [
+              -0.7049645815050277,
+              -0.80113334611304
+            ],
+            "01": [
+              -0.5341528723655908,
+              0.7424519826714665
+            ],
+            "10": [
+              0.7983191538245556,
+              -0.754567018990137
+            ],
+            "11": [
+              0.5484054480419585,
+              0.6886232737850829
+            ]
+          }
+        },
+        "calibration": null,
+        "receiver": "Frozen S/4A local reference-assisted joint Huber receiver",
+        "calibration_scope": "Input-domain diagnostic; unvalidated for RGB"
+      },
+      "input": {
+        "mode": "st2",
+        "clean": "conditions/440339/clean.png",
+        "mask": "masks/440339.png",
+        "states": {
+          "clean": "conditions/440339/clean.png",
+          "00": "conditions/440339/00.png",
+          "01": "conditions/440339/01.png",
+          "10": "conditions/440339/10.png",
+          "11": "conditions/440339/11.png"
+        }
+      }
+    },
+    "196672": {
+      "receiver": "4A",
+      "reference": {
+        "schema_version": 1,
+        "mode": "st2",
+        "samples": [
+          [
+            454.31896125719743,
+            280.95236979721255
+          ],
+          [
+            453.32521056267376,
+            280.9277433466723
+          ],
+          [
+            452.3311960050344,
+            280.9228102574762
+          ],
+          [
+            451.33731644027057,
+            280.93873232592074
+          ],
+          [
+            450.3440480462793,
+            280.97670317626665
+          ],
+          [
+            449.35195125831376,
+            281.0379409074267
+          ],
+          [
+            448.36167732917494,
+            281.12367902375837
+          ],
+          [
+            447.3739742324392,
+            281.2351555510131
+          ],
+          [
+            446.38969158458445,
+            281.3736002891466
+          ],
+          [
+            445.4097842262889,
+            281.5402202208968
+          ],
+          [
+            444.43531407927134,
+            281.7361831788475
+          ],
+          [
+            443.46744988815567,
+            281.9625999726618
+          ],
+          [
+            442.5078471403604,
+            282.22183695276743
+          ],
+          [
+            441.5584426512313,
+            282.5161789896352
+          ],
+          [
+            440.6202118390077,
+            282.8442836052857
+          ],
+          [
+            439.694741027499,
+            283.20677477284426
+          ],
+          [
+            438.78367059588913,
+            283.604110165004
+          ],
+          [
+            437.8899552367416,
+            284.03908360638553
+          ],
+          [
+            437.0162734198237,
+            284.5130009540009
+          ],
+          [
+            436.1626378559799,
+            285.0220995987103
+          ],
+          [
+            435.3309857974143,
+            285.5664165666512
+          ],
+          [
+            434.52720766270426,
+            286.1511148826429
+          ],
+          [
+            433.7485868040476,
+            286.76887506713064
+          ],
+          [
+            432.9979236626963,
+            287.4203201826291
+          ],
+          [
+            432.2793747565448,
+            288.10705301125296
+          ],
+          [
+            431.5895449257256,
+            288.82262942374285
+          ],
+          [
+            430.9337833306964,
+            289.5695330083549
+          ],
+          [
+            430.3099766115726,
+            290.34334641004756
+          ],
+          [
+            429.718161852198,
+            291.1418887294023
+          ],
+          [
+            429.1616850722731,
+            291.96547645259625
+          ],
+          [
+            428.6352977317947,
+            292.80862265934564
+          ],
+          [
+            428.1444007174614,
+            293.67291191643085
+          ],
+          [
+            427.6836677165617,
+            294.5536580082015
+          ],
+          [
+            427.254363708798,
+            295.4501368745183
+          ],
+          [
+            426.8563642527498,
+            296.3609679482184
+          ],
+          [
+            426.4853767281621,
+            297.28314587610794
+          ]
+        ],
+        "codebooks": {
+          "Auto": {
+            "clean": [
+              0.1126843639915672,
+              -0.09912243935421804
+            ],
+            "00": [
+              -0.4440525192800979,
+              -0.9093144729186274
+            ],
+            "01": [
+              -0.648951518729768,
+              0.6723134316591804
+            ],
+            "10": [
+              0.5798192366892811,
+              -0.7161886268927303
+            ],
+            "11": [
+              0.6898844703317728,
+              0.6084101040707012
+            ]
+          },
+          "Oracle": {
+            "clean": [
+              0.10105015629798643,
+              0.05925077050149481
+            ],
+            "00": [
+              -1.0938705893173257,
+              -0.5180902927453689
+            ],
+            "01": [
+              -0.8947800559539969,
+              0.7185434544320913
+            ],
+            "10": [
+              0.7917812766324077,
+              -0.7147793706905096
+            ],
+            "11": [
+              0.7962733806615551,
+              0.7018802247751147
+            ]
+          }
+        },
+        "calibration": null,
+        "receiver": "Frozen S/4A local reference-assisted joint Huber receiver",
+        "calibration_scope": "Input-domain diagnostic; unvalidated for RGB"
+      },
+      "input": {
+        "mode": "st2",
+        "clean": "conditions/196672/clean.png",
+        "mask": "masks/196672.png",
+        "states": {
+          "clean": "conditions/196672/clean.png",
+          "00": "conditions/196672/00.png",
+          "01": "conditions/196672/01.png",
+          "10": "conditions/196672/10.png",
+          "11": "conditions/196672/11.png"
+        }
+      }
+    },
+    "165833": {
+      "receiver": "4A",
+      "reference": {
+        "schema_version": 1,
+        "mode": "st2",
+        "samples": [
+          [
+            72.49884435805609,
+            138.78119421673563
+          ],
+          [
+            73.49386157149753,
+            138.8481825741846
+          ],
+          [
+            74.48915003517395,
+            138.9110119612854
+          ],
+          [
+            75.48463269523054,
+            138.97069036412594
+          ],
+          [
+            76.48024732464876,
+            139.02813053449023
+          ],
+          [
+            77.47594220737031,
+            139.08416628339765
+          ],
+          [
+            78.47167276950937,
+            139.13956628428255
+          ],
+          [
+            79.46739890457313,
+            139.19504587025068
+          ],
+          [
+            80.46308280310004,
+            139.25127721624688
+          ],
+          [
+            81.45868714265909,
+            139.30889822343644
+          ],
+          [
+            82.4541735267707,
+            139.36852036529123
+          ],
+          [
+            83.44950108452666,
+            139.43073570937946
+          ],
+          [
+            84.44462515895553,
+            139.49612329304867
+          ],
+          [
+            85.43949602321739,
+            139.56525500299338
+          ],
+          [
+            86.43405757070494,
+            139.63870108650931
+          ],
+          [
+            87.4282459288917,
+            139.7170354047713
+          ],
+          [
+            88.42198794783795,
+            139.80084052472682
+          ],
+          [
+            89.41519951297609,
+            139.89071273532113
+          ],
+          [
+            90.40778362832349,
+            139.98726706507395
+          ],
+          [
+            91.39962821066725,
+            140.0911423708608
+          ],
+          [
+            92.39060352748399,
+            140.2030065615257
+          ],
+          [
+            93.3805592012763,
+            140.32356201403488
+          ],
+          [
+            94.36932069043563,
+            140.45355123358425
+          ],
+          [
+            95.35666108323383,
+            140.59392570782603
+          ],
+          [
+            96.34233780365508,
+            140.7455314494258
+          ],
+          [
+            97.32607617290937,
+            140.90922653142405
+          ],
+          [
+            98.30754345436304,
+            141.08600727719667
+          ],
+          [
+            99.28634932779661,
+            141.27694767657542
+          ],
+          [
+            100.26203537229378,
+            141.48320726527047
+          ],
+          [
+            101.23406260862964,
+            141.70603910481495
+          ],
+          [
+            102.20179678148175,
+            141.94679763928684
+          ],
+          [
+            103.16449103586673,
+            142.20694609575656
+          ],
+          [
+            104.12126563002859,
+            142.4880629511838
+          ],
+          [
+            105.07108433963946,
+            142.79184680169365
+          ],
+          [
+            106.01272726180237,
+            143.12011873355385
+          ],
+          [
+            106.94417794684632,
+            143.47628079148524
+          ],
+          [
+            107.86303695009457,
+            143.86371675779804
+          ],
+          [
+            108.76794648725932,
+            144.28260042639275
+          ],
+          [
+            109.65644191456481,
+            144.7352157751862
+          ],
+          [
+            110.52566554278278,
+            145.22386541706229
+          ],
+          [
+            111.36820520708442,
+            145.75713751306438
+          ],
+          [
+            112.18243596834088,
+            146.3325903116607
+          ],
+          [
+            112.96446074730429,
+            146.95108999339104
+          ],
+          [
+            113.7037159777873,
+            147.6200143886426
+          ],
+          [
+            114.39592485621117,
+            148.3374685298747
+          ],
+          [
+            115.0383422185187,
+            149.09986229480037
+          ],
+          [
+            115.6136740980199,
+            149.91399624121374
+          ],
+          [
+            116.12614789020604,
+            150.76901893398488
+          ],
+          [
+            116.56935866865014,
+            151.66190035367
+          ],
+          [
+            116.93278727930921,
+            152.59017128753365
+          ],
+          [
+            117.22603474316423,
+            153.54289897758002
+          ],
+          [
+            117.4483029338664,
+            154.51476250407532
+          ],
+          [
+            117.59232710756834,
+            155.5013142208676
+          ],
+          [
+            117.67229982524437,
+            156.49502892717965
+          ],
+          [
+            117.69196239782056,
+            157.4917764127561
+          ],
+          [
+            117.65530151555078,
+            158.48809913026173
+          ],
+          [
+            117.56470474701582,
+            159.48102994204964
+          ],
+          [
+            117.42017068983733,
+            160.46761737080334
+          ],
+          [
+            117.21662128772698,
+            161.4437397575321
+          ],
+          [
+            116.94767663782756,
+            162.4037697883673
+          ],
+          [
+            116.60731105658384,
+            163.34056445933692
+          ],
+          [
+            116.18449314372587,
+            164.2428317332439
+          ],
+          [
+            115.67304988352916,
+            165.09806564705812
+          ],
+          [
+            115.06755980608638,
+            165.88952289292095
+          ],
+          [
+            114.38427725832042,
+            166.61509686860498
+          ],
+          [
+            113.64242423928155,
+            167.28092830304712
+          ],
+          [
+            112.85057131834142,
+            167.8866997071588
+          ],
+          [
+            112.02440947702279,
+            168.44489994298925
+          ],
+          [
+            111.17165796462885,
+            168.96163108343987
+          ],
+          [
+            110.29559675072878,
+            169.43789042428494
+          ],
+          [
+            109.39867850368488,
+            169.87367050718797
+          ],
+          [
+            108.48640997946138,
+            170.27628805992197
+          ],
+          [
+            107.56114105003341,
+            170.64809080443706
+          ],
+          [
+            106.62486422001136,
+            170.99131035255917
+          ],
+          [
+            105.67926460560837,
+            171.30804405796033
+          ],
+          [
+            104.72512520515349,
+            171.59807444536494
+          ],
+          [
+            103.76445462785478,
+            171.86564601307083
+          ],
+          [
+            102.79827546500825,
+            172.11257221034538
+          ],
+          [
+            101.82739720881072,
+            172.34032517026205
+          ],
+          [
+            100.85250204831375,
+            172.5502327905573
+          ],
+          [
+            99.87414368592312,
+            172.74337359000063
+          ],
+          [
+            98.89277563577103,
+            172.92061024469814
+          ],
+          [
+            97.90879447209883,
+            173.08273729856083
+          ],
+          [
+            96.92255153880267,
+            173.23050996566008
+          ],
+          [
+            95.9343578642194,
+            173.36464518821404
+          ],
+          [
+            94.94448859196825,
+            173.48582297502318
+          ],
+          [
+            93.95318695855296,
+            173.59468794081434
+          ],
+          [
+            92.96066785132382,
+            173.6918509822505
+          ],
+          [
+            91.96712098145647,
+            173.77789103941205
+          ],
+          [
+            90.97271370634904,
+            173.85335690255462
+          ],
+          [
+            89.97759353468236,
+            173.91876903313747
+          ],
+          [
+            88.98189034564348,
+            173.9746213757248
+          ],
+          [
+            87.98571835171332,
+            174.021383143616
+          ],
+          [
+            86.9891778321418,
+            174.05950056616905
+          ],
+          [
+            85.99235666189945,
+            174.08939858992892
+          ],
+          [
+            84.9953316585916,
+            174.11148252902763
+          ],
+          [
+            83.99816976760881,
+            174.12613966303178
+          ],
+          [
+            83.0009291037003,
+            174.13374078259167
+          ],
+          [
+            82.00365986521972,
+            174.13464168501662
+          ],
+          [
+            81.00640513551375,
+            174.12918462333883
+          ],
+          [
+            80.00920158430588,
+            174.11769971362318
+          ],
+          [
+            79.01208008046953,
+            174.10050630629374
+          ],
+          [
+            78.0150662262784,
+            174.07791432813977
+          ],
+          [
+            77.01818082206195,
+            174.05022560248375
+          ],
+          [
+            76.02144026916967,
+            174.01773515578958
+          ],
+          [
+            75.02485691825407,
+            173.98073251980026
+          ],
+          [
+            74.02843936910828,
+            173.93950303916236
+          ],
+          [
+            73.03219272763641,
+            173.89432919545945
+          ],
+          [
+            72.03611882498865,
+            173.84549195967756
+          ]
+        ],
+        "codebooks": {
+          "Auto": {
+            "clean": [
+              0.008199783777804816,
+              -0.05460190302149758
+            ],
+            "00": [
+              -0.69983982267141,
+              -0.7287845648039407
+            ],
+            "01": [
+              -0.7194196208207644,
+              0.6534329764120269
+            ],
+            "10": [
+              0.6621463124150813,
+              -0.7336431764228251
+            ],
+            "11": [
+              0.6484758143517282,
+              0.6858573576148268
+            ]
+          },
+          "Oracle": {
+            "clean": [
+              0.02333592652221759,
+              -0.0779289942899963
+            ],
+            "00": [
+              -0.6808221144002107,
+              -0.7790182184771619
+            ],
+            "01": [
+              -0.764981877695769,
+              0.654243564451848
+            ],
+            "10": [
+              0.6874765920588874,
+              -0.8030800655254627
+            ],
+            "11": [
+              0.6716428108112947,
+              0.6566177075792131
+            ]
+          }
+        },
+        "calibration": null,
+        "receiver": "Frozen S/4A local reference-assisted joint Huber receiver",
+        "calibration_scope": "Input-domain diagnostic; unvalidated for RGB"
+      },
+      "input": {
+        "mode": "st2",
+        "clean": "conditions/165833/clean.png",
+        "mask": "masks/165833.png",
+        "states": {
+          "clean": "conditions/165833/clean.png",
+          "00": "conditions/165833/00.png",
+          "01": "conditions/165833/01.png",
+          "10": "conditions/165833/10.png",
+          "11": "conditions/165833/11.png"
+        }
+      }
+    },
+    "343821": {
+      "receiver": "4A",
+      "reference": {
+        "schema_version": 1,
+        "mode": "st2",
+        "samples": [
+          [
+            162.36163133168984,
+            329.74358522383193
+          ],
+          [
+            161.4224752395204,
+            329.44692166816156
+          ],
+          [
+            160.46603991322888,
+            329.21446361756347
+          ],
+          [
+            159.4941901780453,
+            329.06053225947943
+          ],
+          [
+            158.51232503498102,
+            328.9980495519967
+          ],
+          [
+            157.52910312160034,
+            329.0353542149969
+          ],
+          [
+            156.5545991345821,
+            329.17335330958025
+          ],
+          [
+            155.59915821496747,
+            329.41057351372206
+          ],
+          [
+            154.66684184971498,
+            329.7271737957788
+          ],
+          [
+            153.75424781739446,
+            330.0970908354659
+          ],
+          [
+            152.8549974834182,
+            330.498671055684
+          ],
+          [
+            151.9603979367389,
+            330.91063252822437
+          ],
+          [
+            151.06005339685848,
+            331.30979047754647
+          ],
+          [
+            150.14796599259583,
+            331.68125943505567
+          ],
+          [
+            149.2254845373196,
+            332.02610598109
+          ],
+          [
+            148.2944750666574,
+            332.34725062229273
+          ],
+          [
+            147.35649026757497,
+            332.64746119662607
+          ],
+          [
+            146.41282117283814,
+            332.92934667263614
+          ],
+          [
+            145.46454281081122,
+            333.1953600799873
+          ],
+          [
+            144.51252999300306,
+            333.44771556928777
+          ],
+          [
+            143.55743376089075,
+            333.68814968964836
+          ],
+          [
+            142.60010417570996,
+            333.9195300051567
+          ],
+          [
+            141.64107532276205,
+            334.1437663606249
+          ],
+          [
+            140.68079833437648,
+            334.36259946858814
+          ],
+          [
+            139.7195133267376,
+            334.576959378556
+          ],
+          [
+            138.75716818091536,
+            334.7865047833656
+          ],
+          [
+            137.79365902053232,
+            334.99062681927757
+          ],
+          [
+            136.82889033400224,
+            335.1887056450689
+          ],
+          [
+            135.86277565741088,
+            335.3801066614436
+          ],
+          [
+            134.89523845796097,
+            335.5641767483592
+          ],
+          [
+            133.92621324912778,
+            335.74024049462986
+          ],
+          [
+            132.95564697285027,
+            335.9075964000757
+          ],
+          [
+            131.9835006888686,
+            336.06551303704737
+          ],
+          [
+            131.00975161665278,
+            336.2132251657143
+          ],
+          [
+            130.034395581157,
+            336.3499298064842
+          ],
+          [
+            129.05744991972384,
+            336.4747822837837
+          ],
+          [
+            128.07892464015396,
+            336.5865917196243
+          ],
+          [
+            127.098865610751,
+            336.6840158419047
+          ],
+          [
+            126.1174492438622,
+            336.76656924141736
+          ],
+          [
+            125.13482939777857,
+            336.833175548585
+          ],
+          [
+            124.15120807342099,
+            336.88269603576106
+          ],
+          [
+            123.16684310382688,
+            336.9139269975547
+          ],
+          [
+            122.18205685780501,
+            336.92559791773505
+          ],
+          [
+            121.19724599648501,
+            336.9163706984057
+          ],
+          [
+            120.21289228612899,
+            336.88484028480656
+          ],
+          [
+            119.22957441881985,
+            336.82953708025997
+          ]
+        ],
+        "codebooks": {
+          "Auto": {
+            "clean": [
+              0.04663997149385202,
+              0.0010908207899136626
+            ],
+            "00": [
+              -0.6854324928476077,
+              -0.6864508505533491
+            ],
+            "01": [
+              -0.5732606323953435,
+              0.5731700428673534
+            ],
+            "10": [
+              0.5028555118262712,
+              -0.555321714742968
+            ],
+            "11": [
+              0.6026954269650908,
+              0.6950153654964752
+            ]
+          },
+          "Oracle": {
+            "clean": [
+              -0.1502469683482015,
+              0.11835170560682826
+            ],
+            "00": [
+              -0.6805471632657688,
+              -0.5595478572388366
+            ],
+            "01": [
+              -0.6706139736442558,
+              0.966088098116073
+            ],
+            "10": [
+              0.7803388654611151,
+              -0.6363496881118007
+            ],
+            "11": [
+              0.49767579692283487,
+              0.8815419756988909
+            ]
+          }
+        },
+        "calibration": null,
+        "receiver": "Frozen S/4A local reference-assisted joint Huber receiver",
+        "calibration_scope": "Input-domain diagnostic; unvalidated for RGB"
+      },
+      "input": {
+        "mode": "st2",
+        "clean": "conditions/343821/clean.png",
+        "mask": "masks/343821.png",
+        "states": {
+          "clean": "conditions/343821/clean.png",
+          "00": "conditions/343821/00.png",
+          "01": "conditions/343821/01.png",
+          "10": "conditions/343821/10.png",
+          "11": "conditions/343821/11.png"
+        }
+      }
+    },
+    "320659": {
+      "receiver": "4A",
+      "reference": {
+        "schema_version": 1,
+        "mode": "st2",
+        "samples": [
+          [
+            184.72955994537793,
+            144.23698461372865
+          ],
+          [
+            183.7368762886902,
+            144.29488151524674
+          ],
+          [
+            182.74458615757885,
+            144.35913423444472
+          ],
+          [
+            181.7527402678577,
+            144.42988957586235
+          ],
+          [
+            180.7613925020538,
+            144.50729556201796
+          ],
+          [
+            179.77060000112624,
+            144.59150126174706
+          ],
+          [
+            178.78042325157838,
+            144.68265660496732
+          ],
+          [
+            177.79092616714047,
+            144.78091218363548
+          ],
+          [
+            176.80217616415723,
+            144.8864190387236
+          ],
+          [
+            175.81424422977656,
+            144.9993284331096
+          ],
+          [
+            174.82720498199888,
+            145.1197916103554
+          ],
+          [
+            173.84113672061716,
+            145.24795953942944
+          ],
+          [
+            172.85612146805147,
+            145.38398264552254
+          ],
+          [
+            171.87224499906344,
+            145.52801052720454
+          ],
+          [
+            170.88959685832373,
+            145.6801916602759
+          ],
+          [
+            169.9082703648028,
+            145.84067308877943
+          ],
+          [
+            168.92836260196023,
+            146.00960010375687
+          ],
+          [
+            167.9499743927233,
+            146.18711591045735
+          ],
+          [
+            166.97321025827216,
+            146.3733612848324
+          ],
+          [
+            165.9981783596862,
+            146.56847422028324
+          ],
+          [
+            165.02499042155645,
+            146.77258956575673
+          ],
+          [
+            164.05376163673137,
+            146.98583865642257
+          ],
+          [
+            163.0846105514393,
+            147.20834893829274
+          ],
+          [
+            162.1178031401145,
+            147.44083256064783
+          ],
+          [
+            161.1534169711782,
+            147.68315597496638
+          ],
+          [
+            160.19151946733106,
+            147.9351666585696
+          ],
+          [
+            159.23224287469753,
+            148.19697074225493
+          ],
+          [
+            158.275721803747,
+            148.46866831130018
+          ],
+          [
+            157.32209297202908,
+            148.75035303030944
+          ],
+          [
+            156.3714949252401,
+            149.04211177627718
+          ],
+          [
+            155.42438872762398,
+            149.3450141765283
+          ],
+          [
+            154.4807583988298,
+            149.65857021211917
+          ],
+          [
+            153.5406306823366,
+            149.98247000915302
+          ],
+          [
+            152.60414905633417,
+            150.31676616451537
+          ],
+          [
+            151.67145692293633,
+            150.66150265165106
+          ],
+          [
+            150.7432322663424,
+            151.01809257849578
+          ],
+          [
+            149.81924072347078,
+            151.3855052031942
+          ],
+          [
+            148.8995159125652,
+            151.76346919939863
+          ],
+          [
+            147.9841963924939,
+            152.1519870472434
+          ],
+          [
+            147.0740740945731,
+            152.55252742543314
+          ],
+          [
+            146.16883712191594,
+            152.96398525210665
+          ],
+          [
+            145.2684542234151,
+            153.3859593098683
+          ],
+          [
+            144.37330662882974,
+            153.81893067538795
+          ],
+          [
+            143.4839889473213,
+            154.2637548626708
+          ],
+          [
+            142.59993011030966,
+            154.71893722105995
+          ],
+          [
+            141.72130375801515,
+            155.1845243496637
+          ],
+          [
+            140.849179874006,
+            155.66218143630155
+          ],
+          [
+            139.98265616237788,
+            156.1499195098207
+          ],
+          [
+            139.1219142127353,
+            156.64779365265198
+          ],
+          [
+            138.26803673048036,
+            157.15735206975094
+          ],
+          [
+            137.42001999943648,
+            157.67660218097066
+          ],
+          [
+            136.5782585892648,
+            158.20593290417798
+          ],
+          [
+            135.7434018305896,
+            158.7460903858142
+          ],
+          [
+            134.9145719190396,
+            159.29545023315688
+          ],
+          [
+            134.0925502419979,
+            159.85494437810644
+          ],
+          [
+            133.27716721682782,
+            160.4240721340107
+          ],
+          [
+            132.46787353915164,
+            161.0018288431937
+          ],
+          [
+            131.66596386474586,
+            161.58979168405025
+          ],
+          [
+            130.87015978380705,
+            162.18599083722623
+          ],
+          [
+            130.0809869179002,
+            162.7909389475713
+          ],
+          [
+            129.29856115574026,
+            163.40459124557265
+          ],
+          [
+            128.52208471001137,
+            164.0257560769029
+          ],
+          [
+            127.75274988977282,
+            164.65574470072423
+          ],
+          [
+            126.98927602234049,
+            165.29282284798313
+          ],
+          [
+            126.2321703962431,
+            165.93745500337064
+          ],
+          [
+            125.48130728334031,
+            166.58934984436635
+          ],
+          [
+            124.73605019500849,
+            167.24764711973944
+          ],
+          [
+            123.9973024036825,
+            167.91324198148058
+          ],
+          [
+            123.2638078055859,
+            168.5846212240153
+          ],
+          [
+            122.53619301708285,
+            169.26236773476535
+          ],
+          [
+            121.81392691264404,
+            169.94581269067677
+          ],
+          [
+            121.09673871554126,
+            170.63458435526076
+          ],
+          [
+            120.38499274354844,
+            171.32897957233106
+          ],
+          [
+            119.67772324173113,
+            172.02793407760154
+          ],
+          [
+            118.97554688140653,
+            172.73200500008733
+          ],
+          [
+            118.27764965588867,
+            173.440318190265
+          ],
+          [
+            117.58401578529518,
+            174.1528068102714
+          ],
+          [
+            116.89463511216846,
+            174.86941238426445
+          ],
+          [
+            116.20879458066862,
+            175.58940730147364
+          ],
+          [
+            115.52697345739178,
+            176.31320987622124
+          ],
+          [
+            114.8483356372222,
+            177.03999802661747
+          ],
+          [
+            114.17289999615139,
+            177.76976308894746
+          ],
+          [
+            113.50052686848792,
+            178.50235128197647
+          ],
+          [
+            112.83066485865955,
+            179.23723655028346
+          ],
+          [
+            112.1635496818782,
+            179.97461639472306
+          ],
+          [
+            111.49856062126611,
+            180.71391427725163
+          ],
+          [
+            110.83557593803451,
+            181.45501027041612
+          ],
+          [
+            110.17449658297319,
+            182.19780659929955
+          ],
+          [
+            109.51486573903287,
+            182.94188963689473
+          ],
+          [
+            108.8566560156767,
+            183.68723015636655
+          ],
+          [
+            108.19953951401402,
+            184.43353476439063
+          ],
+          [
+            107.54325153173103,
+            185.18056813144096
+          ]
+        ],
+        "codebooks": {
+          "Auto": {
+            "clean": [
+              -0.0361529033674834,
+              0.08264472842922799
+            ],
+            "00": [
+              -0.6966345934794078,
+              -0.6956467262820956
+            ],
+            "01": [
+              -0.6439513184518344,
+              0.5227351950707315
+            ],
+            "10": [
+              0.6318478733232078,
+              -0.6125228217599582
+            ],
+            "11": [
+              0.6333595573046739,
+              0.6524550555390465
+            ]
+          },
+          "Oracle": {
+            "clean": [
+              -0.17036554676760846,
+              0.20965219832298673
+            ],
+            "00": [
+              -0.8122440689296663,
+              -0.4753602262786693
+            ],
+            "01": [
+              -0.6883947676563862,
+              0.5774464005796219
+            ],
+            "10": [
+              0.7591040665241346,
+              -0.6628577979207615
+            ],
+            "11": [
+              0.6524372935101278,
+              0.7015545638284335
+            ]
+          }
+        },
+        "calibration": null,
+        "receiver": "Frozen S/4A local reference-assisted joint Huber receiver",
+        "calibration_scope": "Input-domain diagnostic; unvalidated for RGB"
+      },
+      "input": {
+        "mode": "st2",
+        "clean": "conditions/320659/clean.png",
+        "mask": "masks/320659.png",
+        "states": {
+          "clean": "conditions/320659/clean.png",
+          "00": "conditions/320659/00.png",
+          "01": "conditions/320659/01.png",
+          "10": "conditions/320659/10.png",
+          "11": "conditions/320659/11.png"
+        }
+      }
+    },
+    "190656": {
+      "receiver": "4A",
+      "reference": {
+        "schema_version": 1,
+        "mode": "st2",
+        "samples": [
+          [
+            496.8900447280268,
+            339.8649566558586
+          ],
+          [
+            495.8979796124436,
+            339.93527951342276
+          ],
+          [
+            494.9057933125078,
+            340.0038708856991
+          ],
+          [
+            493.9134949055734,
+            340.0708205439753
+          ],
+          [
+            492.9210929472111,
+            340.13621711432967
+          ],
+          [
+            491.9285955059064,
+            340.20014813177414
+          ],
+          [
+            490.9360101963127,
+            340.26270009374065
+          ],
+          [
+            489.9433442111497,
+            340.32395851291835
+          ],
+          [
+            488.9506043518353,
+            340.3840079694573
+          ],
+          [
+            487.95779705793353,
+            340.442932162549
+          ],
+          [
+            486.96492843549976,
+            340.5008139614024
+          ],
+          [
+            485.972004284402,
+            340.55773545563284
+          ],
+          [
+            484.97903012469175,
+            340.61377800508365
+          ],
+          [
+            483.9860112220999,
+            340.6690222891023
+          ],
+          [
+            482.9929526127249,
+            340.72354835529256
+          ],
+          [
+            481.999859126984,
+            340.7774356677668
+          ],
+          [
+            481.0067354128928,
+            340.83076315492315
+          ],
+          [
+            480.0135859587365,
+            340.88360925677216
+          ],
+          [
+            479.02041511519667,
+            340.93605197183916
+          ],
+          [
+            478.02722711699414,
+            340.98816890366885
+          ],
+          [
+            477.03402610410654,
+            341.040037306958
+          ],
+          [
+            476.04081614262,
+            341.0917341333447
+          ],
+          [
+            475.0476012452706,
+            341.14333607688036
+          ],
+          [
+            474.05438539173286,
+            341.1949196192122
+          ],
+          [
+            473.06117254870964,
+            341.24656107450363
+          ],
+          [
+            472.0679666898773,
+            341.2983366341192
+          ],
+          [
+            471.0747718157412,
+            341.35032241110224
+          ],
+          [
+            470.08159197345316,
+            341.4025944844708
+          ],
+          [
+            469.0884312766453,
+            341.4552289433599
+          ],
+          [
+            468.0952939253313,
+            341.508301931034
+          ],
+          [
+            467.10218422592953,
+            341.56188968879763
+          ],
+          [
+            466.1091066114584,
+            341.6160685998273
+          ],
+          [
+            465.11606566195866,
+            341.67091523295034
+          ],
+          [
+            464.1230661251943,
+            341.7265063863924
+          ],
+          [
+            463.1301129376861,
+            341.7829191315189
+          ],
+          [
+            462.1372112461312,
+            341.84023085659004
+          ],
+          [
+            461.1443664292638,
+            341.8985193105503
+          ],
+          [
+            460.1515841202114,
+            341.9578626468732
+          ],
+          [
+            459.1588702294036,
+            342.0183394674784
+          ],
+          [
+            458.1662309680893,
+            342.0800288667386
+          ],
+          [
+            457.17367177264816,
+            342.1429932376544
+          ],
+          [
+            456.18119328859126,
+            342.2072175299354
+          ],
+          [
+            455.18879308731323,
+            342.2726406413594
+          ],
+          [
+            454.1964680667748,
+            342.33919464616264
+          ],
+          [
+            453.2042148775868,
+            342.4068114065602
+          ],
+          [
+            452.21202993546154,
+            342.4754225640165
+          ],
+          [
+            451.21990943375175,
+            342.544959530118
+          ],
+          [
+            450.227849356086,
+            342.61535347706047
+          ],
+          [
+            449.23584548910725,
+            342.68653532776597
+          ],
+          [
+            448.24389343532596,
+            342.7584357456395
+          ],
+          [
+            447.25198862609585,
+            342.83098512398277
+          ],
+          [
+            446.2601263347234,
+            342.9041135750761
+          ],
+          [
+            445.26830168972185,
+            342.97775091894385
+          ],
+          [
+            444.2765100427402,
+            343.0518314065922
+          ],
+          [
+            443.28474607748024,
+            343.1262815754036
+          ],
+          [
+            442.2930041544092,
+            343.2010247929893
+          ],
+          [
+            441.30127894137127,
+            343.2759894075097
+          ],
+          [
+            440.3095650311964,
+            343.35110340902344
+          ],
+          [
+            439.31785695620385,
+            343.42629441653787
+          ],
+          [
+            438.3261492029478,
+            343.50148966485136
+          ],
+          [
+            437.33443622722086,
+            343.57661599120473
+          ],
+          [
+            436.34271246932946,
+            343.6515998217582
+          ],
+          [
+            435.35097236965885,
+            343.72636715791344
+          ],
+          [
+            434.35921038454217,
+            343.8008435624979
+          ],
+          [
+            433.3674210024522,
+            343.87495414583134
+          ],
+          [
+            432.37559876053115,
+            343.9486235516953
+          ],
+          [
+            431.3837382614766,
+            344.0217759432254
+          ],
+          [
+            430.3918341908018,
+            344.0943349887495
+          ],
+          [
+            429.3998813344864,
+            344.166223847593
+          ],
+          [
+            428.40787459703836,
+            344.2373651558773
+          ],
+          [
+            427.4158090199824,
+            344.3076810123342
+          ],
+          [
+            426.42367980079644,
+            344.3770929641643
+          ],
+          [
+            425.4314823123118,
+            344.4455219929648
+          ],
+          [
+            424.4392121225984,
+            344.5128885007567
+          ],
+          [
+            423.4468650153519,
+            344.57911229614166
+          ],
+          [
+            422.4544370108017,
+            344.64411258061847
+          ],
+          [
+            421.4619243871598,
+            344.707807935094
+          ],
+          [
+            420.46932370262675,
+            344.7701163066211
+          ],
+          [
+            419.4766304690568,
+            344.8309326977218
+          ],
+          [
+            418.48384116951047,
+            344.89015994519025
+          ],
+          [
+            417.49096233309194,
+            344.9478660504123
+          ],
+          [
+            416.49799827151895,
+            345.0040860397385
+          ],
+          [
+            415.50495318968143,
+            345.0588558658607
+          ],
+          [
+            414.51183118220814,
+            345.1122123695073
+          ],
+          [
+            413.5186362305348,
+            345.1641932395069
+          ],
+          [
+            412.5253722004758,
+            345.21483697131254
+          ],
+          [
+            411.53204284030016,
+            345.2641828240842
+          ],
+          [
+            410.5386517793099,
+            345.312270776429
+          ],
+          [
+            409.5452025269146,
+            345.3591414809066
+          ],
+          [
+            408.55169847219497,
+            345.40483621740657
+          ],
+          [
+            407.5581428839455,
+            345.4493968455109
+          ],
+          [
+            406.5645389111816,
+            345.4928657559557
+          ],
+          [
+            405.57088958409855,
+            345.53528582130957
+          ],
+          [
+            404.57719781546217,
+            345.57670034598607
+          ],
+          [
+            403.5834664024138,
+            345.6171530157107
+          ],
+          [
+            402.58969664109105,
+            345.65665258805547
+          ],
+          [
+            401.59589228667465,
+            345.69527180398785
+          ],
+          [
+            400.6020562641046,
+            345.73306706053535
+          ],
+          [
+            399.60819091708186,
+            345.7700830492354
+          ],
+          [
+            398.6142984884601,
+            345.80636456266456
+          ],
+          [
+            397.6203811241145,
+            345.8419564433623
+          ],
+          [
+            396.6264408770287,
+            345.8769035331123
+          ],
+          [
+            395.63247971156943,
+            345.91125062269674
+          ],
+          [
+            394.6384995079181,
+            345.9450424022271
+          ],
+          [
+            393.6445020666299,
+            345.97832341216093
+          ],
+          [
+            392.6504891132893,
+            346.01113799510347
+          ],
+          [
+            391.65646230323256,
+            346.04353024849263
+          ],
+          [
+            390.6624232263077,
+            346.07554397826124
+          ],
+          [
+            389.66837341164336,
+            346.10722265356384
+          ],
+          [
+            388.6743143323986,
+            346.13860936265394
+          ],
+          [
+            387.68024741046645,
+            346.16974676998956
+          ],
+          [
+            386.6861740211063,
+            346.20067707464267
+          ],
+          [
+            385.69209549747984,
+            346.23144197007935
+          ],
+          [
+            384.6980131350679,
+            346.2620826053767
+          ],
+          [
+            383.70392819594696,
+            346.29263954793214
+          ],
+          [
+            382.70984191290404,
+            346.3231527477202
+          ],
+          [
+            381.71575549337354,
+            346.3536615031412
+          ],
+          [
+            380.72166989952285,
+            346.38419714909344
+          ],
+          [
+            379.7275851416501,
+            346.41475999848154
+          ],
+          [
+            378.7335008926778,
+            346.44533939646385
+          ],
+          [
+            377.7394168069643,
+            346.4759241015023
+          ],
+          [
+            376.74533254362376,
+            346.5065030326257
+          ],
+          [
+            375.75124776584204,
+            346.5370652350637
+          ],
+          [
+            374.75716214020895,
+            346.5675998468608
+          ],
+          [
+            373.7630753360665,
+            346.5980960662504
+          ],
+          [
+            372.7689870248715,
+            346.62854311958034
+          ],
+          [
+            371.7748968795716,
+            346.6589302295868
+          ],
+          [
+            370.78080457399403,
+            346.6892465838195
+          ],
+          [
+            369.78670978224574,
+            346.7194813030218
+          ],
+          [
+            368.792612178125,
+            346.7496234092737
+          ],
+          [
+            367.7985114345433,
+            346.77966179369844
+          ],
+          [
+            366.80440722295725,
+            346.809585183536
+          ],
+          [
+            365.8102992128111,
+            346.839382108376
+          ],
+          [
+            364.8161870709892,
+            346.8690408653386
+          ],
+          [
+            363.82207046127945,
+            346.8985494829781
+          ],
+          [
+            362.82794904384866,
+            346.92789568367505
+          ],
+          [
+            361.83382247473065,
+            346.95706684426426
+          ],
+          [
+            360.8396904053296,
+            346.9860499546293
+          ],
+          [
+            359.8455524819406,
+            347.01483157397223
+          ],
+          [
+            358.85140834529125,
+            347.0433977844426
+          ],
+          [
+            357.8572574779779,
+            347.07172878181535
+          ],
+          [
+            356.8630996165466,
+            347.0998132476316
+          ],
+          [
+            355.868934376833,
+            347.1276352629897
+          ],
+          [
+            354.87476136663287,
+            347.1551781624027
+          ],
+          [
+            353.88058018598235,
+            347.1824244840513
+          ],
+          [
+            352.8863904269691,
+            347.20935589542165
+          ],
+          [
+            351.89219167362927,
+            347.2359531125191
+          ],
+          [
+            350.8979835019498,
+            347.26219581187945
+          ],
+          [
+            349.90376547999864,
+            347.28806253450347
+          ],
+          [
+            348.90953716821025,
+            347.31353058072244
+          ],
+          [
+            347.9152981198602,
+            347.33857589487474
+          ],
+          [
+            346.92104788176874,
+            347.363172938517
+          ],
+          [
+            345.92678599528233,
+            347.38729455072126
+          ],
+          [
+            344.9325119975921,
+            347.4109117937979
+          ],
+          [
+            343.9382254234608,
+            347.43399378254895
+          ]
+        ],
+        "codebooks": {
+          "Auto": {
+            "clean": [
+              -0.00426978825663004,
+              0.03690827482375573
+            ],
+            "00": [
+              -0.7477536625411189,
+              -0.7160297655176904
+            ],
+            "01": [
+              -0.8397969648083181,
+              0.8782061787757938
+            ],
+            "10": [
+              0.7773099913895489,
+              -0.7118599067146396
+            ],
+            "11": [
+              0.703125772260667,
+              0.7234604742829336
+            ]
+          },
+          "Oracle": {
+            "clean": [
+              0.014984279201110007,
+              -0.08395458007994924
+            ],
+            "00": [
+              -0.7582467825714397,
+              -0.7845440130025995
+            ],
+            "01": [
+              -0.8397969648083181,
+              0.8782061787757938
+            ],
+            "10": [
+              0.7595162475675986,
+              -0.8125844383411005
+            ],
+            "11": [
+              0.7829798596474316,
+              0.8855186053097832
+            ]
+          }
+        },
+        "calibration": null,
+        "receiver": "Frozen S/4A local reference-assisted joint Huber receiver",
+        "calibration_scope": "Input-domain diagnostic; unvalidated for RGB"
+      },
+      "input": {
+        "mode": "st2",
+        "clean": "conditions/190656/clean.png",
+        "mask": "masks/190656.png",
+        "states": {
+          "clean": "conditions/190656/clean.png",
+          "00": "conditions/190656/00.png",
+          "01": "conditions/190656/01.png",
+          "10": "conditions/190656/10.png",
+          "11": "conditions/190656/11.png"
+        }
+      }
+    }
+  },
+  "models": {},
+  "name": "New region-first Cal",
+  "origin_manifest_sha256": "94addf39337f1232d49f17e31db2124ab4d0ad5901dbe2df7765ed435c396615",
+  "expected_summary": {
+    "region_first/Cal": {
+      "attempts": 48,
+      "correct": 36,
+      "wrong": 2,
+      "erasures": 10,
+      "full_message_accuracy": 0.75,
+      "bit_correct": 74,
+      "bit_wrong": 2,
+      "bit_erased": 20,
+      "all_attempt_bit_accuracy": 0.7708333333333334,
+      "received_bit_error_rate": 0.02631578947368421
+    }
+  }
+}

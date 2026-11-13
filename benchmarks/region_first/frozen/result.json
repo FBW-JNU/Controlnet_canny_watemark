@@ -1,0 +1,782 @@
+{
+  "summary": {
+    "region_first/Eval": {
+      "attempts": 96,
+      "correct": 74,
+      "wrong": 8,
+      "erasures": 14,
+      "full_message_accuracy": 0.7708333333333334,
+      "bit_correct": 155,
+      "bit_wrong": 9,
+      "bit_erased": 28,
+      "all_attempt_bit_accuracy": 0.8072916666666666,
+      "received_bit_error_rate": 0.054878048780487805
+    },
+    "region_first_input/Eval": {
+      "attempts": 96,
+      "correct": 75,
+      "wrong": 7,
+      "erasures": 14,
+      "full_message_accuracy": 0.78125,
+      "bit_correct": 157,
+      "bit_wrong": 7,
+      "bit_erased": 28,
+      "all_attempt_bit_accuracy": 0.8177083333333334,
+      "received_bit_error_rate": 0.042682926829268296
+    }
+  },
+  "calibration": {
+    "created_utc": "2026-11-12T13:28:53Z",
+    "selection_sha256": "5672304c6765ce1a77963d144872323b321aed64ad321ec5b72df9d6a57ca170",
+    "cal_manifest_sha256": "94addf39337f1232d49f17e31db2124ab4d0ad5901dbe2df7765ed435c396615",
+    "cal_decoded_sha256": "dbde01757796f5ce739948c96a42de930612c03aa9a8c454b63cfe747fff3351",
+    "cal_rgb_sha256": {
+      "Cal/000000440339_v0_clean": "d9c356cbe4ec420d6b5e32d91147c3a72a5abadf6bb026c8dc995392a1e1d63d",
+      "Cal/000000440339_v0_00": "83dd8be40278a05c471a0e8be095d1dd2329e3eefff0fe8d4f15d296609c1b7e",
+      "Cal/000000440339_v0_01": "a08939845d9b1c4c5f69742c550769c2d38506494409c83bb16a8e86c9b13841",
+      "Cal/000000440339_v0_10": "f3a3c7462060afe62bd975ffe6e0c073a4f70d721872a957410e781373ce0d54",
+      "Cal/000000440339_v0_11": "de0c3c56679e1036a80ab7f379bcc1dcd58e4d3512d7a8d1587dbe1ebf00d2c4",
+      "Cal/000000440339_v1_clean": "797c34971317c017b9fdd0cc304e3f4d9f1528ddfe65e98c637102ac81b526b8",
+      "Cal/000000440339_v1_00": "a01d36455f261706febc98d3e3420042c4f02a170ba778e1c3aaebb89c78606f",
+      "Cal/000000440339_v1_01": "d7cf49ff0a059d57278e3346f78591e1f9fae7e7d5607b1e7fd230f18241a0bb",
+      "Cal/000000440339_v1_10": "72b894c7652578b6a5cde57d19d2bc6523bf75bec85b52ca0583caba35fe3712",
+      "Cal/000000440339_v1_11": "3fb4aa1cb3888ff083a24e60d9c105bbe6fe7241b2db2f5d628c0ed13f49d80f",
+      "Cal/000000196672_v0_clean": "ca5333746639e789892f7b82c3ed949cf0781fd446f6bb6bbc25bbca3710b741",
+      "Cal/000000196672_v0_00": "3a5964f09b93c8858995a88dcd98a4081e521383321c5c7681899339cbcdbe66",
+      "Cal/000000196672_v0_01": "506bfc0338cfe981204613f798ae638f15532553b300bd02eb8647a46d6c70f6",
+      "Cal/000000196672_v0_10": "8c97d728d226af51a5aee8d0182e8746680cc32f5eef36cf1f7d8ca98a16fbbc",
+      "Cal/000000196672_v0_11": "1a66704cc0aa9aefe3d2c99278214ac2c716b3388487c421f7ef4fad21cbec9f",
+      "Cal/000000196672_v1_clean": "ef816b88a5f19c74f65ea7687371adadfca44c677d724db63bda48b07e0af4b3",
+      "Cal/000000196672_v1_00": "f6ebc173e454b80a9af0c9f4d1ed930d135aebd98139186700975e718615fa58",
+      "Cal/000000196672_v1_01": "2b136757223919cb4ea55aa2c2d77ba1ab6e98eeb6d6cb66a561a26a6a570beb",
+      "Cal/000000196672_v1_10": "9c8e082ce0caa723ff8b6e61ce5884ba2fd7c2e3102d7100b9c91094d59f5253",
+      "Cal/000000196672_v1_11": "222eb72b9a992eb5f682e23909327c25ecc2f26338cc305db6ad98cfa952f849",
+      "Cal/000000165833_v0_clean": "a23136709a14fe62b4aa489cc134835cf568096434904135f32f9cff351f7d14",
+      "Cal/000000165833_v0_00": "1705b673c19c59b11f497eda03ebea79a336314c2d56ab2cf82acf0ad0dee72b",
+      "Cal/000000165833_v0_01": "97c84a6355b52667a18baa06b782780ec6213af18bc3240d7e4e28afc1734c39",
+      "Cal/000000165833_v0_10": "ac08eecf8911b78d7fec3479cfb13c873213ce614869ac21e4d98dc8013259ee",
+      "Cal/000000165833_v0_11": "a684a19469111cdc58d1ab662c56876765557664a665ec6abbdd0bdabab6e189",
+      "Cal/000000165833_v1_clean": "f40b58427f2c2fcd3a86f66d75693d2b0a8d16a9dcb558d504ad08672b2607ac",
+      "Cal/000000165833_v1_00": "60b108a21ec4baa3dd925bcadd0748bfad8e0c5c1825ed913b0c5a66551c2995",
+      "Cal/000000165833_v1_01": "93e8d7f4f1239483faaeee21a48a3df81c685e486a5ab3fd17105fc17fb95450",
+      "Cal/000000165833_v1_10": "c4c4412ac5219bc83bc49a92a1eaeb9f20307d23732bc5898eeb9e4ef9926a6f",
+      "Cal/000000165833_v1_11": "81673ce3c66c7e0ab0c3a384d6614e8b78d2cfec6e6decf9c472bd652da4af04",
+      "Cal/000000343821_v0_clean": "c4d88f8edbbdfd711cc1d3426f942a94abe93af8a7424c013306a4fc0c4c0723",
+      "Cal/000000343821_v0_00": "7d587ec88e6e7803ce1142dc491f344d4a8a7e1ea919889cf9774808a8b9ed5e",
+      "Cal/000000343821_v0_01": "f84ebdc6e42b3605979559d559ab6c84b77f0602e4167c4ec0f5c9816481b565",
+      "Cal/000000343821_v0_10": "d9656e3119198a4642a0ec4b4a070c7e1ffa96283c99d098c90ccaac5719d4ac",
+      "Cal/000000343821_v0_11": "a8a008d3b934303f3b53bf4273e0a515e50b2c02ac160d15a8311569d87f7cc4",
+      "Cal/000000343821_v1_clean": "cdea92145be875fd3210fa5368ecccd32cc74458bdc51ddfec97ef14ee28dc6b",
+      "Cal/000000343821_v1_00": "867903728130b016659b7b7940283c185505f29eddfa6d9e19f5a4688c4eff6e",
+      "Cal/000000343821_v1_01": "ee131803fdaf7a9ead1bc60fc6ace6c32ac85d31180ceb00ae8a1ab34c9aba09",
+      "Cal/000000343821_v1_10": "c87c87727e1f3227e2e85e9bfdd224c5f825a4ac05af719d981805da6f4f445b",
+      "Cal/000000343821_v1_11": "16d5b36c3dd68c815839526127d83ce95f4627ebff1442fb045cd45936baf522",
+      "Cal/000000320659_v0_clean": "0dce2bd735eb678beed5969d31caa83031fd67a8197571122f8e4e71214573dc",
+      "Cal/000000320659_v0_00": "29aaaf61a6c0ce5c3108b9e89dde07ad522f7581b5e53ae728ac3acd9c333d77",
+      "Cal/000000320659_v0_01": "c272e1d831c25646d1047ecbd576c675fef266218a05c3d10401e7c40c6f2e67",
+      "Cal/000000320659_v0_10": "e0aa77038a2df069e9eb3e15c3033bd2bb230eb809d904bd76fa46dd5822a536",
+      "Cal/000000320659_v0_11": "c9b48ee918cb9def6987ae7f4e5c735b885c8b972cc7a7d0602af171d82be050",
+      "Cal/000000320659_v1_clean": "2f888f77f171944049d1b0c2608a4a6e179667f5a7620454da5555caf606d256",
+      "Cal/000000320659_v1_00": "a2f63383d471baf511645b5019b3948dd6c27688c1a330fbe5a18aedc48aace6",
+      "Cal/000000320659_v1_01": "fbc6fbd3b6390426195c0159c8511ff929f62e366c7d0ca1030daf278ce5e957",
+      "Cal/000000320659_v1_10": "e260e545e336d2f32e47467d8c0b0d5fb7be840081c7fe54a546a1402bb99d76",
+      "Cal/000000320659_v1_11": "8ce9f74100f82663a10d8ec986b9e7ec37c54d3392a20bba9072fe92fc878b63",
+      "Cal/000000190656_v0_clean": "3b5840caec8b881907abdf320a0e23bdb82b8fa6752017c1cfe687e6f37f1b57",
+      "Cal/000000190656_v0_00": "8dc6d61d7589d5ac047f74f998f7c58bb4ebe4a5da40837b984f57d9690f2f15",
+      "Cal/000000190656_v0_01": "23bc16bc5e3ec3c1dffdac7893b0ff5f2c2d0ef5f54d491ba52979572febbc6a",
+      "Cal/000000190656_v0_10": "7329ca07dc87ae8e351cd48f5b93a1b11fba1238d19ca5957b2ee256509d0006",
+      "Cal/000000190656_v0_11": "c8dd77d56bd1c22abf027161b9740e4b0d73ddeb22bd879866de71f723c869b4",
+      "Cal/000000190656_v1_clean": "46b3abcec3fc4a3af0aa96fa0976ca5750431742299b2960ca13fb9076b926e4",
+      "Cal/000000190656_v1_00": "fd4c947c45cfbb4690b59aaea0e53835ad9d0ea077000b7576ff7f4d014ffbb6",
+      "Cal/000000190656_v1_01": "a9b8f5ae69023d380e5b90c818410afd7ddbf70308c357d951f22b0404da2aff",
+      "Cal/000000190656_v1_10": "9148a510d514d0adc82e99c5a3151f90bb0d1c91ed1fc791cd477234696c6a6c",
+      "Cal/000000190656_v1_11": "971cf4c9f66e8871fdd6d26c897a2701635364024f55d9d2767ada86293c494a"
+    },
+    "received": 46,
+    "clean_received": 8,
+    "marked_received": 38,
+    "status": "calibrated",
+    "model": {
+      "A": [
+        [
+          0.9600096109507018,
+          -0.010693136413925398
+        ],
+        [
+          0.04534460832930398,
+          0.8455819125877357
+        ]
+      ],
+      "intercept": [
+        -0.10880699516239617,
+        -0.008724599974196633
+      ],
+      "residual_covariance": [
+        [
+          0.05363639974123148,
+          0.006143081424003819
+        ],
+        [
+          0.0061430814240038215,
+          0.06192037784211771
+        ]
+      ],
+      "cal_received": 46,
+      "cal_attempts": 60,
+      "condition": 1.141750157987483
+    },
+    "evaluation_fitting": false,
+    "no_eval_plan_before_calibration": true
+  },
+  "encoding": {
+    "Cal": {
+      "contents": 6,
+      "with_carrier": 6
+    },
+    "Eval": {
+      "contents": 12,
+      "with_carrier": 12
+    }
+  },
+  "bootstrap95": {
+    "region_first/Eval": {
+      "full_message": [
+        0.5520833333333334,
+        0.96875
+      ],
+      "bit": [
+        0.6041666666666666,
+        0.9792968749999993
+      ]
+    },
+    "region_first_input/Eval": {
+      "full_message": [
+        0.5520833333333334,
+        0.96875
+      ],
+      "bit": [
+        0.6041666666666666,
+        0.9791666666666666
+      ]
+    }
+  },
+  "clean": {
+    "region_first/Eval": {
+      "attempts": 24,
+      "received": 21,
+      "predicted_words": {
+        "00": 2,
+        "01": 2,
+        "10": 7,
+        "11": 10
+      },
+      "balanced_independent_target_bit_accuracy_on_received": 0.5,
+      "balanced_independent_target_word_accuracy_on_received": 0.25,
+      "interpretation": "Expected baseline against all four independent balanced target words; constant predictions also reach this baseline."
+    },
+    "region_first_input/Eval": {
+      "attempts": 24,
+      "received": 21,
+      "predicted_words": {
+        "00": 3,
+        "01": 4,
+        "10": 8,
+        "11": 6
+      },
+      "balanced_independent_target_bit_accuracy_on_received": 0.5,
+      "balanced_independent_target_word_accuracy_on_received": 0.25,
+      "interpretation": "Expected baseline against all four independent balanced target words; constant predictions also reach this baseline."
+    }
+  },
+  "per_bit": {
+    "region_first/Eval": [
+      {
+        "bit_index": 0,
+        "attempts": 96,
+        "correct": 77,
+        "wrong": 5,
+        "erased": 14
+      },
+      {
+        "bit_index": 1,
+        "attempts": 96,
+        "correct": 78,
+        "wrong": 4,
+        "erased": 14
+      }
+    ],
+    "region_first_input/Eval": [
+      {
+        "bit_index": 0,
+        "attempts": 96,
+        "correct": 79,
+        "wrong": 3,
+        "erased": 14
+      },
+      {
+        "bit_index": 1,
+        "attempts": 96,
+        "correct": 78,
+        "wrong": 4,
+        "erased": 14
+      }
+    ]
+  },
+  "confusion": {
+    "region_first/Eval": {
+      "rows": [
+        "00",
+        "01",
+        "10",
+        "11"
+      ],
+      "columns": [
+        "00",
+        "01",
+        "10",
+        "11",
+        "erasure"
+      ],
+      "counts": [
+        [
+          18,
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          19,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          19,
+          1,
+          4
+        ],
+        [
+          0,
+          0,
+          2,
+          18,
+          4
+        ]
+      ]
+    },
+    "region_first_input/Eval": {
+      "rows": [
+        "00",
+        "01",
+        "10",
+        "11"
+      ],
+      "columns": [
+        "00",
+        "01",
+        "10",
+        "11",
+        "erasure"
+      ],
+      "counts": [
+        [
+          18,
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          0,
+          20,
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          19,
+          1,
+          4
+        ],
+        [
+          0,
+          0,
+          2,
+          18,
+          4
+        ]
+      ]
+    }
+  },
+  "per_content": {
+    "region_first/Eval": {
+      "3124": {
+        "attempts": 8,
+        "correct": 0,
+        "wrong": 3,
+        "erasures": 5,
+        "full_message_accuracy": 0.0,
+        "bit_correct": 2,
+        "bit_wrong": 4,
+        "bit_erased": 10,
+        "all_attempt_bit_accuracy": 0.125,
+        "received_bit_error_rate": 0.6666666666666666
+      },
+      "12231": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "55580": {
+        "attempts": 8,
+        "correct": 0,
+        "wrong": 0,
+        "erasures": 8,
+        "full_message_accuracy": 0.0,
+        "bit_correct": 0,
+        "bit_wrong": 0,
+        "bit_erased": 16,
+        "all_attempt_bit_accuracy": 0.0,
+        "received_bit_error_rate": null
+      },
+      "87235": {
+        "attempts": 8,
+        "correct": 5,
+        "wrong": 2,
+        "erasures": 1,
+        "full_message_accuracy": 0.625,
+        "bit_correct": 12,
+        "bit_wrong": 2,
+        "bit_erased": 2,
+        "all_attempt_bit_accuracy": 0.75,
+        "received_bit_error_rate": 0.14285714285714285
+      },
+      "115363": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "124607": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "200103": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "201184": {
+        "attempts": 8,
+        "correct": 5,
+        "wrong": 3,
+        "erasures": 0,
+        "full_message_accuracy": 0.625,
+        "bit_correct": 13,
+        "bit_wrong": 3,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 0.8125,
+        "received_bit_error_rate": 0.1875
+      },
+      "264180": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "302960": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "413421": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "550853": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      }
+    },
+    "region_first_input/Eval": {
+      "3124": {
+        "attempts": 8,
+        "correct": 1,
+        "wrong": 2,
+        "erasures": 5,
+        "full_message_accuracy": 0.125,
+        "bit_correct": 4,
+        "bit_wrong": 2,
+        "bit_erased": 10,
+        "all_attempt_bit_accuracy": 0.25,
+        "received_bit_error_rate": 0.3333333333333333
+      },
+      "12231": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "55580": {
+        "attempts": 8,
+        "correct": 0,
+        "wrong": 0,
+        "erasures": 8,
+        "full_message_accuracy": 0.0,
+        "bit_correct": 0,
+        "bit_wrong": 0,
+        "bit_erased": 16,
+        "all_attempt_bit_accuracy": 0.0,
+        "received_bit_error_rate": null
+      },
+      "87235": {
+        "attempts": 8,
+        "correct": 5,
+        "wrong": 2,
+        "erasures": 1,
+        "full_message_accuracy": 0.625,
+        "bit_correct": 12,
+        "bit_wrong": 2,
+        "bit_erased": 2,
+        "all_attempt_bit_accuracy": 0.75,
+        "received_bit_error_rate": 0.14285714285714285
+      },
+      "115363": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "124607": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "200103": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "201184": {
+        "attempts": 8,
+        "correct": 5,
+        "wrong": 3,
+        "erasures": 0,
+        "full_message_accuracy": 0.625,
+        "bit_correct": 13,
+        "bit_wrong": 3,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 0.8125,
+        "received_bit_error_rate": 0.1875
+      },
+      "264180": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "302960": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "413421": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      },
+      "550853": {
+        "attempts": 8,
+        "correct": 8,
+        "wrong": 0,
+        "erasures": 0,
+        "full_message_accuracy": 1.0,
+        "bit_correct": 16,
+        "bit_wrong": 0,
+        "bit_erased": 0,
+        "all_attempt_bit_accuracy": 1.0,
+        "received_bit_error_rate": 0.0
+      }
+    }
+  },
+  "input_geometry": {
+    "440339": {
+      "split": "Cal",
+      "curve_length_px": 70.74016609595073,
+      "actual_four_word_minimum_coefficient_separation_px": 1.2395568217355923,
+      "source_pixels": 19527,
+      "stable_pixels": 7229,
+      "verified_candidates": 22
+    },
+    "196672": {
+      "split": "Cal",
+      "curve_length_px": 34.788813900547915,
+      "actual_four_word_minimum_coefficient_separation_px": 1.0419265641469355,
+      "source_pixels": 33118,
+      "stable_pixels": 6952,
+      "verified_candidates": 11
+    },
+    "165833": {
+      "split": "Cal",
+      "curve_length_px": 107.69300594433646,
+      "actual_four_word_minimum_coefficient_separation_px": 1.3619948011188225,
+      "source_pixels": 21549,
+      "stable_pixels": 16066,
+      "verified_candidates": 64
+    },
+    "343821": {
+      "split": "Cal",
+      "curve_length_px": 44.31450874284902,
+      "actual_four_word_minimum_coefficient_separation_px": 1.1822516382704302,
+      "source_pixels": 29681,
+      "stable_pixels": 19162,
+      "verified_candidates": 11
+    },
+    "320659": {
+      "split": "Cal",
+      "curve_length_px": 90.4871635832729,
+      "actual_four_word_minimum_coefficient_separation_px": 1.2195204113695832,
+      "source_pixels": 28513,
+      "stable_pixels": 19738,
+      "verified_candidates": 39
+    },
+    "190656": {
+      "split": "Cal",
+      "curve_length_px": 153.16138128000733,
+      "actual_four_word_minimum_coefficient_separation_px": 1.4372361999597634,
+      "source_pixels": 30087,
+      "stable_pixels": 25568,
+      "verified_candidates": 67
+    },
+    "264180": {
+      "split": "Eval",
+      "curve_length_px": 153.8631280044969,
+      "actual_four_word_minimum_coefficient_separation_px": 1.4346269184725557,
+      "source_pixels": 18839,
+      "stable_pixels": 13730,
+      "verified_candidates": 67
+    },
+    "302960": {
+      "split": "Eval",
+      "curve_length_px": 104.10459923682743,
+      "actual_four_word_minimum_coefficient_separation_px": 1.103351626866606,
+      "source_pixels": 13917,
+      "stable_pixels": 7918,
+      "verified_candidates": 33
+    },
+    "200103": {
+      "split": "Eval",
+      "curve_length_px": 56.00543597135706,
+      "actual_four_word_minimum_coefficient_separation_px": 1.2749136730120518,
+      "source_pixels": 22333,
+      "stable_pixels": 16910,
+      "verified_candidates": 27
+    },
+    "87235": {
+      "split": "Eval",
+      "curve_length_px": 99.48098645801394,
+      "actual_four_word_minimum_coefficient_separation_px": 1.306239600558416,
+      "source_pixels": 29422,
+      "stable_pixels": 14626,
+      "verified_candidates": 46
+    },
+    "413421": {
+      "split": "Eval",
+      "curve_length_px": 81.21844778281964,
+      "actual_four_word_minimum_coefficient_separation_px": 1.0893516035701107,
+      "source_pixels": 13382,
+      "stable_pixels": 8311,
+      "verified_candidates": 27
+    },
+    "550853": {
+      "split": "Eval",
+      "curve_length_px": 97.00010765819114,
+      "actual_four_word_minimum_coefficient_separation_px": 1.4048786365720858,
+      "source_pixels": 33032,
+      "stable_pixels": 18802,
+      "verified_candidates": 20
+    },
+    "55580": {
+      "split": "Eval",
+      "curve_length_px": 102.05115927000327,
+      "actual_four_word_minimum_coefficient_separation_px": 1.3282282277051876,
+      "source_pixels": 16202,
+      "stable_pixels": 9781,
+      "verified_candidates": 43
+    },
+    "3124": {
+      "split": "Eval",
+      "curve_length_px": 70.75620836967676,
+      "actual_four_word_minimum_coefficient_separation_px": 1.502161134608391,
+      "source_pixels": 42062,
+      "stable_pixels": 12240,
+      "verified_candidates": 21
+    },
+    "201184": {
+      "split": "Eval",
+      "curve_length_px": 78.77603321250798,
+      "actual_four_word_minimum_coefficient_separation_px": 1.2388113637865608,
+      "source_pixels": 24072,
+      "stable_pixels": 4966,
+      "verified_candidates": 21
+    },
+    "124607": {
+      "split": "Eval",
+      "curve_length_px": 90.40195817967232,
+      "actual_four_word_minimum_coefficient_separation_px": 1.3219516971325698,
+      "source_pixels": 11542,
+      "stable_pixels": 4556,
+      "verified_candidates": 26
+    },
+    "115363": {
+      "split": "Eval",
+      "curve_length_px": 38.46924189775781,
+      "actual_four_word_minimum_coefficient_separation_px": 1.2744236561614102,
+      "source_pixels": 33277,
+      "stable_pixels": 16839,
+      "verified_candidates": 13
+    },
+    "12231": {
+      "split": "Eval",
+      "curve_length_px": 146.80115156706984,
+      "actual_four_word_minimum_coefficient_separation_px": 1.3102329756307927,
+      "source_pixels": 26064,
+      "stable_pixels": 10052,
+      "verified_candidates": 18
+    }
+  },
+  "quality": {
+    "groups": {
+      "region_first/Eval": {
+        "attempts": 96,
+        "passed": 96
+      }
+    },
+    "limits": {
+      "psnr_db_min": 30,
+      "ssim_min": 0.9,
+      "lpips_alex_max": 0.1,
+      "edge_f1_3x3_min": 0.95
+    },
+    "joint_correct_and_quality": {
+      "region_first/Eval": {
+        "attempts": 96,
+        "passed": 74
+      },
+      "region_first_input/Eval": {
+        "attempts": 96,
+        "passed": 75
+      }
+    }
+  },
+  "scope": "Independent new-content pilot; source-reference-assisted; no multi-carrier ECC or mask-only claim."
+}

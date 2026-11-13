@@ -1,0 +1,2034 @@
+{
+  "status": "passed",
+  "groups": {
+    "region_first/Eval": {
+      "attempts": 96,
+      "passed": 96
+    }
+  },
+  "records": [
+    {
+      "id": "Eval/000000264180_v0_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 2.830359141031901,
+        "psnr_db": 43.6123881471735,
+        "psnr_infinite": false,
+        "ssim": 0.9963441782724104,
+        "edge_f1_3x3": 0.982680253436935,
+        "changed_pixels": 239756,
+        "lpips_alex": 0.001738650957122445
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000264180_v0_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 1.2749824523925781,
+        "psnr_db": 47.0757615325991,
+        "psnr_infinite": false,
+        "ssim": 0.9973917335552006,
+        "edge_f1_3x3": 0.9868205497799729,
+        "changed_pixels": 174897,
+        "lpips_alex": 0.0007963732350617647
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000264180_v0_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 2.8179944356282554,
+        "psnr_db": 43.63140229645435,
+        "psnr_infinite": false,
+        "ssim": 0.9961368229845964,
+        "edge_f1_3x3": 0.9832831223461235,
+        "changed_pixels": 228047,
+        "lpips_alex": 0.0016819718293845654
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000264180_v0_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 6.613182067871094,
+        "psnr_db": 39.92669881414604,
+        "psnr_infinite": false,
+        "ssim": 0.9934956864956871,
+        "edge_f1_3x3": 0.9790925277151071,
+        "changed_pixels": 223697,
+        "lpips_alex": 0.003556053154170513
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000264180_v1_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 3.8479932149251304,
+        "psnr_db": 42.278460632825855,
+        "psnr_infinite": false,
+        "ssim": 0.9942683180434942,
+        "edge_f1_3x3": 0.986443881840032,
+        "changed_pixels": 234668,
+        "lpips_alex": 0.0020084131974726915
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000264180_v1_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 1.9511248270670574,
+        "psnr_db": 45.2279530573673,
+        "psnr_infinite": false,
+        "ssim": 0.9970345968619562,
+        "edge_f1_3x3": 0.9919407118816628,
+        "changed_pixels": 143182,
+        "lpips_alex": 0.0008132606744766235
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000264180_v1_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 3.8022066752115884,
+        "psnr_db": 42.33044640904392,
+        "psnr_infinite": false,
+        "ssim": 0.9944686609253431,
+        "edge_f1_3x3": 0.9859119819332922,
+        "changed_pixels": 232675,
+        "lpips_alex": 0.001964292721822858
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000264180_v1_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 2.443559010823568,
+        "psnr_db": 44.2505752936556,
+        "psnr_infinite": false,
+        "ssim": 0.9956969663186208,
+        "edge_f1_3x3": 0.9903508360485732,
+        "changed_pixels": 202583,
+        "lpips_alex": 0.0011785627575591207
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000302960_v0_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 1.9112917582194011,
+        "psnr_db": 45.31753373805992,
+        "psnr_infinite": false,
+        "ssim": 0.9953309903137554,
+        "edge_f1_3x3": 0.9804083382036366,
+        "changed_pixels": 137081,
+        "lpips_alex": 0.00204646959900856
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000302960_v0_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 3.4608472188313804,
+        "psnr_db": 42.738979333400415,
+        "psnr_infinite": false,
+        "ssim": 0.9937130112932527,
+        "edge_f1_3x3": 0.9824707403307844,
+        "changed_pixels": 131525,
+        "lpips_alex": 0.002455195877701044
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000302960_v0_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 3.423426310221354,
+        "psnr_db": 42.786193768195815,
+        "psnr_infinite": false,
+        "ssim": 0.9933704039155016,
+        "edge_f1_3x3": 0.9741017868597777,
+        "changed_pixels": 198395,
+        "lpips_alex": 0.003111123340204358
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000302960_v0_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 3.201740264892578,
+        "psnr_db": 43.07694263171947,
+        "psnr_infinite": false,
+        "ssim": 0.9936410894341993,
+        "edge_f1_3x3": 0.9831186997003565,
+        "changed_pixels": 134034,
+        "lpips_alex": 0.002772361272946
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000302960_v1_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 0.7918230692545573,
+        "psnr_db": 49.144522103777064,
+        "psnr_infinite": false,
+        "ssim": 0.9976408209281663,
+        "edge_f1_3x3": 0.9849984400051899,
+        "changed_pixels": 121309,
+        "lpips_alex": 0.0008156009716913104
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000302960_v1_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 2.204784393310547,
+        "psnr_db": 44.69714234807242,
+        "psnr_infinite": false,
+        "ssim": 0.9941548571643969,
+        "edge_f1_3x3": 0.9707293874638326,
+        "changed_pixels": 170146,
+        "lpips_alex": 0.0026488204021006823
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000302960_v1_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 1.7898674011230469,
+        "psnr_db": 45.60259502566019,
+        "psnr_infinite": false,
+        "ssim": 0.995448821155308,
+        "edge_f1_3x3": 0.9760933675584023,
+        "changed_pixels": 193144,
+        "lpips_alex": 0.0017593307420611382
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000302960_v1_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 2.80584716796875,
+        "psnr_db": 43.6501634917039,
+        "psnr_infinite": false,
+        "ssim": 0.9941718669105118,
+        "edge_f1_3x3": 0.9675339634016973,
+        "changed_pixels": 173991,
+        "lpips_alex": 0.0028213136829435825
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000200103_v0_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 8.79269282023112,
+        "psnr_db": 38.689584598704954,
+        "psnr_infinite": false,
+        "ssim": 0.9852929652799851,
+        "edge_f1_3x3": 0.9510469843112758,
+        "changed_pixels": 241718,
+        "lpips_alex": 0.0056037940084934235
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000200103_v0_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 3.2933807373046875,
+        "psnr_db": 42.954384198455884,
+        "psnr_infinite": false,
+        "ssim": 0.9929285439403756,
+        "edge_f1_3x3": 0.958866533030175,
+        "changed_pixels": 230073,
+        "lpips_alex": 0.0029555878136307
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000200103_v0_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 4.8753712972005205,
+        "psnr_db": 41.25072664692868,
+        "psnr_infinite": false,
+        "ssim": 0.9886638425804647,
+        "edge_f1_3x3": 0.9567016146978703,
+        "changed_pixels": 225738,
+        "lpips_alex": 0.00444347457960248
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000200103_v0_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 2.062305450439453,
+        "psnr_db": 44.98727371299661,
+        "psnr_infinite": false,
+        "ssim": 0.9964887497484168,
+        "edge_f1_3x3": 0.9765686456932406,
+        "changed_pixels": 196900,
+        "lpips_alex": 0.0011024944251403213
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000200103_v1_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 9.397299448649088,
+        "psnr_db": 38.400772948273044,
+        "psnr_infinite": false,
+        "ssim": 0.9906301147259042,
+        "edge_f1_3x3": 0.9804890846893718,
+        "changed_pixels": 255468,
+        "lpips_alex": 0.005466180853545666
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000200103_v1_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 9.185173034667969,
+        "psnr_db": 38.49993018702552,
+        "psnr_infinite": false,
+        "ssim": 0.9907340645117735,
+        "edge_f1_3x3": 0.9825394687554961,
+        "changed_pixels": 257073,
+        "lpips_alex": 0.005483929067850113
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000200103_v1_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 1.8842493693033855,
+        "psnr_db": 45.37941982291261,
+        "psnr_infinite": false,
+        "ssim": 0.9971617308613018,
+        "edge_f1_3x3": 0.9939825141780272,
+        "changed_pixels": 205133,
+        "lpips_alex": 0.0011697281152009964
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000200103_v1_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 2.5449752807617188,
+        "psnr_db": 44.07396792458755,
+        "psnr_infinite": false,
+        "ssim": 0.9965954309952142,
+        "edge_f1_3x3": 0.9910456340518065,
+        "changed_pixels": 233185,
+        "lpips_alex": 0.0016482267528772354
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000087235_v0_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 4.597052256266276,
+        "psnr_db": 41.506009203155344,
+        "psnr_infinite": false,
+        "ssim": 0.9920720658317101,
+        "edge_f1_3x3": 0.9602465826936142,
+        "changed_pixels": 157997,
+        "lpips_alex": 0.003620859468355775
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000087235_v0_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 17.392093658447266,
+        "psnr_db": 35.72728495393095,
+        "psnr_infinite": false,
+        "ssim": 0.9781960018726196,
+        "edge_f1_3x3": 0.9511962235263633,
+        "changed_pixels": 190614,
+        "lpips_alex": 0.009290510788559914
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000087235_v0_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 4.1813710530598955,
+        "psnr_db": 41.91761652502818,
+        "psnr_infinite": false,
+        "ssim": 0.9911307919346308,
+        "edge_f1_3x3": 0.9677745327296293,
+        "changed_pixels": 168217,
+        "lpips_alex": 0.004520520102232695
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000087235_v0_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 0.4931042989095052,
+        "psnr_db": 51.20141572117876,
+        "psnr_infinite": false,
+        "ssim": 0.9981351066120787,
+        "edge_f1_3x3": 0.9871993801534196,
+        "changed_pixels": 105384,
+        "lpips_alex": 0.0005892631015740335
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000087235_v1_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 1.4333966573079426,
+        "psnr_db": 46.56713973511288,
+        "psnr_infinite": false,
+        "ssim": 0.9973969580635749,
+        "edge_f1_3x3": 0.981994416366517,
+        "changed_pixels": 176175,
+        "lpips_alex": 0.0011142462026327848
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000087235_v1_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 1.269134521484375,
+        "psnr_db": 47.095727034366845,
+        "psnr_infinite": false,
+        "ssim": 0.9977068070259273,
+        "edge_f1_3x3": 0.9830078812039552,
+        "changed_pixels": 162646,
+        "lpips_alex": 0.0007706507458351552
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000087235_v1_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 4.074665069580078,
+        "psnr_db": 42.02988444579951,
+        "psnr_infinite": false,
+        "ssim": 0.993810893376161,
+        "edge_f1_3x3": 0.9729797193273864,
+        "changed_pixels": 195203,
+        "lpips_alex": 0.002864546375349164
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000087235_v1_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 1.3255640665690105,
+        "psnr_db": 46.90679638165073,
+        "psnr_infinite": false,
+        "ssim": 0.9980506891993487,
+        "edge_f1_3x3": 0.9860346043953169,
+        "changed_pixels": 124475,
+        "lpips_alex": 0.0009677195339463651
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000413421_v0_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 56.41794967651367,
+        "psnr_db": 30.616630617560453,
+        "psnr_infinite": false,
+        "ssim": 0.9706609734628303,
+        "edge_f1_3x3": 0.952942838288619,
+        "changed_pixels": 257308,
+        "lpips_alex": 0.02047642506659031
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000413421_v0_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 54.916324615478516,
+        "psnr_db": 30.73378897354718,
+        "psnr_infinite": false,
+        "ssim": 0.9705879299741295,
+        "edge_f1_3x3": 0.9511968438907046,
+        "changed_pixels": 257456,
+        "lpips_alex": 0.01980021968483925
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000413421_v0_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 2.4758122762044272,
+        "psnr_db": 44.19362648831338,
+        "psnr_infinite": false,
+        "ssim": 0.9953663461112855,
+        "edge_f1_3x3": 0.9776971193550549,
+        "changed_pixels": 215006,
+        "lpips_alex": 0.0019097595941275358
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000413421_v0_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 24.67514928181966,
+        "psnr_db": 34.208205720865436,
+        "psnr_infinite": false,
+        "ssim": 0.9855311205378277,
+        "edge_f1_3x3": 0.9653291897695305,
+        "changed_pixels": 242869,
+        "lpips_alex": 0.008165250532329082
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000413421_v1_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 2.1123364766438804,
+        "psnr_db": 44.88317262200028,
+        "psnr_infinite": false,
+        "ssim": 0.9955296885287938,
+        "edge_f1_3x3": 0.9876509410290502,
+        "changed_pixels": 228622,
+        "lpips_alex": 0.002033390337601304
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000413421_v1_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 7.724629720052083,
+        "psnr_db": 39.252026901681,
+        "psnr_infinite": false,
+        "ssim": 0.9909578514967752,
+        "edge_f1_3x3": 0.9768674195574077,
+        "changed_pixels": 228748,
+        "lpips_alex": 0.00490376865491271
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000413421_v1_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 1.2972691853841145,
+        "psnr_db": 47.0005025864888,
+        "psnr_infinite": false,
+        "ssim": 0.9968738914975441,
+        "edge_f1_3x3": 0.9843401999974815,
+        "changed_pixels": 166641,
+        "lpips_alex": 0.001018051290884614
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000413421_v1_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 7.791337331136067,
+        "psnr_db": 39.21468353043205,
+        "psnr_infinite": false,
+        "ssim": 0.992773040832256,
+        "edge_f1_3x3": 0.9763865980554913,
+        "changed_pixels": 234902,
+        "lpips_alex": 0.004149261862039566
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000550853_v0_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 2.071533203125,
+        "psnr_db": 44.9678846218199,
+        "psnr_infinite": false,
+        "ssim": 0.9979190444212062,
+        "edge_f1_3x3": 0.9894728657603931,
+        "changed_pixels": 180160,
+        "lpips_alex": 0.0011172210797667503
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000550853_v0_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 3.6468493143717446,
+        "psnr_db": 42.511625419711415,
+        "psnr_infinite": false,
+        "ssim": 0.9962897302834083,
+        "edge_f1_3x3": 0.9848373762630627,
+        "changed_pixels": 193467,
+        "lpips_alex": 0.0019346451153978705
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000550853_v0_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 1.415601094563802,
+        "psnr_db": 46.62139471099357,
+        "psnr_infinite": false,
+        "ssim": 0.9984338679435995,
+        "edge_f1_3x3": 0.9892902892893062,
+        "changed_pixels": 177986,
+        "lpips_alex": 0.0008588501368649304
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000550853_v0_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 2.6896184285481772,
+        "psnr_db": 43.833896890923526,
+        "psnr_infinite": false,
+        "ssim": 0.9971093297265451,
+        "edge_f1_3x3": 0.9871014014717404,
+        "changed_pixels": 187916,
+        "lpips_alex": 0.0014478248776867986
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000550853_v1_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 4.260037740071614,
+        "psnr_db": 41.83666914292833,
+        "psnr_infinite": false,
+        "ssim": 0.9931378801134568,
+        "edge_f1_3x3": 0.9689884072740761,
+        "changed_pixels": 197022,
+        "lpips_alex": 0.003564952639862895
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000550853_v1_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 3.2490310668945312,
+        "psnr_db": 43.01326496824756,
+        "psnr_infinite": false,
+        "ssim": 0.9950270958072177,
+        "edge_f1_3x3": 0.9675770489996909,
+        "changed_pixels": 204967,
+        "lpips_alex": 0.0026250313967466354
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000550853_v1_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 1.6118405659993489,
+        "psnr_db": 46.05758279187346,
+        "psnr_infinite": false,
+        "ssim": 0.9976485375969261,
+        "edge_f1_3x3": 0.9810423329802335,
+        "changed_pixels": 159125,
+        "lpips_alex": 0.0013682181015610695
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000550853_v1_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 2.0367253621419272,
+        "psnr_db": 45.04147889426669,
+        "psnr_infinite": false,
+        "ssim": 0.9966994888029229,
+        "edge_f1_3x3": 0.9751466613387776,
+        "changed_pixels": 183382,
+        "lpips_alex": 0.00182689621578902
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000055580_v0_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 2.2689895629882812,
+        "psnr_db": 44.572478626678674,
+        "psnr_infinite": false,
+        "ssim": 0.9937003912535075,
+        "edge_f1_3x3": 0.9636463096471385,
+        "changed_pixels": 201252,
+        "lpips_alex": 0.003609374864026904
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000055580_v0_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 1.6510340372721355,
+        "psnr_db": 45.95324334214993,
+        "psnr_infinite": false,
+        "ssim": 0.9946426590642098,
+        "edge_f1_3x3": 0.9677694359456487,
+        "changed_pixels": 163373,
+        "lpips_alex": 0.0031612832099199295
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000055580_v0_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 8.782484690348307,
+        "psnr_db": 38.69462959466534,
+        "psnr_infinite": false,
+        "ssim": 0.9863309368041356,
+        "edge_f1_3x3": 0.9654412038121155,
+        "changed_pixels": 182394,
+        "lpips_alex": 0.009667403064668179
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000055580_v0_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 14.228205362955729,
+        "psnr_db": 36.59930235914836,
+        "psnr_infinite": false,
+        "ssim": 0.982713779022395,
+        "edge_f1_3x3": 0.9629882909568018,
+        "changed_pixels": 203998,
+        "lpips_alex": 0.011663353070616722
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000055580_v1_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 3.6414922078450522,
+        "psnr_db": 42.51800975890683,
+        "psnr_infinite": false,
+        "ssim": 0.9921503838452136,
+        "edge_f1_3x3": 0.9684525897120027,
+        "changed_pixels": 172732,
+        "lpips_alex": 0.0032785325311124325
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000055580_v1_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 0.5752207438151041,
+        "psnr_db": 50.53245821528567,
+        "psnr_infinite": false,
+        "ssim": 0.9973264152646806,
+        "edge_f1_3x3": 0.9810349130190419,
+        "changed_pixels": 168732,
+        "lpips_alex": 0.0010110379662364721
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000055580_v1_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 0.49930572509765625,
+        "psnr_db": 51.14713815113089,
+        "psnr_infinite": false,
+        "ssim": 0.9975219895137556,
+        "edge_f1_3x3": 0.9897524065941018,
+        "changed_pixels": 159577,
+        "lpips_alex": 0.0007876583840698004
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000055580_v1_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 7.752393086751302,
+        "psnr_db": 39.23644575272203,
+        "psnr_infinite": false,
+        "ssim": 0.989203455419227,
+        "edge_f1_3x3": 0.9532878476562512,
+        "changed_pixels": 198099,
+        "lpips_alex": 0.006712846923619509
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000003124_v0_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 0.6131324768066406,
+        "psnr_db": 50.2552604013399,
+        "psnr_infinite": false,
+        "ssim": 0.9979397141898895,
+        "edge_f1_3x3": 0.9833329221658592,
+        "changed_pixels": 134003,
+        "lpips_alex": 0.0007445144583471119
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000003124_v0_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 0.8988660176595052,
+        "psnr_db": 48.593853989762664,
+        "psnr_infinite": false,
+        "ssim": 0.9972627668460424,
+        "edge_f1_3x3": 0.9788153086372217,
+        "changed_pixels": 173124,
+        "lpips_alex": 0.0010772810783237219
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000003124_v0_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 0.8744176228841146,
+        "psnr_db": 48.713614591309735,
+        "psnr_infinite": false,
+        "ssim": 0.9972311100821188,
+        "edge_f1_3x3": 0.9834256143297688,
+        "changed_pixels": 153352,
+        "lpips_alex": 0.0010104841785505414
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000003124_v0_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 0.6916427612304688,
+        "psnr_db": 49.731985249179345,
+        "psnr_infinite": false,
+        "ssim": 0.997488535304904,
+        "edge_f1_3x3": 0.9838752795579878,
+        "changed_pixels": 171455,
+        "lpips_alex": 0.0007116979686543345
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000003124_v1_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 2.1189448038736978,
+        "psnr_db": 44.86960716892032,
+        "psnr_infinite": false,
+        "ssim": 0.9967303222887912,
+        "edge_f1_3x3": 0.9870141494140835,
+        "changed_pixels": 194992,
+        "lpips_alex": 0.0012046901974827051
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000003124_v1_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 1.8149388631184895,
+        "psnr_db": 45.542183606183535,
+        "psnr_infinite": false,
+        "ssim": 0.9975035324049591,
+        "edge_f1_3x3": 0.9893767097044189,
+        "changed_pixels": 169096,
+        "lpips_alex": 0.0009331656037829816
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000003124_v1_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 1.4569091796875,
+        "psnr_db": 46.49647881156892,
+        "psnr_infinite": false,
+        "ssim": 0.9980530829112745,
+        "edge_f1_3x3": 0.990896641250156,
+        "changed_pixels": 141858,
+        "lpips_alex": 0.000890661496669054
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000003124_v1_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 1.8208732604980469,
+        "psnr_db": 45.52800642520473,
+        "psnr_infinite": false,
+        "ssim": 0.9967078901580884,
+        "edge_f1_3x3": 0.991579400265881,
+        "changed_pixels": 177121,
+        "lpips_alex": 0.001243877224624157
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000201184_v0_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 0.8526153564453125,
+        "psnr_db": 48.8232721041347,
+        "psnr_infinite": false,
+        "ssim": 0.9978763488984242,
+        "edge_f1_3x3": 0.993462362197797,
+        "changed_pixels": 117257,
+        "lpips_alex": 0.0006249642465263605
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000201184_v0_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 1.4711011250813801,
+        "psnr_db": 46.454378332421456,
+        "psnr_infinite": false,
+        "ssim": 0.9977190602396909,
+        "edge_f1_3x3": 0.9931138360636526,
+        "changed_pixels": 117219,
+        "lpips_alex": 0.0012024244060739875
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000201184_v0_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 1.3704579671223958,
+        "psnr_db": 46.762146408951594,
+        "psnr_infinite": false,
+        "ssim": 0.9976470382234046,
+        "edge_f1_3x3": 0.9934964637530062,
+        "changed_pixels": 112978,
+        "lpips_alex": 0.001287713530473411
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000201184_v0_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 2.2289352416992188,
+        "psnr_db": 44.64982909965616,
+        "psnr_infinite": false,
+        "ssim": 0.9966891088458135,
+        "edge_f1_3x3": 0.9919148451496839,
+        "changed_pixels": 151577,
+        "lpips_alex": 0.0013945793034508824
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000201184_v1_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 0.9221343994140625,
+        "psnr_db": 48.48286137569043,
+        "psnr_infinite": false,
+        "ssim": 0.9976681041685547,
+        "edge_f1_3x3": 0.9890835490099757,
+        "changed_pixels": 148809,
+        "lpips_alex": 0.0005660614697262645
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000201184_v1_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 2.470678965250651,
+        "psnr_db": 44.2026404309754,
+        "psnr_infinite": false,
+        "ssim": 0.9953088762624117,
+        "edge_f1_3x3": 0.9866423577370137,
+        "changed_pixels": 165821,
+        "lpips_alex": 0.0012448185589164495
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000201184_v1_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 4.288235982259114,
+        "psnr_db": 41.80801684236134,
+        "psnr_infinite": false,
+        "ssim": 0.9925532325436685,
+        "edge_f1_3x3": 0.9806860904412763,
+        "changed_pixels": 211401,
+        "lpips_alex": 0.0027148528024554253
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000201184_v1_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 1.4374148050944011,
+        "psnr_db": 46.55498247175003,
+        "psnr_infinite": false,
+        "ssim": 0.996520686033942,
+        "edge_f1_3x3": 0.9883547897147712,
+        "changed_pixels": 148607,
+        "lpips_alex": 0.0010548306163400412
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000124607_v0_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 1.8056500752766926,
+        "psnr_db": 45.564467705387955,
+        "psnr_infinite": false,
+        "ssim": 0.9963184212188017,
+        "edge_f1_3x3": 0.9892797095550454,
+        "changed_pixels": 164774,
+        "lpips_alex": 0.0016426523216068745
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000124607_v0_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 1.8827374776204426,
+        "psnr_db": 45.38290593145015,
+        "psnr_infinite": false,
+        "ssim": 0.9961705514088988,
+        "edge_f1_3x3": 0.9901885659822768,
+        "changed_pixels": 174753,
+        "lpips_alex": 0.0014513361966237426
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000124607_v0_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 1.6855875651041667,
+        "psnr_db": 45.86329042127954,
+        "psnr_infinite": false,
+        "ssim": 0.9962187539751417,
+        "edge_f1_3x3": 0.9881338121455991,
+        "changed_pixels": 190165,
+        "lpips_alex": 0.0017606272595003247
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000124607_v0_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 1.9650662740071614,
+        "psnr_db": 45.197031588535445,
+        "psnr_infinite": false,
+        "ssim": 0.9957758222600477,
+        "edge_f1_3x3": 0.988987830403665,
+        "changed_pixels": 166994,
+        "lpips_alex": 0.002080939942970872
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000124607_v1_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 2.3990465799967446,
+        "psnr_db": 44.33041680536944,
+        "psnr_infinite": false,
+        "ssim": 0.9953996767803798,
+        "edge_f1_3x3": 0.989393652031674,
+        "changed_pixels": 148803,
+        "lpips_alex": 0.0025065678637474775
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000124607_v1_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 3.0884831746419272,
+        "psnr_db": 43.23335121125902,
+        "psnr_infinite": false,
+        "ssim": 0.993318423121437,
+        "edge_f1_3x3": 0.9913910612320328,
+        "changed_pixels": 196720,
+        "lpips_alex": 0.0030474099330604076
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000124607_v1_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 1.6972796122233074,
+        "psnr_db": 45.833269663743366,
+        "psnr_infinite": false,
+        "ssim": 0.9960554092471745,
+        "edge_f1_3x3": 0.9930007961721822,
+        "changed_pixels": 177722,
+        "lpips_alex": 0.0018674948951229453
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000124607_v1_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 2.171014149983724,
+        "psnr_db": 44.76417706810163,
+        "psnr_infinite": false,
+        "ssim": 0.9953889513430904,
+        "edge_f1_3x3": 0.9889490467352231,
+        "changed_pixels": 186601,
+        "lpips_alex": 0.0018617985770106316
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000115363_v0_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 7.448123931884766,
+        "psnr_db": 39.410334664598906,
+        "psnr_infinite": false,
+        "ssim": 0.9906668079157447,
+        "edge_f1_3x3": 0.9594997916903135,
+        "changed_pixels": 237228,
+        "lpips_alex": 0.005560006480664015
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000115363_v0_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 2.5407371520996094,
+        "psnr_db": 44.08120622735012,
+        "psnr_infinite": false,
+        "ssim": 0.9956669788458674,
+        "edge_f1_3x3": 0.9778929217680028,
+        "changed_pixels": 169896,
+        "lpips_alex": 0.0020883444231003523
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000115363_v0_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 1.8555196126302083,
+        "psnr_db": 45.44614811715817,
+        "psnr_infinite": false,
+        "ssim": 0.99702027651891,
+        "edge_f1_3x3": 0.9829538422948947,
+        "changed_pixels": 125150,
+        "lpips_alex": 0.0014555512461811304
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000115363_v0_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 4.2460276285807295,
+        "psnr_db": 41.85097545107381,
+        "psnr_infinite": false,
+        "ssim": 0.9939290811776265,
+        "edge_f1_3x3": 0.9688949318815101,
+        "changed_pixels": 215718,
+        "lpips_alex": 0.003246737876906991
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000115363_v1_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 38.3412831624349,
+        "psnr_db": 32.29413717609129,
+        "psnr_infinite": false,
+        "ssim": 0.9670547268500601,
+        "edge_f1_3x3": 0.9613811591328489,
+        "changed_pixels": 252262,
+        "lpips_alex": 0.016086746007204056
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000115363_v1_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 14.66314442952474,
+        "psnr_db": 36.468532485466135,
+        "psnr_infinite": false,
+        "ssim": 0.9853341909296695,
+        "edge_f1_3x3": 0.961676420125563,
+        "changed_pixels": 254825,
+        "lpips_alex": 0.008802693337202072
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000115363_v1_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 10.4984130859375,
+        "psnr_db": 37.919567037128246,
+        "psnr_infinite": false,
+        "ssim": 0.9883948677985601,
+        "edge_f1_3x3": 0.9682792380247776,
+        "changed_pixels": 243822,
+        "lpips_alex": 0.006983654573559761
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000115363_v1_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 4.621856689453125,
+        "psnr_db": 41.4826388574486,
+        "psnr_infinite": false,
+        "ssim": 0.9934502541036542,
+        "edge_f1_3x3": 0.9783708248559987,
+        "changed_pixels": 216729,
+        "lpips_alex": 0.0031495848670601845
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000012231_v0_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 1.2077115376790364,
+        "psnr_db": 47.31117145584734,
+        "psnr_infinite": false,
+        "ssim": 0.997445419140431,
+        "edge_f1_3x3": 0.978158653540157,
+        "changed_pixels": 172233,
+        "lpips_alex": 0.0009650096762925386
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000012231_v0_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 1.249860127766927,
+        "psnr_db": 47.16218947170178,
+        "psnr_infinite": false,
+        "ssim": 0.9976842731452803,
+        "edge_f1_3x3": 0.9801437920388287,
+        "changed_pixels": 134563,
+        "lpips_alex": 0.0008735858136788011
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000012231_v0_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 1.5462074279785156,
+        "psnr_db": 46.238126055782125,
+        "psnr_infinite": false,
+        "ssim": 0.9966507049815018,
+        "edge_f1_3x3": 0.9789429120756454,
+        "changed_pixels": 174564,
+        "lpips_alex": 0.0015199069166556
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000012231_v0_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 1.8271319071451824,
+        "psnr_db": 45.513104591216305,
+        "psnr_infinite": false,
+        "ssim": 0.9965643948489425,
+        "edge_f1_3x3": 0.9775392955433025,
+        "changed_pixels": 174838,
+        "lpips_alex": 0.001179662300273776
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000012231_v1_00",
+      "group": "region_first/Eval",
+      "truth": "00",
+      "quality": {
+        "mse": 1.9349581400553386,
+        "psnr_db": 45.26408786727255,
+        "psnr_infinite": false,
+        "ssim": 0.9971676529817529,
+        "edge_f1_3x3": 0.9832304780788981,
+        "changed_pixels": 130119,
+        "lpips_alex": 0.0008759861229918897
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000012231_v1_01",
+      "group": "region_first/Eval",
+      "truth": "01",
+      "quality": {
+        "mse": 2.5991223653157554,
+        "psnr_db": 43.98253634529488,
+        "psnr_infinite": false,
+        "ssim": 0.9956935358158797,
+        "edge_f1_3x3": 0.978500784224063,
+        "changed_pixels": 190225,
+        "lpips_alex": 0.001811400754377246
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000012231_v1_10",
+      "group": "region_first/Eval",
+      "truth": "10",
+      "quality": {
+        "mse": 2.1828765869140625,
+        "psnr_db": 44.74051178130512,
+        "psnr_infinite": false,
+        "ssim": 0.996592832949033,
+        "edge_f1_3x3": 0.9822610612150743,
+        "changed_pixels": 134385,
+        "lpips_alex": 0.0014420952647924423
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    },
+    {
+      "id": "Eval/000000012231_v1_11",
+      "group": "region_first/Eval",
+      "truth": "11",
+      "quality": {
+        "mse": 2.1306991577148438,
+        "psnr_db": 44.845582266711816,
+        "psnr_infinite": false,
+        "ssim": 0.9965881396068362,
+        "edge_f1_3x3": 0.9824728307335016,
+        "changed_pixels": 162999,
+        "lpips_alex": 0.0014875170309096575
+      },
+      "gates": {
+        "psnr": true,
+        "ssim": true,
+        "lpips": true,
+        "edge_f1": true
+      },
+      "pass_all": true
+    }
+  ],
+  "expected_mismatches": [],
+  "limits": {
+    "psnr_db_min": 30,
+    "ssim_min": 0.9,
+    "lpips_alex_max": 0.1,
+    "edge_f1_3x3_min": 0.95
+  }
+}

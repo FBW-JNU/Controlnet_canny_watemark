@@ -1,0 +1,1121 @@
+{
+  "schema_version": 1,
+  "channel": {
+    "steps": 20,
+    "CFG": 5,
+    "eta": 0,
+    "control": 1,
+    "precision": "float32",
+    "checkpoint_sha256": "4de384b16bc2d7a1fb258ca0cbd941d7dd0a721ae996aff89f905299d6923f45",
+    "config_sha256": "32820a975bc5bfe42ba596798408d2582f1c75da7c3b437a4537935122b16de4"
+  },
+  "assets": {
+    "canny/000000003124.png": "47b60d7c7cbf303964575005c37f187d49734f30c0525e911d3a4cd1cfa9ca25",
+    "canny/000000012231.png": "22fe9272586596ba11c19601358f23e852a3f9fbc52dda73781db836d182ab7f",
+    "canny/000000055580.png": "0b217b3636cf936d6e4c2ccc601d87a6b319ff8d1a6db6a3a19e77574b7962b1",
+    "canny/000000087235.png": "3c4fb18e1b92aff40d9c3f01d678fada1a1536b026859eafb391218ca127d57e",
+    "canny/000000115363.png": "f5d856450f50dbf335f92b0f1337fdc6d93e335e938a4459b2e162b00bf2df6f",
+    "canny/000000124607.png": "5f5df8e5691d97b802bbbb8e2a8a403cecf52e32d36491bac005856f79147bdd",
+    "canny/000000165833.png": "c68aa7aa4980a744652c3c3b821aceb5635cce8b32cffe9a0df61beb455acda1",
+    "canny/000000190656.png": "182e8380d44951c448187a2d8be76fdca6952c6cff0866ff18181d4b370a7939",
+    "canny/000000196672.png": "a761940c381b6663f305273fc15cccd54c969114b04fff148fd06d6f4031a5a7",
+    "canny/000000200103.png": "6993c363cc5545db69a230ffe6bd30d01ed59b3f7737de477237b52132173e07",
+    "canny/000000201184.png": "2612f25eb1f308092d537179417d056878f39b4b9501c38bbb057e4f25041058",
+    "canny/000000264180.png": "b4e952c9c36a6ef71ee0c4bd7ca7a5f2975d1b4a3e3c7712eeecb8605da6138f",
+    "canny/000000302960.png": "59d4a6285173d4c4b2ef9fc609c2f139ac856824077524fb950f6d46cb273643",
+    "canny/000000320659.png": "98b8960c43f13ddc3ccb6ce4477e970d0de01f24f4333fd74a6cb3f017b6e04f",
+    "canny/000000343821.png": "210a36a1b1f0805d8021e7f825c5510c5b6a39e0dc350259544032c01cd154bd",
+    "canny/000000413421.png": "6b0b98659b219dbfd9eee439079dd0ebe0d76d4fb7cfd3413c5be133c125de59",
+    "canny/000000440339.png": "5523440f026b54619718f870b2e061d3a112f6531c71b920d0f1404315bab511",
+    "canny/000000550853.png": "c3164fdb31e9fffc8c20a21f3cb9b854e819e05b3de74e1cbccfc942133f1bf0",
+    "protocol.json": "857674d0ab54eed0f6ab928120a067feef218d8d8da686b73c8679aaa7ce6417"
+  },
+  "generation_jobs": [
+    {
+      "id": "probe/000000440339_p0_s0",
+      "hint": "canny/000000440339.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 440339,
+      "expected_rgb_sha256": "ef0f84ccb6ccd4f117848957457fb40711778a2fb92388534e892e2534779c19"
+    },
+    {
+      "id": "probe/000000440339_p0_s1",
+      "hint": "canny/000000440339.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 440339,
+      "expected_rgb_sha256": "2a940fa3558fe8aee5d067413cc5d95da6820292b27529bccea0e6727b098b37"
+    },
+    {
+      "id": "probe/000000440339_p1_s0",
+      "hint": "canny/000000440339.png",
+      "prompt": "A detailed pencil drawing showing the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 440339,
+      "expected_rgb_sha256": "9185aca597b9ce29a9746df9fee4b164f97cd54b72bf2915d39006ce7d117f52"
+    },
+    {
+      "id": "probe/000000440339_p1_s1",
+      "hint": "canny/000000440339.png",
+      "prompt": "A detailed pencil drawing showing the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 440339,
+      "expected_rgb_sha256": "faff46e6f086540ab7f6e5eaacb081d5a3565d3f3d01708b7c9d9840f310ecb4"
+    },
+    {
+      "id": "probe/000000440339_p2_s0",
+      "hint": "canny/000000440339.png",
+      "prompt": "An oil painting showing the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 440339,
+      "expected_rgb_sha256": "4efb57425370eb8e1d399a733eef285a945f8abd9ad6305f706aba6439ad5657"
+    },
+    {
+      "id": "probe/000000440339_p2_s1",
+      "hint": "canny/000000440339.png",
+      "prompt": "An oil painting showing the following scene: Smiling friends posing over a bag of donuts",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 440339,
+      "expected_rgb_sha256": "7c21ed5fdb858354ea3c511a9b85fc204f25843ce83dca477587c05bf7367c9d"
+    },
+    {
+      "id": "probe/000000196672_p0_s0",
+      "hint": "canny/000000196672.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 196672,
+      "expected_rgb_sha256": "3e12c2ef820b7aa9794a66931f6b5a8c93463d9e29650a83b3cc916cdcc757a9"
+    },
+    {
+      "id": "probe/000000196672_p0_s1",
+      "hint": "canny/000000196672.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 196672,
+      "expected_rgb_sha256": "6a417a49ee821b20c76e2f8828a77d4ca787dcdc5d0b6f3248441ee706d5e05a"
+    },
+    {
+      "id": "probe/000000196672_p1_s0",
+      "hint": "canny/000000196672.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 196672,
+      "expected_rgb_sha256": "17cf4d8f77bdf9975094cb80518742f27a58aca5d117ada4d9faa4225942eaa6"
+    },
+    {
+      "id": "probe/000000196672_p1_s1",
+      "hint": "canny/000000196672.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 196672,
+      "expected_rgb_sha256": "bde59dbfd7053ed5a44b53330b3552b6b5fc81bbcfde07e9508d7dcfc1981536"
+    },
+    {
+      "id": "probe/000000196672_p2_s0",
+      "hint": "canny/000000196672.png",
+      "prompt": "An oil painting showing the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 196672,
+      "expected_rgb_sha256": "27765c5f44d724ffa8b6fe6f8528210867182f88a331c6cee667a849bbe21b14"
+    },
+    {
+      "id": "probe/000000196672_p2_s1",
+      "hint": "canny/000000196672.png",
+      "prompt": "An oil painting showing the following scene: A woman and two babies are in a swimming pool.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 196672,
+      "expected_rgb_sha256": "665ddbab5df0e19d7cedf7cc34a9253e6f5e5a080bab1480e6d5e9eff3b83028"
+    },
+    {
+      "id": "probe/000000165833_p0_s0",
+      "hint": "canny/000000165833.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 165833,
+      "expected_rgb_sha256": "05f544427e887efcb045394e759758acb1d297189e7a76e254f983bd2eb99f98"
+    },
+    {
+      "id": "probe/000000165833_p0_s1",
+      "hint": "canny/000000165833.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 165833,
+      "expected_rgb_sha256": "a505cdcb7333985a83b648055b8e095ca59fc0ccfa5b927f58ec0a3edda83d8f"
+    },
+    {
+      "id": "probe/000000165833_p1_s0",
+      "hint": "canny/000000165833.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 165833,
+      "expected_rgb_sha256": "a4c751e12599cbeed06eaf13a6ad7d893cf5aaf312e33f5347efdd04c30a796d"
+    },
+    {
+      "id": "probe/000000165833_p1_s1",
+      "hint": "canny/000000165833.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 165833,
+      "expected_rgb_sha256": "4a531523ddd0db943ad5ab06e5e530e38b28e98a95b3b0269bd3344ad551e8dc"
+    },
+    {
+      "id": "probe/000000165833_p2_s0",
+      "hint": "canny/000000165833.png",
+      "prompt": "An oil painting showing the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 165833,
+      "expected_rgb_sha256": "6951133642b4a3df1d04d839edc09f145c49c8f65389dea5e68b625635267e59"
+    },
+    {
+      "id": "probe/000000165833_p2_s1",
+      "hint": "canny/000000165833.png",
+      "prompt": "An oil painting showing the following scene: A tennis player about to hit the ball.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 165833,
+      "expected_rgb_sha256": "534d9c1f93cf7d451191f3fb387d50437a161613d2b1e2ad618d0a1bc29ea003"
+    },
+    {
+      "id": "probe/000000343821_p0_s0",
+      "hint": "canny/000000343821.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 343821,
+      "expected_rgb_sha256": "e260fac3a1a947fb9d0e3d83d7c121e5f14748a8cb34360f5b5933e5318368c3"
+    },
+    {
+      "id": "probe/000000343821_p0_s1",
+      "hint": "canny/000000343821.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 343821,
+      "expected_rgb_sha256": "5a67d7a4bf6547f193de9673e0dd540efb9c9ec1c8ae6d6258c21de582d4ac87"
+    },
+    {
+      "id": "probe/000000343821_p1_s0",
+      "hint": "canny/000000343821.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 343821,
+      "expected_rgb_sha256": "cb913cc45a22b6b1d9d6602ddf9ba47ba87515d64be29bea3d4f5be55c57754a"
+    },
+    {
+      "id": "probe/000000343821_p1_s1",
+      "hint": "canny/000000343821.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 343821,
+      "expected_rgb_sha256": "7bcd22be92a38dce48ff8599732c416de9f92696484885f2802f391c32426785"
+    },
+    {
+      "id": "probe/000000343821_p2_s0",
+      "hint": "canny/000000343821.png",
+      "prompt": "An oil painting showing the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 343821,
+      "expected_rgb_sha256": "b4f9a158cd621c131b73a308e311721f27adf3d102af9d6da6757dc8652cde5e"
+    },
+    {
+      "id": "probe/000000343821_p2_s1",
+      "hint": "canny/000000343821.png",
+      "prompt": "An oil painting showing the following scene: A duck and baby ducks are in the blue water.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 343821,
+      "expected_rgb_sha256": "a7cdf329527e6a467b44cc9f65ae564361fed4743e502c4b17e6ea94e30ac34d"
+    },
+    {
+      "id": "probe/000000320659_p0_s0",
+      "hint": "canny/000000320659.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 320659,
+      "expected_rgb_sha256": "c3a924983d07096074d39ce961f6ecfa30934b286ea32c598673c806f32faab7"
+    },
+    {
+      "id": "probe/000000320659_p0_s1",
+      "hint": "canny/000000320659.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 320659,
+      "expected_rgb_sha256": "6487e0e057b97c73aed57d5cbcf96614aa07b8d7695f68d6e420ebe12b6de830"
+    },
+    {
+      "id": "probe/000000320659_p1_s0",
+      "hint": "canny/000000320659.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 320659,
+      "expected_rgb_sha256": "ef8201690ce84c403b97e17a34d5e483d6e6cd55473d5bbb078675b1b7b97d64"
+    },
+    {
+      "id": "probe/000000320659_p1_s1",
+      "hint": "canny/000000320659.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 320659,
+      "expected_rgb_sha256": "c04c8860c4700573c99258d1d205688ae1f180f9c36cbfa2a0eb379cf65fb7fa"
+    },
+    {
+      "id": "probe/000000320659_p2_s0",
+      "hint": "canny/000000320659.png",
+      "prompt": "An oil painting showing the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 320659,
+      "expected_rgb_sha256": "b0dd8cb4ce76a111d01ff2dc0c0fd42f5bd72a05b5fcf7199f9d2b91cc87d4e7"
+    },
+    {
+      "id": "probe/000000320659_p2_s1",
+      "hint": "canny/000000320659.png",
+      "prompt": "An oil painting showing the following scene: A toilet has been turned on it's side out in a yard.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 320659,
+      "expected_rgb_sha256": "6de1195c1c94a4968d3aee830b35eed43b3cd511d0106523dd8ad9f99d1983eb"
+    },
+    {
+      "id": "probe/000000190656_p0_s0",
+      "hint": "canny/000000190656.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 190656,
+      "expected_rgb_sha256": "0a7e84cdd59b1d86fa23d0834048921371e8f965401b0a7fbdc09a5fadf23710"
+    },
+    {
+      "id": "probe/000000190656_p0_s1",
+      "hint": "canny/000000190656.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 190656,
+      "expected_rgb_sha256": "350d5e1efd342d89ca1681ad5535fbf984546efa13cde47c0814dbc02623bb55"
+    },
+    {
+      "id": "probe/000000190656_p1_s0",
+      "hint": "canny/000000190656.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 190656,
+      "expected_rgb_sha256": "645fb33887bb6e80119c55c201c23a5d9a9db65cdc3a8a4b0f02c1b6e05c69a4"
+    },
+    {
+      "id": "probe/000000190656_p1_s1",
+      "hint": "canny/000000190656.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 190656,
+      "expected_rgb_sha256": "c2d93841533e4fd8cf187f96ba5a0a1823dd3787ccc5a2d4e8d22935014d9239"
+    },
+    {
+      "id": "probe/000000190656_p2_s0",
+      "hint": "canny/000000190656.png",
+      "prompt": "An oil painting showing the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 190656,
+      "expected_rgb_sha256": "262144c72aeea202a764f29b64f58e32b50ba31accd6612e7d51b9c151826950"
+    },
+    {
+      "id": "probe/000000190656_p2_s1",
+      "hint": "canny/000000190656.png",
+      "prompt": "An oil painting showing the following scene: A pizza sitting on top of a pan in an oven.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 190656,
+      "expected_rgb_sha256": "622ae4b12c7c1d4bdfa7b67799f608331e5c38b74ee9cb67104d4e274183f75d"
+    },
+    {
+      "id": "probe/000000264180_p0_s0",
+      "hint": "canny/000000264180.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A couple of cows standing inside of an animal pen.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 264180,
+      "expected_rgb_sha256": "a9833db9b521ca8bf0d424b7e166633fd42a6293a7c5d30ad0234bd6c0f508bc"
+    },
+    {
+      "id": "probe/000000264180_p0_s1",
+      "hint": "canny/000000264180.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A couple of cows standing inside of an animal pen.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 264180,
+      "expected_rgb_sha256": "af928cece41d8448534ca330baa9b26705d8375ff7f00846284cea205ae54fa2"
+    },
+    {
+      "id": "probe/000000264180_p1_s0",
+      "hint": "canny/000000264180.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A couple of cows standing inside of an animal pen.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 264180,
+      "expected_rgb_sha256": "ae316aae770133cd751e94cf3b354fcdbc818524e44d51d68684147add544db4"
+    },
+    {
+      "id": "probe/000000264180_p1_s1",
+      "hint": "canny/000000264180.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A couple of cows standing inside of an animal pen.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 264180,
+      "expected_rgb_sha256": "bc6b80680e914233fe3b1771b8509f08d54f63b3cf040b39b22320f558e77897"
+    },
+    {
+      "id": "probe/000000264180_p2_s0",
+      "hint": "canny/000000264180.png",
+      "prompt": "An oil painting showing the following scene: A couple of cows standing inside of an animal pen.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 264180,
+      "expected_rgb_sha256": "4a896a651e7e149779ddd827e86bf97cc25feb1d2afc505a64fddae577e2db08"
+    },
+    {
+      "id": "probe/000000264180_p2_s1",
+      "hint": "canny/000000264180.png",
+      "prompt": "An oil painting showing the following scene: A couple of cows standing inside of an animal pen.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 264180,
+      "expected_rgb_sha256": "5bc930efc70a292dedd71b988728961c816fad879aa86e6d0f32ca4412e3b944"
+    },
+    {
+      "id": "probe/000000302960_p0_s0",
+      "hint": "canny/000000302960.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A guy taking a bite of some food by a bike.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 302960,
+      "expected_rgb_sha256": "b435c726bd5153111e1004aee4fa689d84dda829ba6afa4d24966e2e975720ec"
+    },
+    {
+      "id": "probe/000000302960_p0_s1",
+      "hint": "canny/000000302960.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A guy taking a bite of some food by a bike.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 302960,
+      "expected_rgb_sha256": "6507ddb05f7ac89af4714a26f3b51b1a08c1b2a7e82b64b679b46d9d823814a8"
+    },
+    {
+      "id": "probe/000000302960_p1_s0",
+      "hint": "canny/000000302960.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A guy taking a bite of some food by a bike.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 302960,
+      "expected_rgb_sha256": "c88a8aab86b2bddaa7f82c5b43b2647f93bfa996bc931bb3acaa45b4787fa681"
+    },
+    {
+      "id": "probe/000000302960_p1_s1",
+      "hint": "canny/000000302960.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A guy taking a bite of some food by a bike.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 302960,
+      "expected_rgb_sha256": "d8c6ab79c18f5b3708351cd77f366b4481a92cefb275b1041b85274613e3d78c"
+    },
+    {
+      "id": "probe/000000302960_p2_s0",
+      "hint": "canny/000000302960.png",
+      "prompt": "An oil painting showing the following scene: A guy taking a bite of some food by a bike.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 302960,
+      "expected_rgb_sha256": "463343ea60e3914dcec6f77ee3f2263e39b496f3a67806a6980afcc39f988507"
+    },
+    {
+      "id": "probe/000000302960_p2_s1",
+      "hint": "canny/000000302960.png",
+      "prompt": "An oil painting showing the following scene: A guy taking a bite of some food by a bike.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 302960,
+      "expected_rgb_sha256": "00a04854c07a7b62d1020d6051b784f02faa5bc5c3869ef9a67a60a8feb71b6f"
+    },
+    {
+      "id": "probe/000000200103_p0_s0",
+      "hint": "canny/000000200103.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A woman skiing down the side of a snow covered mountain.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 200103,
+      "expected_rgb_sha256": "29c24cf14fc504dbecb248b143fe930c1d0070fcbd095de0d3bbd3ca722b5a86"
+    },
+    {
+      "id": "probe/000000200103_p0_s1",
+      "hint": "canny/000000200103.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A woman skiing down the side of a snow covered mountain.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 200103,
+      "expected_rgb_sha256": "a1598125b6ef4a83496bf7a2e22ac4b188f489a8ee0da5ef9373bd82e4192ccf"
+    },
+    {
+      "id": "probe/000000200103_p1_s0",
+      "hint": "canny/000000200103.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A woman skiing down the side of a snow covered mountain.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 200103,
+      "expected_rgb_sha256": "07f89f7ccbefd362548df38db96a190535063b1274fbcfdf16b0dee5ac320d26"
+    },
+    {
+      "id": "probe/000000200103_p1_s1",
+      "hint": "canny/000000200103.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A woman skiing down the side of a snow covered mountain.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 200103,
+      "expected_rgb_sha256": "dd1869b2c59774d32d3d4e0422154e792a4a638b2f7322756adce1e4d37ad26f"
+    },
+    {
+      "id": "probe/000000200103_p2_s0",
+      "hint": "canny/000000200103.png",
+      "prompt": "An oil painting showing the following scene: A woman skiing down the side of a snow covered mountain.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 200103,
+      "expected_rgb_sha256": "d6a53ddcab38034da2199053a544cf8b194166e45b1ab22f2b6644312bb785c4"
+    },
+    {
+      "id": "probe/000000200103_p2_s1",
+      "hint": "canny/000000200103.png",
+      "prompt": "An oil painting showing the following scene: A woman skiing down the side of a snow covered mountain.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 200103,
+      "expected_rgb_sha256": "143146338101d62385cfffe9abee578e8a231408d7e670f9258433cf7c7ebad9"
+    },
+    {
+      "id": "probe/000000087235_p0_s0",
+      "hint": "canny/000000087235.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: The baskets are full of fruits and potatoes.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 87235,
+      "expected_rgb_sha256": "fb6ca8dd0773c277419aeba117f83585ac0d478d100f0aa1b8992e7dff09a612"
+    },
+    {
+      "id": "probe/000000087235_p0_s1",
+      "hint": "canny/000000087235.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: The baskets are full of fruits and potatoes.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 87235,
+      "expected_rgb_sha256": "9a86e25447e82244c5dcf3f75c13d93fec907449b19bfacf2d3774b0efbbfc52"
+    },
+    {
+      "id": "probe/000000087235_p1_s0",
+      "hint": "canny/000000087235.png",
+      "prompt": "A detailed pencil drawing showing the following scene: The baskets are full of fruits and potatoes.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 87235,
+      "expected_rgb_sha256": "9188f3e112ab13ad7d96dacd7c072aa372c29e674639574f45d49279d4867ef4"
+    },
+    {
+      "id": "probe/000000087235_p1_s1",
+      "hint": "canny/000000087235.png",
+      "prompt": "A detailed pencil drawing showing the following scene: The baskets are full of fruits and potatoes.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 87235,
+      "expected_rgb_sha256": "445c687023890915066b3a6836c5cce53a1800d33fb058b706a50bbbb03c5dcf"
+    },
+    {
+      "id": "probe/000000087235_p2_s0",
+      "hint": "canny/000000087235.png",
+      "prompt": "An oil painting showing the following scene: The baskets are full of fruits and potatoes.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 87235,
+      "expected_rgb_sha256": "824f78ed8698dbcc09633dcdb19d75a16eb4b5823c8757900cf6d93b976b4cbc"
+    },
+    {
+      "id": "probe/000000087235_p2_s1",
+      "hint": "canny/000000087235.png",
+      "prompt": "An oil painting showing the following scene: The baskets are full of fruits and potatoes.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 87235,
+      "expected_rgb_sha256": "90882948ba5c87ace52847c598a1c0773ad414ce5589826c6bc08d9b53eba462"
+    },
+    {
+      "id": "probe/000000413421_p0_s0",
+      "hint": "canny/000000413421.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A paper plate topped with two pieces of cake.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 413421,
+      "expected_rgb_sha256": "3d2672d12b0b27e4578302eb6b77dab35db693aea1625d2104a30aecef3db387"
+    },
+    {
+      "id": "probe/000000413421_p0_s1",
+      "hint": "canny/000000413421.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A paper plate topped with two pieces of cake.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 413421,
+      "expected_rgb_sha256": "37517c37218889e2038284616ec8de4c451c64d65933dcfc4aee68e480a838b5"
+    },
+    {
+      "id": "probe/000000413421_p1_s0",
+      "hint": "canny/000000413421.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A paper plate topped with two pieces of cake.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 413421,
+      "expected_rgb_sha256": "512d4427c1463ae70b685a3f93bedd9d2bb5020bcd1dcdddd2910fe28d6f1692"
+    },
+    {
+      "id": "probe/000000413421_p1_s1",
+      "hint": "canny/000000413421.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A paper plate topped with two pieces of cake.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 413421,
+      "expected_rgb_sha256": "4197a33e953b2b89c637baa3d23b67b177c243f95ee5e160d18cef6707ecc6de"
+    },
+    {
+      "id": "probe/000000413421_p2_s0",
+      "hint": "canny/000000413421.png",
+      "prompt": "An oil painting showing the following scene: A paper plate topped with two pieces of cake.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 413421,
+      "expected_rgb_sha256": "af6bfae24c9ca9133de3967cf3642158ccfa2b73edf595731cd6300dc7b61982"
+    },
+    {
+      "id": "probe/000000413421_p2_s1",
+      "hint": "canny/000000413421.png",
+      "prompt": "An oil painting showing the following scene: A paper plate topped with two pieces of cake.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 413421,
+      "expected_rgb_sha256": "26191693230b82af85d0733c3ade460a3a7d02f821875df5592875bc0f9dc32f"
+    },
+    {
+      "id": "probe/000000550853_p0_s0",
+      "hint": "canny/000000550853.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: a big mirror standing next to a fire hydrant",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 550853,
+      "expected_rgb_sha256": "70f0fbc6d83f109df49cfaf0dac0ce5f5571266cdfeee6cc0a586c3aac91361a"
+    },
+    {
+      "id": "probe/000000550853_p0_s1",
+      "hint": "canny/000000550853.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: a big mirror standing next to a fire hydrant",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 550853,
+      "expected_rgb_sha256": "87f814046c427d8114bf3a9c0bd3f0ef0755f3a7c44d155b81e1679713f473f8"
+    },
+    {
+      "id": "probe/000000550853_p1_s0",
+      "hint": "canny/000000550853.png",
+      "prompt": "A detailed pencil drawing showing the following scene: a big mirror standing next to a fire hydrant",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 550853,
+      "expected_rgb_sha256": "72646e7cf7e78cd18380cc05ab28b4cc830fc1ffd7beeeadbffcb51919d4e582"
+    },
+    {
+      "id": "probe/000000550853_p1_s1",
+      "hint": "canny/000000550853.png",
+      "prompt": "A detailed pencil drawing showing the following scene: a big mirror standing next to a fire hydrant",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 550853,
+      "expected_rgb_sha256": "3097ba2b8329616c73b129bc0c756eee65e0ca1b8283176f845f55883f7ea2f7"
+    },
+    {
+      "id": "probe/000000550853_p2_s0",
+      "hint": "canny/000000550853.png",
+      "prompt": "An oil painting showing the following scene: a big mirror standing next to a fire hydrant",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 550853,
+      "expected_rgb_sha256": "81386a32b6e3ff1c688515fbb58866575e43213f73a0aacb527d4fcf0957ce8f"
+    },
+    {
+      "id": "probe/000000550853_p2_s1",
+      "hint": "canny/000000550853.png",
+      "prompt": "An oil painting showing the following scene: a big mirror standing next to a fire hydrant",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 550853,
+      "expected_rgb_sha256": "f9c86d1bc20e1f54e5f3b7f0409eda23844feff830d9438a0fb23292db13564b"
+    },
+    {
+      "id": "probe/000000055580_p0_s0",
+      "hint": "canny/000000055580.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A cozy living area with a warm decorative touch.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 55580,
+      "expected_rgb_sha256": "40365cead1220987b55b5b643a8353560f3548bfce6efc3bae96800caad54286"
+    },
+    {
+      "id": "probe/000000055580_p0_s1",
+      "hint": "canny/000000055580.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A cozy living area with a warm decorative touch.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 55580,
+      "expected_rgb_sha256": "7d57adeab30f74ee676ecb53da2671c451979656b68cc992e4462d4a5a2a4a24"
+    },
+    {
+      "id": "probe/000000055580_p1_s0",
+      "hint": "canny/000000055580.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A cozy living area with a warm decorative touch.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 55580,
+      "expected_rgb_sha256": "27d8a9ad40eab849cc121b52c99eb9638153e977e21702960e2227866aaffd10"
+    },
+    {
+      "id": "probe/000000055580_p1_s1",
+      "hint": "canny/000000055580.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A cozy living area with a warm decorative touch.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 55580,
+      "expected_rgb_sha256": "181e2c1c198c4db84cfe083640d9cc6070dfacf902998d1f72e470048a50f587"
+    },
+    {
+      "id": "probe/000000055580_p2_s0",
+      "hint": "canny/000000055580.png",
+      "prompt": "An oil painting showing the following scene: A cozy living area with a warm decorative touch.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 55580,
+      "expected_rgb_sha256": "ac6325d44a2d1fa9b5e232192886384e202d017a7dc811edf372bb8e03f6acb6"
+    },
+    {
+      "id": "probe/000000055580_p2_s1",
+      "hint": "canny/000000055580.png",
+      "prompt": "An oil painting showing the following scene: A cozy living area with a warm decorative touch.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 55580,
+      "expected_rgb_sha256": "995ce2149e243e49762a533dcb10d51af3562d5571bd5bf7e8465ce126959288"
+    },
+    {
+      "id": "probe/000000003124_p0_s0",
+      "hint": "canny/000000003124.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A leaps straight up into the air with a flying frisbee in front of him.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 3124,
+      "expected_rgb_sha256": "d5b7754838f26cd9f878ade4efe7beb929dd9289d4bd8330db3c96502d0c309e"
+    },
+    {
+      "id": "probe/000000003124_p0_s1",
+      "hint": "canny/000000003124.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A leaps straight up into the air with a flying frisbee in front of him.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 3124,
+      "expected_rgb_sha256": "515a4872f907b9f0c27b9481c34373ea7190a335b03499702dd5eb5536f48d81"
+    },
+    {
+      "id": "probe/000000003124_p1_s0",
+      "hint": "canny/000000003124.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A leaps straight up into the air with a flying frisbee in front of him.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 3124,
+      "expected_rgb_sha256": "1192ad1f2fff8b390f562cc13219e5bdd4e29508d0c13cdb81bae454f318863b"
+    },
+    {
+      "id": "probe/000000003124_p1_s1",
+      "hint": "canny/000000003124.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A leaps straight up into the air with a flying frisbee in front of him.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 3124,
+      "expected_rgb_sha256": "f734bdc0ba2f33ca156d4e9386e9886839b1d134ebc12923a56769b1d98d2377"
+    },
+    {
+      "id": "probe/000000003124_p2_s0",
+      "hint": "canny/000000003124.png",
+      "prompt": "An oil painting showing the following scene: A leaps straight up into the air with a flying frisbee in front of him.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 3124,
+      "expected_rgb_sha256": "d5dc7d17a1e33bc149ac9dd7f14fb23f3853928dfbffeb8fab19681cf1c156f5"
+    },
+    {
+      "id": "probe/000000003124_p2_s1",
+      "hint": "canny/000000003124.png",
+      "prompt": "An oil painting showing the following scene: A leaps straight up into the air with a flying frisbee in front of him.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 3124,
+      "expected_rgb_sha256": "fb8eb74b8d22749e113726792e8d6e1833bc8df87baa82f3df392b5ca3020cf9"
+    },
+    {
+      "id": "probe/000000201184_p0_s0",
+      "hint": "canny/000000201184.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A group of beautiful women sitting around a table.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 201184,
+      "expected_rgb_sha256": "b4f7120a48a26ee1c7c767fbe1dd209d93e8691877682efc338eee13091fdf90"
+    },
+    {
+      "id": "probe/000000201184_p0_s1",
+      "hint": "canny/000000201184.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A group of beautiful women sitting around a table.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 201184,
+      "expected_rgb_sha256": "845598664fea1d719a6121744689680b23225c3548aac84a4647cbe2d79e8beb"
+    },
+    {
+      "id": "probe/000000201184_p1_s0",
+      "hint": "canny/000000201184.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A group of beautiful women sitting around a table.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 201184,
+      "expected_rgb_sha256": "ba10d07fc187924ad86de595dc5dec5bff1d32d07ce39cb4bce61a2c956c8b25"
+    },
+    {
+      "id": "probe/000000201184_p1_s1",
+      "hint": "canny/000000201184.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A group of beautiful women sitting around a table.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 201184,
+      "expected_rgb_sha256": "0de23f930bb66ba26292c8dca72679e1d75ec175a0d504ecf50e14e502815096"
+    },
+    {
+      "id": "probe/000000201184_p2_s0",
+      "hint": "canny/000000201184.png",
+      "prompt": "An oil painting showing the following scene: A group of beautiful women sitting around a table.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 201184,
+      "expected_rgb_sha256": "b4ffd9840a4c3e1e2814d50a2cf657d5afd328a674c85156a85e623bfd9ebbd9"
+    },
+    {
+      "id": "probe/000000201184_p2_s1",
+      "hint": "canny/000000201184.png",
+      "prompt": "An oil painting showing the following scene: A group of beautiful women sitting around a table.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 201184,
+      "expected_rgb_sha256": "ef349bcdc5319ae2626b62eb9008e85583bc277f0c28b6cf77c913049ef33ae8"
+    },
+    {
+      "id": "probe/000000124607_p0_s0",
+      "hint": "canny/000000124607.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: Small white toilet sitting next to a small white sink.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 124607,
+      "expected_rgb_sha256": "93b6d6f769076174342fb9f281481a98b54e78cecea6f8d1345c3e602cced3ac"
+    },
+    {
+      "id": "probe/000000124607_p0_s1",
+      "hint": "canny/000000124607.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: Small white toilet sitting next to a small white sink.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 124607,
+      "expected_rgb_sha256": "27ad4269a0faa6583871aec15bd7dd385eb8e649c2292967920ec637defbf299"
+    },
+    {
+      "id": "probe/000000124607_p1_s0",
+      "hint": "canny/000000124607.png",
+      "prompt": "A detailed pencil drawing showing the following scene: Small white toilet sitting next to a small white sink.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 124607,
+      "expected_rgb_sha256": "1bff6f755bb1931aedfd7c15780d1e47059681df286cc86a827bc9dcd7c66b61"
+    },
+    {
+      "id": "probe/000000124607_p1_s1",
+      "hint": "canny/000000124607.png",
+      "prompt": "A detailed pencil drawing showing the following scene: Small white toilet sitting next to a small white sink.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 124607,
+      "expected_rgb_sha256": "1e27e12c7384218d16cbea9888ec68ece73dc04f09d0288aa4e55f21b42d72fc"
+    },
+    {
+      "id": "probe/000000124607_p2_s0",
+      "hint": "canny/000000124607.png",
+      "prompt": "An oil painting showing the following scene: Small white toilet sitting next to a small white sink.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 124607,
+      "expected_rgb_sha256": "73823ecf38ab01b413b59856a78d29e40dd79baced2805d8060cb0d59c806320"
+    },
+    {
+      "id": "probe/000000124607_p2_s1",
+      "hint": "canny/000000124607.png",
+      "prompt": "An oil painting showing the following scene: Small white toilet sitting next to a small white sink.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 124607,
+      "expected_rgb_sha256": "9639a9866b065e5e26f57f1184b257dca077f0f74ea4fec9fd9727c895a35ea9"
+    },
+    {
+      "id": "probe/000000115363_p0_s0",
+      "hint": "canny/000000115363.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A man riding a motorcycle down a road near a forest.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 115363,
+      "expected_rgb_sha256": "6f91c31c3d40fdba908cad93f9733bee1be8041981262f715567ce422c86874a"
+    },
+    {
+      "id": "probe/000000115363_p0_s1",
+      "hint": "canny/000000115363.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A man riding a motorcycle down a road near a forest.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 115363,
+      "expected_rgb_sha256": "3536bca69a359fa46713202c64e33ff7c915f4de06f3aa968a9cad912909634c"
+    },
+    {
+      "id": "probe/000000115363_p1_s0",
+      "hint": "canny/000000115363.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A man riding a motorcycle down a road near a forest.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 115363,
+      "expected_rgb_sha256": "9c77659a1f297641f32398c3beb4b812ab868db450de2921bdee998cbc59b46e"
+    },
+    {
+      "id": "probe/000000115363_p1_s1",
+      "hint": "canny/000000115363.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A man riding a motorcycle down a road near a forest.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 115363,
+      "expected_rgb_sha256": "289de0b47a260dd2c912c860d34f833a1bd55c61a3f1f63f59a10ca5ee79e2a9"
+    },
+    {
+      "id": "probe/000000115363_p2_s0",
+      "hint": "canny/000000115363.png",
+      "prompt": "An oil painting showing the following scene: A man riding a motorcycle down a road near a forest.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 115363,
+      "expected_rgb_sha256": "305206b136a41d12ddddbb07203476416bc5a56273bf8b7c1fbd3f2106bbdff1"
+    },
+    {
+      "id": "probe/000000115363_p2_s1",
+      "hint": "canny/000000115363.png",
+      "prompt": "An oil painting showing the following scene: A man riding a motorcycle down a road near a forest.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 115363,
+      "expected_rgb_sha256": "3c14918118388ad6f6159ac01d8b02b789a2fb952ab1dc65bd5c4eceeb8e8eaa"
+    },
+    {
+      "id": "probe/000000012231_p0_s0",
+      "hint": "canny/000000012231.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A plate of food that includes meat and broccoli.",
+      "seed": 2026116801,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 12231,
+      "expected_rgb_sha256": "8623a5784eef952609e642f2014de327fedd725abff3c3f776738f41a5393910"
+    },
+    {
+      "id": "probe/000000012231_p0_s1",
+      "hint": "canny/000000012231.png",
+      "prompt": "A sharp natural-color photograph showing the following scene: A plate of food that includes meat and broccoli.",
+      "seed": 2026116802,
+      "prompt_group": 0,
+      "phase": "probe",
+      "content_id": 12231,
+      "expected_rgb_sha256": "33535c58bf2551c027c1995b24c55c418e2074d0b4e4350ea9d8df91be768914"
+    },
+    {
+      "id": "probe/000000012231_p1_s0",
+      "hint": "canny/000000012231.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A plate of food that includes meat and broccoli.",
+      "seed": 2026116801,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 12231,
+      "expected_rgb_sha256": "c65b54af21e379666613fbd6682523f39fa2fb3cd68cf14b5fd30d2b5918a09b"
+    },
+    {
+      "id": "probe/000000012231_p1_s1",
+      "hint": "canny/000000012231.png",
+      "prompt": "A detailed pencil drawing showing the following scene: A plate of food that includes meat and broccoli.",
+      "seed": 2026116802,
+      "prompt_group": 1,
+      "phase": "probe",
+      "content_id": 12231,
+      "expected_rgb_sha256": "2f6af9f12e2e7a84e8421dd8f237eb3df5818e671f8090cf49f96751e3fb0c05"
+    },
+    {
+      "id": "probe/000000012231_p2_s0",
+      "hint": "canny/000000012231.png",
+      "prompt": "An oil painting showing the following scene: A plate of food that includes meat and broccoli.",
+      "seed": 2026116801,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 12231,
+      "expected_rgb_sha256": "a79edebcd988d56f2635867b4d79a04c022453ed92e5c209caf705983b3792e4"
+    },
+    {
+      "id": "probe/000000012231_p2_s1",
+      "hint": "canny/000000012231.png",
+      "prompt": "An oil painting showing the following scene: A plate of food that includes meat and broccoli.",
+      "seed": 2026116802,
+      "prompt_group": 2,
+      "phase": "probe",
+      "content_id": 12231,
+      "expected_rgb_sha256": "0a84944d21b5ea83fd4e84ce7d8defc02f492af9409d61c099b6cc5c97b5e228"
+    }
+  ],
+  "evaluation_rows": [],
+  "references": {},
+  "models": {},
+  "name": "New region-first clean probes",
+  "protocol_sha256": "857674d0ab54eed0f6ab928120a067feef218d8d8da686b73c8679aaa7ce6417",
+  "origin_manifest_sha256": "6751fdc7de3c1d464c869d01fcc24b4622c1cb0557afdb59b5a20ad4a4b3ce06"
+}

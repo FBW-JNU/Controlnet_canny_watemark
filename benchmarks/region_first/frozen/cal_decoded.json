@@ -1,0 +1,1104 @@
+[
+  {
+    "id": "Cal/000000440339_v0_clean",
+    "content_id": 440339,
+    "group": "region_first/Cal",
+    "truth": null,
+    "generation_id": "Cal/000000440339_v0_clean",
+    "reference": "440339",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000440339_v0_00",
+    "content_id": 440339,
+    "group": "region_first/Cal",
+    "truth": "00",
+    "generation_id": "Cal/000000440339_v0_00",
+    "reference": "440339",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -1.3399014406558556,
+        -1.4951629826282204
+      ],
+      "coefficient": [
+        -1.1660787053198431,
+        -1.1518897052293864
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000440339_v0_01",
+    "content_id": 440339,
+    "group": "region_first/Cal",
+    "truth": "01",
+    "generation_id": "Cal/000000440339_v0_01",
+    "reference": "440339",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000440339_v0_10",
+    "content_id": 440339,
+    "group": "region_first/Cal",
+    "truth": "10",
+    "generation_id": "Cal/000000440339_v0_10",
+    "reference": "440339",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.5864420720258914,
+        -0.9628664868390502
+      ],
+      "coefficient": [
+        0.47298477100550096,
+        -0.7394842441381233
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000440339_v0_11",
+    "content_id": 440339,
+    "group": "region_first/Cal",
+    "truth": "11",
+    "generation_id": "Cal/000000440339_v0_11",
+    "reference": "440339",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000440339_v1_clean",
+    "content_id": 440339,
+    "group": "region_first/Cal",
+    "truth": null,
+    "generation_id": "Cal/000000440339_v1_clean",
+    "reference": "440339",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.029805526444035724,
+        -0.3045435738782371
+      ],
+      "coefficient": [
+        0.031095548788467653,
+        -0.2867065966872234
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000440339_v1_00",
+    "content_id": 440339,
+    "group": "region_first/Cal",
+    "truth": "00",
+    "generation_id": "Cal/000000440339_v1_00",
+    "reference": "440339",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.588620819605726,
+        -0.7448017527265999
+      ],
+      "coefficient": [
+        -0.4564527819545594,
+        -0.5926255817969134
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000440339_v1_01",
+    "content_id": 440339,
+    "group": "region_first/Cal",
+    "truth": "01",
+    "generation_id": "Cal/000000440339_v1_01",
+    "reference": "440339",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.5239162669864689,
+        0.7166913124903665
+      ],
+      "coefficient": [
+        -0.35425579214278324,
+        0.454389334260403
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000440339_v1_10",
+    "content_id": 440339,
+    "group": "region_first/Cal",
+    "truth": "10",
+    "generation_id": "Cal/000000440339_v1_10",
+    "reference": "440339",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.6624689923969103,
+        -1.1466129903459903
+      ],
+      "coefficient": [
+        0.5135353323324522,
+        -0.8622630378918719
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000440339_v1_11",
+    "content_id": 440339,
+    "group": "region_first/Cal",
+    "truth": "11",
+    "generation_id": "Cal/000000440339_v1_11",
+    "reference": "440339",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.6074781294213014,
+        0.8459608090543095
+      ],
+      "coefficient": [
+        0.5594370454772738,
+        0.47878519688428145
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000196672_v0_clean",
+    "content_id": 196672,
+    "group": "region_first/Cal",
+    "truth": null,
+    "generation_id": "Cal/000000196672_v0_clean",
+    "reference": "196672",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.04438069163102476,
+        0.1155675325916452
+      ],
+      "coefficient": [
+        -0.08031337559673483,
+        0.049638588542504865
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000196672_v0_00",
+    "content_id": 196672,
+    "group": "region_first/Cal",
+    "truth": "00",
+    "generation_id": "Cal/000000196672_v0_00",
+    "reference": "196672",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -1.0378606933106913,
+        -0.39293096340465195
+      ],
+      "coefficient": [
+        -0.9266371797361687,
+        -0.37246672773942
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000196672_v0_01",
+    "content_id": 196672,
+    "group": "region_first/Cal",
+    "truth": "01",
+    "generation_id": "Cal/000000196672_v0_01",
+    "reference": "196672",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -1.0332729215420513,
+        0.5499887150629164
+      ],
+      "coefficient": [
+        -0.8918148679597182,
+        0.2569537127299994
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000196672_v0_10",
+    "content_id": 196672,
+    "group": "region_first/Cal",
+    "truth": "10",
+    "generation_id": "Cal/000000196672_v0_10",
+    "reference": "196672",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        1.1994358951275506,
+        0.030835714179022033
+      ],
+      "coefficient": [
+        0.9751738891704519,
+        -0.01735992085494227
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000196672_v0_11",
+    "content_id": 196672,
+    "group": "region_first/Cal",
+    "truth": "11",
+    "generation_id": "Cal/000000196672_v0_11",
+    "reference": "196672",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.8526159014073122,
+        1.29107847400116
+      ],
+      "coefficient": [
+        0.6539302916480668,
+        0.8974014355996239
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000196672_v1_clean",
+    "content_id": 196672,
+    "group": "region_first/Cal",
+    "truth": null,
+    "generation_id": "Cal/000000196672_v1_clean",
+    "reference": "196672",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000196672_v1_00",
+    "content_id": 196672,
+    "group": "region_first/Cal",
+    "truth": "00",
+    "generation_id": "Cal/000000196672_v1_00",
+    "reference": "196672",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000196672_v1_01",
+    "content_id": 196672,
+    "group": "region_first/Cal",
+    "truth": "01",
+    "generation_id": "Cal/000000196672_v1_01",
+    "reference": "196672",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000196672_v1_10",
+    "content_id": 196672,
+    "group": "region_first/Cal",
+    "truth": "10",
+    "generation_id": "Cal/000000196672_v1_10",
+    "reference": "196672",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000196672_v1_11",
+    "content_id": 196672,
+    "group": "region_first/Cal",
+    "truth": "11",
+    "generation_id": "Cal/000000196672_v1_11",
+    "reference": "196672",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.020203774272845282,
+        1.7377978948345827
+      ],
+      "coefficient": [
+        -0.01124640530381854,
+        1.176437000245606
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000165833_v0_clean",
+    "content_id": 165833,
+    "group": "region_first/Cal",
+    "truth": null,
+    "generation_id": "Cal/000000165833_v0_clean",
+    "reference": "165833",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.10302673062041934,
+        -0.126959780644452
+      ],
+      "coefficient": [
+        -0.09219261913844617,
+        -0.12066139424438434
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000165833_v0_00",
+    "content_id": 165833,
+    "group": "region_first/Cal",
+    "truth": "00",
+    "generation_id": "Cal/000000165833_v0_00",
+    "reference": "165833",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.8948732773003354,
+        -0.887150890799021
+      ],
+      "coefficient": [
+        -0.6704724562407153,
+        -0.6738516101678164
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000165833_v0_01",
+    "content_id": 165833,
+    "group": "region_first/Cal",
+    "truth": "01",
+    "generation_id": "Cal/000000165833_v0_01",
+    "reference": "165833",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.8681248164066684,
+        0.836118658725475
+      ],
+      "coefficient": [
+        -0.6627944614994569,
+        0.563255168663984
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000165833_v0_10",
+    "content_id": 165833,
+    "group": "region_first/Cal",
+    "truth": "10",
+    "generation_id": "Cal/000000165833_v0_10",
+    "reference": "165833",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.8540061241804495,
+        -1.0985662966315182
+      ],
+      "coefficient": [
+        0.6119097326105231,
+        -0.8027866972901975
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000165833_v0_11",
+    "content_id": 165833,
+    "group": "region_first/Cal",
+    "truth": "11",
+    "generation_id": "Cal/000000165833_v0_11",
+    "reference": "165833",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.6532508287784077,
+        0.6669297285657283
+      ],
+      "coefficient": [
+        0.4532989667841616,
+        0.4498315277215544
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000165833_v1_clean",
+    "content_id": 165833,
+    "group": "region_first/Cal",
+    "truth": null,
+    "generation_id": "Cal/000000165833_v1_clean",
+    "reference": "165833",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.012657082093502081,
+        -0.1604741549644514
+      ],
+      "coefficient": [
+        -0.025767224419279783,
+        -0.14379264320279753
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000165833_v1_00",
+    "content_id": 165833,
+    "group": "region_first/Cal",
+    "truth": "00",
+    "generation_id": "Cal/000000165833_v1_00",
+    "reference": "165833",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -1.268465238192883,
+        -0.5890286856078338
+      ],
+      "coefficient": [
+        -0.9444770000018494,
+        -0.46426590795826767
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000165833_v1_01",
+    "content_id": 165833,
+    "group": "region_first/Cal",
+    "truth": "01",
+    "generation_id": "Cal/000000165833_v1_01",
+    "reference": "165833",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.9574725796419445,
+        1.1227638016426655
+      ],
+      "coefficient": [
+        -0.7325934361824822,
+        0.7684988328664509
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000165833_v1_10",
+    "content_id": 165833,
+    "group": "region_first/Cal",
+    "truth": "10",
+    "generation_id": "Cal/000000165833_v1_10",
+    "reference": "165833",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.8862160851331037,
+        -1.234987052623162
+      ],
+      "coefficient": [
+        0.635398651208148,
+        -0.8992823256918134
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000165833_v1_11",
+    "content_id": 165833,
+    "group": "region_first/Cal",
+    "truth": "11",
+    "generation_id": "Cal/000000165833_v1_11",
+    "reference": "165833",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.8766656490980148,
+        0.8568082322163628
+      ],
+      "coefficient": [
+        0.6140049657052012,
+        0.5855768372704409
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000343821_v0_clean",
+    "content_id": 343821,
+    "group": "region_first/Cal",
+    "truth": null,
+    "generation_id": "Cal/000000343821_v0_clean",
+    "reference": "343821",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000343821_v0_00",
+    "content_id": 343821,
+    "group": "region_first/Cal",
+    "truth": "00",
+    "generation_id": "Cal/000000343821_v0_00",
+    "reference": "343821",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.726375266088652,
+        -0.8116168542842792
+      ],
+      "coefficient": [
+        -0.633503291123507,
+        -0.6330443616536521
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000343821_v0_01",
+    "content_id": 343821,
+    "group": "region_first/Cal",
+    "truth": "01",
+    "generation_id": "Cal/000000343821_v0_01",
+    "reference": "343821",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -1.4299496562110505,
+        0.02763093968811739
+      ],
+      "coefficient": [
+        -1.2598124582782602,
+        0.06269507707360743
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000343821_v0_10",
+    "content_id": 343821,
+    "group": "region_first/Cal",
+    "truth": "10",
+    "generation_id": "Cal/000000343821_v0_10",
+    "reference": "343821",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000343821_v0_11",
+    "content_id": 343821,
+    "group": "region_first/Cal",
+    "truth": "11",
+    "generation_id": "Cal/000000343821_v0_11",
+    "reference": "343821",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        1.0438584416193482,
+        0.9040494693176884
+      ],
+      "coefficient": [
+        0.824374527415373,
+        0.7114985230612871
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000343821_v1_clean",
+    "content_id": 343821,
+    "group": "region_first/Cal",
+    "truth": null,
+    "generation_id": "Cal/000000343821_v1_clean",
+    "reference": "343821",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.22420255374032277,
+        -0.19994189659114597
+      ],
+      "coefficient": [
+        -0.2263504742892277,
+        -0.15324246359512012
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000343821_v1_00",
+    "content_id": 343821,
+    "group": "region_first/Cal",
+    "truth": "00",
+    "generation_id": "Cal/000000343821_v1_00",
+    "reference": "343821",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -1.2220969669296897,
+        -0.8697869161591668
+      ],
+      "coefficient": [
+        -1.0524587325049046,
+        -0.6636075940078053
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000343821_v1_01",
+    "content_id": 343821,
+    "group": "region_first/Cal",
+    "truth": "01",
+    "generation_id": "Cal/000000343821_v1_01",
+    "reference": "343821",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.8775703017715812,
+        0.500912917105942
+      ],
+      "coefficient": [
+        -0.8021670926407782,
+        0.4228157669485844
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000343821_v1_10",
+    "content_id": 343821,
+    "group": "region_first/Cal",
+    "truth": "10",
+    "generation_id": "Cal/000000343821_v1_10",
+    "reference": "343821",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.3494171003948462,
+        -1.330653313718019
+      ],
+      "coefficient": [
+        0.3021552851593777,
+        -1.0707706655789522
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000343821_v1_11",
+    "content_id": 343821,
+    "group": "region_first/Cal",
+    "truth": "11",
+    "generation_id": "Cal/000000343821_v1_11",
+    "reference": "343821",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.6709068912672509,
+        0.32092525726956067
+      ],
+      "coefficient": [
+        0.5230290959077141,
+        0.25089033788972076
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000320659_v0_clean",
+    "content_id": 320659,
+    "group": "region_first/Cal",
+    "truth": null,
+    "generation_id": "Cal/000000320659_v0_clean",
+    "reference": "320659",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.23210099079822138,
+        -0.1233538200455046
+      ],
+      "coefficient": [
+        -0.1808646605130228,
+        -0.14930868410918915
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000320659_v0_00",
+    "content_id": 320659,
+    "group": "region_first/Cal",
+    "truth": "00",
+    "generation_id": "Cal/000000320659_v0_00",
+    "reference": "320659",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.8243154789061101,
+        -0.7927516873042384
+      ],
+      "coefficient": [
+        -0.6115804470048029,
+        -0.6985315583835812
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000320659_v0_01",
+    "content_id": 320659,
+    "group": "region_first/Cal",
+    "truth": "01",
+    "generation_id": "Cal/000000320659_v0_01",
+    "reference": "320659",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.8054719417492122,
+        0.4664014343981087
+      ],
+      "coefficient": [
+        -0.6455946010425125,
+        0.32563306328228664
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000320659_v0_10",
+    "content_id": 320659,
+    "group": "region_first/Cal",
+    "truth": "10",
+    "generation_id": "Cal/000000320659_v0_10",
+    "reference": "320659",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.6286445308107166,
+        -0.6024586122708746
+      ],
+      "coefficient": [
+        0.4909474049948328,
+        -0.5167231882843933
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000320659_v0_11",
+    "content_id": 320659,
+    "group": "region_first/Cal",
+    "truth": "11",
+    "generation_id": "Cal/000000320659_v0_11",
+    "reference": "320659",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.6714229703189121,
+        0.6521466633969073
+      ],
+      "coefficient": [
+        0.4856908102700227,
+        0.49135953789016923
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000320659_v1_clean",
+    "content_id": 320659,
+    "group": "region_first/Cal",
+    "truth": null,
+    "generation_id": "Cal/000000320659_v1_clean",
+    "reference": "320659",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.11248686980809919,
+        0.273468576539845
+      ],
+      "coefficient": [
+        -0.10332467920953564,
+        0.17325979511826783
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000320659_v1_00",
+    "content_id": 320659,
+    "group": "region_first/Cal",
+    "truth": "00",
+    "generation_id": "Cal/000000320659_v1_00",
+    "reference": "320659",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.8962317087488665,
+        -0.5524683488599151
+      ],
+      "coefficient": [
+        -0.6745193610826893,
+        -0.5032270158330571
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000320659_v1_01",
+    "content_id": 320659,
+    "group": "region_first/Cal",
+    "truth": "01",
+    "generation_id": "Cal/000000320659_v1_01",
+    "reference": "320659",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.9894878329097734,
+        0.6991626852377636
+      ],
+      "coefficient": [
+        -0.7995806742805831,
+        0.5159262354183948
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000320659_v1_10",
+    "content_id": 320659,
+    "group": "region_first/Cal",
+    "truth": "10",
+    "generation_id": "Cal/000000320659_v1_10",
+    "reference": "320659",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.87624601205997,
+        -0.643373013159289
+      ],
+      "coefficient": [
+        0.6808615989646263,
+        -0.5427112626427439
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000320659_v1_11",
+    "content_id": 320659,
+    "group": "region_first/Cal",
+    "truth": "11",
+    "generation_id": "Cal/000000320659_v1_11",
+    "reference": "320659",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.43994108515795644,
+        0.8742509261550813
+      ],
+      "coefficient": [
+        0.29681946077512517,
+        0.6656013232817949
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000190656_v0_clean",
+    "content_id": 190656,
+    "group": "region_first/Cal",
+    "truth": null,
+    "generation_id": "Cal/000000190656_v0_clean",
+    "reference": "190656",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000190656_v0_00",
+    "content_id": 190656,
+    "group": "region_first/Cal",
+    "truth": "00",
+    "generation_id": "Cal/000000190656_v0_00",
+    "reference": "190656",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000190656_v0_01",
+    "content_id": 190656,
+    "group": "region_first/Cal",
+    "truth": "01",
+    "generation_id": "Cal/000000190656_v0_01",
+    "reference": "190656",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000190656_v0_10",
+    "content_id": 190656,
+    "group": "region_first/Cal",
+    "truth": "10",
+    "generation_id": "Cal/000000190656_v0_10",
+    "reference": "190656",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000190656_v0_11",
+    "content_id": 190656,
+    "group": "region_first/Cal",
+    "truth": "11",
+    "generation_id": "Cal/000000190656_v0_11",
+    "reference": "190656",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Cal/000000190656_v1_clean",
+    "content_id": 190656,
+    "group": "region_first/Cal",
+    "truth": null,
+    "generation_id": "Cal/000000190656_v1_clean",
+    "reference": "190656",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        -0.04548933957419243,
+        0.3517226395747526
+      ],
+      "coefficient": [
+        -0.09586384017609509,
+        0.2804572780413458
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000190656_v1_00",
+    "content_id": 190656,
+    "group": "region_first/Cal",
+    "truth": "00",
+    "generation_id": "Cal/000000190656_v1_00",
+    "reference": "190656",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.8412562045017709,
+        -0.5264655822853768
+      ],
+      "coefficient": [
+        -0.6097383339138248,
+        -0.29361188865301785
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000190656_v1_01",
+    "content_id": 190656,
+    "group": "region_first/Cal",
+    "truth": "01",
+    "generation_id": "Cal/000000190656_v1_01",
+    "reference": "190656",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.7011882593579086,
+        0.9865296090371642
+      ],
+      "coefficient": [
+        -0.5113952128254893,
+        0.6896676707163544
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000190656_v1_10",
+    "content_id": 190656,
+    "group": "region_first/Cal",
+    "truth": "10",
+    "generation_id": "Cal/000000190656_v1_10",
+    "reference": "190656",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.5747710843043479,
+        -0.6600688366554845
+      ],
+      "coefficient": [
+        0.3219295409481879,
+        -0.39857227308451987
+      ]
+    }
+  },
+  {
+    "id": "Cal/000000190656_v1_11",
+    "content_id": 190656,
+    "group": "region_first/Cal",
+    "truth": "11",
+    "generation_id": "Cal/000000190656_v1_11",
+    "reference": "190656",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.6134164175351109,
+        0.9371770287068991
+      ],
+      "coefficient": [
+        0.3440012489812294,
+        0.675178510577965
+      ]
+    }
+  }
+]

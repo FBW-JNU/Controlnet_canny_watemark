@@ -1,0 +1,4564 @@
+[
+  {
+    "id": "Eval/000000264180_v0_clean",
+    "content_id": 264180,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000264180_v0_clean",
+    "reference": "264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.7998718550998767,
+        -3.024990030605572
+      ],
+      "coefficient": [
+        -0.05383313819102192,
+        -0.14265644582001766
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000264180_v0_clean",
+    "content_id": 264180,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000264180_v0_clean",
+    "reference": "input/264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.09666790999863228,
+        -0.26886830021272135
+      ],
+      "coefficient": [
+        -0.05383313819102192,
+        -0.14265644582001766
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000264180_v0_00",
+    "content_id": 264180,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000264180_v0_00",
+    "reference": "264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -15.353477123257761,
+        -8.115817113019869
+      ],
+      "coefficient": [
+        -0.6320235189291145,
+        -0.3781200431414177
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000264180_v0_00",
+    "content_id": 264180,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000264180_v0_00",
+    "reference": "input/264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.9848148563801971,
+        -0.6338375036052256
+      ],
+      "coefficient": [
+        -0.6320235189291145,
+        -0.3781200431414177
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000264180_v0_01",
+    "content_id": 264180,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000264180_v0_01",
+    "reference": "264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -13.80954734239235,
+        9.958598443949748
+      ],
+      "coefficient": [
+        -0.6472807126791833,
+        0.46200073295980376
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000264180_v0_01",
+    "content_id": 264180,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000264180_v0_01",
+    "reference": "input/264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.9571480248407944,
+        0.6681418735016167
+      ],
+      "coefficient": [
+        -0.6472807126791833,
+        0.46200073295980376
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000264180_v0_10",
+    "content_id": 264180,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000264180_v0_10",
+    "reference": "264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        22.021212623437588,
+        -15.698170847637183
+      ],
+      "coefficient": [
+        0.6948279598791638,
+        -0.6144540841857348
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000264180_v0_10",
+    "content_id": 264180,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000264180_v0_10",
+    "reference": "input/264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        1.0292815613149466,
+        -1.0390628229135972
+      ],
+      "coefficient": [
+        0.6948279598791638,
+        -0.6144540841857348
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000264180_v0_11",
+    "content_id": 264180,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000264180_v0_11",
+    "reference": "264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        14.645671360284236,
+        6.19149587296456
+      ],
+      "coefficient": [
+        0.4556498782716552,
+        0.37311076791430353
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000264180_v0_11",
+    "content_id": 264180,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000264180_v0_11",
+    "reference": "input/264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.6737617635058775,
+        0.49668736641241606
+      ],
+      "coefficient": [
+        0.4556498782716552,
+        0.37311076791430353
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000264180_v1_clean",
+    "content_id": 264180,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000264180_v1_clean",
+    "reference": "264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        2.452373810968208,
+        -4.6042684192275445
+      ],
+      "coefficient": [
+        0.0049230651182193,
+        -0.21551211637689405
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000264180_v1_clean",
+    "content_id": 264180,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000264180_v1_clean",
+    "reference": "input/264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        -0.010394891641422821,
+        -0.38314149074427567
+      ],
+      "coefficient": [
+        0.0049230651182193,
+        -0.21551211637689405
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000264180_v1_00",
+    "content_id": 264180,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000264180_v1_00",
+    "reference": "264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -16.12964660714952,
+        -13.238534628417902
+      ],
+      "coefficient": [
+        -0.6638994976460049,
+        -0.6188274374538919
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000264180_v1_00",
+    "content_id": 264180,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000264180_v1_00",
+    "reference": "input/264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -1.0508610124327262,
+        -1.008134785896789
+      ],
+      "coefficient": [
+        -0.6638994976460049,
+        -0.6188274374538919
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000264180_v1_01",
+    "content_id": 264180,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000264180_v1_01",
+    "reference": "264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -15.234393619657851,
+        10.481534285316265
+      ],
+      "coefficient": [
+        -0.7020315255443098,
+        0.4824107890408505
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000264180_v1_01",
+    "content_id": 264180,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000264180_v1_01",
+    "reference": "input/264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -1.0370014209421679,
+        0.6984606878588239
+      ],
+      "coefficient": [
+        -0.7020315255443098,
+        0.4824107890408505
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000264180_v1_10",
+    "content_id": 264180,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000264180_v1_10",
+    "reference": "264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        17.057546481932015,
+        -20.86525483184329
+      ],
+      "coefficient": [
+        0.5130421600333583,
+        -0.8911724219210687
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000264180_v1_10",
+    "content_id": 264180,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000264180_v1_10",
+    "reference": "input/264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.7414387491470299,
+        -1.4503390721783835
+      ],
+      "coefficient": [
+        0.5130421600333583,
+        -0.8911724219210687
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000264180_v1_11",
+    "content_id": 264180,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000264180_v1_11",
+    "reference": "264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        21.01813856824424,
+        8.30524488813094
+      ],
+      "coefficient": [
+        0.7076163953764184,
+        0.5188144868401852
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000264180_v1_11",
+    "content_id": 264180,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000264180_v1_11",
+    "reference": "input/264180",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        1.0459174850010657,
+        0.6988139842119745
+      ],
+      "coefficient": [
+        0.7076163953764184,
+        0.5188144868401852
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000302960_v0_clean",
+    "content_id": 302960,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000302960_v0_clean",
+    "reference": "302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        1.5196312841224189,
+        2.120793445118576
+      ],
+      "coefficient": [
+        -0.0788688569658172,
+        0.059843520588777184
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000302960_v0_clean",
+    "content_id": 302960,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000302960_v0_clean",
+    "reference": "input/302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.08894728657133466,
+        0.1459946390298374
+      ],
+      "coefficient": [
+        -0.0788688569658172,
+        0.059843520588777184
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000302960_v0_00",
+    "content_id": 302960,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000302960_v0_00",
+    "reference": "302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -10.937450621107898,
+        -9.707101344299002
+      ],
+      "coefficient": [
+        -0.5627071710960533,
+        -0.5546684619480061
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000302960_v0_00",
+    "content_id": 302960,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000302960_v0_00",
+    "reference": "input/302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.6389232873694485,
+        -0.6491111457572862
+      ],
+      "coefficient": [
+        -0.5627071710960533,
+        -0.5546684619480061
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000302960_v0_01",
+    "content_id": 302960,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000302960_v0_01",
+    "reference": "302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -11.702439653213073,
+        15.196647611764204
+      ],
+      "coefficient": [
+        -0.6724865418982355,
+        0.709690051360151
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000302960_v0_01",
+    "content_id": 302960,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000302960_v0_01",
+    "reference": "input/302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.7718349169434366,
+        1.062627334456622
+      ],
+      "coefficient": [
+        -0.6724865418982355,
+        0.709690051360151
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000302960_v0_10",
+    "content_id": 302960,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000302960_v0_10",
+    "reference": "302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        10.40524592255164,
+        -9.088257659887542
+      ],
+      "coefficient": [
+        0.5115872364999395,
+        -0.5559394527995591
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000302960_v0_10",
+    "content_id": 302960,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000302960_v0_10",
+    "reference": "input/302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.551203796070417,
+        -0.6952130753619227
+      ],
+      "coefficient": [
+        0.5115872364999395,
+        -0.5559394527995591
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000302960_v0_11",
+    "content_id": 302960,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000302960_v0_11",
+    "reference": "302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        9.067876830522483,
+        12.453652867321
+      ],
+      "coefficient": [
+        0.32339856327992766,
+        0.6167493663482614
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000302960_v0_11",
+    "content_id": 302960,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000302960_v0_11",
+    "reference": "input/302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.3509237480343522,
+        0.8582524067643797
+      ],
+      "coefficient": [
+        0.32339856327992766,
+        0.6167493663482614
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000302960_v1_clean",
+    "content_id": 302960,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000302960_v1_clean",
+    "reference": "302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        2.202918637776243,
+        0.9666610785763696
+      ],
+      "coefficient": [
+        0.046817701771845056,
+        -0.06817281253369158
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000302960_v1_clean",
+    "content_id": 302960,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000302960_v1_clean",
+    "reference": "input/302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.050092368588414427,
+        -0.031240745291915173
+      ],
+      "coefficient": [
+        0.046817701771845056,
+        -0.06817281253369158
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000302960_v1_00",
+    "content_id": 302960,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000302960_v1_00",
+    "reference": "302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -9.050736144337543,
+        -11.750985373787952
+      ],
+      "coefficient": [
+        -0.4721170727098166,
+        -0.6395777682196071
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000302960_v1_00",
+    "content_id": 302960,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000302960_v1_00",
+    "reference": "input/302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.5415771989326399,
+        -0.7677434385845293
+      ],
+      "coefficient": [
+        -0.4721170727098166,
+        -0.6395777682196071
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000302960_v1_01",
+    "content_id": 302960,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000302960_v1_01",
+    "reference": "302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -9.864633684593727,
+        11.908145336669921
+      ],
+      "coefficient": [
+        -0.6030286420258034,
+        0.5559932566923477
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000302960_v1_01",
+    "content_id": 302960,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000302960_v1_01",
+    "reference": "input/302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.6860154098513177,
+        0.8490135707754307
+      ],
+      "coefficient": [
+        -0.6030286420258034,
+        0.5559932566923477
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000302960_v1_10",
+    "content_id": 302960,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000302960_v1_10",
+    "reference": "302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        11.08849698343543,
+        -9.551980789198717
+      ],
+      "coefficient": [
+        0.5449370817517203,
+        -0.5747178646201307
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000302960_v1_10",
+    "content_id": 302960,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000302960_v1_10",
+    "reference": "input/302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.5873005670754029,
+        -0.7210532007638896
+      ],
+      "coefficient": [
+        0.5449370817517203,
+        -0.5747178646201307
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000302960_v1_11",
+    "content_id": 302960,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000302960_v1_11",
+    "reference": "302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        12.573876278407678,
+        10.200531951869396
+      ],
+      "coefficient": [
+        0.48175962240846604,
+        0.524460359372112
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000302960_v1_11",
+    "content_id": 302960,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000302960_v1_11",
+    "reference": "input/302960",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.5315414949261121,
+        0.725737587644457
+      ],
+      "coefficient": [
+        0.48175962240846604,
+        0.524460359372112
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000200103_v0_clean",
+    "content_id": 200103,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000200103_v0_clean",
+    "reference": "200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        3.9285851444962487,
+        4.960314254421864
+      ],
+      "coefficient": [
+        0.029786946382161783,
+        0.1323495982645409
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000200103_v0_clean",
+    "content_id": 200103,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000200103_v0_clean",
+    "reference": "input/200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        -0.014938596307998653,
+        0.29643770521670354
+      ],
+      "coefficient": [
+        0.029786946382161783,
+        0.1323495982645409
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000200103_v0_00",
+    "content_id": 200103,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000200103_v0_00",
+    "reference": "200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -16.102461717747282,
+        -7.238396663696461
+      ],
+      "coefficient": [
+        -0.7602150492268247,
+        -0.5311513218508658
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000200103_v0_00",
+    "content_id": 200103,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000200103_v0_00",
+    "reference": "input/200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -1.0559018588389957,
+        -0.5739299169663054
+      ],
+      "coefficient": [
+        -0.7602150492268247,
+        -0.5311513218508658
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000200103_v0_01",
+    "content_id": 200103,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000200103_v0_01",
+    "reference": "200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -10.950193414837454,
+        13.468986629019913
+      ],
+      "coefficient": [
+        -0.6587805985885892,
+        0.6578828613045361
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000200103_v0_01",
+    "content_id": 200103,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000200103_v0_01",
+    "reference": "input/200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.8288008635101787,
+        1.027918421490671
+      ],
+      "coefficient": [
+        -0.6587805985885892,
+        0.6578828613045361
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000200103_v0_10",
+    "content_id": 200103,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000200103_v0_10",
+    "reference": "200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        20.574936604284296,
+        -5.849513756895412
+      ],
+      "coefficient": [
+        0.8163703482653761,
+        -0.23537929565743207
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000200103_v0_10",
+    "content_id": 200103,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000200103_v0_10",
+    "reference": "input/200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.984323892304007,
+        -0.28048171429491126
+      ],
+      "coefficient": [
+        0.8163703482653761,
+        -0.23537929565743207
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000200103_v0_11",
+    "content_id": 200103,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000200103_v0_11",
+    "reference": "200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        15.55834983375446,
+        16.295826875117733
+      ],
+      "coefficient": [
+        0.5093219680511372,
+        0.7368258300300663
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000200103_v0_11",
+    "content_id": 200103,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000200103_v0_11",
+    "reference": "input/200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.6793718356575871,
+        1.1547846066677079
+      ],
+      "coefficient": [
+        0.5093219680511372,
+        0.7368258300300663
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000200103_v1_clean",
+    "content_id": 200103,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000200103_v1_clean",
+    "reference": "200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        6.503423647058648,
+        4.450912660849378
+      ],
+      "coefficient": [
+        0.1479287808051852,
+        0.11709417454232726
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000200103_v1_clean",
+    "content_id": 200103,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000200103_v1_clean",
+    "reference": "input/200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.13593339980068386,
+        0.2705178546232323
+      ],
+      "coefficient": [
+        0.1479287808051852,
+        0.11709417454232726
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000200103_v1_00",
+    "content_id": 200103,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000200103_v1_00",
+    "reference": "200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -7.399235890611513,
+        -6.4156306163045
+      ],
+      "coefficient": [
+        -0.3817442634089938,
+        -0.42116034778885464
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000200103_v1_00",
+    "content_id": 200103,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000200103_v1_00",
+    "reference": "input/200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.5669866753634494,
+        -0.45122313066100966
+      ],
+      "coefficient": [
+        -0.3817442634089938,
+        -0.42116034778885464
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000200103_v1_01",
+    "content_id": 200103,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000200103_v1_01",
+    "reference": "200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -9.210239183561587,
+        12.027462495709207
+      ],
+      "coefficient": [
+        -0.5784766844792997,
+        0.5897732822636337
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000200103_v1_01",
+    "content_id": 200103,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000200103_v1_01",
+    "reference": "input/200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.7374553942582556,
+        0.9363291347520974
+      ],
+      "coefficient": [
+        -0.5784766844792997,
+        0.5897732822636337
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000200103_v1_10",
+    "content_id": 200103,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000200103_v1_10",
+    "reference": "200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        24.58243216052968,
+        -9.781096621716102
+      ],
+      "coefficient": [
+        0.967614664692705,
+        -0.38943604019901795
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000200103_v1_10",
+    "content_id": 200103,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000200103_v1_10",
+    "reference": "input/200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        1.1822125448248737,
+        -0.5210858643305878
+      ],
+      "coefficient": [
+        0.967614664692705,
+        -0.38943604019901795
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000200103_v1_11",
+    "content_id": 200103,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000200103_v1_11",
+    "reference": "200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        21.90281560587191,
+        13.69314087116387
+      ],
+      "coefficient": [
+        0.7931404815248726,
+        0.6700551353715681
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000200103_v1_11",
+    "content_id": 200103,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000200103_v1_11",
+    "reference": "input/200103",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        1.0318552144804822,
+        1.0546065255845267
+      ],
+      "coefficient": [
+        0.7931404815248726,
+        0.6700551353715681
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000087235_v0_clean",
+    "content_id": 87235,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000087235_v0_clean",
+    "reference": "87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        29.567589246187218,
+        -19.379812585829473
+      ],
+      "coefficient": [
+        1.1040324519572715,
+        -0.8689094966107171
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000087235_v0_clean",
+    "content_id": 87235,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000087235_v0_clean",
+    "reference": "input/87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        1.4552353247567225,
+        -1.2335043720809136
+      ],
+      "coefficient": [
+        1.1040324519572715,
+        -0.8689094966107171
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000087235_v0_00",
+    "content_id": 87235,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000087235_v0_00",
+    "reference": "87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -14.968859973125083,
+        -5.806624985495352
+      ],
+      "coefficient": [
+        -0.7031914640652346,
+        -0.35838073959657973
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000087235_v0_00",
+    "content_id": 87235,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000087235_v0_00",
+    "reference": "input/87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.9583288520597765,
+        -0.47045722771335
+      ],
+      "coefficient": [
+        -0.7031914640652346,
+        -0.35838073959657973
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000087235_v0_01",
+    "content_id": 87235,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000087235_v0_01",
+    "reference": "87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -10.524363876658548,
+        12.210997637836623
+      ],
+      "coefficient": [
+        -0.5630178746420756,
+        0.5912911377287582
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000087235_v0_01",
+    "content_id": 87235,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000087235_v0_01",
+    "reference": "input/87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.7470445093401638,
+        0.8666887950998278
+      ],
+      "coefficient": [
+        -0.5630178746420756,
+        0.5912911377287582
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000087235_v0_10",
+    "content_id": 87235,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000087235_v0_10",
+    "reference": "87235",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000087235_v0_10",
+    "content_id": 87235,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000087235_v0_10",
+    "reference": "input/87235",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000087235_v0_11",
+    "content_id": 87235,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000087235_v0_11",
+    "reference": "87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        34.423631426680494,
+        -12.950295186651566
+      ],
+      "coefficient": [
+        1.3230845294026123,
+        -0.5127817036749482
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000087235_v0_11",
+    "content_id": 87235,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000087235_v0_11",
+    "reference": "input/87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        1.7429019655047484,
+        -0.7332161350991826
+      ],
+      "coefficient": [
+        1.3230845294026123,
+        -0.5127817036749482
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000087235_v1_clean",
+    "content_id": 87235,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000087235_v1_clean",
+    "reference": "87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        9.867657289752316,
+        -2.4392643741065174
+      ],
+      "coefficient": [
+        0.3301445728939183,
+        -0.13006575000524825
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000087235_v1_clean",
+    "content_id": 87235,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000087235_v1_clean",
+    "reference": "input/87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.41878951149757404,
+        -0.15793735567365458
+      ],
+      "coefficient": [
+        0.3301445728939183,
+        -0.13006575000524825
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000087235_v1_00",
+    "content_id": 87235,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000087235_v1_00",
+    "reference": "87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -8.515407289658404,
+        -8.396210596603073
+      ],
+      "coefficient": [
+        -0.4425104358905739,
+        -0.4645403901245298
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000087235_v1_00",
+    "content_id": 87235,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000087235_v1_00",
+    "reference": "input/87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.6122426567549806,
+        -0.6198577228254971
+      ],
+      "coefficient": [
+        -0.4425104358905739,
+        -0.4645403901245298
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000087235_v1_01",
+    "content_id": 87235,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000087235_v1_01",
+    "reference": "87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -6.447693688559184,
+        11.347832871451544
+      ],
+      "coefficient": [
+        -0.3898906755921179,
+        0.5651747822405675
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000087235_v1_01",
+    "content_id": 87235,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000087235_v1_01",
+    "reference": "input/87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.5197604399410931,
+        0.8313224194134613
+      ],
+      "coefficient": [
+        -0.3898906755921179,
+        0.5651747822405675
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000087235_v1_10",
+    "content_id": 87235,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000087235_v1_10",
+    "reference": "87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        28.66782336299672,
+        -18.65869568331996
+      ],
+      "coefficient": [
+        1.0686484175371962,
+        -0.8378193433654512
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000087235_v1_10",
+    "content_id": 87235,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000087235_v1_10",
+    "reference": "input/87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        1.4074843005802335,
+        -1.1878512654122177
+      ],
+      "coefficient": [
+        1.0686484175371962,
+        -0.8378193433654512
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000087235_v1_11",
+    "content_id": 87235,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000087235_v1_11",
+    "reference": "87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        36.658439517250486,
+        -4.0497992474417455
+      ],
+      "coefficient": [
+        1.4399164318805766,
+        -0.04731106044680747
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000087235_v1_11",
+    "content_id": 87235,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000087235_v1_11",
+    "reference": "input/87235",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        1.892386130522759,
+        -0.07225370992402869
+      ],
+      "coefficient": [
+        1.4399164318805766,
+        -0.04731106044680747
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000413421_v0_clean",
+    "content_id": 413421,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000413421_v0_clean",
+    "reference": "413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        0.00027172140139786194,
+        -0.8491187123634587
+      ],
+      "coefficient": [
+        -0.10958282713767914,
+        -0.02999237946212054
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000413421_v0_clean",
+    "content_id": 413421,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000413421_v0_clean",
+    "reference": "input/413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.1214488752505185,
+        -0.08472550057284667
+      ],
+      "coefficient": [
+        -0.10958282713767914,
+        -0.02999237946212054
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000413421_v0_00",
+    "content_id": 413421,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000413421_v0_00",
+    "reference": "413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -8.630144035200836,
+        -8.739261740923551
+      ],
+      "coefficient": [
+        -0.5963093593812798,
+        -0.5336658637990579
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000413421_v0_00",
+    "content_id": 413421,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000413421_v0_00",
+    "reference": "input/413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.6245300010014655,
+        -0.7119561577761782
+      ],
+      "coefficient": [
+        -0.5963093593812798,
+        -0.5336658637990579
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000413421_v0_01",
+    "content_id": 413421,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000413421_v0_01",
+    "reference": "413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -12.872500134112085,
+        9.426043707715674
+      ],
+      "coefficient": [
+        -0.6886756313237974,
+        0.5763987178587603
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000413421_v0_01",
+    "content_id": 413421,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000413421_v0_01",
+    "reference": "input/413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.8309610164914805,
+        0.61052071274343
+      ],
+      "coefficient": [
+        -0.6886756313237974,
+        0.5763987178587603
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000413421_v0_10",
+    "content_id": 413421,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000413421_v0_10",
+    "reference": "413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        10.015833099075387,
+        -9.035911645096977
+      ],
+      "coefficient": [
+        0.3475441121662227,
+        -0.5447394604115767
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000413421_v0_10",
+    "content_id": 413421,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000413421_v0_10",
+    "reference": "input/413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.43482348794652986,
+        -0.6705966964778247
+      ],
+      "coefficient": [
+        0.3475441121662227,
+        -0.5447394604115767
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000413421_v0_11",
+    "content_id": 413421,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000413421_v0_11",
+    "reference": "413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        16.56542866421135,
+        8.621666976502043
+      ],
+      "coefficient": [
+        0.6647160604459157,
+        0.49515303245095343
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000413421_v0_11",
+    "content_id": 413421,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000413421_v0_11",
+    "reference": "input/413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.7404420595087717,
+        0.6224262547481401
+      ],
+      "coefficient": [
+        0.6647160604459157,
+        0.49515303245095343
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000413421_v1_clean",
+    "content_id": 413421,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000413421_v1_clean",
+    "reference": "413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        3.579249452804386,
+        0.44248026803922125
+      ],
+      "coefficient": [
+        0.06174110056288399,
+        0.018942368323720777
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000413421_v1_clean",
+    "content_id": 413421,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000413421_v1_clean",
+    "reference": "input/413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.07028170752315216,
+        -0.013465250090840819
+      ],
+      "coefficient": [
+        0.06174110056288399,
+        0.018942368323720777
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000413421_v1_00",
+    "content_id": 413421,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000413421_v1_00",
+    "reference": "413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -4.654025344004629,
+        -8.135700513031807
+      ],
+      "coefficient": [
+        -0.38693033822317735,
+        -0.47332919474875207
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000413421_v1_00",
+    "content_id": 413421,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000413421_v1_00",
+    "reference": "input/413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.39602504360095153,
+        -0.6320922098842479
+      ],
+      "coefficient": [
+        -0.38693033822317735,
+        -0.47332919474875207
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000413421_v1_01",
+    "content_id": 413421,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000413421_v1_01",
+    "reference": "413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -8.198466561082348,
+        10.45400278765289
+      ],
+      "coefficient": [
+        -0.46530078881211007,
+        0.6646039361665417
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000413421_v1_01",
+    "content_id": 413421,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000413421_v1_01",
+    "reference": "input/413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.5781124377220344,
+        0.726547290208485
+      ],
+      "coefficient": [
+        -0.46530078881211007,
+        0.6646039361665417
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000413421_v1_10",
+    "content_id": 413421,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000413421_v1_10",
+    "reference": "413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        11.523266854481932,
+        -8.222589497412288
+      ],
+      "coefficient": [
+        0.43009654687078747,
+        -0.4973147886738621
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000413421_v1_10",
+    "content_id": 413421,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000413421_v1_10",
+    "reference": "input/413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.5239770793347789,
+        -0.6057225019827144
+      ],
+      "coefficient": [
+        0.43009654687078747,
+        -0.4973147886738621
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000413421_v1_11",
+    "content_id": 413421,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000413421_v1_11",
+    "reference": "413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        15.226587521395262,
+        11.047789457357803
+      ],
+      "coefficient": [
+        0.6148073294967826,
+        0.6386826150734441
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000413421_v1_11",
+    "content_id": 413421,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000413421_v1_11",
+    "reference": "input/413421",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.6780126862357938,
+        0.7904972644503283
+      ],
+      "coefficient": [
+        0.6148073294967826,
+        0.6386826150734441
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000550853_v0_clean",
+    "content_id": 550853,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000550853_v0_clean",
+    "reference": "550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        3.024760302839443,
+        -6.976304956948434
+      ],
+      "coefficient": [
+        0.02478909471814017,
+        -0.26935693205435907
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000550853_v0_clean",
+    "content_id": 550853,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000550853_v0_clean",
+    "reference": "input/550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        -0.0035162501507807753,
+        -0.5471325781851896
+      ],
+      "coefficient": [
+        0.02478909471814017,
+        -0.26935693205435907
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000550853_v0_00",
+    "content_id": 550853,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000550853_v0_00",
+    "reference": "550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -6.962778542188808,
+        -12.41285441387199
+      ],
+      "coefficient": [
+        -0.34591428221316645,
+        -0.5303068846631352
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000550853_v0_00",
+    "content_id": 550853,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000550853_v0_00",
+    "reference": "input/550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.5848975312972671,
+        -0.9035385534214361
+      ],
+      "coefficient": [
+        -0.34591428221316645,
+        -0.5303068846631352
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000550853_v0_01",
+    "content_id": 550853,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000550853_v0_01",
+    "reference": "550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -8.671623824950846,
+        2.502388843211514
+      ],
+      "coefficient": [
+        -0.43784273272541985,
+        0.22164724848241604
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000550853_v0_01",
+    "content_id": 550853,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000550853_v0_01",
+    "reference": "input/550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.7215266139977103,
+        0.19062631051082396
+      ],
+      "coefficient": [
+        -0.43784273272541985,
+        0.22164724848241604
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000550853_v0_10",
+    "content_id": 550853,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000550853_v0_10",
+    "reference": "550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        8.429692269027353,
+        -9.890062324396649
+      ],
+      "coefficient": [
+        0.20885453448166338,
+        -0.3830728207364635
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000550853_v0_10",
+    "content_id": 550853,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000550853_v0_10",
+    "reference": "input/550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.28625070510512896,
+        -0.7253818958043868
+      ],
+      "coefficient": [
+        0.20885453448166338,
+        -0.3830728207364635
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000550853_v0_11",
+    "content_id": 550853,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000550853_v0_11",
+    "reference": "550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        10.981945229060148,
+        3.0174270915895067
+      ],
+      "coefficient": [
+        0.2659322302674126,
+        0.23156165349658037
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000550853_v0_11",
+    "content_id": 550853,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000550853_v0_11",
+    "reference": "input/550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.3896909284173689,
+        0.18229306553777042
+      ],
+      "coefficient": [
+        0.2659322302674126,
+        0.23156165349658037
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000550853_v1_clean",
+    "content_id": 550853,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000550853_v1_clean",
+    "reference": "550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        7.187978022464771,
+        1.0180279722006187
+      ],
+      "coefficient": [
+        0.15971654245065728,
+        0.12320661693986355
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000550853_v1_clean",
+    "content_id": 550853,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000550853_v1_clean",
+    "reference": "input/550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.2172074722684732,
+        0.025062092023057037
+      ],
+      "coefficient": [
+        0.15971654245065728,
+        0.12320661693986355
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000550853_v1_00",
+    "content_id": 550853,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000550853_v1_00",
+    "reference": "550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -12.369367376460296,
+        -6.938041891109441
+      ],
+      "coefficient": [
+        -0.5210083035155568,
+        -0.27654088792310205
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000550853_v1_00",
+    "content_id": 550853,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000550853_v1_00",
+    "reference": "input/550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.8628452163173452,
+        -0.5250906357179996
+      ],
+      "coefficient": [
+        -0.5210083035155568,
+        -0.27654088792310205
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000550853_v1_01",
+    "content_id": 550853,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000550853_v1_01",
+    "reference": "550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -13.822754229385932,
+        12.250991463705397
+      ],
+      "coefficient": [
+        -0.6211274861605471,
+        0.6936456232278835
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000550853_v1_01",
+    "content_id": 550853,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000550853_v1_01",
+    "reference": "input/550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.9799628343288072,
+        0.8773555171808414
+      ],
+      "coefficient": [
+        -0.6211274861605471,
+        0.6936456232278835
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000550853_v1_10",
+    "content_id": 550853,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000550853_v1_10",
+    "reference": "550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        19.37129481859931,
+        -6.3370664244885235
+      ],
+      "coefficient": [
+        0.6107697409267585,
+        -0.1614035841812316
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000550853_v1_10",
+    "content_id": 550853,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000550853_v1_10",
+    "reference": "input/550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.9202975660122616,
+        -0.4144876905876481
+      ],
+      "coefficient": [
+        0.6107697409267585,
+        -0.1614035841812316
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000550853_v1_11",
+    "content_id": 550853,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000550853_v1_11",
+    "reference": "550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        21.88109154192073,
+        10.429763373332444
+      ],
+      "coefficient": [
+        0.635418833202489,
+        0.6302822672204355
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000550853_v1_11",
+    "content_id": 550853,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000550853_v1_11",
+    "reference": "input/550853",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        1.0016241086889146,
+        0.7725302275045381
+      ],
+      "coefficient": [
+        0.635418833202489,
+        0.6302822672204355
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000055580_v0_clean",
+    "content_id": 55580,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000055580_v0_clean",
+    "reference": "55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000055580_v0_clean",
+    "content_id": 55580,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000055580_v0_clean",
+    "reference": "input/55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000055580_v0_00",
+    "content_id": 55580,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000055580_v0_00",
+    "reference": "55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000055580_v0_00",
+    "content_id": 55580,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000055580_v0_00",
+    "reference": "input/55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000055580_v0_01",
+    "content_id": 55580,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000055580_v0_01",
+    "reference": "55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000055580_v0_01",
+    "content_id": 55580,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000055580_v0_01",
+    "reference": "input/55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000055580_v0_10",
+    "content_id": 55580,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000055580_v0_10",
+    "reference": "55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000055580_v0_10",
+    "content_id": 55580,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000055580_v0_10",
+    "reference": "input/55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000055580_v0_11",
+    "content_id": 55580,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000055580_v0_11",
+    "reference": "55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000055580_v0_11",
+    "content_id": 55580,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000055580_v0_11",
+    "reference": "input/55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000055580_v1_clean",
+    "content_id": 55580,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000055580_v1_clean",
+    "reference": "55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000055580_v1_clean",
+    "content_id": 55580,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000055580_v1_clean",
+    "reference": "input/55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000055580_v1_00",
+    "content_id": 55580,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000055580_v1_00",
+    "reference": "55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000055580_v1_00",
+    "content_id": 55580,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000055580_v1_00",
+    "reference": "input/55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000055580_v1_01",
+    "content_id": 55580,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000055580_v1_01",
+    "reference": "55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000055580_v1_01",
+    "content_id": 55580,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000055580_v1_01",
+    "reference": "input/55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000055580_v1_10",
+    "content_id": 55580,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000055580_v1_10",
+    "reference": "55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000055580_v1_10",
+    "content_id": 55580,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000055580_v1_10",
+    "reference": "input/55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000055580_v1_11",
+    "content_id": 55580,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000055580_v1_11",
+    "reference": "55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000055580_v1_11",
+    "content_id": 55580,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000055580_v1_11",
+    "reference": "input/55580",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000003124_v0_clean",
+    "content_id": 3124,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000003124_v0_clean",
+    "reference": "3124",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000003124_v0_clean",
+    "content_id": 3124,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000003124_v0_clean",
+    "reference": "input/3124",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000003124_v0_00",
+    "content_id": 3124,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000003124_v0_00",
+    "reference": "3124",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000003124_v0_00",
+    "content_id": 3124,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000003124_v0_00",
+    "reference": "input/3124",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000003124_v0_01",
+    "content_id": 3124,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000003124_v0_01",
+    "reference": "3124",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000003124_v0_01",
+    "content_id": 3124,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000003124_v0_01",
+    "reference": "input/3124",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000003124_v0_10",
+    "content_id": 3124,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000003124_v0_10",
+    "reference": "3124",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000003124_v0_10",
+    "content_id": 3124,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000003124_v0_10",
+    "reference": "input/3124",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000003124_v0_11",
+    "content_id": 3124,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000003124_v0_11",
+    "reference": "3124",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000003124_v0_11",
+    "content_id": 3124,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000003124_v0_11",
+    "reference": "input/3124",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000003124_v1_clean",
+    "content_id": 3124,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000003124_v1_clean",
+    "reference": "3124",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        2.9540405592894885,
+        0.6519848998508015
+      ],
+      "coefficient": [
+        0.005374176063841201,
+        0.02888836348375144
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000003124_v1_clean",
+    "content_id": 3124,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000003124_v1_clean",
+    "reference": "input/3124",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        5.129174533924363e-05,
+        -0.0010166196889570545
+      ],
+      "coefficient": [
+        0.005374176063841201,
+        0.02888836348375144
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000003124_v1_00",
+    "content_id": 3124,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000003124_v1_00",
+    "reference": "3124",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        2.863200173039525,
+        0.8089284200348485
+      ],
+      "coefficient": [
+        0.0003779032036396908,
+        0.036185490227939675
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000003124_v1_00",
+    "content_id": 3124,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000003124_v1_00",
+    "reference": "input/3124",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.007817759739907837,
+        0.010367746206723316
+      ],
+      "coefficient": [
+        0.0003779032036396908,
+        0.036185490227939675
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000003124_v1_01",
+    "content_id": 3124,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000003124_v1_01",
+    "reference": "3124",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.8872369052453628,
+        2.8724602176033693
+      ],
+      "coefficient": [
+        -0.08595109915390803,
+        0.1493176189012287
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000003124_v1_01",
+    "content_id": 3124,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000003124_v1_01",
+    "reference": "input/3124",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.14309678649030122,
+        0.186426648466543
+      ],
+      "coefficient": [
+        -0.08595109915390803,
+        0.1493176189012287
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000003124_v1_10",
+    "content_id": 3124,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000003124_v1_10",
+    "reference": "3124",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        29.085613997918827,
+        8.794330896244631
+      ],
+      "coefficient": [
+        0.972074549781561,
+        0.468026552069062
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000003124_v1_10",
+    "content_id": 3124,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000003124_v1_10",
+    "reference": "input/3124",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        1.431836812750086,
+        0.7471848735209878
+      ],
+      "coefficient": [
+        0.972074549781561,
+        0.468026552069062
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000003124_v1_11",
+    "content_id": 3124,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000003124_v1_11",
+    "reference": "3124",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "input/Eval/000000003124_v1_11",
+    "content_id": 3124,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000003124_v1_11",
+    "reference": "input/3124",
+    "decoded": {
+      "accepted": false,
+      "bits": null,
+      "reason": "no_confident_correspondence"
+    }
+  },
+  {
+    "id": "Eval/000000201184_v0_clean",
+    "content_id": 201184,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000201184_v0_clean",
+    "reference": "201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        6.30500718767621,
+        1.7964591129143912
+      ],
+      "coefficient": [
+        0.1388658126855502,
+        0.04850927885280684
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000201184_v0_clean",
+    "content_id": 201184,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000201184_v0_clean",
+    "reference": "input/201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.3283901825652417,
+        0.28254157959697046
+      ],
+      "coefficient": [
+        0.1388658126855502,
+        0.04850927885280684
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000201184_v0_00",
+    "content_id": 201184,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000201184_v0_00",
+    "reference": "201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        3.479901412751829,
+        -0.6993913564268679
+      ],
+      "coefficient": [
+        -0.031718972887120736,
+        -0.12561489529726272
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000201184_v0_00",
+    "content_id": 201184,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000201184_v0_00",
+    "reference": "input/201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.09064907206372724,
+        0.046986722981623485
+      ],
+      "coefficient": [
+        -0.031718972887120736,
+        -0.12561489529726272
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000201184_v0_01",
+    "content_id": 201184,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000201184_v0_01",
+    "reference": "201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -1.4563822609863468,
+        8.418204281431253
+      ],
+      "coefficient": [
+        -0.1981097026261635,
+        0.2534688276202453
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000201184_v0_01",
+    "content_id": 201184,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000201184_v0_01",
+    "reference": "input/201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.12574157960882,
+        0.604028747054716
+      ],
+      "coefficient": [
+        -0.1981097026261635,
+        0.2534688276202453
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000201184_v0_10",
+    "content_id": 201184,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000201184_v0_10",
+    "reference": "201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        14.70063617712886,
+        -3.9197767138619573
+      ],
+      "coefficient": [
+        0.36089721108601674,
+        -0.21011273745003334
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000201184_v0_10",
+    "content_id": 201184,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000201184_v0_10",
+    "reference": "input/201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.6318540771639319,
+        -0.10793733395069863
+      ],
+      "coefficient": [
+        0.36089721108601674,
+        -0.21011273745003334
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000201184_v0_11",
+    "content_id": 201184,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000201184_v0_11",
+    "reference": "201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        13.848926923604404,
+        3.8766117812666825
+      ],
+      "coefficient": [
+        0.4894681131582381,
+        0.2350874119541516
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000201184_v0_11",
+    "content_id": 201184,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000201184_v0_11",
+    "reference": "input/201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.7959363547051297,
+        0.4974186493766635
+      ],
+      "coefficient": [
+        0.4894681131582381,
+        0.2350874119541516
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000201184_v1_clean",
+    "content_id": 201184,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000201184_v1_clean",
+    "reference": "201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        8.126768210685375,
+        -3.490821781443781
+      ],
+      "coefficient": [
+        0.10494844982900725,
+        -0.24209189349529012
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000201184_v1_clean",
+    "content_id": 201184,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000201184_v1_clean",
+    "reference": "input/201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.2748375232147403,
+        -0.1289717691319921
+      ],
+      "coefficient": [
+        0.10494844982900725,
+        -0.24209189349529012
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000201184_v1_00",
+    "content_id": 201184,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000201184_v1_00",
+    "reference": "201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        3.2474065208341285,
+        -4.294671922616253
+      ],
+      "coefficient": [
+        -0.08006640724488712,
+        -0.33317255013230246
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000201184_v1_00",
+    "content_id": 201184,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000201184_v1_00",
+    "reference": "input/201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.009548864548017066,
+        -0.2509561181497782
+      ],
+      "coefficient": [
+        -0.08006640724488712,
+        -0.33317255013230246
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000201184_v1_01",
+    "content_id": 201184,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000201184_v1_01",
+    "reference": "201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        11.585937363150842,
+        13.63706915331525
+      ],
+      "coefficient": [
+        0.40243580683895425,
+        0.7393746498158289
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000201184_v1_01",
+    "content_id": 201184,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000201184_v1_01",
+    "reference": "input/201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.6504963971458492,
+        1.2144647868694676
+      ],
+      "coefficient": [
+        0.40243580683895425,
+        0.7393746498158289
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000201184_v1_10",
+    "content_id": 201184,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000201184_v1_10",
+    "reference": "201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        14.52139761792347,
+        -8.969365184541529
+      ],
+      "coefficient": [
+        0.3433332239670254,
+        -0.48440030266856043
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000201184_v1_10",
+    "content_id": 201184,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000201184_v1_10",
+    "reference": "input/201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.595970444423668,
+        -0.4932466552106158
+      ],
+      "coefficient": [
+        0.3433332239670254,
+        -0.48440030266856043
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000201184_v1_11",
+    "content_id": 201184,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000201184_v1_11",
+    "reference": "201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        28.848077563123972,
+        2.1867378628833274
+      ],
+      "coefficient": [
+        1.1622588710313664,
+        0.2885202248205815
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000201184_v1_11",
+    "content_id": 201184,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000201184_v1_11",
+    "reference": "input/201184",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        1.6878610151980327,
+        0.45270889579406903
+      ],
+      "coefficient": [
+        1.1622588710313664,
+        0.2885202248205815
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000124607_v0_clean",
+    "content_id": 124607,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000124607_v0_clean",
+    "reference": "124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.643386921686874,
+        1.8102235715557624
+      ],
+      "coefficient": [
+        -0.1062355282414618,
+        0.08822101066664875
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000124607_v0_clean",
+    "content_id": 124607,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000124607_v0_clean",
+    "reference": "input/124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.1938551186078179,
+        0.10323760070754717
+      ],
+      "coefficient": [
+        -0.1062355282414618,
+        0.08822101066664875
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000124607_v0_00",
+    "content_id": 124607,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000124607_v0_00",
+    "reference": "124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -12.468047050558186,
+        -5.557983627152539
+      ],
+      "coefficient": [
+        -0.5669745662699786,
+        -0.293846398492187
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000124607_v0_00",
+    "content_id": 124607,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000124607_v0_00",
+    "reference": "input/124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.8354678350030529,
+        -0.4670630708674372
+      ],
+      "coefficient": [
+        -0.5669745662699786,
+        -0.293846398492187
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000124607_v0_01",
+    "content_id": 124607,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000124607_v0_01",
+    "reference": "124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -12.987110283168489,
+        11.629034249283878
+      ],
+      "coefficient": [
+        -0.6206986507806868,
+        0.55447621877276
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000124607_v0_01",
+    "content_id": 124607,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000124607_v0_01",
+    "reference": "input/124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.8804191065292859,
+        0.7789131519241901
+      ],
+      "coefficient": [
+        -0.6206986507806868,
+        0.55447621877276
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000124607_v0_10",
+    "content_id": 124607,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000124607_v0_10",
+    "reference": "124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        8.762796891522672,
+        -5.783704620078338
+      ],
+      "coefficient": [
+        0.2659358778734299,
+        -0.24291789047256948
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000124607_v0_10",
+    "content_id": 124607,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000124607_v0_10",
+    "reference": "input/124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.31575023485784176,
+        -0.3898412071906225
+      ],
+      "coefficient": [
+        0.2659358778734299,
+        -0.24291789047256948
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000124607_v0_11",
+    "content_id": 124607,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000124607_v0_11",
+    "reference": "124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        9.853612932172767,
+        9.798808204509482
+      ],
+      "coefficient": [
+        0.3435876846990995,
+        0.5262538330198795
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000124607_v0_11",
+    "content_id": 124607,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000124607_v0_11",
+    "reference": "input/124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.42262412191184306,
+        0.7426972634379477
+      ],
+      "coefficient": [
+        0.3435876846990995,
+        0.5262538330198795
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000124607_v1_clean",
+    "content_id": 124607,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000124607_v1_clean",
+    "reference": "124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.7004299207951812,
+        0.24300720813172472
+      ],
+      "coefficient": [
+        -0.04774936681158824,
+        0.010494100403140758
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000124607_v1_clean",
+    "content_id": 124607,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000124607_v1_clean",
+    "reference": "input/124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.11471750455823859,
+        -0.01138116213249657
+      ],
+      "coefficient": [
+        -0.04774936681158824,
+        0.010494100403140758
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000124607_v1_00",
+    "content_id": 124607,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000124607_v1_00",
+    "reference": "124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -12.55797168953692,
+        -8.683940538846423
+      ],
+      "coefficient": [
+        -0.575268204765659,
+        -0.4490754323242178
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000124607_v1_00",
+    "content_id": 124607,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000124607_v1_00",
+    "reference": "input/124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.851267384928904,
+        -0.6956800940517602
+      ],
+      "coefficient": [
+        -0.575268204765659,
+        -0.4490754323242178
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000124607_v1_01",
+    "content_id": 124607,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000124607_v1_01",
+    "reference": "124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -13.285505273171138,
+        13.90219155529321
+      ],
+      "coefficient": [
+        -0.6310450606074565,
+        0.6665073428354915
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000124607_v1_01",
+    "content_id": 124607,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000124607_v1_01",
+    "reference": "input/124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.8895145156532478,
+        0.943307627163644
+      ],
+      "coefficient": [
+        -0.6310450606074565,
+        0.6665073428354915
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000124607_v1_10",
+    "content_id": 124607,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000124607_v1_10",
+    "reference": "124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        15.009385557344707,
+        -8.908565543550672
+      ],
+      "coefficient": [
+        0.5064806937799765,
+        -0.36067761995000786
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000124607_v1_10",
+    "content_id": 124607,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000124607_v1_10",
+    "reference": "input/124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.6488613826638471,
+        -0.5714852303372799
+      ],
+      "coefficient": [
+        0.5064806937799765,
+        -0.36067761995000786
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000124607_v1_11",
+    "content_id": 124607,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000124607_v1_11",
+    "reference": "124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        16.13204116956157,
+        12.584028831841088
+      ],
+      "coefficient": [
+        0.6123105692221575,
+        0.7000374232296559
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000124607_v1_11",
+    "content_id": 124607,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000124607_v1_11",
+    "reference": "input/124607",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.7867916471116176,
+        0.9906024167586491
+      ],
+      "coefficient": [
+        0.6123105692221575,
+        0.7000374232296559
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000115363_v0_clean",
+    "content_id": 115363,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000115363_v0_clean",
+    "reference": "115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        5.997835136972878,
+        -0.16488642087530714
+      ],
+      "coefficient": [
+        0.18744194526297173,
+        -0.037289533533658964
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000115363_v0_clean",
+    "content_id": 115363,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000115363_v0_clean",
+    "reference": "input/115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.290875438101342,
+        -0.11287906754214405
+      ],
+      "coefficient": [
+        0.18744194526297173,
+        -0.037289533533658964
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000115363_v0_00",
+    "content_id": 115363,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000115363_v0_00",
+    "reference": "115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -1.68966075835346,
+        -5.922167414423785
+      ],
+      "coefficient": [
+        -0.12383112284526171,
+        -0.2653129098911984
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000115363_v0_00",
+    "content_id": 115363,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000115363_v0_00",
+    "reference": "input/115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.14963524160811337,
+        -0.45369540516710916
+      ],
+      "coefficient": [
+        -0.12383112284526171,
+        -0.2653129098911984
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000115363_v0_01",
+    "content_id": 115363,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000115363_v0_01",
+    "reference": "115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -7.818360339171166,
+        6.541272828334733
+      ],
+      "coefficient": [
+        -0.4751201834883034,
+        0.27924843944486705
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000115363_v0_01",
+    "content_id": 115363,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000115363_v0_01",
+    "reference": "input/115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.6053852257244294,
+        0.457432250979523
+      ],
+      "coefficient": [
+        -0.4751201834883034,
+        0.27924843944486705
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000115363_v0_10",
+    "content_id": 115363,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000115363_v0_10",
+    "reference": "115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        14.011115505903762,
+        -9.350892987067217
+      ],
+      "coefficient": [
+        0.5695518497343188,
+        -0.422848921759106
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000115363_v0_10",
+    "content_id": 115363,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000115363_v0_10",
+    "reference": "input/115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.7586829636763768,
+        -0.7282435245393847
+      ],
+      "coefficient": [
+        0.5695518497343188,
+        -0.422848921759106
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000115363_v0_11",
+    "content_id": 115363,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000115363_v0_11",
+    "reference": "115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        26.156543282469446,
+        19.118564362670092
+      ],
+      "coefficient": [
+        0.8541112299932794,
+        0.9599593708328285
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000115363_v0_11",
+    "content_id": 115363,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000115363_v0_11",
+    "reference": "input/115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        1.2857559716910292,
+        1.428599421628495
+      ],
+      "coefficient": [
+        0.8541112299932794,
+        0.9599593708328285
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000115363_v1_clean",
+    "content_id": 115363,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000115363_v1_clean",
+    "reference": "115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        7.508773919459785,
+        3.990490679053974
+      ],
+      "coefficient": [
+        0.1274984124930946,
+        0.1521078377483213
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000115363_v1_clean",
+    "content_id": 115363,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000115363_v1_clean",
+    "reference": "input/115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.22356764897975206,
+        0.19002206450735365
+      ],
+      "coefficient": [
+        0.1274984124930946,
+        0.1521078377483213
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000115363_v1_00",
+    "content_id": 115363,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000115363_v1_00",
+    "reference": "115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -5.405152976392135,
+        -10.47337661627461
+      ],
+      "coefficient": [
+        -0.28605345195717663,
+        -0.4157838718951678
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000115363_v1_00",
+    "content_id": 115363,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000115363_v1_00",
+    "reference": "input/115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.37951981049633915,
+        -0.6789183357458479
+      ],
+      "coefficient": [
+        -0.28605345195717663,
+        -0.4157838718951678
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000115363_v1_01",
+    "content_id": 115363,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000115363_v1_01",
+    "reference": "115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -9.593213247227004,
+        27.235371336840707
+      ],
+      "coefficient": [
+        -0.48455700374762944,
+        1.1773519115726356
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000115363_v1_01",
+    "content_id": 115363,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000115363_v1_01",
+    "reference": "input/115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.6333141392504976,
+        1.8982861775286557
+      ],
+      "coefficient": [
+        -0.48455700374762944,
+        1.1773519115726356
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000115363_v1_10",
+    "content_id": 115363,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000115363_v1_10",
+    "reference": "115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        18.745422526683303,
+        -6.39500008695776
+      ],
+      "coefficient": [
+        0.7771477447083197,
+        -0.2564214891759902
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000115363_v1_10",
+    "content_id": 115363,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000115363_v1_10",
+    "reference": "input/115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        1.0596579491869482,
+        -0.4663604345206106
+      ],
+      "coefficient": [
+        0.7771477447083197,
+        -0.2564214891759902
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000115363_v1_11",
+    "content_id": 115363,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000115363_v1_11",
+    "reference": "115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        18.24285960589461,
+        18.813237144677778
+      ],
+      "coefficient": [
+        0.5512551651894437,
+        0.9066458506413966
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000115363_v1_11",
+    "content_id": 115363,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000115363_v1_11",
+    "reference": "input/115363",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.8524780055071633,
+        1.3542191095015492
+      ],
+      "coefficient": [
+        0.5512551651894437,
+        0.9066458506413966
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000012231_v0_clean",
+    "content_id": 12231,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000012231_v0_clean",
+    "reference": "12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -1.1227287320190102,
+        2.4065976360895425
+      ],
+      "coefficient": [
+        -0.17822546949963286,
+        0.12047062994300621
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000012231_v0_clean",
+    "content_id": 12231,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000012231_v0_clean",
+    "reference": "input/12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.2076753341342592,
+        0.16295302447006543
+      ],
+      "coefficient": [
+        -0.17822546949963286,
+        0.12047062994300621
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000012231_v0_00",
+    "content_id": 12231,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000012231_v0_00",
+    "reference": "12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -16.5997899311664,
+        -6.322883315456971
+      ],
+      "coefficient": [
+        -0.7605852721607087,
+        -0.3703585620279984
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000012231_v0_00",
+    "content_id": 12231,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000012231_v0_00",
+    "reference": "input/12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -1.0394010273030085,
+        -0.5290507819072079
+      ],
+      "coefficient": [
+        -0.7605852721607087,
+        -0.3703585620279984
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000012231_v0_01",
+    "content_id": 12231,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000012231_v0_01",
+    "reference": "12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -14.094149800265175,
+        14.142879388589273
+      ],
+      "coefficient": [
+        -0.645584634426935,
+        0.6483794134322183
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000012231_v0_01",
+    "content_id": 12231,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000012231_v0_01",
+    "reference": "input/12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -0.8796045496918103,
+        0.9224070877955253
+      ],
+      "coefficient": [
+        -0.645584634426935,
+        0.6483794134322183
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000012231_v0_10",
+    "content_id": 12231,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000012231_v0_10",
+    "reference": "12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        12.830745927370213,
+        -8.503860504067148
+      ],
+      "coefficient": [
+        0.4140637871782772,
+        -0.45473174851266357
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000012231_v0_10",
+    "content_id": 12231,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000012231_v0_10",
+    "reference": "input/12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.6068231747850075,
+        -0.6329477491866302
+      ],
+      "coefficient": [
+        0.4140637871782772,
+        -0.45473174851266357
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000012231_v0_11",
+    "content_id": 12231,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000012231_v0_11",
+    "reference": "12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        14.369793110579728,
+        10.666637040999982
+      ],
+      "coefficient": [
+        0.4677880448605731,
+        0.6101515396330006
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000012231_v0_11",
+    "content_id": 12231,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000012231_v0_11",
+    "reference": "input/12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.689465101336574,
+        0.8198890340227838
+      ],
+      "coefficient": [
+        0.4677880448605731,
+        0.6101515396330006
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000012231_v1_clean",
+    "content_id": 12231,
+    "group": "region_first/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000012231_v1_clean",
+    "reference": "12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.7041774804969165,
+        -2.1372133326915757
+      ],
+      "coefficient": [
+        -0.13446427138908573,
+        -0.12206153385014815
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000012231_v1_clean",
+    "content_id": 12231,
+    "group": "region_first_input/Eval",
+    "truth": null,
+    "generation_id": "Eval/000000012231_v1_clean",
+    "reference": "input/12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -0.14918530931592933,
+        -0.1766439855868357
+      ],
+      "coefficient": [
+        -0.13446427138908573,
+        -0.12206153385014815
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000012231_v1_00",
+    "content_id": 12231,
+    "group": "region_first/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000012231_v1_00",
+    "reference": "12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -17.162304274901935,
+        -14.974222189862678
+      ],
+      "coefficient": [
+        -0.7801219650729672,
+        -0.7975020589158869
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000012231_v1_00",
+    "content_id": 12231,
+    "group": "region_first_input/Eval",
+    "truth": "00",
+    "generation_id": "Eval/000000012231_v1_00",
+    "reference": "input/12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "00",
+      "bit_scores": [
+        -1.0984271873451374,
+        -1.1407737067112647
+      ],
+      "coefficient": [
+        -0.7801219650729672,
+        -0.7975020589158869
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000012231_v1_01",
+    "content_id": 12231,
+    "group": "region_first/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000012231_v1_01",
+    "reference": "12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -16.355681409106577,
+        11.485929848182101
+      ],
+      "coefficient": [
+        -0.7460980951317469,
+        0.5058208612397529
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000012231_v1_01",
+    "content_id": 12231,
+    "group": "region_first_input/Eval",
+    "truth": "01",
+    "generation_id": "Eval/000000012231_v1_01",
+    "reference": "input/12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "01",
+      "bit_scores": [
+        -1.0147948298757328,
+        0.7229018636166551
+      ],
+      "coefficient": [
+        -0.7460980951317469,
+        0.5058208612397529
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000012231_v1_10",
+    "content_id": 12231,
+    "group": "region_first/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000012231_v1_10",
+    "reference": "12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        15.005403838300335,
+        -16.775283842327553
+      ],
+      "coefficient": [
+        0.5034922290788184,
+        -0.9015612942291842
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000012231_v1_10",
+    "content_id": 12231,
+    "group": "region_first_input/Eval",
+    "truth": "10",
+    "generation_id": "Eval/000000012231_v1_10",
+    "reference": "input/12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "10",
+      "bit_scores": [
+        0.6948881092760795,
+        -1.240717479536127
+      ],
+      "coefficient": [
+        0.5034922290788184,
+        -0.9015612942291842
+      ]
+    }
+  },
+  {
+    "id": "Eval/000000012231_v1_11",
+    "content_id": 12231,
+    "group": "region_first/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000012231_v1_11",
+    "reference": "12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        14.520536977290526,
+        8.979995494572398
+      ],
+      "coefficient": [
+        0.46597347098644476,
+        0.5167885962404446
+      ]
+    }
+  },
+  {
+    "id": "input/Eval/000000012231_v1_11",
+    "content_id": 12231,
+    "group": "region_first_input/Eval",
+    "truth": "11",
+    "generation_id": "Eval/000000012231_v1_11",
+    "reference": "input/12231",
+    "decoded": {
+      "accepted": true,
+      "bits": "11",
+      "bit_scores": [
+        0.6907334407299159,
+        0.6927672687777051
+      ],
+      "coefficient": [
+        0.46597347098644476,
+        0.5167885962404446
+      ]
+    }
+  }
+]

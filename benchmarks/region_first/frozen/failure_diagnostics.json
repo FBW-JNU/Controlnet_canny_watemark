@@ -1,0 +1,1250 @@
+{
+  "scope": "Post-evaluation failure diagnosis; branch-check counts are descriptive, not verified ground-truth correspondence causes. No parameter fitting or reselection.",
+  "wrong_or_erased_messages": 22,
+  "paired_clean_controls": 8,
+  "rejected_candidate_check_counts": {
+    "anchors": 4,
+    "residual": 3,
+    "offset": 5,
+    "distance": 2,
+    "span": 6,
+    "coverage": 5,
+    "information": 5
+  },
+  "cases": [
+    {
+      "id": "Eval/000000087235_v0_10",
+      "content_id": 87235,
+      "truth": "10",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": false,
+          "failed_checks": [
+            "anchors",
+            "residual",
+            "offset",
+            "distance"
+          ],
+          "coefficient": [
+            -3.044242121635865,
+            -0.614243103141671
+          ],
+          "coverage": 0.9411764705882353,
+          "span": 0.9602856751830332,
+          "offset": 2.452043761871498,
+          "r_phi": 0.9909330834984466,
+          "residual_rms": 0.9222540867324847,
+          "coefficient_se_max": 0.32161213335938893,
+          "q_margin": 0.005550410251277297
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "span",
+            "anchors",
+            "residual",
+            "offset",
+            "distance"
+          ],
+          "coefficient": [
+            4.069313661657014,
+            -0.4434494442468518
+          ],
+          "coverage": 0.7254901960784313,
+          "span": 0.7602239061298578,
+          "offset": 1.852970439405876,
+          "r_phi": 0.8068153742102933,
+          "residual_rms": 0.6406456400285311,
+          "coefficient_se_max": 0.3239514414993783,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000087235_v0_11",
+      "content_id": 87235,
+      "truth": "11",
+      "decoded": {
+        "accepted": true,
+        "bits": "10",
+        "bit_scores": [
+          34.423631426680494,
+          -12.950295186651566
+        ],
+        "coefficient": [
+          1.3230845294026123,
+          -0.5127817036749482
+        ]
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            1.3230845294026123,
+            -0.5127817036749482
+          ],
+          "coverage": 0.9019607843137255,
+          "span": 0.9002671444246924,
+          "offset": -0.9799827255655047,
+          "r_phi": 0.975513437746332,
+          "residual_rms": 0.5740763037969082,
+          "coefficient_se_max": 0.21065453997616632,
+          "q_margin": 0.6062486004635064
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "anchors",
+            "offset",
+            "distance"
+          ],
+          "coefficient": [
+            0.3130505790573962,
+            -0.034298679000299565
+          ],
+          "coverage": 0.9803921568627451,
+          "span": 0.9802197017337162,
+          "offset": 4.815435931758215,
+          "r_phi": 0.9823517179362133,
+          "residual_rms": 0.25827960432089586,
+          "coefficient_se_max": 0.09988252415544595,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    },
+    {
+      "id": "Eval/000000087235_v1_11",
+      "content_id": 87235,
+      "truth": "11",
+      "decoded": {
+        "accepted": true,
+        "bits": "10",
+        "bit_scores": [
+          36.658439517250486,
+          -4.0497992474417455
+        ],
+        "coefficient": [
+          1.4399164318805766,
+          -0.04731106044680747
+        ]
+      },
+      "observed": [
+        {
+          "branch": "R0",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            1.4399164318805766,
+            -0.04731106044680747
+          ],
+          "coverage": 0.8235294117647058,
+          "span": 0.9602856751830332,
+          "offset": -0.9534197814163612,
+          "r_phi": 0.8012694624388773,
+          "residual_rms": 0.5354240588507096,
+          "coefficient_se_max": 0.1850791399594874,
+          "q_margin": 0.01178257287695679
+        },
+        {
+          "branch": "A3",
+          "accepted": false,
+          "failed_checks": [
+            "residual"
+          ],
+          "coefficient": [
+            1.4543830805017128,
+            -0.06333874670700211
+          ],
+          "coverage": 0.9803921568627451,
+          "span": 0.9802197017337162,
+          "offset": -0.9954400301678511,
+          "r_phi": 0.9669516708962211,
+          "residual_rms": 0.6843593868695563,
+          "coefficient_se_max": 0.2135915655636532,
+          "q_margin": 0.6329102880914685
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "anchors",
+            "offset",
+            "distance"
+          ],
+          "coefficient": [
+            -0.02446072453938625,
+            -0.02061314940900856
+          ],
+          "coverage": 0.9411764705882353,
+          "span": 0.9602856751830332,
+          "offset": 5.304897944015314,
+          "r_phi": 0.9696571702629159,
+          "residual_rms": 0.27625286461728893,
+          "coefficient_se_max": 0.09848688424699323,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    },
+    {
+      "id": "Eval/000000055580_v0_00",
+      "content_id": 55580,
+      "truth": "00",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000055580_v0_01",
+      "content_id": 55580,
+      "truth": "01",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000055580_v0_10",
+      "content_id": 55580,
+      "truth": "10",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000055580_v0_11",
+      "content_id": 55580,
+      "truth": "11",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": false,
+          "failed_checks": [
+            "coverage",
+            "span",
+            "information",
+            "anchors"
+          ],
+          "coefficient": [
+            -0.37571200046207753,
+            0.3265597859094526
+          ],
+          "coverage": 0.41509433962264153,
+          "span": 0.39805818847424856,
+          "offset": 1.3215602143015783,
+          "r_phi": 0.48644379264792376,
+          "residual_rms": 0.316194211244268,
+          "coefficient_se_max": 0.4437544980033059,
+          "q_margin": 1.0
+        }
+      ],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000055580_v1_00",
+      "content_id": 55580,
+      "truth": "00",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000055580_v1_01",
+      "content_id": 55580,
+      "truth": "01",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000055580_v1_10",
+      "content_id": 55580,
+      "truth": "10",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": false,
+          "failed_checks": [
+            "coverage",
+            "span",
+            "information"
+          ],
+          "coefficient": [
+            1.087142360891114,
+            -0.5425876390886526
+          ],
+          "coverage": 0.6226415094339622,
+          "span": 0.6213592843301096,
+          "offset": -0.09925499182510758,
+          "r_phi": 0.536072051682079,
+          "residual_rms": 0.40113077148532117,
+          "coefficient_se_max": 0.4220815056649558,
+          "q_margin": 1.0
+        }
+      ],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000055580_v1_11",
+      "content_id": 55580,
+      "truth": "11",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000003124_v0_00",
+      "content_id": 3124,
+      "truth": "00",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000003124_v0_01",
+      "content_id": 3124,
+      "truth": "01",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000003124_v0_10",
+      "content_id": 3124,
+      "truth": "10",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": false,
+          "failed_checks": [
+            "coverage",
+            "span",
+            "information",
+            "offset"
+          ],
+          "coefficient": [
+            0.16726895345958268,
+            0.11654435097933818
+          ],
+          "coverage": 0.5405405405405406,
+          "span": 0.5352112626688081,
+          "offset": 2.124686532774475,
+          "r_phi": 0.5019009151127436,
+          "residual_rms": 0.02702606666944985,
+          "coefficient_se_max": 0.1807768770931319,
+          "q_margin": 1.0
+        }
+      ],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000003124_v0_11",
+      "content_id": 3124,
+      "truth": "11",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": false,
+          "failed_checks": [
+            "coverage",
+            "span",
+            "information",
+            "anchors",
+            "offset"
+          ],
+          "coefficient": [
+            0.2360608771615851,
+            0.10680909972155522
+          ],
+          "coverage": 0.43243243243243246,
+          "span": 0.42253520510628395,
+          "offset": 2.182558965404206,
+          "r_phi": 0.49583021084078616,
+          "residual_rms": 0.015580608548199548,
+          "coefficient_se_max": 0.20650599483562052,
+          "q_margin": 1.0
+        }
+      ],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000003124_v1_00",
+      "content_id": 3124,
+      "truth": "00",
+      "decoded": {
+        "accepted": true,
+        "bits": "11",
+        "bit_scores": [
+          2.863200173039525,
+          0.8089284200348485
+        ],
+        "coefficient": [
+          0.0003779032036396908,
+          0.036185490227939675
+        ]
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            0.0003779032036396908,
+            0.036185490227939675
+          ],
+          "coverage": 1.0,
+          "span": 1.0,
+          "offset": 0.013070815828514841,
+          "r_phi": 1,
+          "residual_rms": 0.046519431293886866,
+          "coefficient_se_max": 0.05711855034804331,
+          "q_margin": 0.8751776617884803
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "offset"
+          ],
+          "coefficient": [
+            -9.105313599866438e-05,
+            0.04613239617064987
+          ],
+          "coverage": 0.918918918918919,
+          "span": 0.9295774642142459,
+          "offset": 2.030113454028699,
+          "r_phi": 0.9880255941241212,
+          "residual_rms": 0.15805003670128057,
+          "coefficient_se_max": 0.05769299176141276,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    },
+    {
+      "id": "Eval/000000003124_v1_01",
+      "content_id": 3124,
+      "truth": "01",
+      "decoded": {
+        "accepted": true,
+        "bits": "11",
+        "bit_scores": [
+          0.8872369052453628,
+          2.8724602176033693
+        ],
+        "coefficient": [
+          -0.08595109915390803,
+          0.1493176189012287
+        ]
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            -0.08595109915390803,
+            0.1493176189012287
+          ],
+          "coverage": 1.0,
+          "span": 1.0,
+          "offset": 0.08412810214061213,
+          "r_phi": 0.9291907315630696,
+          "residual_rms": 0.2619278483268155,
+          "coefficient_se_max": 0.06146583385098032,
+          "q_margin": 0.705225171323847
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "offset"
+          ],
+          "coefficient": [
+            -0.22128831598836846,
+            0.31296041185675233
+          ],
+          "coverage": 0.918918918918919,
+          "span": 0.9295774642142459,
+          "offset": 2.200864820637774,
+          "r_phi": 0.9391079754760858,
+          "residual_rms": 0.3165611504370266,
+          "coefficient_se_max": 0.11837578554517308,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    },
+    {
+      "id": "Eval/000000003124_v1_10",
+      "content_id": 3124,
+      "truth": "10",
+      "decoded": {
+        "accepted": true,
+        "bits": "11",
+        "bit_scores": [
+          29.085613997918827,
+          8.794330896244631
+        ],
+        "coefficient": [
+          0.972074549781561,
+          0.468026552069062
+        ]
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            0.972074549781561,
+            0.468026552069062
+          ],
+          "coverage": 0.918918918918919,
+          "span": 0.9295774642142459,
+          "offset": 0.6762569992081118,
+          "r_phi": 0.951386835156536,
+          "residual_rms": 0.2531880210413734,
+          "coefficient_se_max": 0.09861534793778777,
+          "q_margin": 1.0
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "coverage",
+            "span",
+            "information",
+            "offset"
+          ],
+          "coefficient": [
+            0.16345584795639487,
+            0.11621085034894822
+          ],
+          "coverage": 0.5405405405405406,
+          "span": 0.5352112626688081,
+          "offset": 2.122474850959142,
+          "r_phi": 0.5019009151127436,
+          "residual_rms": 0.02547125269863818,
+          "coefficient_se_max": 0.1807768770931319,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    },
+    {
+      "id": "Eval/000000003124_v1_11",
+      "content_id": 3124,
+      "truth": "11",
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": false,
+          "failed_checks": [
+            "residual"
+          ],
+          "coefficient": [
+            1.1209473810316577,
+            0.20033065253502855
+          ],
+          "coverage": 0.918918918918919,
+          "span": 0.9295774642142459,
+          "offset": 0.522805873225223,
+          "r_phi": 0.9123572030749647,
+          "residual_rms": 0.6486903659704615,
+          "coefficient_se_max": 0.25161269264346864,
+          "q_margin": 1.0
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "coverage",
+            "span",
+            "information",
+            "offset"
+          ],
+          "coefficient": [
+            0.02648225527231561,
+            0.0910938642809654
+          ],
+          "coverage": 0.5945945945945946,
+          "span": 0.5915492915521775,
+          "offset": 2.027614369512692,
+          "r_phi": 0.5096342127736555,
+          "residual_rms": 0.18411913376906427,
+          "coefficient_se_max": 0.1660524855787441,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000201184_v0_00",
+      "content_id": 201184,
+      "truth": "00",
+      "decoded": {
+        "accepted": true,
+        "bits": "10",
+        "bit_scores": [
+          3.479901412751829,
+          -0.6993913564268679
+        ],
+        "coefficient": [
+          -0.031718972887120736,
+          -0.12561489529726272
+        ]
+      },
+      "observed": [
+        {
+          "branch": "R0",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            -0.031718972887120736,
+            -0.12561489529726272
+          ],
+          "coverage": 0.9024390243902439,
+          "span": 0.9620253168066415,
+          "offset": 0.42844672165623976,
+          "r_phi": 0.9845203902701514,
+          "residual_rms": 0.286766107733409,
+          "coefficient_se_max": 0.12753027040794915,
+          "q_margin": 0.0
+        },
+        {
+          "branch": "A3",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            -0.23698510576118997,
+            -0.29871524684981854
+          ],
+          "coverage": 1.0,
+          "span": 1.0,
+          "offset": 0.35841455608534106,
+          "r_phi": 0.997196899194982,
+          "residual_rms": 0.21366907156525175,
+          "coefficient_se_max": 0.09624401834668021,
+          "q_margin": 0.23880185114208302
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "offset",
+            "distance"
+          ],
+          "coefficient": [
+            -0.6165638658033248,
+            0.08652705518891855
+          ],
+          "coverage": 0.8536585365853658,
+          "span": 1.0,
+          "offset": -2.2508667427968057,
+          "r_phi": 0.7444055927078181,
+          "residual_rms": 0.3604855971328352,
+          "coefficient_se_max": 0.13195148790073097,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    },
+    {
+      "id": "Eval/000000201184_v1_00",
+      "content_id": 201184,
+      "truth": "00",
+      "decoded": {
+        "accepted": true,
+        "bits": "10",
+        "bit_scores": [
+          3.2474065208341285,
+          -4.294671922616253
+        ],
+        "coefficient": [
+          -0.08006640724488712,
+          -0.33317255013230246
+        ]
+      },
+      "observed": [
+        {
+          "branch": "R0",
+          "accepted": false,
+          "failed_checks": [
+            "residual"
+          ],
+          "coefficient": [
+            -0.20914969846537906,
+            -0.34695801294677
+          ],
+          "coverage": 0.8780487804878049,
+          "span": 0.9620253168066415,
+          "offset": -0.33062078804698797,
+          "r_phi": 0.843278503958861,
+          "residual_rms": 0.6509693456757274,
+          "coefficient_se_max": 0.19519499493701842,
+          "q_margin": 0.0
+        },
+        {
+          "branch": "A3",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            -0.08006640724488712,
+            -0.33317255013230246
+          ],
+          "coverage": 1.0,
+          "span": 1.0,
+          "offset": -0.06785942444211839,
+          "r_phi": 0.9661748654454358,
+          "residual_rms": 0.29365216876279027,
+          "coefficient_se_max": 0.10893186574417588,
+          "q_margin": 0.5193153385074954
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "offset"
+          ],
+          "coefficient": [
+            -0.11922361448974572,
+            -0.46414985322776336
+          ],
+          "coverage": 1.0,
+          "span": 1.0,
+          "offset": -1.9286514456632964,
+          "r_phi": 0.9862790527869515,
+          "residual_rms": 0.355704057700597,
+          "coefficient_se_max": 0.1423984065608074,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    },
+    {
+      "id": "Eval/000000201184_v1_01",
+      "content_id": 201184,
+      "truth": "01",
+      "decoded": {
+        "accepted": true,
+        "bits": "11",
+        "bit_scores": [
+          11.585937363150842,
+          13.63706915331525
+        ],
+        "coefficient": [
+          0.40243580683895425,
+          0.7393746498158289
+        ]
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            0.40243580683895425,
+            0.7393746498158289
+          ],
+          "coverage": 1.0,
+          "span": 1.0,
+          "offset": -0.7766784548260199,
+          "r_phi": 0.989878338549435,
+          "residual_rms": 0.4490789680008132,
+          "coefficient_se_max": 0.16752643810253845,
+          "q_margin": 0.4774651802970531
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "residual",
+            "offset"
+          ],
+          "coefficient": [
+            -0.4953924072563074,
+            -0.8794210294581611
+          ],
+          "coverage": 1.0,
+          "span": 1.0,
+          "offset": -1.593453752364639,
+          "r_phi": 0.999333174331577,
+          "residual_rms": 0.773506230752166,
+          "coefficient_se_max": 0.3812763311525438,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    },
+    {
+      "id": "Eval/000000087235_v0_clean",
+      "content_id": 87235,
+      "truth": null,
+      "decoded": {
+        "accepted": true,
+        "bits": "10",
+        "bit_scores": [
+          29.567589246187218,
+          -19.379812585829473
+        ],
+        "coefficient": [
+          1.1040324519572715,
+          -0.8689094966107171
+        ]
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            1.1040324519572715,
+            -0.8689094966107171
+          ],
+          "coverage": 0.8823529411764706,
+          "span": 0.880188817314576,
+          "offset": -0.7374432914153075,
+          "r_phi": 0.9543205000400081,
+          "residual_rms": 0.527576302160467,
+          "coefficient_se_max": 0.21194888046961063,
+          "q_margin": 0.654585080693232
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "anchors",
+            "offset",
+            "distance"
+          ],
+          "coefficient": [
+            0.1981514915164106,
+            -0.06937152860665773
+          ],
+          "coverage": 0.9607843137254902,
+          "span": 0.9602856751830332,
+          "offset": 4.777758978511604,
+          "r_phi": 0.9578614713913473,
+          "residual_rms": 0.23915369241963214,
+          "coefficient_se_max": 0.08395358059522244,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    },
+    {
+      "id": "Eval/000000087235_v1_clean",
+      "content_id": 87235,
+      "truth": null,
+      "decoded": {
+        "accepted": true,
+        "bits": "10",
+        "bit_scores": [
+          9.867657289752316,
+          -2.4392643741065174
+        ],
+        "coefficient": [
+          0.3301445728939183,
+          -0.13006575000524825
+        ]
+      },
+      "observed": [
+        {
+          "branch": "R0",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            0.3301445728939183,
+            -0.13006575000524825
+          ],
+          "coverage": 0.9215686274509803,
+          "span": 0.9602856751830332,
+          "offset": -0.38349251981208154,
+          "r_phi": 0.9620805062189294,
+          "residual_rms": 0.34149468690391016,
+          "coefficient_se_max": 0.11715215439246104,
+          "q_margin": 0.0
+        },
+        {
+          "branch": "A3",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            0.3495440279756298,
+            -0.08845193113896486
+          ],
+          "coverage": 0.9607843137254902,
+          "span": 0.9602856751830332,
+          "offset": -0.3746553153297838,
+          "r_phi": 0.9623526596728771,
+          "residual_rms": 0.28585904469377266,
+          "coefficient_se_max": 0.09745402307881156,
+          "q_margin": 0.008518761583817402
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "anchors",
+            "offset",
+            "distance"
+          ],
+          "coefficient": [
+            -0.05506004718960772,
+            -0.06658813558895633
+          ],
+          "coverage": 0.9411764705882353,
+          "span": 0.960213524733094,
+          "offset": 5.264718953455484,
+          "r_phi": 0.9647606010133646,
+          "residual_rms": 0.2949303748853705,
+          "coefficient_se_max": 0.10226856687969678,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    },
+    {
+      "id": "Eval/000000055580_v0_clean",
+      "content_id": 55580,
+      "truth": null,
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000055580_v1_clean",
+      "content_id": 55580,
+      "truth": null,
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": false,
+          "failed_checks": [
+            "coverage",
+            "span",
+            "information"
+          ],
+          "coefficient": [
+            0.368342092387273,
+            0.2343766216915558
+          ],
+          "coverage": 0.6226415094339622,
+          "span": 0.6213592843301096,
+          "offset": -0.03281771422466225,
+          "r_phi": 0.5308351982440177,
+          "residual_rms": 0.2894389873118152,
+          "coefficient_se_max": 0.2828476982625551,
+          "q_margin": 1.0
+        }
+      ],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000003124_v0_clean",
+      "content_id": 3124,
+      "truth": null,
+      "decoded": {
+        "accepted": false,
+        "bits": null,
+        "reason": "no_confident_correspondence"
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": false,
+          "failed_checks": [
+            "coverage",
+            "span",
+            "information",
+            "offset"
+          ],
+          "coefficient": [
+            0.21110821664045648,
+            0.11553703682074208
+          ],
+          "coverage": 0.4864864864864865,
+          "span": 0.47887323382320546,
+          "offset": 2.159801162841883,
+          "r_phi": 0.5000121859641162,
+          "residual_rms": 0.022497975689064503,
+          "coefficient_se_max": 0.1980075254060917,
+          "q_margin": 1.0
+        }
+      ],
+      "reason": "no_confident_correspondence"
+    },
+    {
+      "id": "Eval/000000003124_v1_clean",
+      "content_id": 3124,
+      "truth": null,
+      "decoded": {
+        "accepted": true,
+        "bits": "11",
+        "bit_scores": [
+          2.9540405592894885,
+          0.6519848998508015
+        ],
+        "coefficient": [
+          0.005374176063841201,
+          0.02888836348375144
+        ]
+      },
+      "observed": [
+        {
+          "branch": "R0",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            0.005374176063841201,
+            0.02888836348375144
+          ],
+          "coverage": 0.8918918918918919,
+          "span": 0.9577464784924481,
+          "offset": 0.008544660718294118,
+          "r_phi": 0.981810837322557,
+          "residual_rms": 0.029929725565272333,
+          "coefficient_se_max": 0.05642711124536555,
+          "q_margin": 0.7745572376581334
+        },
+        {
+          "branch": "A3",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            0.0004149915192342597,
+            0.035651121231068006
+          ],
+          "coverage": 1.0,
+          "span": 1.0,
+          "offset": 0.01310490749613737,
+          "r_phi": 1,
+          "residual_rms": 0.04553068238809156,
+          "coefficient_se_max": 0.05711855034804331,
+          "q_margin": 0.8860042673021892
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "offset"
+          ],
+          "coefficient": [
+            0.0010268086744054938,
+            0.035724089552422
+          ],
+          "coverage": 1.0,
+          "span": 1.0,
+          "offset": 2.024330531678177,
+          "r_phi": 1,
+          "residual_rms": 0.10421027193077326,
+          "coefficient_se_max": 0.057118550681262814,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    },
+    {
+      "id": "Eval/000000201184_v0_clean",
+      "content_id": 201184,
+      "truth": null,
+      "decoded": {
+        "accepted": true,
+        "bits": "11",
+        "bit_scores": [
+          6.30500718767621,
+          1.7964591129143912
+        ],
+        "coefficient": [
+          0.1388658126855502,
+          0.04850927885280684
+        ]
+      },
+      "observed": [
+        {
+          "branch": "R0",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            0.1388658126855502,
+            0.04850927885280684
+          ],
+          "coverage": 0.9024390243902439,
+          "span": 0.9620253168066415,
+          "offset": 0.21123292459254134,
+          "r_phi": 0.9863710431428897,
+          "residual_rms": 0.2664160595423978,
+          "coefficient_se_max": 0.15119376978558155,
+          "q_margin": 0.0
+        },
+        {
+          "branch": "A3",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            -0.02464320815471581,
+            -0.11994334961098953
+          ],
+          "coverage": 1.0,
+          "span": 1.0,
+          "offset": 0.1404160602539416,
+          "r_phi": 0.994348673939901,
+          "residual_rms": 0.20062660823396192,
+          "coefficient_se_max": 0.08406083854739213,
+          "q_margin": 0.1813531383246239
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "residual"
+          ],
+          "coefficient": [
+            -0.5951403137186506,
+            -1.8791898890841374
+          ],
+          "coverage": 0.6829268292682927,
+          "span": 1.0,
+          "offset": -0.8775548833979646,
+          "r_phi": 0.6801947466016,
+          "residual_rms": 0.7049385547471777,
+          "coefficient_se_max": 0.2782093168984968,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    },
+    {
+      "id": "Eval/000000201184_v1_clean",
+      "content_id": 201184,
+      "truth": null,
+      "decoded": {
+        "accepted": true,
+        "bits": "10",
+        "bit_scores": [
+          8.126768210685375,
+          -3.490821781443781
+        ],
+        "coefficient": [
+          0.10494844982900725,
+          -0.24209189349529012
+        ]
+      },
+      "observed": [
+        {
+          "branch": "A3",
+          "accepted": true,
+          "failed_checks": [],
+          "coefficient": [
+            0.10494844982900725,
+            -0.24209189349529012
+          ],
+          "coverage": 1.0,
+          "span": 1.0,
+          "offset": 0.052402174257748235,
+          "r_phi": 0.9908077361834033,
+          "residual_rms": 0.3011518781146141,
+          "coefficient_se_max": 0.12075307190413383,
+          "q_margin": 0.686793734711172
+        },
+        {
+          "branch": "A3_alternative",
+          "accepted": false,
+          "failed_checks": [
+            "offset"
+          ],
+          "coefficient": [
+            0.10669476130266527,
+            -0.2572574988785836
+          ],
+          "coverage": 1.0,
+          "span": 1.0,
+          "offset": -1.891063221736995,
+          "r_phi": 0.9895309533893855,
+          "residual_rms": 0.3435211366355163,
+          "coefficient_se_max": 0.14598449215005965,
+          "q_margin": 0.0
+        }
+      ],
+      "reason": null
+    }
+  ]
+}
